@@ -1,0 +1,17 @@
+{
+  "pilot_id": "P01-time",
+  "packages": [
+    {
+      "title": "Your Workout Runs Long. What Should You Change First?",
+      "thumbnail_text": "WHERE TIME GOES"
+    },
+    {
+      "title": "Before You Shorten Your Workout, Check This",
+      "thumbnail_text": "CHECK THE CLOCK"
+    }
+  ],
+  "description": "A decision worksheet for understanding session length. Sources and caveats accompany the final reviewed release. Prototype only; no individualized program or guaranteed time saving.",
+  "status": "draft",
+  "channel_id": null,
+  "publish_at": null
+}

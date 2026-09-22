@@ -1,0 +1,45 @@
+[
+  {
+    "id": "C01",
+    "statement": "Some studied superset arrangements shorten sessions and can increase perceived effort; longitudinal and safety conclusions require separate appraisal.",
+    "source_ids": [
+      "E04"
+    ],
+    "review_status": "pending",
+    "reviewer": null,
+    "scope": "Adult resistance-training protocols in the review; no universal pairing or individualized safety claim",
+    "forbidden_inference": "Half the time with identical results for everyone",
+    "used_by": [
+      "P01-time"
+    ]
+  },
+  {
+    "id": "C02",
+    "statement": "Equipment comparisons depend on the strength test; no detected hypertrophy difference does not establish exact equivalence of every exercise.",
+    "source_ids": [
+      "E05"
+    ],
+    "review_status": "pending",
+    "reviewer": null,
+    "scope": "Programs included in the equipment review, not arbitrary exercise substitutions",
+    "forbidden_inference": "Any two exercises for the same muscle are interchangeable or equally safe",
+    "used_by": [
+      "P02-equipment",
+      "P03-headlines"
+    ]
+  },
+  {
+    "id": "C03",
+    "statement": "The equipment review contains different evidence counts for different outcomes.",
+    "source_ids": [
+      "E05"
+    ],
+    "review_status": "pending",
+    "reviewer": null,
+    "scope": "A worked example of evidence appraisal",
+    "forbidden_inference": "The total number of studies supports every outcome equally",
+    "used_by": [
+      "P03-headlines"
+    ]
+  }
+]

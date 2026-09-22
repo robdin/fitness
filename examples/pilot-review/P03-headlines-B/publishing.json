@@ -1,0 +1,17 @@
+{
+  "pilot_id": "P03-headlines",
+  "packages": [
+    {
+      "title": "A New Fitness Study Appears. Should Your Plan Change?",
+      "thumbnail_text": "CHANGE YOUR PLAN?"
+    },
+    {
+      "title": "Before You Follow a Fitness Study, Check This",
+      "thumbnail_text": "READ THE COMPARISON"
+    }
+  ],
+  "description": "A worked example of reading fitness evidence without turning one finding into a universal prescription. Prototype pending editorial review.",
+  "status": "draft",
+  "channel_id": null,
+  "publish_at": null
+}

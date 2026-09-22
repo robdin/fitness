@@ -1,0 +1,143 @@
+{
+  "id": "comprehension-v1",
+  "type": "instrument",
+  "status": "draft_not_validated",
+  "administration": "Show the assigned video once with its captions. Collect unaided takeaway first, then questions without replay or feedback. Keep questions and scoring identical for A and B of the same topic. Do not reveal the sequence hypothesis. Screen for target-audience eligibility before assignment.",
+  "scoring": "One point per correct core question (0–3); fourth question is a separate critical-overgeneralization flag. Primary pass: core score >=2 and critical_error=0. Preserve missing responses as missing.",
+  "ratings": {
+    "trust": "How much do you trust this explanation? 1 not at all; 5 very much",
+    "useful": "How useful is this for a decision you actually face? 1 not useful; 5 very useful"
+  },
+  "pilots": [
+    {
+      "pilot_id": "P01-time",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What is the first proposed step when a workout runs long?",
+          "options": [
+            "Shorten every rest period",
+            "Record where session time is going",
+            "Replace all exercises with supersets"
+          ],
+          "correct_index": 1
+        },
+        {
+          "id": "q2",
+          "prompt": "What tradeoff does the video associate with some superset arrangements?",
+          "options": [
+            "A shorter session may feel more demanding",
+            "Every exercise becomes easier",
+            "All long-term outcomes are guaranteed equal"
+          ],
+          "correct_index": 0
+        },
+        {
+          "id": "q3",
+          "prompt": "What is the purpose of the crowded-gym example?",
+          "options": [
+            "To prescribe an ideal rest time",
+            "To prove that gym size determines results",
+            "To identify a specific source of delay before changing a plan"
+          ],
+          "correct_index": 2
+        }
+      ],
+      "critical": {
+        "prompt": "Does this explanation establish that anyone can cut workout time in half with identical results?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "correct_index": 1
+      }
+    },
+    {
+      "pilot_id": "P02-equipment",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "What should you identify before judging an exercise substitute?",
+          "options": [
+            "Which option has the most popular name",
+            "What role the exercise serves in the plan",
+            "Whether the alternative uses the newest machine"
+          ],
+          "correct_index": 1
+        },
+        {
+          "id": "q2",
+          "prompt": "What affected interpretation of strength comparisons in the cited review?",
+          "options": [
+            "The task used to test strength",
+            "The color of the equipment",
+            "Only the number of exercises named in the title"
+          ],
+          "correct_index": 0
+        },
+        {
+          "id": "q3",
+          "prompt": "What does no detected muscle-growth difference establish here?",
+          "options": [
+            "Every possible substitution is equally safe",
+            "Every exercise is exactly interchangeable",
+            "A result in the studied comparisons, with limits on generalization"
+          ],
+          "correct_index": 2
+        }
+      ],
+      "critical": {
+        "prompt": "Does the review validate every exercise swap that targets a similar muscle?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "correct_index": 1
+      }
+    },
+    {
+      "pilot_id": "P03-headlines",
+      "questions": [
+        {
+          "id": "q1",
+          "prompt": "Which details help connect a study to a decision?",
+          "options": [
+            "Only the headline and author popularity",
+            "Population, comparison, outcome and time period",
+            "Only the total number of citations"
+          ],
+          "correct_index": 1
+        },
+        {
+          "id": "q2",
+          "prompt": "Why can the word works be misleading?",
+          "options": [
+            "It may refer to different outcomes",
+            "All exercise outcomes are interchangeable",
+            "A shorter session always means more muscle growth"
+          ],
+          "correct_index": 0
+        },
+        {
+          "id": "q3",
+          "prompt": "How should the number of studies in a review be interpreted?",
+          "options": [
+            "Every outcome always has that same number of studies",
+            "A large total makes limitations irrelevant",
+            "Evidence counts may differ across outcomes"
+          ],
+          "correct_index": 2
+        }
+      ],
+      "critical": {
+        "prompt": "Does adding a citation establish that every adjacent recommendation applies to you?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "correct_index": 1
+      }
+    }
+  ],
+  "calibration": "Test wording with 3–5 separate viewers before recruitment. The deliberately clear distractors may create ceiling effects; revise before registration if necessary. Calibration viewers do not enter the later experiment. This instrument measures immediate understanding, not fitness outcomes."
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "P01-time",
+    "working_title": "Your workout runs long. What should you change first?",
+    "cluster": "time",
+    "status": "selected_pilot",
+    "queue_position": 1,
+    "viewer_job": "See canonical pilot brief",
+    "evidence_status": "Draft claims linked; review pending",
+    "next_gate": "Narration and editorial review"
+  },
+  {
+    "id": "P02-equipment",
+    "working_title": "The machine is taken. What makes a useful substitute?",
+    "cluster": "equipment",
+    "status": "selected_pilot",
+    "queue_position": 2,
+    "viewer_job": "See canonical pilot brief",
+    "evidence_status": "Draft claims linked; review pending",
+    "next_gate": "Narration and editorial review"
+  },
+  {
+    "id": "P03-headlines",
+    "working_title": "A new fitness study appears. Should your plan change?",
+    "cluster": "evidence",
+    "status": "selected_pilot",
+    "queue_position": 3,
+    "viewer_job": "See canonical pilot brief",
+    "evidence_status": "Draft claims linked; review pending",
+    "next_gate": "Narration and editorial review"
+  },
+  {
+    "id": "I04",
+    "working_title": "Rest, setup or waiting: diagnose the delay",
+    "cluster": "time",
+    "status": "candidate",
+    "queue_position": 4,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I05",
+    "working_title": "What do you want a shorter session to preserve?",
+    "cluster": "time",
+    "status": "candidate",
+    "queue_position": 5,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I06",
+    "working_title": "What a superset study can actually tell you",
+    "cluster": "time",
+    "status": "candidate",
+    "queue_position": 6,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I07",
+    "working_title": "Match the training goal before comparing equipment",
+    "cluster": "equipment",
+    "status": "candidate",
+    "queue_position": 7,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I08",
+    "working_title": "Why a strength test changes the headline",
+    "cluster": "evidence",
+    "status": "candidate",
+    "queue_position": 8,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I09",
+    "working_title": "A gym substitute needs more than a muscle label",
+    "cluster": "equipment",
+    "status": "candidate",
+    "queue_position": 9,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I10",
+    "working_title": "No difference is not the same as identical",
+    "cluster": "evidence",
+    "status": "candidate",
+    "queue_position": 10,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I11",
+    "working_title": "Count the studies for the outcome you care about",
+    "cluster": "evidence",
+    "status": "candidate",
+    "queue_position": 11,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I12",
+    "working_title": "Turn three weeks of session notes into better questions",
+    "cluster": "application",
+    "status": "candidate",
+    "queue_position": 12,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I13",
+    "working_title": "A program is a set of decisions: map yours",
+    "cluster": "application",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I14",
+    "working_title": "What changes when your weekly schedule changes?",
+    "cluster": "schedule",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I15",
+    "working_title": "How to compare two program promises",
+    "cluster": "application",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I16",
+    "working_title": "What did the beginner study actually study?",
+    "cluster": "evidence",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I17",
+    "working_title": "Acute effects versus long-term training outcomes",
+    "cluster": "evidence",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I18",
+    "working_title": "How many changes can one training log explain?",
+    "cluster": "application",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I19",
+    "working_title": "When the helpful answer is an unresolved question",
+    "cluster": "evidence",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I20",
+    "working_title": "Exercise names can hide different tasks",
+    "cluster": "equipment",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I21",
+    "working_title": "Your plan, available equipment and a clear constraint",
+    "cluster": "equipment",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I22",
+    "working_title": "What a research review includes and leaves out",
+    "cluster": "evidence",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I23",
+    "working_title": "A confident thumbnail versus a qualified finding",
+    "cluster": "evidence",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I24",
+    "working_title": "Build a useful question for your coach",
+    "cluster": "application",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I25",
+    "working_title": "How to read a training app's promise",
+    "cluster": "tools",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I26",
+    "working_title": "A simple log without turning training into homework",
+    "cluster": "application",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I27",
+    "working_title": "What an eight-week study cannot settle",
+    "cluster": "evidence",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I28",
+    "working_title": "When more data would change the decision",
+    "cluster": "evidence",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I29",
+    "working_title": "A case study is not a prediction for everyone",
+    "cluster": "evidence",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  },
+  {
+    "id": "I30",
+    "working_title": "Review the reason for a change before changing again",
+    "cluster": "application",
+    "status": "parked",
+    "queue_position": null,
+    "viewer_job": "Clarify the question suggested by the title; validate with audience research",
+    "evidence_status": "Research and claim review required; title is not a factual conclusion",
+    "next_gate": "Demand signal and source-backed brief before production"
+  }
+]

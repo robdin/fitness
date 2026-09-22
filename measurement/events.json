@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "status": "definitions_not_live_instrumentation",
+  "rules": [
+    "Every observation needs source, period, unit and denominator",
+    "Unknown is null, not zero",
+    "Do not sum overlapping snapshots",
+    "Use provider currency and actual refunds; do not add checkout and invoice observations as separate revenue",
+    "Keep participant contact and sensitive health information outside Git"
+  ],
+  "events": [
+    {
+      "event": "content_published",
+      "unit": "one confirmed platform release",
+      "required": [
+        "content_id",
+        "release_id",
+        "video_id",
+        "published_at",
+        "account_id"
+      ],
+      "authority": "platform receipt",
+      "state": "not_connected"
+    },
+    {
+      "event": "video_observation",
+      "unit": "video x period x traffic_source x export",
+      "required": [
+        "content_id",
+        "video_id",
+        "period_start",
+        "period_end",
+        "exported_at",
+        "traffic_source"
+      ],
+      "authority": "mapped Studio export",
+      "state": "import_implemented"
+    },
+    {
+      "event": "resource_requested",
+      "unit": "one consented request",
+      "required": [
+        "pseudonymous_lead_id",
+        "resource_id",
+        "content_id",
+        "consent_version",
+        "occurred_at"
+      ],
+      "authority": "email/form provider",
+      "state": "not_connected"
+    },
+    {
+      "event": "resource_delivered",
+      "unit": "one provider delivery observation",
+      "required": [
+        "pseudonymous_lead_id",
+        "resource_id",
+        "provider_receipt",
+        "occurred_at"
+      ],
+      "authority": "email provider; delivery is not use",
+      "state": "not_connected"
+    },
+    {
+      "event": "decision_completed",
+      "unit": "one customer-confirmed useful artifact",
+      "required": [
+        "pseudonymous_customer_id",
+        "resource_version",
+        "occurred_at",
+        "measurement_method"
+      ],
+      "authority": "consented product feedback",
+      "state": "not_collected"
+    },
+    {
+      "event": "invoice_paid",
+      "unit": "one paid invoice event, deduplicated",
+      "required": [
+        "provider_event_id",
+        "invoice_id",
+        "customer_ref",
+        "currency",
+        "amount_paid",
+        "paid_at"
+      ],
+      "authority": "billing provider",
+      "state": "minimal_event_import_only; invoice and period detail require adapter"
+    },
+    {
+      "event": "subscription_observation",
+      "unit": "one provider subscription state snapshot",
+      "required": [
+        "subscription_id",
+        "observed_at",
+        "period_start",
+        "period_end",
+        "state",
+        "price",
+        "currency"
+      ],
+      "authority": "current billing provider state",
+      "state": "not_connected"
+    },
+    {
+      "event": "second_use",
+      "unit": "another relevant use on a distinct occasion",
+      "required": [
+        "pseudonymous_customer_id",
+        "resource_version",
+        "occurred_at"
+      ],
+      "authority": "consented product observation",
+      "state": "not_collected"
+    },
+    {
+      "event": "support_minutes",
+      "unit": "minutes of actual support",
+      "required": [
+        "pseudonymous_customer_id",
+        "date",
+        "minutes",
+        "category"
+      ],
+      "authority": "operator time record",
+      "state": "manual"
+    },
+    {
+      "event": "production_minutes",
+      "unit": "minutes of actual human work",
+      "required": [
+        "content_id",
+        "stage",
+        "date",
+        "minutes",
+        "rework"
+      ],
+      "authority": "operator time record",
+      "state": "manual"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "impressions_ctr_pct",
+      "formula": "Studio-reported CTR for eligible thumbnail impressions",
+      "unit": "percent 0–100",
+      "warning": "All views are not the eligible-impression click numerator"
+    },
+    {
+      "name": "watch_minutes",
+      "formula": "Platform watch time in specified window",
+      "unit": "minutes",
+      "warning": "Do not sum snapshots with overlapping windows"
+    },
+    {
+      "name": "activation_rate",
+      "formula": "Activated eligible customers / eligible customer cohort",
+      "unit": "proportion",
+      "warning": "Define activation window and missing observations"
+    },
+    {
+      "name": "cohort_renewal_rate",
+      "formula": "Renewed customers / customers actually due to renew",
+      "unit": "proportion",
+      "warning": "Do not include customers not yet due"
+    },
+    {
+      "name": "gross_mrr",
+      "formula": "Monthly-normalized recurring contractual amounts for defined active subscriptions",
+      "unit": "currency/month",
+      "warning": "Not cash collected or owner income; exclude one-time sales and ads"
+    },
+    {
+      "name": "content_cost",
+      "formula": "Charged media + allocated tools + human work valued consistently",
+      "unit": "currency per accepted release",
+      "warning": "Include failed attempts and rework"
+    }
+  ]
+}

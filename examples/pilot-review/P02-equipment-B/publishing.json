@@ -1,0 +1,17 @@
+{
+  "pilot_id": "P02-equipment",
+  "packages": [
+    {
+      "title": "The Machine Is Taken. What Makes a Useful Substitute?",
+      "thumbnail_text": "MACHINE TAKEN?"
+    },
+    {
+      "title": "Before You Swap an Exercise, Ask These Questions",
+      "thumbnail_text": "SAME GOAL?"
+    }
+  ],
+  "description": "An educational framework for discussing exercise substitutions. No one-to-one exercise equivalence or individualized technique prescription. Prototype pending evidence and final review.",
+  "status": "draft",
+  "channel_id": null,
+  "publish_at": null
+}

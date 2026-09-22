@@ -1,0 +1,11 @@
+{
+  "label": "Illustrative monthly membership scenario; not launch pricing or a forecast",
+  "currency": "USD",
+  "members": 100,
+  "monthly_price": 19,
+  "fee_refund_fraction": 0.06,
+  "variable_cost_per_member": 4,
+  "fixed_monthly_cost": 600,
+  "founder_hours": 40,
+  "hourly_value": 50
+}

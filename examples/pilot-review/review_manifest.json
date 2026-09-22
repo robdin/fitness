@@ -1,0 +1,36 @@
+{
+  "review_id": "6f5b33721d85d611",
+  "mode": "preview",
+  "builds": [
+    {
+      "pilot": "P01-time",
+      "variant": "A",
+      "input_hash": "e78bb2c38b6dc0bda6fefca952eb5e35546bb7cebf3821b68cf23b2313ece49c"
+    },
+    {
+      "pilot": "P01-time",
+      "variant": "B",
+      "input_hash": "62ae964c53c992d15324204b37ae38b084a57db663482f58f0c637828ccb0d99"
+    },
+    {
+      "pilot": "P02-equipment",
+      "variant": "A",
+      "input_hash": "b74f98d9b0ade01bef05c90e334c5c9feaac8db98e1d3304217b02378c494f9a"
+    },
+    {
+      "pilot": "P02-equipment",
+      "variant": "B",
+      "input_hash": "dfa149fab17a1345f96336d6283fc5177a4cacefc5ea6eff4e737bc6a5c54cd9"
+    },
+    {
+      "pilot": "P03-headlines",
+      "variant": "A",
+      "input_hash": "38103c47390cf511432fe72f987dac00ea803ab251b128c50d776a64808fa809"
+    },
+    {
+      "pilot": "P03-headlines",
+      "variant": "B",
+      "input_hash": "13ec1cb051856c710e767ec87aa3d4a80e90d566f87d26f52248a6a5c2725837"
+    }
+  ]
+}

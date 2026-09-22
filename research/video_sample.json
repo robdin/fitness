@@ -1,0 +1,282 @@
+{
+  "observed_at": "2026-09-20",
+  "method": "First six visible items on each channel Videos page. Listing metadata only, not transcript or full-video review. YouTube ages and view counts are rounded. Membership-only items retained for offer context; views are unknown.",
+  "selection_limitations": [
+    "Purposive established-channel sample, not representative",
+    "Some channel listings are old; no inactivity cause inferred",
+    "Listing duration labels may round exact minutes",
+    "No causal performance or revenue comparison"
+  ],
+  "channels": [
+    {
+      "channel": "Trainer Winny",
+      "url": "https://www.youtube.com/@trainerwinny/videos",
+      "videos": [
+        {
+          "title": "I can't believe This method actually Doubles Your Pull-ups..",
+          "url": "https://www.youtube.com/watch?v=3PjVai9WU9s",
+          "duration_seconds": 538,
+          "view_count_display": "85K",
+          "age_display": "1 day ago",
+          "members_only": false
+        },
+        {
+          "title": "You Can FORCE Any Bodypart to Grow in 100 Days (seriously)",
+          "url": "https://www.youtube.com/watch?v=HDawR0xnbk0",
+          "duration_seconds": 491,
+          "view_count_display": "71K",
+          "age_display": "2 weeks ago",
+          "members_only": false
+        },
+        {
+          "title": "Rating The WORST Gym Beginner Mistakes (so you can prevent doing them)",
+          "url": "https://www.youtube.com/watch?v=FAsstbUEcEQ",
+          "duration_seconds": 873,
+          "view_count_display": "639K",
+          "age_display": "3 weeks ago",
+          "members_only": false
+        },
+        {
+          "title": "5 Exercises I Will Never Stop Doing (here is why)",
+          "url": "https://www.youtube.com/watch?v=BNRTKn2emoo",
+          "duration_seconds": 496,
+          "view_count_display": "432K",
+          "age_display": "1 month ago",
+          "members_only": false
+        },
+        {
+          "title": "Every High Protein Food Ranked By Calorie Efficiency (Best to Worst)",
+          "url": "https://www.youtube.com/watch?v=4rh6DiuK610",
+          "duration_seconds": 628,
+          "view_count_display": "149K",
+          "age_display": "1 month ago",
+          "members_only": false
+        },
+        {
+          "title": "Realistic 90-Day Dumbbell Only Transformation (and how to achieve it)",
+          "url": "https://www.youtube.com/watch?v=-DHO9lck6zI",
+          "duration_seconds": 693,
+          "view_count_display": "102K",
+          "age_display": "1 month ago",
+          "members_only": false
+        }
+      ]
+    },
+    {
+      "channel": "PictureFit",
+      "url": "https://www.youtube.com/@PictureFit/videos",
+      "videos": [
+        {
+          "title": "How to Turn a Bad Workout Into a GOOD One",
+          "url": "https://www.youtube.com/watch?v=eP1AEH9P2XE",
+          "duration_seconds": 252,
+          "view_count_display": "28K",
+          "age_display": "1 year ago",
+          "members_only": false
+        },
+        {
+          "title": "Berberine vs. Ozempic: What's the REAL Difference?",
+          "url": "https://www.youtube.com/watch?v=k0E1uGBFxv4",
+          "duration_seconds": 218,
+          "view_count_display": "14K",
+          "age_display": "1 year ago",
+          "members_only": false
+        },
+        {
+          "title": "Some of My Worst Advice... DEBUNKED",
+          "url": "https://www.youtube.com/watch?v=nuIkrzh7H9M",
+          "duration_seconds": 377,
+          "view_count_display": "27K",
+          "age_display": "1 year ago",
+          "members_only": false
+        },
+        {
+          "title": "Is HMB Making a Comeback? (NEW RESEARCH)",
+          "url": "https://www.youtube.com/watch?v=qdUg4vvDxGI",
+          "duration_seconds": 252,
+          "view_count_display": "18K",
+          "age_display": "1 year ago",
+          "members_only": false
+        },
+        {
+          "title": "Stop Cutting and Bulking. Do This Instead.",
+          "url": "https://www.youtube.com/watch?v=Hf_NBDid0d0",
+          "duration_seconds": 301,
+          "view_count_display": "17K",
+          "age_display": "1 year ago",
+          "members_only": false
+        },
+        {
+          "title": "You Don't Need to Reverse Diet. Here's Why.",
+          "url": "https://www.youtube.com/watch?v=ztLicpAt9H4",
+          "duration_seconds": 327,
+          "view_count_display": "15K",
+          "age_display": "1 year ago",
+          "members_only": false
+        }
+      ]
+    },
+    {
+      "channel": "House of Hypertrophy",
+      "url": "https://www.youtube.com/@HouseofHypertrophy/videos",
+      "videos": [
+        {
+          "title": "How Many Sets for Muscle Growth? (New Study)",
+          "url": "https://www.youtube.com/watch?v=21m6wO96KEM",
+          "duration_seconds": 1500,
+          "view_count_display": "66K",
+          "age_display": "7 months ago",
+          "members_only": false
+        },
+        {
+          "title": "They Trained One Side DROP SETS  vs NORMAL Sets",
+          "url": "https://www.youtube.com/watch?v=6DB7DDt_Suo",
+          "duration_seconds": 900,
+          "view_count_display": "45K",
+          "age_display": "7 months ago",
+          "members_only": false
+        },
+        {
+          "title": "Unilateral vs Bilateral Training for Muscle Growth",
+          "url": "https://www.youtube.com/watch?v=6lsCo8B-mPI",
+          "duration_seconds": 892,
+          "view_count_display": "22K",
+          "age_display": "8 months ago",
+          "members_only": false
+        },
+        {
+          "title": "We Need to Talk About Jeremy Ethier’s New Study",
+          "url": "https://www.youtube.com/watch?v=KHB7rXLlhjU",
+          "duration_seconds": 1320,
+          "view_count_display": "50K",
+          "age_display": "8 months ago",
+          "members_only": false
+        },
+        {
+          "title": "How Much Muscle Can You Gain? (& What Causes Growth?)",
+          "url": "https://www.youtube.com/watch?v=ZWYf_7jAWEM",
+          "duration_seconds": 900,
+          "view_count_display": "28K",
+          "age_display": "9 months ago",
+          "members_only": false
+        },
+        {
+          "title": "Defending Science-Based Lifting",
+          "url": "https://www.youtube.com/watch?v=88bT1no39pM",
+          "duration_seconds": 833,
+          "view_count_display": "12K",
+          "age_display": "10 months ago",
+          "members_only": false
+        }
+      ]
+    },
+    {
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/@JeffNippard/videos",
+      "videos": [
+        {
+          "title": "How Ripped Can I Get My Brother In 100 Days?",
+          "url": "https://www.youtube.com/watch?v=TBrlPpviaqY",
+          "duration_seconds": 2220,
+          "view_count_display": "4.7M",
+          "age_display": "1 month ago",
+          "members_only": false
+        },
+        {
+          "title": "The Only 25 Exercises You Ever Need",
+          "url": "https://www.youtube.com/watch?v=S6rqpxVGKZ4",
+          "duration_seconds": 1380,
+          "view_count_display": "4.8M",
+          "age_display": "8 months ago",
+          "members_only": false
+        },
+        {
+          "title": "7 Things That Helped My Shoulders Grow",
+          "url": "https://www.youtube.com/watch?v=MT9ZeE5JJsI",
+          "duration_seconds": 846,
+          "view_count_display": "3.4M",
+          "age_display": "9 months ago",
+          "members_only": false
+        },
+        {
+          "title": "What Every Body Fat % Actually Looks Like (50% to 5%)",
+          "url": "https://www.youtube.com/watch?v=5K9QhkPww44",
+          "duration_seconds": 2040,
+          "view_count_display": "16M",
+          "age_display": "10 months ago",
+          "members_only": false
+        },
+        {
+          "title": "I Cut The Number Of Sets I Do In Half",
+          "url": "https://www.youtube.com/watch?v=DzjWEn2BS_k",
+          "duration_seconds": 1200,
+          "view_count_display": "3.4M",
+          "age_display": "11 months ago",
+          "members_only": false
+        },
+        {
+          "title": "7 Amazing Exercises No One Does (ALL S TIER)",
+          "url": "https://www.youtube.com/watch?v=qpRGnTTcLpo",
+          "duration_seconds": 960,
+          "view_count_display": "6.1M",
+          "age_display": "11 months ago",
+          "members_only": false
+        }
+      ]
+    },
+    {
+      "channel": "Renaissance Periodization",
+      "url": "https://www.youtube.com/@RenaissancePeriodization/videos",
+      "videos": [
+        {
+          "title": "Inside Jared's Training: New Approach to Leg Training",
+          "url": "https://www.youtube.com/watch?v=1fvZuydin5Q",
+          "duration_seconds": 1080,
+          "view_count_display": null,
+          "age_display": "1 day ago",
+          "members_only": true
+        },
+        {
+          "title": "Exercise Scientist Critiques the Kardashians’ Workout Nonsense",
+          "url": "https://www.youtube.com/watch?v=Pp-PMuu4ddQ",
+          "duration_seconds": 1200,
+          "view_count_display": "260K",
+          "age_display": "2 days ago",
+          "members_only": false
+        },
+        {
+          "title": "Exercise Scientist Critiques the Kardashians’ Workout Nonsense UNCENSORED",
+          "url": "https://www.youtube.com/watch?v=QKVDu9W49V0",
+          "duration_seconds": 2520,
+          "view_count_display": null,
+          "age_display": "2 days ago",
+          "members_only": true
+        },
+        {
+          "title": "The Carnivore Diet Is Worse Than We Thought (ugly new data)",
+          "url": "https://www.youtube.com/watch?v=VK1DzepXmKc",
+          "duration_seconds": 1560,
+          "view_count_display": "356K",
+          "age_display": "4 days ago",
+          "members_only": false
+        },
+        {
+          "title": "We Created the Official Gym Bro Strength Standard ft. Jesse James West",
+          "url": "https://www.youtube.com/watch?v=vInDwSr86lE",
+          "duration_seconds": 1200,
+          "view_count_display": "490K",
+          "age_display": "6 days ago",
+          "members_only": false
+        },
+        {
+          "title": "What Artificial Sweeteners Really Do to Your Gut",
+          "url": "https://www.youtube.com/watch?v=-VAH4cTLMHM",
+          "duration_seconds": 842,
+          "view_count_display": null,
+          "age_display": "8 days ago",
+          "members_only": true
+        }
+      ]
+    }
+  ]
+}

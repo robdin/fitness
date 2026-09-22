@@ -1,0 +1,14 @@
+{
+  "id":"youtube-packaging-v1",
+  "type":"native_youtube",
+  "status":"prepared_not_running",
+  "unit":"Viewer exposure handled by YouTube; one approved video per topic",
+  "hypothesis":"A constraint-focused package attracts more qualified watch time than a generic category package",
+  "variants":2,
+  "metric":"YouTube native watch-time result, with CTR diagnostic only",
+  "window":"Let native tests complete, potentially up to two weeks; preserve inconclusive outcomes",
+  "requirements":["Eligible long-form video", "Advanced features enabled", "Intended channel verified", "Final package approved"],
+  "cautions":["This tests packaging, not video-body variants", "A paired title and thumbnail test identifies a package, not the individual element responsible", "Separate topic uploads are observational comparisons", "Shorts cannot use this native test"],
+  "results":[],
+  "source":"https://support.google.com/youtube/answer/16391400?hl=en"
+}

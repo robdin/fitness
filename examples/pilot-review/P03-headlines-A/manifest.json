@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "pilot_id": "P03-headlines",
+  "variant": "A",
+  "mode": "preview",
+  "input_hash": "38103c47390cf511432fe72f987dac00ea803ab251b128c50d776a64808fa809",
+  "created_at": "2026-09-20T22:36:19.095607+00:00",
+  "duration_seconds": 102.4,
+  "files": {
+    "captions.srt": "218be6ecb4996c49236f213a73953676bad18c54868f973b957571935f22624f",
+    "captions.vtt": "035ef22b6b1b0512a770daf3e2cebde6f3c533b4aedd28abd8ddd33556c903bd",
+    "frames.ffconcat": "446ea7fd1fa2dc5431c573c9b1cbb9cb253dc08c7fa180408a58f0ba0166ac09",
+    "index.html": "df784eb4e2f8bb22746ffc4e1130ca5130dfb55fa4da88c3ce7284dba7538a16",
+    "inputs.json": "8090593d3081678a4bbdef7988d335297b959f4be891d54363a6e9f8668cb168",
+    "publishing.json": "7300b535a61158dc4f6192b9b4eee5674cb409628b886296d54db9ac52bd9484",
+    "scene-01.png": "f691080c0be89feb43fcf6047df6faa9699545ee7ed4b6abff75848d8ecd8c22",
+    "scene-02.png": "83ac3d315c29dd38cf1e6c90993f8b8b3a4b170c4593826496fdf06560f83061",
+    "scene-03.png": "e9f76bef4397640da699948845d03a4d79a31b516ee67b328dc485c7aafe5c19",
+    "scene-04.png": "71f01182d075acb019544ca795fb3dde3d7f274177547e962ecaaabcaf99c134",
+    "scene-05.png": "0cb34f833f7089c2812331885a42824b9fede8a490ef1f90786ae854af8c113a",
+    "scene-06.png": "2d6a9e9f738ec952b86d63f034e4cf70b35e561d99b5a5d37e1e6f57338883ff",
+    "script.txt": "87c5cf7337cfa9a17d6dc7cce00e07df7351fc4ce6f576fa3872152151b5fe05",
+    "thumbnail-1.png": "2e37fc7951522aa03dcba481b16c5f170618dc9675cd051dc66c50e73e7b7d8d",
+    "thumbnail-2.png": "33d31daac92fa7051d337236b943ef025a8fd68be43c3cdbbb14691f55de759e",
+    "video.mp4": "7589a5f524ac8a7f5b5db75799967f7bb9a8f7c68ad87ceb51e5cbca9e0c5e81"
+  },
+  "caption_timing": "estimated within each beat; requires manual review",
+  "publication_ready": false
+}

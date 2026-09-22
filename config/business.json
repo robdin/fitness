@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "founder_decisions_pending",
+  "weekly_founder_hours": null,
+  "maximum_initial_cash_loss_usd": null,
+  "monthly_operating_budget_usd": null,
+  "target_monthly_owner_income_usd": null,
+  "business_jurisdiction": null,
+  "customer_geographies": [],
+  "fitness_reviewer": null,
+  "channel_account": null,
+  "domain": null,
+  "decisions": {
+    "brand": "Project Fitness",
+    "host": "DEX",
+    "initial_audience_hypothesis": "Recreational lifters with time, schedule or equipment constraints",
+    "paid_generation_budget_usd": 0,
+    "work_in_progress_topics": 3,
+    "live_campaigns": 0,
+    "recurring_offer": "Not selected; require repeated use and a concrete ongoing service"
+  }
+}

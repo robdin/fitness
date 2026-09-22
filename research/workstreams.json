@@ -1,0 +1,202 @@
+[
+  {
+    "id": "W01",
+    "title": "Business thesis and constraints",
+    "wave": "A",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Build a useful education-and-application business; keep subscriptions optional.",
+    "owner": "Founder",
+    "blocking_evidence": "Founder hours, maximum loss, desired income, commercial scope"
+  },
+  {
+    "id": "W02",
+    "title": "Market and competitor landscape",
+    "wave": "A",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Differentiate through decision support, transparent uncertainty, and useful applications.",
+    "owner": "Researcher",
+    "blocking_evidence": "Thirty listing observations complete; full-video/transcript coding and smaller/inactive creator sample remain"
+  },
+  {
+    "id": "W03",
+    "title": "ICP and customer jobs",
+    "wave": "A",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Test recreational lifters with recurring schedule, time, or equipment friction.",
+    "owner": "Founder/researcher",
+    "blocking_evidence": "No interviews completed or willingness-to-pay validated"
+  },
+  {
+    "id": "W04",
+    "title": "Positioning and brand",
+    "wave": "B",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Preserve Project Fitness and DEX as the pilot direction; test the clarity of the promise.",
+    "owner": "Founder/editor",
+    "blocking_evidence": "Name/handle clearance and final owned character rig"
+  },
+  {
+    "id": "W05",
+    "title": "Evidence and editorial",
+    "wave": "B",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Keep every material claim traceable and pending until reviewed.",
+    "owner": "Evidence reviewer",
+    "blocking_evidence": "Newer-trial retrieval, study overlap, complete appraisal and approval"
+  },
+  {
+    "id": "W06",
+    "title": "Content strategy",
+    "wave": "B",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Launch one decision cluster with three related pilot topics.",
+    "owner": "Managing editor",
+    "blocking_evidence": "Actual audience relevance and search/browse performance"
+  },
+  {
+    "id": "W07",
+    "title": "Creative production",
+    "wave": "C",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Use deterministic cards for the first sequence test and preserve recording-first final production.",
+    "owner": "Producer",
+    "blocking_evidence": "Human narration, final rig, visual review, provider-account benchmarks"
+  },
+  {
+    "id": "W08",
+    "title": "GTM and distribution",
+    "wave": "C",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Use YouTube for discovery, a relevant free resource for application, and email for a continuing relationship.",
+    "owner": "Founder/growth",
+    "blocking_evidence": "No channel access, public release, native tests or acquisition results yet"
+  },
+  {
+    "id": "W09",
+    "title": "Owned audience and lifecycle",
+    "wave": "C",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Offer one useful worksheet with clear consent and dependable delivery.",
+    "owner": "Growth/operator",
+    "blocking_evidence": "Email account, domain, consent text and end-to-end delivery verification"
+  },
+  {
+    "id": "W10",
+    "title": "Product and monetization",
+    "wave": "B",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Test a guided decision toolkit; earn a subscription through repeat use.",
+    "owner": "Founder",
+    "blocking_evidence": "No checkout, sales or repeat-use cohort"
+  },
+  {
+    "id": "W11",
+    "title": "Customer success and retention",
+    "wave": "E",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Define activation as completing a useful decision, and recurrence as another relevant use.",
+    "owner": "Customer success owner",
+    "blocking_evidence": "No customer or renewal data"
+  },
+  {
+    "id": "W12",
+    "title": "Economics and finance",
+    "wave": "A/C",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Measure cash and human time separately; model prices as scenarios.",
+    "owner": "Founder/analyst",
+    "blocking_evidence": "Budget, actual fees, taxes, labor rates and measured fulfillment"
+  },
+  {
+    "id": "W13",
+    "title": "Shared knowledge and learning",
+    "wave": "D",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Separate sourced observations, approved policy, current state, and experiment decisions.",
+    "owner": "Editor/engineer",
+    "blocking_evidence": "Holdout retrieval evaluation and real operational incidents"
+  },
+  {
+    "id": "W14",
+    "title": "Workflow and agent architecture",
+    "wave": "D",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Use deterministic transitions and bounded AI-assisted tasks.",
+    "owner": "Engineer",
+    "blocking_evidence": "Real provider integration and authenticated turuan reuse"
+  },
+  {
+    "id": "W15",
+    "title": "Technology and integrations",
+    "wave": "D",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Keep Python, Pillow and FFmpeg; start with local SQLite state and provider-neutral imports.",
+    "owner": "Engineer/operator",
+    "blocking_evidence": "GitHub authentication, provider accounts, email/billing setup"
+  },
+  {
+    "id": "W16",
+    "title": "Data and measurement",
+    "wave": "D",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Give every observation a unit, denominator, period and source.",
+    "owner": "Analytics owner",
+    "blocking_evidence": "Real Studio exports, customer events, attribution and revenue reconciliation"
+  },
+  {
+    "id": "W17",
+    "title": "Evaluations and reliability",
+    "wave": "D",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Test costly failure paths before unattended operation.",
+    "owner": "Engineer/editor",
+    "blocking_evidence": "Live outage drill, restored external media backup, expert-labeled holdout"
+  },
+  {
+    "id": "W18",
+    "title": "Rights and commercial operations",
+    "wave": "B/C",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Keep asset provenance and actual offer obligations visible.",
+    "owner": "Founder with appropriate reviewer",
+    "blocking_evidence": "Name clearance, vendor terms, jurisdiction-specific review; no legal clearance claimed"
+  },
+  {
+    "id": "W19",
+    "title": "Execution and resourcing",
+    "wave": "E",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Limit work in progress to three pilot topics and their two experimental sequences.",
+    "owner": "Founder/producer",
+    "blocking_evidence": "Weekly capacity and actual reviewer availability"
+  },
+  {
+    "id": "W20",
+    "title": "Expansion and reuse",
+    "wave": "F",
+    "desk_pass": "completed",
+    "validation": "pending",
+    "decision": "Prove the shared contracts on fitness before launching another new niche.",
+    "owner": "Founder/engineer",
+    "blocking_evidence": "Validated first-brand economics, second-domain competence and code-level migration review"
+  }
+]

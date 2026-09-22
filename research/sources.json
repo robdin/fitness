@@ -1,0 +1,542 @@
+[
+  {
+    "id": "Y01",
+    "title": "Trainer Winny",
+    "url": "https://www.youtube.com/@trainerwinny",
+    "type": "Live public channel; positioning, playlists, visible duration range, store link",
+    "finding": "Live public channel; positioning, playlists, visible duration range, store link",
+    "limitation": "No private economics or production-method verification",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "Y02",
+    "title": "PictureFit",
+    "url": "https://www.youtube.com/@PictureFit",
+    "type": "Live public channel; identity, concise formats, correction-themed title, Join option",
+    "finding": "Live public channel; identity, concise formats, correction-themed title, Join option",
+    "limitation": "No causal length comparison or membership economics",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "Y03",
+    "title": "House of Hypertrophy",
+    "url": "https://www.youtube.com/@HouseofHypertrophy",
+    "type": "Live public channel; research promise and longer study-comparison formats",
+    "finding": "Live public channel; research promise and longer study-comparison formats",
+    "limitation": "No verified paid funnel from inspected header",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "Y04",
+    "title": "Jeff Nippard",
+    "url": "https://www.youtube.com/@JeffNippard",
+    "type": "Live public channel; featured description, references, product links, production credits",
+    "finding": "Live public channel; featured description, references, product links, production credits",
+    "limitation": "No revenue or staffing extrapolation beyond displayed credits",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "Y05",
+    "title": "Renaissance Periodization",
+    "url": "https://www.youtube.com/@RenaissancePeriodization",
+    "type": "Live public channel; expert-led formats, app and membership promotion",
+    "finding": "Live public channel; expert-led formats, app and membership promotion",
+    "limitation": "Does not establish new-brand demand",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "M01",
+    "title": "Bodybuilding Simplified",
+    "url": "https://bodybuildingsimplified.com/",
+    "type": "First-party storefront; displayed specialization offers and prices",
+    "finding": "First-party storefront; displayed specialization offers and prices",
+    "limitation": "Marketing claims not independently validated",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "M02",
+    "title": "Jeff Nippard",
+    "url": "https://jeffnippard.com/",
+    "type": "First-party funnel; programs, selection, newsletter, app links",
+    "finding": "First-party funnel; programs, selection, newsletter, app links",
+    "limitation": "Dynamic numerical counters were not used",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "M03",
+    "title": "RP Hypertrophy App",
+    "url": "https://rpstrength.com/pages/hypertrophy-app",
+    "type": "First-party recurring offer, displayed billing, described functionality",
+    "finding": "First-party recurring offer, displayed billing, described functionality",
+    "limitation": "Not a hands-on software evaluation",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "M04",
+    "title": "MASS Research Review",
+    "url": "https://massresearchreview.com/",
+    "type": "First-party research subscription and displayed billing",
+    "finding": "First-party research subscription and displayed billing",
+    "limitation": "Authority/retention not transferable to our product",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "M05",
+    "title": "Boostcamp",
+    "url": "https://www.boostcamp.app/",
+    "type": "First-party free-program/tracker alternative",
+    "finding": "First-party free-program/tracker alternative",
+    "limitation": "Advertised catalog/user counts not used for market sizing",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "M06",
+    "title": "The Fitness Wiki",
+    "url": "https://thefitness.wiki/routines/strength-training-muscle-building/",
+    "type": "Public community program alternatives",
+    "finding": "Public community program alternatives",
+    "limitation": "Not used as scientific substantiation",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "R01",
+    "title": "App recommendations",
+    "url": "https://www.reddit.com/r/xxfitness/comments/1fho5ig/workout_app_recommendations/",
+    "type": "September 2024; affordability, substitutions, structure, community",
+    "finding": "September 2024; affordability, substitutions, structure, community",
+    "limitation": "Historical self-reports; prices are not current market facts",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "R02",
+    "title": "Fitness-support apps",
+    "url": "https://www.reddit.com/r/xxfitness/comments/1hsoezg/what_apps_do_you_use_to_support_your_fitness/",
+    "type": "January 2025; tracking, community, delivery friction",
+    "finding": "January 2025; tracking, community, delivery friction",
+    "limitation": "Anecdotal and selected",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "R03",
+    "title": "Workout app recommendations",
+    "url": "https://www.reddit.com/r/xxfitness/comments/1l26j1x/workout_app_recs/",
+    "type": "June 2025; fit, instruction, free and paid alternatives",
+    "finding": "June 2025; fit, instruction, free and paid alternatives",
+    "limitation": "Recommendations are not comparative efficacy evidence",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "R04",
+    "title": "Upper/lower split concern",
+    "url": "https://www.reddit.com/r/naturalbodybuilding/comments/174f3kp/i_dont_understand_how_does_anyone_like_upperlower/",
+    "type": "October 2023; session-length concern",
+    "finding": "October 2023; session-length concern",
+    "limitation": "Does not establish which split is best",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "R05",
+    "title": "Workout-app layout critique",
+    "url": "https://www.reddit.com/r/MacroFactor/comments/1qjx0st/biggest_suggestion_stop_trying_to_make_workouts/",
+    "type": "January 2026; immediate task access and UI friction",
+    "finding": "January 2026; immediate task access and UI friction",
+    "limitation": "Product may have changed; no usability prevalence estimate",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "R06",
+    "title": "Exercise-selection questions",
+    "url": "https://www.reddit.com/r/MacroFactor/comments/1rmau2k/how_does_macrofactors_algorithm_select_exercises/",
+    "type": "March 2026; demand for understandable selection/substitution",
+    "finding": "March 2026; demand for understandable selection/substitution",
+    "limitation": "Comments do not verify algorithm architecture",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "R07",
+    "title": "Database complaints",
+    "url": "https://www.reddit.com/r/MacroFactor/comments/1rjdxmz/database_frustratingly_inaccurate/",
+    "type": "March 2026; manual correction and switching tradeoffs",
+    "finding": "March 2026; manual correction and switching tradeoffs",
+    "limitation": "No measured error rate; other vendor claims excluded",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "E01",
+    "title": "Guo, Kim & Rubin, 2014",
+    "url": "https://pure.kaist.ac.kr/en/publications/how-video-production-affects-student-engagement-an-empirical-stud/",
+    "type": "Author-institution publication record; observational video-engagement study; DOI 10.1145/2556325.2566239",
+    "finding": "Author-institution publication record; observational video-engagement study; DOI 10.1145/2556325.2566239",
+    "limitation": "Educational-platform data, not current fitness-channel experiment",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "E02",
+    "title": "Murphy et al., 2022",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acp.3899",
+    "type": "Publisher full text; lecture playback and comprehension experiment",
+    "finding": "Publisher full text; lecture playback and comprehension experiment",
+    "limitation": "Does not evaluate learning exercise technique",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "E03",
+    "title": "Iversen et al., 2021",
+    "url": "https://link.springer.com/article/10.1007/s40279-021-01490-1",
+    "type": "Publisher record/abstract; time-efficient training narrative review",
+    "finding": "Publisher record/abstract; time-efficient training narrative review",
+    "limitation": "Narrative design; accompanying correspondence not appraised",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "E04",
+    "title": "Zhang et al., 2025",
+    "url": "https://link.springer.com/article/10.1007/s40279-025-02176-8",
+    "type": "Publisher full text; supersets systematic review/meta-analysis",
+    "finding": "Publisher full text; supersets systematic review/meta-analysis",
+    "limitation": "Outcome-specific evidence; limited chronic research and applicability",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "W01",
+    "title": "State of Create",
+    "url": "https://stateofcreate.co/",
+    "type": "Patreon/NewtonX commercial research; August 2024 survey, 2025 report",
+    "finding": "Patreon/NewtonX commercial research; August 2024 survey, 2025 report",
+    "limitation": "Sponsor interest; US sample; not fitness-specific or current demand validation",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P01",
+    "title": "Native A/B tests",
+    "url": "https://support.google.com/youtube/answer/16391400?hl=en",
+    "type": "Official objective, options, and eligibility",
+    "finding": "Official objective, options, and eligibility",
+    "limitation": "Feature access and test conclusiveness vary",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P02",
+    "title": "Videos: insert",
+    "url": "https://developers.google.com/youtube/v3/docs/videos/insert",
+    "type": "Current endpoint quota and upload restrictions",
+    "finding": "Current endpoint quota and upload restrictions",
+    "limitation": "Actual project and channel limits require account inspection",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P03",
+    "title": "Quota calculator",
+    "url": "https://developers.google.com/youtube/v3/determine_quota_cost",
+    "type": "Current quota-bucket body/table; updated 15 September 2026",
+    "finding": "Current quota-bucket body/table; updated 15 September 2026",
+    "limitation": "Generated summary retains conflicting older wording",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P04",
+    "title": "Mid-roll ads",
+    "url": "https://support.google.com/youtube/answer/6175006?hl=en",
+    "type": "Eight-minute eligibility condition and no guaranteed serving",
+    "finding": "Eight-minute eligibility condition and no guaranteed serving",
+    "limitation": "Does not prove the economic value of lengthening a video",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P05",
+    "title": "Analytics metrics",
+    "url": "https://developers.google.com/youtube/analytics/metrics",
+    "type": "Available targeted-query metric definitions",
+    "finding": "Available targeted-query metric definitions",
+    "limitation": "No general thumbnail CTR metric found in reviewed catalog",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P06",
+    "title": "Reporting metrics",
+    "url": "https://developers.google.com/youtube/reporting/v1/reports/metrics",
+    "type": "Bulk-report metric cross-check",
+    "finding": "Bulk-report metric cross-check",
+    "limitation": "No general thumbnail-impression field found in reviewed catalog; no live authenticated query",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P07",
+    "title": "Channel monetization policies",
+    "url": "https://support.google.com/youtube/answer/1311392?hl=en",
+    "type": "Originality, repetitive production, sensitive-topic AI persona policy",
+    "finding": "Originality, repetitive production, sensitive-topic AI persona policy",
+    "limitation": "Actual eligibility depends on channel/content review",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P08",
+    "title": "Sharing links",
+    "url": "https://support.google.com/youtube/answer/13748639?hl=en",
+    "type": "Clickability by placement, including Shorts",
+    "finding": "Clickability by placement, including Shorts",
+    "limitation": "Check advanced-feature access and destination behavior",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "P09",
+    "title": "Related video on Shorts",
+    "url": "https://support.google.com/youtube/answer/14075157?hl=en",
+    "type": "Supported related-video path and eligibility",
+    "finding": "Supported related-video path and eligibility",
+    "limitation": "Actual channel setup was not inspected",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "T01",
+    "title": "OpenArt MCP & CLI",
+    "url": "https://openart.ai/mcp/",
+    "type": "Documented interfaces; MCP feature boundaries",
+    "finding": "Documented interfaces; MCP feature boundaries",
+    "limitation": "No generation, billing, concurrency, or parity test performed",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "T02",
+    "title": "Higgsfield API",
+    "url": "https://docs.higgsfield.ai/docs",
+    "type": "Asynchronous media request lifecycle",
+    "finding": "Asynchronous media request lifecycle",
+    "limitation": "No need established to add another provider",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "T03",
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "type": "Vendor engineering guidance on workflows and agents",
+    "finding": "Vendor engineering guidance on workflows and agents",
+    "limitation": "Design guidance, not proof of our implementation's reliability",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "T04",
+    "title": "Python SQLite",
+    "url": "https://docs.python.org/3/library/sqlite3.html",
+    "type": "Official local database capabilities",
+    "finding": "Official local database capabilities",
+    "limitation": "Database selection still depends on actual concurrency and deployment needs",
+    "checked_at": "2026-09-20",
+    "wave": "first-wave-carried-forward"
+  },
+  {
+    "id": "M07",
+    "title": "Stronger by Science program bundle",
+    "url": "https://www.strongerbyscience.com/program-bundle/",
+    "type": "first-party offer",
+    "finding": "The page currently offers six adaptable programs and a builder as a free download.",
+    "limitation": "Offer observed; contents and downstream conversion not tested.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "M08",
+    "title": "Built With Science",
+    "url": "https://builtwithscience.com/",
+    "type": "first-party offer",
+    "finding": "Public navigation connects an app, coaching, plans, and a cookbook.",
+    "limitation": "No purchase, price normalization, or onboarding test.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "M09",
+    "title": "Hypertrophy Coach",
+    "url": "https://hypertrophycoach.com/",
+    "type": "first-party offer",
+    "finding": "The page markets a $37/month membership around personal coaching replies and program guidance.",
+    "limitation": "Vendor promise, not independently measured service quality or capacity.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "M10",
+    "title": "Mind Pump MAPS products",
+    "url": "https://www.mindpumpmedia.com/maps-fitness-products",
+    "type": "first-party offer",
+    "finding": "Goal-specific programs, bundles, supplemental resources, and a daily-email entry path.",
+    "limitation": "Promotional outcome claims not scientific support; no price inference.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "E05",
+    "title": "Haugen et al. 2023 equipment review",
+    "url": "https://link.springer.com/article/10.1186/s13102-023-00713-4",
+    "type": "peer-reviewed systematic review",
+    "finding": "Strength results depend on testing modality; broad equipment findings do not validate each exercise substitution.",
+    "limitation": "Outcome-specific evidence and applicability; update search incomplete.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "E06",
+    "title": "Burke et al. superset trial preprint v2",
+    "url": "https://sportrxiv.org/index.php/server/preprint/view/419",
+    "type": "author preprint",
+    "finding": "Accessible author record confirms a supervised comparison of supersets and traditional training.",
+    "limitation": "Preprint version, June 2024; later journal version not verified. Not independent replication.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "G01",
+    "title": "ACSM 2026 resistance-training update",
+    "url": "https://acsm.org/resistance-training-guidelines-update-2026/",
+    "type": "official position-stand announcement",
+    "finding": "An updated guidance synthesis exists and emphasizes regular participation and goal-specific programming.",
+    "limitation": "Announcement read; linked full position stand inaccessible. Do not extract granular prescriptions from this summary.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "W02",
+    "title": "RevenueCat State of Subscription Apps 2026",
+    "url": "https://www.revenuecat.com/state-of-subscription-apps",
+    "type": "commercial observational report",
+    "finding": "Methodology uses qualifying apps on RevenueCat and primarily 2025 performance; defines activation-adjacent and renewal metrics.",
+    "limitation": "Selection thresholds, app distribution, vendor interest. Benchmarks are not a forecast for a creator membership.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "T05",
+    "title": "Sample ratio mismatch in controlled experiments",
+    "url": "https://www.microsoft.com/en-us/research/publication/diagnosing-sample-ratio-mismatch-in-online-controlled-experiments-a-taxonomy-and-rules-of-thumb-for-practitioners/",
+    "type": "primary engineering research",
+    "finding": "Unexpected assignment ratios can signal data-quality failures.",
+    "limitation": "Diagnosis of allocation quality; not a guarantee that an experiment is valid.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "T06",
+    "title": "Kit plans",
+    "url": "https://kit.com/pricing",
+    "type": "official provider",
+    "finding": "Landing pages, delivery, and automations are plan-dependent; verify the chosen account before integration.",
+    "limitation": "No recommendation based on an unverified current price or subscriber allowance.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "T07",
+    "title": "Stripe Payment Links",
+    "url": "https://docs.stripe.com/payment-links",
+    "type": "official provider",
+    "finding": "Hosted checkout supports a small product test without a custom billing interface.",
+    "limitation": "Account setup, taxes, fulfillment and terms remain operating work.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "T08",
+    "title": "Stripe webhook documentation",
+    "url": "https://docs.stripe.com/webhooks",
+    "type": "official provider",
+    "finding": "Signature verification uses raw payload; repeated delivery requires idempotent handling.",
+    "limitation": "Local import tested; no deployed endpoint or real payment integration.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "T09",
+    "title": "GitHub workflow token permissions",
+    "url": "https://docs.github.com/en/actions/tutorials/authenticate-with-github_token",
+    "type": "official provider",
+    "finding": "CI can use explicitly bounded repository token permissions.",
+    "limitation": "Repository access and protected release environments still need account configuration.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "T10",
+    "title": "Claude Code subagents",
+    "url": "https://code.claude.com/docs/en/sub-agents",
+    "type": "official provider",
+    "finding": "Bounded roles and context separation are configurable.",
+    "limitation": "No delegated agents were run for this task; role prompts are preparation, not an active fleet.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "P10",
+    "title": "YouTube AI disclosure",
+    "url": "https://support.google.com/youtube/answer/14328491?hl=en",
+    "type": "official platform",
+    "finding": "Disclosure obligations depend on realistic meaningful synthetic alterations; assistance and stylized examples are treated differently.",
+    "limitation": "Disclosure is distinct from accuracy, rights, and channel monetization review.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "P11",
+    "title": "FTC influencer disclosures",
+    "url": "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers",
+    "type": "official US guidance",
+    "finding": "Material commercial connections need clear disclosure in the relevant content.",
+    "limitation": "Actual jurisdiction and offer review still required.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "P12",
+    "title": "FTC CAN-SPAM guide",
+    "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+    "type": "official US guidance",
+    "finding": "Commercial messages require truthful information and a working opt-out process.",
+    "limitation": "Adopt consent-based onboarding; federal guidance alone does not cover every jurisdiction.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  },
+  {
+    "id": "P13",
+    "title": "US Copyright Office AI reports",
+    "url": "https://www.copyright.gov/ai/",
+    "type": "official US source",
+    "finding": "The Office distinguishes digital replicas, output copyrightability, and training questions in separate reports.",
+    "limitation": "Index inspected; no claim of exclusive rights in unreviewed generated assets.",
+    "checked_at": "2026-09-20",
+    "wave": "expanded-rounds"
+  }
+]
