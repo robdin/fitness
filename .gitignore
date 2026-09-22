@@ -1,0 +1,13 @@
+.local/
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+token*.json
+.DS_Store
