@@ -1,0 +1,240 @@
+{
+  "packet_version": "1.0",
+  "status": "expanded-retrieval-editorial-review-pending",
+  "question": {
+    "original": "Could time-efficient resistance training support a useful editorial niche?",
+    "normalized": "In generally healthy adult recreational lifters, how do time-efficient set structures, particularly supersets, compare with traditional sets for session duration, longer-term strength and hypertrophy, effort, adherence, and harms?",
+    "population": "Generally healthy adult recreational lifters; subgroup applicability must be examined",
+    "intervention": "Time-efficient resistance training, focusing on superset structures",
+    "comparator": "Traditional set structures",
+    "outcomes": [
+      "session duration",
+      "strength",
+      "hypertrophy",
+      "perceived effort",
+      "adherence",
+      "adverse events"
+    ],
+    "time_horizon": "Acute sessions separately from adaptation over six or more weeks",
+    "assumptions": [
+      "Editorial feasibility research, not an individualized exercise prescription",
+      "No claim that scientific plausibility proves customer demand"
+    ]
+  },
+  "search": {
+    "searched_at": "2026-09-20",
+    "sources": [
+      "PubMed/PMC discovery through public web search",
+      "Springer publisher records",
+      "Crossref lookup attempt",
+      "ClinicalTrials.gov discovery attempt"
+    ],
+    "queries": [
+      "resistance training time efficient systematic review",
+      "Superset Versus Traditional Resistance Training Prescriptions",
+      "No Time to Lift?",
+      "Less time, same gains",
+      "superset randomized 2026",
+      "superset resistance training site:clinicaltrials.gov",
+      "Effect of free-weight vs. machine-based strength training",
+      "\"Less time, same gains\"",
+      "\"Resistance Training Prescription\" \"2026\""
+    ],
+    "filters": [
+      "Human adult applicability sought",
+      "Reviews first, then trial/update discovery",
+      "Only verified primary records support extracted study findings"
+    ],
+    "review_search_cutoff": "2024-02-10 for the included superset systematic review",
+    "limitations": [
+      "Rapid initial retrieval, not an exhaustive systematic search",
+      "Newer-trial primary record was not successfully retrieved",
+      "No relevant trial registration verified",
+      "Included studies and overlapping cohorts not independently re-extracted",
+      "Complete correction/retraction and correspondence appraisal pending",
+      "2026 position stand located via official ACSM announcement, but full paper retrieval failed; no numerical prescriptions imported."
+    ]
+  },
+  "studies": [
+    {
+      "study_id": "doi:10.1007/s40279-021-01490-1",
+      "citation": "Iversen et al. Sports Medicine (2021). DOI: 10.1007/s40279-021-01490-1; PMID: 34125411.",
+      "title": "No Time to Lift? Designing Time-Efficient Training Programs for Strength and Hypertrophy: A Narrative Review",
+      "year": 2021,
+      "url": "https://link.springer.com/article/10.1007/s40279-021-01490-1",
+      "study_design": "narrative review",
+      "peer_review_status": "peer-reviewed",
+      "population": {
+        "sample_size": null,
+        "description": "Varied resistance-training populations; no single pooled sample"
+      },
+      "intervention": "Time-saving programming and set structures; doses varied",
+      "comparator": "Conventional resistance training; varies by underlying study",
+      "outcomes": [
+        "training time",
+        "strength",
+        "hypertrophy"
+      ],
+      "results": "Discusses options for improving training time efficiency; longitudinal uncertainty acknowledged.",
+      "harms": "Not established from this extraction",
+      "risk_of_bias": {
+        "judgment": "some-concerns",
+        "reasons": [
+          "Narrative selection; not a pooled causal estimate"
+        ]
+      },
+      "directness": "Useful background; subgroup-specific applicability unresolved",
+      "funding_conflicts": null,
+      "access_level": "abstract-only",
+      "included_in_review_ids": [],
+      "notes": "Publisher record verified; accompanying correspondence not appraised.",
+      "verified_at": "2026-09-20"
+    },
+    {
+      "study_id": "doi:10.1007/s40279-025-02176-8",
+      "citation": "Zhang et al. Sports Medicine (2025). DOI: 10.1007/s40279-025-02176-8.",
+      "title": "Superset Versus Traditional Resistance Training Prescriptions: A Systematic Review and Meta-analysis Exploring Acute and Chronic Effects on Mechanical, Metabolic, and Perceptual Variables",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s40279-025-02176-8",
+      "study_design": "systematic review and meta-analysis",
+      "peer_review_status": "peer-reviewed",
+      "population": {
+        "sample_size": 313,
+        "description": "Predominantly young, trained men; 19 studies, only three chronic"
+      },
+      "intervention": "Supersets of different configurations; protocols varied",
+      "comparator": "Traditional sets",
+      "outcomes": [
+        "duration",
+        "effort",
+        "strength",
+        "hypertrophy"
+      ],
+      "results": "Shorter sessions and higher perceived effort; limited chronic evidence suggests broadly similar adaptations, not proven equivalence.",
+      "harms": "Adverse-event data not extracted; safety cannot be concluded",
+      "risk_of_bias": {
+        "judgment": "some-concerns",
+        "reasons": [
+          "Concealment/blinding information missing; small chronic evidence base; heterogeneity"
+        ]
+      },
+      "directness": "Restricted generalizability beyond studied populations",
+      "funding_conflicts": "Open-access funding: Universidad de Granada/CBUA; no commercial/financial conflicts declared. Other funding not extracted.",
+      "access_level": "full-text",
+      "included_in_review_ids": [],
+      "notes": "Selected methods/results/limitations reviewed; formal independent appraisal incomplete.",
+      "verified_at": "2026-09-20"
+    },
+    {
+      "study_id": "doi:10.1186/s13102-023-00713-4",
+      "citation": "Haugen et al. BMC Sports Science, Medicine and Rehabilitation (2023).",
+      "title": "Effect of free-weight vs. machine-based strength training on maximal strength, hypertrophy and jump performance",
+      "year": 2023,
+      "url": "https://link.springer.com/article/10.1186/s13102-023-00713-4",
+      "study_design": "systematic review and meta-analysis",
+      "peer_review_status": "peer-reviewed",
+      "population": {
+        "sample_size": null,
+        "description": "Healthy adults; 13 studies; outcome populations differ"
+      },
+      "intervention": "Free-weight training for at least six weeks",
+      "comparator": "Machine-based training",
+      "outcomes": [
+        "strength",
+        "hypertrophy",
+        "jump performance"
+      ],
+      "results": "Testing specificity matters; hypertrophy comparisons did not detect a difference.",
+      "harms": "Individual injury risk not established",
+      "risk_of_bias": {
+        "judgment": "some-concerns",
+        "reasons": [
+          "Sparse outcome-specific evidence; independent study-level appraisal incomplete"
+        ]
+      },
+      "directness": "Does not evaluate every substitute or crowded-gym scenario",
+      "funding_conflicts": null,
+      "access_level": "full-text",
+      "included_in_review_ids": [],
+      "notes": "Selected methods/results reviewed. Review search ended January 1, 2023; update incomplete.",
+      "verified_at": "2026-09-20"
+    },
+    {
+      "study_id": "doi:10.51224/SRXIV.419",
+      "citation": "Burke et al. SportRxiv, version 2 (2024).",
+      "title": "Less time, same gains: Comparison of superset vs traditional set training on muscular adaptations",
+      "year": 2024,
+      "url": "https://sportrxiv.org/index.php/server/preprint/view/419",
+      "study_design": "randomized controlled training trial, preprint record",
+      "peer_review_status": "preprint",
+      "population": {
+        "sample_size": 43,
+        "description": "Young resistance-trained men and women, as reported in abstract"
+      },
+      "intervention": "Supervised supersets twice weekly for eight weeks",
+      "comparator": "Traditional sets",
+      "outcomes": [
+        "session duration",
+        "muscle thickness",
+        "strength"
+      ],
+      "results": "Author abstract reports shorter sessions and similar average adaptation estimates.",
+      "harms": "Not extracted",
+      "risk_of_bias": {
+        "judgment": "some-concerns",
+        "reasons": [
+          "Abstract-only appraisal; final journal record not verified"
+        ]
+      },
+      "directness": "Supervised protocol, not proof for all pairings",
+      "funding_conflicts": null,
+      "access_level": "abstract-only",
+      "included_in_review_ids": [],
+      "notes": "Same cohort as later journal lead; deduplicate, do not treat as replication.",
+      "verified_at": "2026-09-20"
+    }
+  ],
+  "synthesis": {
+    "bottom_line": "The topic merits further editorial research. The evidence packet is not sufficient to approve universal time-saving or equivalent-growth claims, or an individualized paid program.",
+    "effect_direction": "mixed",
+    "effect_magnitude": null,
+    "certainty": "low",
+    "certainty_reasons": [
+      "Provisional assessment for long-term adaptation claims, not a blanket rating for every outcome",
+      "Sparse chronic evidence, subgroup indirectness, and incomplete update search"
+    ],
+    "consistency": "Requires separate judgments by outcome and set configuration",
+    "applicability": "Recreational-lifter editorial question; broad generalization unresolved",
+    "benefits": "Potential time efficiency warrants investigation",
+    "harms": "No safety assurance from this packet",
+    "dose_response": null,
+    "important_subgroups": [
+      "training experience",
+      "age",
+      "sex",
+      "equipment access"
+    ],
+    "evidence_gaps": [
+      "Long-term adherence",
+      "Injury/adverse events",
+      "Real-world equipment constraints",
+      "Newer controlled trials",
+      "Customer willingness to pay",
+      "Final journal version and overlap for Burke cohort",
+      "Updated equipment trials and complete appraisal"
+    ],
+    "newer_than_review": "The Burke author preprint is now verified as a June 2024 record. Its later journal version remains unresolved. ACSM 2026 update identified; full-text extraction pending."
+  },
+  "excluded": [
+    {
+      "citation_or_title": "Reddit exercise recommendations and commercial outcome claims",
+      "reason": "Used for audience/offer research only, not scientific substantiation",
+      "duplicate_of": null
+    },
+    {
+      "citation_or_title": "ACSM 2026 position stand: PMID 41843416",
+      "reason": "Official announcement verified; full article unavailable for granular extraction",
+      "duplicate_of": null
+    }
+  ]
+}

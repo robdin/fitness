@@ -1,0 +1,14 @@
+ffconcat version 1.0
+file 'scene-01.png'
+duration 17.200000
+file 'scene-02.png'
+duration 18.000000
+file 'scene-03.png'
+duration 16.400000
+file 'scene-04.png'
+duration 18.000000
+file 'scene-05.png'
+duration 18.000000
+file 'scene-06.png'
+duration 16.000000
+file 'scene-06.png'

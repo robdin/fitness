@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "project-fitness",
+  "name": "Project Fitness",
+  "character": "DEX",
+  "tagline": "Know why. Train better.",
+  "promise": "Evidence you can actually use.",
+  "source": "Project_Fitness_DEX_Brand_Guide.docx, July 2026; read September 20, 2026",
+  "status": "pilot_direction_not_name_clearance",
+  "audience_hypothesis": "Recreational lifters adapting to time, schedule, and equipment constraints",
+  "palette": {"navy":"#10233E","lime":"#B9F227","cream":"#F7F4EA","graphite":"#2B3038","coral":"#FF6B4A"},
+  "narration": "Human recording, accepted per beat before final timing",
+  "channel_id": null,
+  "timezone": "America/New_York",
+  "public_upload_enabled": false,
+  "external_paid_execution_enabled": false,
+  "rules": ["Fictional editorial host; never claim professional credentials", "Confidence is outcome-specific", "Sources do not imply editorial approval", "No mandatory eight-minute floor", "No unsupported personal prescriptions"]
+}

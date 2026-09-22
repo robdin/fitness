@@ -1,0 +1,24 @@
+{
+  "id": "format-screening-v1",
+  "type": "screening",
+  "instrument": "experiments/comprehension-v1.json",
+  "status": "draft_protocol_no_participants",
+  "hypothesis": "A decision-first opening improves understanding without increasing overconfidence compared with an evidence-first opening.",
+  "changed_factor": "Order of the decision block and evidence block; same opening, caveat, closing, cards, narration segments, duration, and CTA within each topic.",
+  "cells": [
+    {"pilot":"P01-time","variant":"A"}, {"pilot":"P01-time","variant":"B"},
+    {"pilot":"P02-equipment","variant":"A"}, {"pilot":"P02-equipment","variant":"B"},
+    {"pilot":"P03-headlines","variant":"A"}, {"pilot":"P03-headlines","variant":"B"}
+  ],
+  "allocation": "One pseudonymous participant to one cell; persistent equal-probability assignment; no crossover",
+  "primary_metric": "At least two of three comprehension questions correct AND no critical overgeneralization",
+  "secondary_metrics": ["trust 1–5", "usefulness 1–5", "unaided takeaway", "resource completion in a separate consented follow-up"],
+  "exploratory_target": "60 independent target viewers total; expected 10 per cell, not a powered confirmatory test",
+  "stopping_rule": "Stop enrollment at 60 assigned eligible viewers or 14 days after recruitment begins, whichever occurs first. Allow 48 hours for final responses, then close and document missingness. Operator enforces these count and clock limits. No stopping for apparent winners.",
+  "confirmatory_rule": "Run a new preregistered test after instrument calibration and power calculation. Correct for three topic comparisons. No winner is auto-selected.",
+  "exclusions": "Predeclared ineligible participants and duplicate IDs; preserve counts and reasons. Do not exclude because someone misunderstood.",
+  "activation_requirements": ["Narrated reviewed stimuli", "Comprehension instrument checked", "Recruitment and consent ready", "Recruitment clock recorded", "Exact exported stimuli retained"],
+  "recruitment_started_at": null,
+  "activation": {"reviewer":null,"review_note":null,"stimuli":[]},
+  "owner": "Founder/editor"
+}

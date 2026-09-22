@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "pilot_id": "P01-time",
+  "variant": "A",
+  "mode": "preview",
+  "input_hash": "e78bb2c38b6dc0bda6fefca952eb5e35546bb7cebf3821b68cf23b2313ece49c",
+  "created_at": "2026-09-20T22:36:01.951743+00:00",
+  "duration_seconds": 103.6,
+  "files": {
+    "captions.srt": "58af3f6b6e0037a2d1604e8ef6bb9ff40abf6bb33947cf2dfc4ca6c1667d7e17",
+    "captions.vtt": "9c06f3096f9657993d434e9d0da4d1849c9ce7ce755919829013ce839a608db8",
+    "frames.ffconcat": "0f9a6f549ea6a64eff6c7e7b300e30ad23b7a31a595d11839f3043b2dea44848",
+    "index.html": "5d2b5388fa441d554dad0e9ff0e1fa09c6b0d56d6aa55b3136904c6ee91cc44b",
+    "inputs.json": "c7b9ffe0165ea83bd46e11fd987b5a4aa0878942783cf73ac7af801dca509650",
+    "publishing.json": "94e2565c76e3e50fededf251e58c9a64a31c30f47dd5a0c0d96edb129d7a9ef1",
+    "scene-01.png": "c313a26044ea649ff6befafa2a2d4b7c2323dd2b7918ae9c90f6553009b1c1c8",
+    "scene-02.png": "47043974258b56584326094a1ec28a71544d4d88dd6007435602d2369a25f2d8",
+    "scene-03.png": "ee18e20cbe1a3a0e4e231851151e513c5ab0649e7e410eddabdacf4da8f32872",
+    "scene-04.png": "ee0620548a5615ce7c762f72a4acd431ec03da16ba940a1a47b4f97665361af5",
+    "scene-05.png": "c69e00cbc0d35ac7c081e164774ef95cb34ca776a30a37f0c7ae6c382147cba1",
+    "scene-06.png": "709844580c7445221ad80a6e110d618abbf3e8b6069a277af9788883a61d5e6d",
+    "script.txt": "8b9fa3fad8ab737e6a402ad7d75db83e7a9301f6e2b1b122e2aa960dee061df8",
+    "thumbnail-1.png": "c8f8637302b107fb36a16bfb6c9613ed87afbb138443f0d690bc74d2c0011aad",
+    "thumbnail-2.png": "c420fc5d991de5e4644ea55035d7ef984bc57630aaa6740188fa8c4468cb78c0",
+    "video.mp4": "e08f28f36490034864bbdafc4766b6e64e1d2d422eb7cbeb5957269781b80238"
+  },
+  "caption_timing": "estimated within each beat; requires manual review",
+  "publication_ready": false
+}
