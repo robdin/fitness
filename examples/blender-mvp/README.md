@@ -2,11 +2,12 @@
 
 One complete vertical fitness explainer: **Your workout took an hour. Where did it go?**
 
-Open [index.html](index.html) after downloading this folder, or play [the MP4](Rep_and_Reason_Blender_MVP.mp4). The video has Blender animation, synthetic narration, burned-in captions, an original procedural music bed and transition effects. It is an internal creative MVP, not a published episode or a live audience experiment.
+Open [index.html](index.html) after cloning or downloading the repository: its player and download button work offline. To restore a standalone MP4, run `python tools/blender/unpack_mvp.py` from the repository root. The video has Blender animation, synthetic narration, burned-in captions, an original procedural music bed and transition effects. It is an internal creative MVP, not a published episode or a live audience experiment.
 
 ## Deliverables
 
-- `Rep_and_Reason_Blender_MVP.mp4`: 1080 × 1920, 30 fps, H.264/AAC.
+- `media/`: the complete 51-second MP4 stored in small lossless parts, with a checksum manifest. The unpack command restores `Rep_and_Reason_Blender_MVP.mp4`: 1080 × 1920, 30 fps, H.264/AAC.
+- `player.js`: loads those same bytes for offline playback and download.
 - `time-audit.blend`: four editable scenes, lights, materials and animation.
 - `captions.srt`: caption timings from the synthesized audio clips.
 - `timeline.json`: actual scene and caption boundaries.
@@ -41,6 +42,8 @@ The tested toolchain is Blender 4.5.3 LTS, Python 3.12, FFmpeg, Pillow, NumPy, S
 
 6. Copy `.local/blender-mvp/time-audit.blend` to this folder after a successful render.
 
+7. If updating the retained video, run `python tools/blender/pack_mvp.py` and commit the refreshed `media/` files and index.
+
 Use `--stills` to inspect a cheaper Blender look check. The default full render requires all 48 frames for each of four props; the compositor rejects incomplete loops and an episode that differs from the narration's source hash. Voice clips are cached by text, model hash and synthesis settings. Re-render geometry when changing `build_scene.py`. Neural synthesis is not claimed to be bit-identical across machines or runtime versions.
 
 The local inference adapter uses OpenVINO and explicitly declines optional diagnostic collection. It does not import ONNX Runtime. The previous ONNX Runtime path was rejected by automatic approval review for telemetry, and is not used in this deliverable.
@@ -55,4 +58,6 @@ The next useful review is the actual narrated MP4: pacing, voice preference, mob
 
 All 3D geometry, lighting, materials, motion, layout and procedural music/effects were created for this MVP. No stock 3D models, purchased music, generated human demonstrations, or voice clones are used. Space Grotesk is bundled with its SIL Open Font License in the episode's `fonts` folder. Blender and speech model weights are not bundled in this repository.
 
-Workspace maintenance removed an earlier interrupted build. This version was rebuilt from the scene and script definitions preserved in the conversation, then rendered and checked again. See `../../brand/RECOVERY_STATUS.md` for the separate older brand-package recovery limits.
+Workspace maintenance removed interrupted local exports before they reached GitHub. This version was rebuilt from the source checkpoint and editable Blender project recovered from GitHub, then rendered and checked again. See `../../brand/RECOVERY_STATUS.md` for the separate older brand-package recovery limits.
+
+The large single-file GitHub upload repeatedly stalled. Small transfer parts preserve the exact verified MP4 without recompression. The local unpacked MP4 is ignored by Git; the complete video bytes are tracked under `media/`. Both the Python unpacker and browser player reconstruct the same video.

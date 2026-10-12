@@ -1,6 +1,6 @@
 # Implementation status
 
-Foundation prepared 20 September 2026; repository delivery updated 22 September on branch codex/fitness-os-pilots.
+Foundation prepared 20 September 2026; Blender MVP added 12 October 2026 in PR #2.
 
 | Area | Delivered | Still needed |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Foundation prepared 20 September 2026; repository delivery updated 22 September 
 | Experiments | Protocol, instrument, persistent assignment and descriptive reporting | Calibration, reviewed narrated stimuli, consent and actual participants |
 | Analytics | Mapped aggregate CSV importer and metric definitions | Real Studio exports and attribution |
 | Commerce | Signature verification and deduplicated offline event import | Checkout, email/access fulfillment, refunds and current-state reconciliation |
-| CI | GitHub workflow definition; local control tests | A remote CI run after the branch is available |
+| CI | GitHub workflow and 22 control tests; passing remote runs on the MVP branch | Required checks on every final revision |
 | Turuan reuse | Guide-level audit and migration map | Authenticated source review and compatibility checks |
 
 ## What has not occurred

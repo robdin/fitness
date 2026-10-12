@@ -2,7 +2,7 @@
 
 **Know why. Train better.**
 
-A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The current release prepares **three topics × two sequence variants**, with six silent video prototypes. It has not published videos, recruited participants, generated sales or run a live A/B test.
+A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The current release includes **one narrated Blender MVP** and **three topics × two sequence variants**, with six earlier silent video prototypes. It has not published videos, recruited participants, generated sales or run a live A/B test.
 
 ## Start here
 
@@ -68,4 +68,4 @@ The small prototype snapshot is included for review. Large production media, cus
 
 ## Current boundary
 
-The target repository was empty. This implementation is new code informed by the supplied Turuan guide. A code-level Turuan review has not been completed, so no code port or compatibility claim has been made. Production account connections, real narration, editorial approval and audience/customer observations remain necessary. See the status file for the exact boundary and docs/DELIVERY.md for GitHub delivery status.
+The target repository was empty. This implementation is new code informed by the supplied Turuan guide. A code-level Turuan review has not been completed, so no code port or compatibility claim has been made. Production account connections, final voice approval, editorial approval and audience/customer observations remain necessary. See the status file for the exact boundary and docs/DELIVERY.md for GitHub delivery status.
