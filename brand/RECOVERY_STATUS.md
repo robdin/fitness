@@ -9,3 +9,5 @@ Recovered from visible conversation content: proposed name, audience promise, ch
 Rebuilt from visible source definitions: the Blender episode, procedural scenes, narration/composition pipeline and review export. The new render has its own artifact receipt. This rebuild does not approve the channel name, runtime brand policy, public upload, scientific claims, or a live audience experiment.
 
 If the original brand package is available from another device or checkout, import it as a separate reviewed change rather than silently replacing this recovery record.
+
+On 12 October, maintenance also removed the later local MP4 before its upload completed. The checkpointed source and previously uploaded Blender/font/image objects were recovered from GitHub, and the narration and export were rebuilt. The final receipt refers to this replacement export, not the lost file.

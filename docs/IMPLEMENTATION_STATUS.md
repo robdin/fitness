@@ -8,6 +8,8 @@ Foundation prepared 20 September 2026; repository delivery updated 22 September 
 | Research | 20 workstream passes; 54 main source records; four-study packet; 30 listing observations; 11 competitor records | Full-video coding, broader sampling, interviews and targeted full-text appraisal |
 | Brand | Existing Project Fitness / DEX direction retained | Final owned rig and name/handle checks |
 | Pilots | Three canonical scripts; A/B sequence variants; two package candidates each; six silent MP4s | Human narration and final editorial review |
+| Blender MVP | One complete Rep & Reason time-audit explainer; editable 3D scenes, synthetic narration, captions and original sound | Creative review and any separately approved public release |
+| Brand recovery | Rep & Reason working brief and explicit gap record | Earlier unpublished 49-file package was not recovered byte-for-byte |
 | Resources | Three worksheet drafts, paid-pilot scope and email drafts | Test usefulness and actual delivery |
 | Core | CLI, read-only checks, hashes, retained audio, rendering and review/export | Production deployment and multi-user identity if required |
 | Cost controls | Atomic cumulative reservations, shared local provider slots and uncertain-job handling | Authenticated provider adapter and invoice reconciliation |
@@ -29,7 +31,7 @@ The fitness target initially cloned as an empty repository. GitHub app write acc
 
 ## Most useful next actions
 
-1. Review the three pilot topics and the six silent comparisons.
+1. Review the narrated [Blender MVP](../examples/blender-mvp/README.md), then the three pilot topics and six silent comparisons.
 2. Confirm founder capacity, loss ceiling and the intended first audience.
 3. Complete fitness claim review, record six reusable narration segments per topic and inspect the final narrated versions.
 4. Calibrate the questionnaire, freeze the actual stimuli and then begin recruitment.

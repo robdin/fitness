@@ -6,6 +6,9 @@ A working, local-first foundation for an evidence-led fitness content business. 
 
 ## Start here
 
+- [Narrated Blender MVP](examples/blender-mvp/README.md): a complete vertical video with animated 3D visuals, captions, original sound and editable sources.
+- [Rep & Reason brand brief](brand/README.md): recovered creative decisions and [recovery limits](brand/RECOVERY_STATUS.md).
+
 - [Business plan](docs/BUSINESS_PLAN.md): customer, positioning, GTM, offer ladder, economics and decision gates.
 - [Product requirements](docs/PRD.md): requirements, acceptance criteria and build boundaries.
 - [All research rounds](research/RESEARCH_ROUNDS.md): 20 decision records and outstanding validation.
@@ -54,6 +57,10 @@ The economics inputs are examples, not prices chosen for launch or a revenue for
 | measurement/ | Event definitions and import template |
 | fitness_os/ | Python CLI, rendering, accounting, experiments and imports |
 | tests/ | Failure-path and integrity tests |
+| examples/blender-mvp/ | Narrated Blender MVP, editable project and review files |
+| tools/blender/ | Procedural scenes, local synthesis and composition |
+| content/mvp/ | Editable episode copy and licensed font |
+| brand/ | Recovered brand direction and explicit recovery gaps |
 | examples/pilot-review/ | Small retained snapshot of all six silent prototypes |
 | .local/ | Ignored runtime state, audio, builds, reports and release packages |
 
