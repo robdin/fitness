@@ -1,0 +1,17 @@
+{
+  "episode_id": "MVP01-time-audit",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 51.0,
+  "video_sha256": "350a6b3439cf1034a5e8bb6a8fe947b9df23d344ec8b8ae94a1d4c9a142ab947",
+  "episode_sha256": "ce4e27c93bd66b3f4f37c58691d6b539f9ebe793b3244b07293e44b0ebaf0751",
+  "scene_script_sha256": "79986ee919285584d01842639a20e3dabf64cab83035e2e9cad60cc87c3288b4",
+  "composition_script_sha256": "698252686ef0cadd9b05c1202f2ecf5e8cb420ae3af14d29d51639a1a2773c48",
+  "speech_adapter_sha256": "706d13dcf176bcaecc58fc8cf9cbc896efa7d05b489b0b93e5bd4710bbc79ffe",
+  "blender_project_sha256": "08c3f294ca59f91140096d15ad1dd4d57fd32f46bba65154ab139dda0c0ab281",
+  "voice_model_sha256": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+  "public_release_approval": false,
+  "status": "internal visual MVP",
+  "example": "15+25+8+12=60 invented minutes"
+}

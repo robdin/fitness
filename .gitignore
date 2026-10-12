@@ -11,3 +11,6 @@ __pycache__/
 credentials*.json
 token*.json
 .DS_Store
+
+# Retained MVP is tracked losslessly in examples/blender-mvp/media/.
+examples/blender-mvp/Rep_and_Reason_Blender_MVP.mp4

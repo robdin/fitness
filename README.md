@@ -2,9 +2,12 @@
 
 **Know why. Train better.**
 
-A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The current release prepares **three topics × two sequence variants**, with six silent video prototypes. It has not published videos, recruited participants, generated sales or run a live A/B test.
+A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The current release includes **one narrated Blender MVP** and **three topics × two sequence variants**, with six earlier silent video prototypes. It has not published videos, recruited participants, generated sales or run a live A/B test.
 
 ## Start here
+
+- [Narrated Blender MVP](examples/blender-mvp/README.md): a complete vertical video with animated 3D visuals, captions, original sound and editable sources.
+- [Rep & Reason brand brief](brand/README.md): recovered creative decisions and [recovery limits](brand/RECOVERY_STATUS.md).
 
 - [Business plan](docs/BUSINESS_PLAN.md): customer, positioning, GTM, offer ladder, economics and decision gates.
 - [Product requirements](docs/PRD.md): requirements, acceptance criteria and build boundaries.
@@ -54,6 +57,10 @@ The economics inputs are examples, not prices chosen for launch or a revenue for
 | measurement/ | Event definitions and import template |
 | fitness_os/ | Python CLI, rendering, accounting, experiments and imports |
 | tests/ | Failure-path and integrity tests |
+| examples/blender-mvp/ | Narrated Blender MVP, editable project and review files |
+| tools/blender/ | Procedural scenes, local synthesis and composition |
+| content/mvp/ | Editable episode copy and licensed font |
+| brand/ | Recovered brand direction and explicit recovery gaps |
 | examples/pilot-review/ | Small retained snapshot of all six silent prototypes |
 | .local/ | Ignored runtime state, audio, builds, reports and release packages |
 
@@ -61,4 +68,4 @@ The small prototype snapshot is included for review. Large production media, cus
 
 ## Current boundary
 
-The target repository was empty. This implementation is new code informed by the supplied Turuan guide. A code-level Turuan review has not been completed, so no code port or compatibility claim has been made. Production account connections, real narration, editorial approval and audience/customer observations remain necessary. See the status file for the exact boundary and docs/DELIVERY.md for GitHub delivery status.
+The target repository was empty. This implementation is new code informed by the supplied Turuan guide. A code-level Turuan review has not been completed, so no code port or compatibility claim has been made. Production account connections, final voice approval, editorial approval and audience/customer observations remain necessary. See the status file for the exact boundary and docs/DELIVERY.md for GitHub delivery status.

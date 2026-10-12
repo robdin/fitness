@@ -1,0 +1,67 @@
+1
+00:00:00,420 --> 00:00:01,906
+Your workout took an hour.
+
+2
+00:00:02,056 --> 00:00:03,554
+But where did that hour go?
+
+3
+00:00:06,420 --> 00:00:09,253
+An hour in the gym is not an hour of lifting.
+
+4
+00:00:09,403 --> 00:00:12,746
+In this made-up example: fifteen minutes lifting.
+
+5
+00:00:12,896 --> 00:00:15,404
+Twenty-five resting. Eight setting up.
+
+6
+00:00:15,554 --> 00:00:16,611
+And twelve waiting.
+
+7
+00:00:18,420 --> 00:00:20,568
+Those are four different problems.
+
+8
+00:00:20,718 --> 00:00:23,586
+Start with a delay you can actually change.
+
+9
+00:00:23,736 --> 00:00:25,732
+Like repeated trips for equipment.
+
+10
+00:00:27,420 --> 00:00:29,498
+A time audit is not a reason
+
+11
+00:00:29,648 --> 00:00:31,692
+to rush every rest period.
+
+12
+00:00:31,842 --> 00:00:34,732
+The biggest block is not automatically the problem.
+
+13
+00:00:36,420 --> 00:00:39,137
+For one session, log the four buckets.
+
+14
+00:00:39,287 --> 00:00:40,993
+Make one practical change.
+
+15
+00:00:41,143 --> 00:00:42,896
+Then compare the next session.
+
+16
+00:00:43,046 --> 00:00:45,403
+Measure the friction before you rewrite the plan.
+
+17
+00:00:47,420 --> 00:00:48,906
+Know why. Train better.
