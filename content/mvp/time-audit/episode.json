@@ -1,0 +1,20 @@
+{
+  "id":"MVP01-time-audit",
+  "title":"Your workout took an hour. Where did it go?",
+  "status":"visual_mvp_for_review",
+  "brand":"Rep & Reason",
+  "brand_status":"proposed identity; not name-cleared",
+  "example_minutes":{"Lifting":15,"Rest":25,"Setup":8,"Waiting":12},
+  "numbers_status":"Invented arithmetic example, not research or audience observations",
+  "narration_status":"Synthetic prototype narration; no voice cloning",
+  "claim_ids":[],
+  "scope":"Session logging example adapted from P01-time. No promised strength, hypertrophy, safety, or time-saving outcome.",
+  "scenes":[
+    {"id":"hook","asset":"clock","eyebrow":"THE 60-MINUTE MYSTERY","headline":["AN HOUR.","OF WHAT?"],"captions":["Your workout took an hour.","But where did that hour go?"],"minimum_seconds":6},
+    {"id":"audit","asset":"ring","eyebrow":"BREAK THE HOUR APART","headline":["FOUR BUCKETS.","ONE SESSION."],"captions":["An hour in the gym is not an hour of lifting.","In this made-up example: fifteen minutes lifting.","Twenty-five resting. Eight setting up.","And twelve waiting."],"minimum_seconds":12},
+    {"id":"friction","asset":"dumbbell","eyebrow":"CHANGE WHAT YOU CAN","headline":["FIND THE","FRICTION."],"captions":["Those are four different problems.","Start with a delay you can actually change.","Like repeated trips for equipment."],"minimum_seconds":9},
+    {"id":"rest","asset":"clock","eyebrow":"KEEP THE PURPOSE IN VIEW","headline":["REST IS PART","OF THE PLAN."],"captions":["A time audit is not a reason","to rush every rest period.","The biggest block is not automatically the problem."],"minimum_seconds":9},
+    {"id":"action","asset":"tiles","eyebrow":"YOUR NEXT WORKOUT","headline":["LOG. CHANGE.","COMPARE."],"captions":["For one session, log the four buckets.","Make one practical change.","Then compare the next session.","Measure the friction before you rewrite the plan."],"minimum_seconds":11},
+    {"id":"close","asset":"dumbbell","eyebrow":"REP & REASON","headline":["KNOW WHY.","TRAIN BETTER."],"captions":["Know why. Train better."],"minimum_seconds":4}
+  ]
+}
