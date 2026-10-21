@@ -1,0 +1,122 @@
+{
+  "id": "month-one-v2",
+  "status": "draft_not_launched",
+  "primary_platform": "youtube_shorts",
+  "secondary_platform": "instagram_reels",
+  "purpose": "Decide whether audience interest and measured operator effort justify a second month.",
+  "threshold_basis": "Provisional operating hurdles chosen before results, not platform benchmarks or a powered statistical test. Freeze any edits before the first post.",
+  "minimum_released_videos": 12,
+  "minimum_eligible_youtube_videos": 8,
+  "minimum_engaged_views_per_eligible_video": 100,
+  "observation_window_hours": 168,
+  "median_stayed_to_watch_target_pct": 60,
+  "median_average_percentage_viewed_target_pct": 70,
+  "minimum_distinct_useful_responses": 5,
+  "minimum_target_viewer_comprehension_checks": 10,
+  "comprehension_pass_target_pct": 80,
+  "weekly_operator_hours_limit": 12,
+  "production_weeks_required": 2,
+  "latest_episode_day_for_month_end_7d_readout": 23,
+  "final_readout_day": 35,
+  "rules": {
+    "go": "Coverage, attention, usefulness, comprehension and production-time gates all pass; no unresolved recurring critical misunderstanding. Continue for one bounded month, not an unlimited commitment.",
+    "no_go": "Adequate observations show both attention and useful-response gates failed, or measured production remains above the chosen capacity after one documented simplification. Report evidence and the failed condition; this rejects the current format, not all possible fitness content.",
+    "iterate": "Mixed evidence or one repairable clarity/production problem. Choose one documented change and one bounded follow-up; do not indefinitely extend a failing pilot.",
+    "insufficient_evidence": "Too few mature posts, too little exposure, missing metrics, unmeasured labor or missing comprehension checks. Do not convert missing observations into zeros. Allow one additional 14-day observation/distribution window, without buying reach or changing the success rule. If still insufficient, decide whether the unresolved distribution problem merits further investment."
+  },
+  "visual_screen": {
+    "stimulus": "Existing V1 M01 A/B/C narrated exports only. This tests those layouts on the time-audit task, not the effectiveness of the new V2 scripts.",
+    "treatments": {
+      "A": "compact static grid",
+      "B": "larger static grid",
+      "C": "same larger grid with explanatory motion"
+    },
+    "contrasts": [
+      "A versus B: graphic scale/layout package",
+      "B versus C: explanatory motion"
+    ],
+    "design": "One target viewer sees one assigned version first. Twelve to eighteen distinct adults already doing recreational resistance training; random balanced blocks of three. Optional after-rating side-by-side preference is exploratory and separate.",
+    "questions": [
+      "Without replaying, what was the main point?",
+      "Were the minute values measured or invented?",
+      "Should the largest bucket automatically be cut?",
+      "What would you do next?",
+      "Readability and usefulness, each 1 to 5."
+    ],
+    "critical_error": "Treating invented minutes as typical data, or saying every rest period should be shortened.",
+    "interpretation": "Small usability screen only. Record raw counts and failed items; do not declare a statistically proven retention winner. Recurrent misunderstanding triggers an editorial repair.",
+    "conducted": false,
+    "selection_rule": "Reject a treatment with a repeated critical error (two or more viewers). Prefer readable, correctly understood versions. If results are mixed, use the simpler acceptable treatment; record raw counts and rationale, not a statistically proven winner. Human final playback review is required before exposure."
+  },
+  "organic_comparison": "Eight question-led and eight answer-led hooks; two of each per week, two of each within each topic cluster, and two of each in each weekday slot. Each topic cluster appears once in each weekday slot. Publish one version per episode. Assignment is balanced, not randomized; differing topics, audiences and timing still prevent a causal A/B conclusion.",
+  "posting_slot": "18:00 America/New_York is a scheduling convenience, not a claimed optimal time. Use the same slot initially. Dates are a proposal until actual publication receipts exist.",
+  "privacy": "Only aggregate observations belong in Git. Use pseudonymous participant IDs; keep contact mappings private. No unsolicited recruitment or publishing has been authorized.",
+  "capacity_source": "User selected up to 12 hands-on hours per week on 2026-10-21",
+  "type": "organic_pilot_and_usability_plan",
+  "episode_ids": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09",
+    "N10",
+    "N11",
+    "N12",
+    "N13",
+    "N14",
+    "N15",
+    "N16"
+  ],
+  "protocol_version": "2026-10-21",
+  "content": "content/month-one-v2/calendar.json",
+  "maximum_snapshot_delay_hours": 24,
+  "final_readout_at": "2026-12-05T18:00:00-05:00",
+  "content_duration_target_seconds": [
+    30,
+    40
+  ],
+  "controls": [
+    "Approved voice and speaking style",
+    "30–40-second target; actual duration recorded",
+    "One concrete diagram and six semantic beats",
+    "Same caption styling and source treatment",
+    "18:00 America/New_York slot",
+    "Same broad question-style closing CTA",
+    "No paid distribution or duplicate organic variants"
+  ],
+  "comparison_analysis": "At the full-cohort readout report counts, exposure range, episode-level STW/APV and group medians by hook and cluster. Do not declare a winner if group coverage differs substantially; do not compute a causal lift or p-value from these sixteen organic posts. Log topic, duration and traffic source as competing explanations.",
+  "v2_comprehension_screen": {
+    "conducted": false,
+    "minimum_distinct_target_adults": 10,
+    "stimuli": [
+      "N01",
+      "N02",
+      "N03",
+      "N09",
+      "N10"
+    ],
+    "design": "After final renders, assign one of five clips first in balanced pairs to at least ten distinct target adults. If a person also saw V1 M01, separate sessions and record prior exposure. Count each person once in the primary V2 comprehension rate.",
+    "questions": [
+      "What was the main point, without replaying?",
+      "What would you do next?",
+      "What does the video NOT establish?",
+      "Was any text hard to read?",
+      "Usefulness and readability, 1–5"
+    ],
+    "scoring": "Pass requires correct main takeaway plus no episode-specific critical overgeneralization; use the answer key in calendar.json. Record raw answer before scoring. Do not count V1-only checks toward the V2 gate.",
+    "critical_recurrence": "At least two distinct viewers repeat the same critical error; document, repair and recheck before release. Any serious individual error also gets editorial review."
+  },
+  "sustainability_experiment": {
+    "hypothesis": "Four accepted videos plus support posts and cross-posting fit within 12 hands-on hours per week.",
+    "time_tracking": "Actual start/stop task minutes; research, scripting, review, rework, publishing, community and analytics included. Setup and unattended render time recorded separately; missing labor is not zero.",
+    "simplification": "At first week above 12 hours, document the bottleneck. One simplification may remove optional support posts or reduce decorative motion, retaining the four-video cadence and factual clarity. Continue recording all actual time. If the last two measured production weeks still fail the limit after simplification, reject this current process.",
+    "cost": "Record actual provider charges or mark them unreconciled. No assumed zero-cost generation. Initial setup cost and its amortization remain visible."
+  },
+  "freeze_rule": "Freeze IDs, scripts, assignment, primary metric definitions and hurdles before first publication. Corrections can always be made, but record version, reason and affected analyses. No post-hoc threshold changes.",
+  "interpretation": "Only live audience observations can decide GO. Desk research and automated QA can establish readiness, not audience interest.",
+  "require_reporting_window_label": true
+}

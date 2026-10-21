@@ -1,5 +1,10 @@
 # Rep & Reason — complete Codex handoff
 
+> **Latest content revision, 21 October 2026:** use [MONTH_ONE_V2.md](MONTH_ONE_V2.md)
+> for the creator/community-sourced calendar, 16 new N-series scripts and the
+> balanced experiment framework. N-series media has not been rendered.
+> [MONTH_ONE.md](MONTH_ONE.md) documents the separate completed M-series exports.
+
 > **Continuation verified 21 October 2026:** PR #3 is now merged at
 > `dcba7ba079fb6b05ec1ebbb2e4cb9094b7a3f701`. Continue with
 > [MONTH_ONE.md](MONTH_ONE.md) for the new calendar, content, tests and media

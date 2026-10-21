@@ -6,6 +6,12 @@ A working, local-first foundation for an evidence-led fitness content business. 
 
 ## Start here
 
+- [Demand-led calendar V2](docs/MONTH_ONE_V2.md): creator/community source map,
+  16 new original scripts and visual briefs, complete supporting copy, November
+  planning calendar and balanced testing protocol. [Open the visual calendar](examples/month-one-v2/index.html).
+  These new N-series scripts are not yet rendered; the existing M-series media
+  below remains a separate review package.
+
 - [Month-one validation pilot](docs/MONTH_ONE.md): 30-day calendar, 16 narrated videos,
   three visual treatments, supporting posts, reusable production tools and an
   audience-interest / 12-hour-per-week go/no-go protocol.

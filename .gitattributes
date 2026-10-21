@@ -1,0 +1,3 @@
+
+# iCalendar downloads require CRLF on every platform.
+*.ics text eol=crlf

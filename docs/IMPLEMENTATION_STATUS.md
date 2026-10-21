@@ -1,5 +1,13 @@
 # Implementation status
 
+Latest calendar revision, 21 October 2026: the [demand-led V2 package](MONTH_ONE_V2.md)
+adds six creator references, 23 community threads, 14 research records and 16
+original N-series scripts with visual briefs and posting copy. Its November
+calendar balances hook style by week, topic and weekday. Supporting copy,
+an importable planning calendar, a review hub and decision-tool support are
+included. N-series media production and live audience testing have not occurred;
+the existing M-series narrated exports are preserved separately.
+
 Current continuation, 21 October 2026: PR #3 is merged. The approved deeper-voice
 V3 and its timed JavaScript graphics are retained. The new [month-one pilot](MONTH_ONE.md)
 adds canonical scripts, twelve diagram families, a 30-day calendar, supporting
