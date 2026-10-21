@@ -1,0 +1,19 @@
+{
+  "episode": "Rep & Reason / time audit / social v2",
+  "fps": 30,
+  "duration": 41.0667,
+  "narration": "Existing synthetic MVP narration, no voice cloning",
+  "example": "15 + 25 + 8 + 12 = 60 invented minutes; not measured data",
+  "public_upload": false,
+  "width": 1080,
+  "height": 1920,
+  "video_sha256": "4db17db5132b9ed2f05ba1a25c3af3d08b529474c319d6b413d46ab8d14dfda6",
+  "original_mvp_sha256": "350a6b3439cf1034a5e8bb6a8fe947b9df23d344ec8b8ae94a1d4c9a142ab947",
+  "script_sha256": "0722b15a33f801bed897feb9816b0dbfec254b4c228b2222d4a08e5f83287cb1",
+  "caption_count": 17,
+  "selected_clips": {
+    "minimax": "7658aaf9d23148554622af6ac420c4a0e9c399216736405e5ef4616d5b0ee615",
+    "seedance": "faab91197bccca6f25ecdfd737ada60fb95c82e964c4e0674fd56d2c6745ec87"
+  },
+  "additional_generation_credits": 0
+}

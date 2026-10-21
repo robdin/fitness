@@ -1,0 +1,16 @@
+{
+  "full_mp4_decode": "passed",
+  "frames": 1232,
+  "duration_seconds": 41.066667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "subtitle_cues": 17,
+  "subtitle_bounds_and_overlap": "passed",
+  "audio_integrated_lufs": -16.37,
+  "audio_true_peak_dbtp": -2.1,
+  "audio_loudness_range_lu": 2.4,
+  "scene_layout_review": "six scene contact sheet inspected",
+  "caption_review": "long two-line caption frame inspected",
+  "additional_generation_credits": 0
+}
