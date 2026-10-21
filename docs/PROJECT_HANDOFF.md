@@ -1,5 +1,29 @@
 # Continue the fitness MVP
 
+## Latest continuation — 21 October 2026
+
+PR #2 is merged; the original Blender MVP is finished. The current creative
+review is the separate **36.2-second social V3** on draft PR #3:
+https://github.com/robdin/fitness/pull/3 (`codex/openart-social-v2`).
+
+The user approved the first, deeper Fish voice delivery and requested research
+on Shorts/Reels pace and visualizations, followed by an assembled revision.
+V3 uses that delivery at 175.18 narration WPM, exact JavaScript diagrams, existing
+MiniMax/Seedance footage, 17 word-timed captions and quiet original music.
+No additional OpenArt generation credits were spent. No social upload occurred.
+
+Read `examples/openart-social-v3/README.md` and
+`docs/VIDEO_PACING_AND_VISUAL_RESEARCH_2026-10-21.md` on the PR branch. The MP4,
+subtitles, poster and complete source ZIP are delivered in the project conversation.
+The source package includes the exact voice WAV and selected OpenArt clips, so
+there is no need to regenerate speech or rebuild Blender to reproduce the edit.
+Credentials are not retained in the repository or source package.
+
+The research found no universal proven WPM optimum for fitness Shorts/Reels.
+The working pace is an editorial hypothesis, supported by synchronized visuals
+and readable captions; audience performance remains untested. Review this actual
+V3 before making further creative changes. The historical MVP handoff follows.
+
 Repository: https://github.com/robdin/fitness
 Pull request: https://github.com/robdin/fitness/pull/2
 Branch: codex/blender-mvp (use main after PR #2 is merged).

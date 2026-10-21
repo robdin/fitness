@@ -1,0 +1,29 @@
+{
+  "episode": "Rep & Reason / time audit / social V3",
+  "duration": 36.2,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frame_count": 1086,
+  "word_count": 103,
+  "voice_wpm": 175.17727396605184,
+  "overall_wpm": 170.71823204419888,
+  "caption_count": 17,
+  "audio_model": "s2.1-pro-free",
+  "audio_delivery": "approved deeper take, no emotion tags, no pitch or speed change",
+  "video_sha256": "e256bf2b9d56b2d815235ce09245a540ecb89eaa47b6e77c8177183f858a28cd",
+  "voice_sha256": "8290844881739f5cf3a49bb4d249de546e885768122d726dedb08b658df79ee2",
+  "original_mvp_sha256": "350a6b3439cf1034a5e8bb6a8fe947b9df23d344ec8b8ae94a1d4c9a142ab947",
+  "additional_openart_generation_credits": 0,
+  "public_upload": false,
+  "renderer": {
+    "canvas": "@napi-rs/canvas 0.1.100",
+    "node": "v24.19.0",
+    "chunks": "150 frames, separate process per chunk, copy-concatenation"
+  },
+  "script_sha256": {
+    "render_social_v3.cjs": "d36d44ec2b831e893aa9f7b4872611380734dbdb8ba1f2c6b966f06fd4d3273a",
+    "prepare_social_v3.py": "708666ae2f08e77c8a63e09c527bd469146b2cb9f4d4186cfea424258cc07397",
+    "assemble_social_v3.py": "88aba7c8cb9f431cd7c1a8020ef9bb73bd100cb9a68b15267694b68d6f94bd9c"
+  }
+}

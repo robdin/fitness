@@ -1,0 +1,1030 @@
+{
+  "episode": "Rep & Reason / time audit / social V3",
+  "fps": 30,
+  "duration": 36.2,
+  "scenes": [
+    {
+      "id": "hook",
+      "cue_indices": [
+        0,
+        1
+      ],
+      "start": 0,
+      "end": 3.38
+    },
+    {
+      "id": "audit",
+      "cue_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "start": 3.38,
+      "end": 12.58
+    },
+    {
+      "id": "friction",
+      "cue_indices": [
+        6,
+        7,
+        8
+      ],
+      "start": 12.58,
+      "end": 18.926848072562358
+    },
+    {
+      "id": "rest",
+      "cue_indices": [
+        9,
+        10,
+        11
+      ],
+      "start": 18.926848072562358,
+      "end": 25.32684807256236
+    },
+    {
+      "id": "action",
+      "cue_indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "start": 25.32684807256236,
+      "end": 33.56684807256235
+    },
+    {
+      "id": "close",
+      "cue_indices": [
+        16
+      ],
+      "start": 33.56684807256235,
+      "end": 36.2
+    }
+  ],
+  "cues": [
+    {
+      "text": "Your workout took an hour.",
+      "spoken_start": 0.12,
+      "spoken_end": 1.48,
+      "scene": "hook",
+      "start": 0.01999999999999999,
+      "end": 1.54,
+      "lines": [
+        "Your workout took an hour."
+      ],
+      "cps": 17.105263157894736
+    },
+    {
+      "text": "But where did that hour go?",
+      "spoken_start": 1.6400000000000001,
+      "spoken_end": 3.08,
+      "scene": "hook",
+      "start": 1.54,
+      "end": 3.33,
+      "lines": [
+        "But where did that hour go?"
+      ],
+      "cps": 15.083798882681563
+    },
+    {
+      "text": "An hour in the gym is not an hour of lifting.",
+      "spoken_start": 3.48,
+      "spoken_end": 5.8,
+      "scene": "audit",
+      "start": 3.38,
+      "end": 6.05,
+      "lines": [
+        "An hour in the gym",
+        "is not an hour of lifting."
+      ],
+      "cps": 16.853932584269664
+    },
+    {
+      "text": "In this made-up example: fifteen minutes lifting.",
+      "spoken_start": 6.2,
+      "spoken_end": 8.84,
+      "scene": "audit",
+      "start": 6.1000000000000005,
+      "end": 8.98,
+      "lines": [
+        "In this made-up example:",
+        "fifteen minutes lifting."
+      ],
+      "cps": 17.01388888888889
+    },
+    {
+      "text": "Twenty-five resting. Eight setting up.",
+      "spoken_start": 9.08,
+      "spoken_end": 11.319999999999999,
+      "scene": "audit",
+      "start": 8.98,
+      "end": 11.299999999999999,
+      "lines": [
+        "Twenty-five resting.",
+        "Eight setting up."
+      ],
+      "cps": 16.379310344827598
+    },
+    {
+      "text": "And twelve waiting.",
+      "spoken_start": 11.399999999999999,
+      "spoken_end": 12.36,
+      "scene": "audit",
+      "start": 11.299999999999999,
+      "end": 12.58,
+      "lines": [
+        "And twelve waiting."
+      ],
+      "cps": 14.843749999999988
+    },
+    {
+      "text": "Those are four different problems.",
+      "spoken_start": 12.68,
+      "spoken_end": 14.2,
+      "scene": "friction",
+      "start": 12.58,
+      "end": 14.34,
+      "lines": [
+        "Those are four different problems."
+      ],
+      "cps": 19.31818181818182
+    },
+    {
+      "text": "Start with a delay you can actually change.",
+      "spoken_start": 14.44,
+      "spoken_end": 16.44,
+      "scene": "friction",
+      "start": 14.34,
+      "end": 16.69,
+      "lines": [
+        "Start with a delay you can",
+        "actually change."
+      ],
+      "cps": 18.29787234042552
+    },
+    {
+      "text": "Like repeated trips for equipment.",
+      "spoken_start": 16.94684807256236,
+      "spoken_end": 18.62684807256236,
+      "scene": "friction",
+      "start": 16.84684807256236,
+      "end": 18.87684807256236,
+      "lines": [
+        "Like repeated trips for equipment."
+      ],
+      "cps": 16.748768472906395
+    },
+    {
+      "text": "A time audit is not a reason",
+      "spoken_start": 19.02684807256236,
+      "spoken_end": 20.62684807256236,
+      "scene": "rest",
+      "start": 18.926848072562358,
+      "end": 20.60684807256236,
+      "lines": [
+        "A time audit is not a reason"
+      ],
+      "cps": 16.666666666666636
+    },
+    {
+      "text": "to rush every rest period.",
+      "spoken_start": 20.706848072562362,
+      "spoken_end": 22.06684807256236,
+      "scene": "rest",
+      "start": 20.60684807256236,
+      "end": 22.28684807256236,
+      "lines": [
+        "to rush every rest period."
+      ],
+      "cps": 15.476190476190478
+    },
+    {
+      "text": "The biggest block is not automatically the problem.",
+      "spoken_start": 22.386848072562362,
+      "spoken_end": 25.026848072562363,
+      "scene": "rest",
+      "start": 22.28684807256236,
+      "end": 25.276848072562363,
+      "lines": [
+        "The biggest block is not",
+        "automatically the problem."
+      ],
+      "cps": 17.056856187290958
+    },
+    {
+      "text": "For one session, log the four buckets.",
+      "spoken_start": 25.42684807256236,
+      "spoken_end": 27.66684807256236,
+      "scene": "action",
+      "start": 25.32684807256236,
+      "end": 27.806848072562357,
+      "lines": [
+        "For one session,",
+        "log the four buckets."
+      ],
+      "cps": 15.32258064516131
+    },
+    {
+      "text": "Make one practical change.",
+      "spoken_start": 27.906848072562358,
+      "spoken_end": 29.346848072562363,
+      "scene": "action",
+      "start": 27.806848072562357,
+      "end": 29.486848072562356,
+      "lines": [
+        "Make one practical change."
+      ],
+      "cps": 15.476190476190478
+    },
+    {
+      "text": "Then compare the next session.",
+      "spoken_start": 29.586848072562358,
+      "spoken_end": 30.86684807256236,
+      "scene": "action",
+      "start": 29.486848072562356,
+      "end": 31.11684807256236,
+      "lines": [
+        "Then compare the next session."
+      ],
+      "cps": 18.404907975460095
+    },
+    {
+      "text": "Measure the friction before you rewrite the plan.",
+      "spoken_start": 31.26684807256236,
+      "spoken_end": 33.506848072562356,
+      "scene": "action",
+      "start": 31.11684807256236,
+      "end": 33.56684807256235,
+      "lines": [
+        "Measure the friction",
+        "before you rewrite the plan."
+      ],
+      "cps": 20.000000000000064
+    },
+    {
+      "text": "Know why. Train better.",
+      "spoken_start": 33.66684807256235,
+      "spoken_end": 35.38308390022675,
+      "scene": "close",
+      "start": 33.56684807256235,
+      "end": 35.63308390022675,
+      "lines": [
+        "Know why. Train better."
+      ],
+      "cps": 11.131352816584537
+    }
+  ],
+  "words": [
+    {
+      "text": "Your",
+      "start": 0.12,
+      "end": 0.28,
+      "a": 0,
+      "b": 4
+    },
+    {
+      "text": "workout",
+      "start": 0.28,
+      "end": 0.68,
+      "a": 4,
+      "b": 11
+    },
+    {
+      "text": "took",
+      "start": 0.68,
+      "end": 0.92,
+      "a": 11,
+      "b": 15
+    },
+    {
+      "text": "an",
+      "start": 0.92,
+      "end": 1.0,
+      "a": 15,
+      "b": 17
+    },
+    {
+      "text": "hour",
+      "start": 1.0,
+      "end": 1.48,
+      "a": 17,
+      "b": 21
+    },
+    {
+      "text": "But",
+      "start": 1.6400000000000001,
+      "end": 1.7999999999999998,
+      "a": 21,
+      "b": 24
+    },
+    {
+      "text": "where",
+      "start": 1.7999999999999998,
+      "end": 2.04,
+      "a": 24,
+      "b": 29
+    },
+    {
+      "text": "did",
+      "start": 2.04,
+      "end": 2.2,
+      "a": 29,
+      "b": 32
+    },
+    {
+      "text": "that",
+      "start": 2.2,
+      "end": 2.44,
+      "a": 32,
+      "b": 36
+    },
+    {
+      "text": "hour",
+      "start": 2.44,
+      "end": 2.68,
+      "a": 36,
+      "b": 40
+    },
+    {
+      "text": "go",
+      "start": 2.68,
+      "end": 3.08,
+      "a": 40,
+      "b": 42
+    },
+    {
+      "text": "An",
+      "start": 3.48,
+      "end": 3.56,
+      "a": 42,
+      "b": 44
+    },
+    {
+      "text": "hour",
+      "start": 3.56,
+      "end": 3.88,
+      "a": 44,
+      "b": 48
+    },
+    {
+      "text": "in",
+      "start": 3.88,
+      "end": 3.96,
+      "a": 48,
+      "b": 50
+    },
+    {
+      "text": "the",
+      "start": 3.96,
+      "end": 4.04,
+      "a": 50,
+      "b": 53
+    },
+    {
+      "text": "gym",
+      "start": 4.04,
+      "end": 4.36,
+      "a": 53,
+      "b": 56
+    },
+    {
+      "text": "is",
+      "start": 4.36,
+      "end": 4.5200000000000005,
+      "a": 56,
+      "b": 58
+    },
+    {
+      "text": "not",
+      "start": 4.5200000000000005,
+      "end": 4.76,
+      "a": 58,
+      "b": 61
+    },
+    {
+      "text": "an",
+      "start": 4.76,
+      "end": 4.92,
+      "a": 61,
+      "b": 63
+    },
+    {
+      "text": "hour",
+      "start": 4.92,
+      "end": 5.16,
+      "a": 63,
+      "b": 67
+    },
+    {
+      "text": "of",
+      "start": 5.16,
+      "end": 5.32,
+      "a": 67,
+      "b": 69
+    },
+    {
+      "text": "lifting",
+      "start": 5.32,
+      "end": 5.8,
+      "a": 69,
+      "b": 76
+    },
+    {
+      "text": "In",
+      "start": 6.2,
+      "end": 6.28,
+      "a": 76,
+      "b": 78
+    },
+    {
+      "text": "this",
+      "start": 6.28,
+      "end": 6.5200000000000005,
+      "a": 78,
+      "b": 82
+    },
+    {
+      "text": "made",
+      "start": 6.5200000000000005,
+      "end": 6.68,
+      "a": 82,
+      "b": 86
+    },
+    {
+      "text": "up",
+      "start": 6.68,
+      "end": 6.84,
+      "a": 86,
+      "b": 88
+    },
+    {
+      "text": "example",
+      "start": 6.84,
+      "end": 7.5600000000000005,
+      "a": 88,
+      "b": 95
+    },
+    {
+      "text": "fifteen",
+      "start": 7.64,
+      "end": 8.04,
+      "a": 95,
+      "b": 102
+    },
+    {
+      "text": "minutes",
+      "start": 8.04,
+      "end": 8.36,
+      "a": 102,
+      "b": 109
+    },
+    {
+      "text": "lifting",
+      "start": 8.36,
+      "end": 8.84,
+      "a": 109,
+      "b": 116
+    },
+    {
+      "text": "Twenty",
+      "start": 9.08,
+      "end": 9.399999999999999,
+      "a": 116,
+      "b": 122
+    },
+    {
+      "text": "five",
+      "start": 9.399999999999999,
+      "end": 9.719999999999999,
+      "a": 122,
+      "b": 126
+    },
+    {
+      "text": "resting",
+      "start": 9.719999999999999,
+      "end": 10.2,
+      "a": 126,
+      "b": 133
+    },
+    {
+      "text": "Eight",
+      "start": 10.44,
+      "end": 10.68,
+      "a": 133,
+      "b": 138
+    },
+    {
+      "text": "setting",
+      "start": 10.68,
+      "end": 11.08,
+      "a": 138,
+      "b": 145
+    },
+    {
+      "text": "up",
+      "start": 11.08,
+      "end": 11.319999999999999,
+      "a": 145,
+      "b": 147
+    },
+    {
+      "text": "And",
+      "start": 11.399999999999999,
+      "end": 11.559999999999999,
+      "a": 147,
+      "b": 150
+    },
+    {
+      "text": "twelve",
+      "start": 11.559999999999999,
+      "end": 11.879999999999999,
+      "a": 150,
+      "b": 156
+    },
+    {
+      "text": "waiting",
+      "start": 11.879999999999999,
+      "end": 12.36,
+      "a": 156,
+      "b": 163
+    },
+    {
+      "text": "Those",
+      "start": 12.68,
+      "end": 12.92,
+      "a": 163,
+      "b": 168
+    },
+    {
+      "text": "are",
+      "start": 12.92,
+      "end": 12.92,
+      "a": 168,
+      "b": 171
+    },
+    {
+      "text": "four",
+      "start": 12.92,
+      "end": 13.239999999999998,
+      "a": 171,
+      "b": 175
+    },
+    {
+      "text": "different",
+      "start": 13.239999999999998,
+      "end": 13.559999999999999,
+      "a": 175,
+      "b": 184
+    },
+    {
+      "text": "problems",
+      "start": 13.559999999999999,
+      "end": 14.2,
+      "a": 184,
+      "b": 192
+    },
+    {
+      "text": "Start",
+      "start": 14.44,
+      "end": 14.76,
+      "a": 192,
+      "b": 197
+    },
+    {
+      "text": "with",
+      "start": 14.76,
+      "end": 14.84,
+      "a": 197,
+      "b": 201
+    },
+    {
+      "text": "a",
+      "start": 14.92,
+      "end": 14.92,
+      "a": 201,
+      "b": 202
+    },
+    {
+      "text": "delay",
+      "start": 14.92,
+      "end": 15.319999999999999,
+      "a": 202,
+      "b": 207
+    },
+    {
+      "text": "you",
+      "start": 15.319999999999999,
+      "end": 15.399999999999999,
+      "a": 207,
+      "b": 210
+    },
+    {
+      "text": "can",
+      "start": 15.399999999999999,
+      "end": 15.559999999999999,
+      "a": 210,
+      "b": 213
+    },
+    {
+      "text": "actually",
+      "start": 15.559999999999999,
+      "end": 15.959999999999999,
+      "a": 213,
+      "b": 221
+    },
+    {
+      "text": "change",
+      "start": 15.959999999999999,
+      "end": 16.44,
+      "a": 221,
+      "b": 227
+    },
+    {
+      "text": "Like",
+      "start": 16.94684807256236,
+      "end": 17.18684807256236,
+      "a": 227,
+      "b": 231
+    },
+    {
+      "text": "repeated",
+      "start": 17.18684807256236,
+      "end": 17.58684807256236,
+      "a": 231,
+      "b": 239
+    },
+    {
+      "text": "trips",
+      "start": 17.58684807256236,
+      "end": 17.90684807256236,
+      "a": 239,
+      "b": 244
+    },
+    {
+      "text": "for",
+      "start": 17.90684807256236,
+      "end": 18.06684807256236,
+      "a": 244,
+      "b": 247
+    },
+    {
+      "text": "equipment",
+      "start": 18.06684807256236,
+      "end": 18.62684807256236,
+      "a": 247,
+      "b": 256
+    },
+    {
+      "text": "A",
+      "start": 19.02684807256236,
+      "end": 19.02684807256236,
+      "a": 256,
+      "b": 257
+    },
+    {
+      "text": "time",
+      "start": 19.02684807256236,
+      "end": 19.42684807256236,
+      "a": 257,
+      "b": 261
+    },
+    {
+      "text": "audit",
+      "start": 19.42684807256236,
+      "end": 19.74684807256236,
+      "a": 261,
+      "b": 266
+    },
+    {
+      "text": "is",
+      "start": 19.74684807256236,
+      "end": 19.90684807256236,
+      "a": 266,
+      "b": 268
+    },
+    {
+      "text": "not",
+      "start": 19.90684807256236,
+      "end": 20.14684807256236,
+      "a": 268,
+      "b": 271
+    },
+    {
+      "text": "a",
+      "start": 20.14684807256236,
+      "end": 20.22684807256236,
+      "a": 271,
+      "b": 272
+    },
+    {
+      "text": "reason",
+      "start": 20.22684807256236,
+      "end": 20.62684807256236,
+      "a": 272,
+      "b": 278
+    },
+    {
+      "text": "to",
+      "start": 20.706848072562362,
+      "end": 20.706848072562362,
+      "a": 278,
+      "b": 280
+    },
+    {
+      "text": "rush",
+      "start": 20.706848072562362,
+      "end": 21.02684807256236,
+      "a": 280,
+      "b": 284
+    },
+    {
+      "text": "every",
+      "start": 21.02684807256236,
+      "end": 21.34684807256236,
+      "a": 284,
+      "b": 289
+    },
+    {
+      "text": "rest",
+      "start": 21.34684807256236,
+      "end": 21.66684807256236,
+      "a": 289,
+      "b": 293
+    },
+    {
+      "text": "period",
+      "start": 21.66684807256236,
+      "end": 22.06684807256236,
+      "a": 293,
+      "b": 299
+    },
+    {
+      "text": "The",
+      "start": 22.386848072562362,
+      "end": 22.54684807256236,
+      "a": 299,
+      "b": 302
+    },
+    {
+      "text": "biggest",
+      "start": 22.54684807256236,
+      "end": 22.94684807256236,
+      "a": 302,
+      "b": 309
+    },
+    {
+      "text": "block",
+      "start": 22.94684807256236,
+      "end": 23.26684807256236,
+      "a": 309,
+      "b": 314
+    },
+    {
+      "text": "is",
+      "start": 23.34684807256236,
+      "end": 23.50684807256236,
+      "a": 314,
+      "b": 316
+    },
+    {
+      "text": "not",
+      "start": 23.50684807256236,
+      "end": 23.82684807256236,
+      "a": 316,
+      "b": 319
+    },
+    {
+      "text": "automatically",
+      "start": 23.82684807256236,
+      "end": 24.46684807256236,
+      "a": 319,
+      "b": 332
+    },
+    {
+      "text": "the",
+      "start": 24.46684807256236,
+      "end": 24.54684807256236,
+      "a": 332,
+      "b": 335
+    },
+    {
+      "text": "problem",
+      "start": 24.54684807256236,
+      "end": 25.026848072562363,
+      "a": 335,
+      "b": 342
+    },
+    {
+      "text": "For",
+      "start": 25.42684807256236,
+      "end": 25.586848072562358,
+      "a": 342,
+      "b": 345
+    },
+    {
+      "text": "one",
+      "start": 25.586848072562358,
+      "end": 25.82684807256236,
+      "a": 345,
+      "b": 348
+    },
+    {
+      "text": "session",
+      "start": 25.82684807256236,
+      "end": 26.386848072562362,
+      "a": 348,
+      "b": 355
+    },
+    {
+      "text": "log",
+      "start": 26.46684807256236,
+      "end": 26.78684807256236,
+      "a": 355,
+      "b": 358
+    },
+    {
+      "text": "the",
+      "start": 26.78684807256236,
+      "end": 26.86684807256236,
+      "a": 358,
+      "b": 361
+    },
+    {
+      "text": "four",
+      "start": 26.86684807256236,
+      "end": 27.10684807256236,
+      "a": 361,
+      "b": 365
+    },
+    {
+      "text": "buckets",
+      "start": 27.10684807256236,
+      "end": 27.66684807256236,
+      "a": 365,
+      "b": 372
+    },
+    {
+      "text": "Make",
+      "start": 27.906848072562358,
+      "end": 28.14684807256236,
+      "a": 372,
+      "b": 376
+    },
+    {
+      "text": "one",
+      "start": 28.14684807256236,
+      "end": 28.386848072562362,
+      "a": 376,
+      "b": 379
+    },
+    {
+      "text": "practical",
+      "start": 28.386848072562362,
+      "end": 28.86684807256236,
+      "a": 379,
+      "b": 388
+    },
+    {
+      "text": "change",
+      "start": 28.86684807256236,
+      "end": 29.346848072562363,
+      "a": 388,
+      "b": 394
+    },
+    {
+      "text": "Then",
+      "start": 29.586848072562358,
+      "end": 29.74684807256236,
+      "a": 394,
+      "b": 398
+    },
+    {
+      "text": "compare",
+      "start": 29.74684807256236,
+      "end": 30.06684807256236,
+      "a": 398,
+      "b": 405
+    },
+    {
+      "text": "the",
+      "start": 30.06684807256236,
+      "end": 30.14684807256236,
+      "a": 405,
+      "b": 408
+    },
+    {
+      "text": "next",
+      "start": 30.14684807256236,
+      "end": 30.46684807256236,
+      "a": 408,
+      "b": 412
+    },
+    {
+      "text": "session",
+      "start": 30.46684807256236,
+      "end": 30.86684807256236,
+      "a": 412,
+      "b": 419
+    },
+    {
+      "text": "Measure",
+      "start": 31.26684807256236,
+      "end": 31.586848072562358,
+      "a": 419,
+      "b": 426
+    },
+    {
+      "text": "the",
+      "start": 31.586848072562358,
+      "end": 31.66684807256236,
+      "a": 426,
+      "b": 429
+    },
+    {
+      "text": "friction",
+      "start": 31.66684807256236,
+      "end": 32.06684807256236,
+      "a": 429,
+      "b": 437
+    },
+    {
+      "text": "before",
+      "start": 32.06684807256236,
+      "end": 32.46684807256236,
+      "a": 437,
+      "b": 443
+    },
+    {
+      "text": "you",
+      "start": 32.46684807256236,
+      "end": 32.62684807256236,
+      "a": 443,
+      "b": 446
+    },
+    {
+      "text": "rewrite",
+      "start": 32.62684807256236,
+      "end": 33.02684807256235,
+      "a": 446,
+      "b": 453
+    },
+    {
+      "text": "the",
+      "start": 33.02684807256235,
+      "end": 33.02684807256235,
+      "a": 453,
+      "b": 456
+    },
+    {
+      "text": "plan",
+      "start": 33.02684807256235,
+      "end": 33.506848072562356,
+      "a": 456,
+      "b": 460
+    },
+    {
+      "text": "Know",
+      "start": 33.66684807256235,
+      "end": 33.98684807256236,
+      "a": 460,
+      "b": 464
+    },
+    {
+      "text": "why",
+      "start": 33.98684807256236,
+      "end": 34.146848072562356,
+      "a": 464,
+      "b": 467
+    },
+    {
+      "text": "Train",
+      "start": 34.74308390022675,
+      "end": 34.98308390022675,
+      "a": 467,
+      "b": 472
+    },
+    {
+      "text": "better",
+      "start": 34.98308390022675,
+      "end": 35.38308390022675,
+      "a": 472,
+      "b": 478
+    }
+  ],
+  "markers": {
+    "lifting": 7.64,
+    "rest": 9.08,
+    "setup": 10.44,
+    "waiting": 11.559999999999999
+  },
+  "voice_lead": 0.12,
+  "word_count": 103,
+  "voice_wpm": 175.17727396605184,
+  "overall_wpm": 170.71823204419888,
+  "example": "15 + 25 + 8 + 12 = 60 invented minutes; not measured data",
+  "voice_model": "Fish s2.1-pro-free",
+  "delivery": "approved deeper take; unchanged pitch and speed",
+  "public_upload": false
+}
