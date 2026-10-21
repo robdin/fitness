@@ -1,0 +1,37 @@
+{
+  "project_id": "M1ohGPOCnik4u3Bn0q8m",
+  "selected": [
+    "minimax",
+    "seedance"
+  ],
+  "sources": [
+    {
+      "file": ".local/openart-v2/minimax.mp4",
+      "history_id": "FmNfzPL7eLzcWKXbFvsf",
+      "resource_id": "qlo6NrRVcJDjGtaHkLHr",
+      "bytes": 5869828,
+      "sha256": "7658aaf9d23148554622af6ac420c4a0e9c399216736405e5ef4616d5b0ee615"
+    },
+    {
+      "file": ".local/openart-v2/gemini.mp4",
+      "history_id": "CyvAN4OI938E9mBD02qR",
+      "resource_id": "8CIZgvASkc3QWYbOKjkm",
+      "bytes": 23015848,
+      "sha256": "550e6b64178691dee21b420cd6accc3dee1d0de04877046fcba70088532c7de2"
+    },
+    {
+      "file": ".local/openart-v2/wan.mp4",
+      "history_id": "aVq2PCVe7xj0KJoJf9ja",
+      "resource_id": "94hZ2cItOVJhtGd2wLjo",
+      "bytes": 17364679,
+      "sha256": "71dce21a972183d4008ad56b184cc97a4fa3d6f421fa9578283a136a4b705715"
+    },
+    {
+      "file": ".local/openart-v2/seedance.mp4",
+      "history_id": "rtZkAyHLaPmoRZl1rWKT",
+      "resource_id": "S8bghXDskNjOBEJ0qhdj",
+      "bytes": 18129241,
+      "sha256": "faab91197bccca6f25ecdfd737ada60fb95c82e964c4e0674fd56d2c6745ec87"
+    }
+  ]
+}

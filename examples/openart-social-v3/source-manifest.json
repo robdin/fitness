@@ -1,0 +1,23 @@
+{
+  "project_id": "M1ohGPOCnik4u3Bn0q8m",
+  "selected": [
+    "minimax",
+    "seedance"
+  ],
+  "sources": [
+    {
+      "file": ".local/openart-v2/minimax.mp4",
+      "history_id": "FmNfzPL7eLzcWKXbFvsf",
+      "resource_id": "qlo6NrRVcJDjGtaHkLHr",
+      "bytes": 5869828,
+      "sha256": "7658aaf9d23148554622af6ac420c4a0e9c399216736405e5ef4616d5b0ee615"
+    },
+    {
+      "file": ".local/openart-v2/seedance.mp4",
+      "history_id": "rtZkAyHLaPmoRZl1rWKT",
+      "resource_id": "S8bghXDskNjOBEJ0qhdj",
+      "bytes": 18129241,
+      "sha256": "faab91197bccca6f25ecdfd737ada60fb95c82e964c4e0674fd56d2c6745ec87"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "episode": "Rep & Reason / time audit / social v2",
+  "fps": 30,
+  "duration": 41.0667,
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 3.5,
+      "duration": 3.5,
+      "source_start": 0.31999999999999995,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 1.5861,
+          "text": "Your workout took an hour."
+        },
+        {
+          "start": 1.7361,
+          "end": 3.2338,
+          "text": "But where did that hour go?"
+        }
+      ],
+      "clip": "minimax",
+      "source_video_seconds": 3.5
+    },
+    {
+      "id": "audit",
+      "start": 3.5,
+      "end": 14.066666666666666,
+      "duration": 10.566666666666666,
+      "source_start": 6.32,
+      "cues": [
+        {
+          "start": 3.6,
+          "end": 6.4329,
+          "text": "An hour in the gym is not an hour of lifting."
+        },
+        {
+          "start": 6.5829,
+          "end": 9.9265,
+          "text": "In this made-up example: fifteen minutes lifting."
+        },
+        {
+          "start": 10.0765,
+          "end": 12.5843,
+          "text": "Twenty-five resting. Eight setting up."
+        },
+        {
+          "start": 12.7343,
+          "end": 13.7908,
+          "text": "And twelve waiting."
+        }
+      ]
+    },
+    {
+      "id": "friction",
+      "start": 14.066666666666666,
+      "end": 21.733333333333334,
+      "duration": 7.666666666666667,
+      "source_start": 18.32,
+      "cues": [
+        {
+          "start": 14.1667,
+          "end": 16.3146,
+          "text": "Those are four different problems."
+        },
+        {
+          "start": 16.4646,
+          "end": 19.3322,
+          "text": "Start with a delay you can actually change."
+        },
+        {
+          "start": 19.4822,
+          "end": 21.4791,
+          "text": "Like repeated trips for equipment."
+        }
+      ]
+    },
+    {
+      "id": "rest",
+      "start": 21.733333333333334,
+      "end": 29.400000000000002,
+      "duration": 7.666666666666667,
+      "source_start": 27.32,
+      "cues": [
+        {
+          "start": 21.8333,
+          "end": 23.9115,
+          "text": "A time audit is not a reason"
+        },
+        {
+          "start": 24.0615,
+          "end": 26.1049,
+          "text": "to rush every rest period."
+        },
+        {
+          "start": 26.2549,
+          "end": 29.1458,
+          "text": "The biggest block is not automatically the problem."
+        }
+      ],
+      "clip": "seedance",
+      "source_video_seconds": 4.8
+    },
+    {
+      "id": "action",
+      "start": 29.400000000000002,
+      "end": 38.766666666666666,
+      "duration": 9.366666666666667,
+      "source_start": 36.32,
+      "cues": [
+        {
+          "start": 29.5,
+          "end": 32.2167,
+          "text": "For one session, log the four buckets."
+        },
+        {
+          "start": 32.3667,
+          "end": 34.0734,
+          "text": "Make one practical change."
+        },
+        {
+          "start": 34.2234,
+          "end": 35.9765,
+          "text": "Then compare the next session."
+        },
+        {
+          "start": 36.1265,
+          "end": 38.4834,
+          "text": "Measure the friction before you rewrite the plan."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "start": 38.766666666666666,
+      "end": 41.06666666666666,
+      "duration": 2.3,
+      "source_start": 47.32,
+      "cues": [
+        {
+          "start": 38.8667,
+          "end": 40.3528,
+          "text": "Know why. Train better."
+        }
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.1,
+      "end": 1.5861,
+      "text": "Your workout took an hour."
+    },
+    {
+      "start": 1.7361,
+      "end": 3.2338,
+      "text": "But where did that hour go?"
+    },
+    {
+      "start": 3.6,
+      "end": 6.4329,
+      "text": "An hour in the gym is not an hour of lifting."
+    },
+    {
+      "start": 6.5829,
+      "end": 9.9265,
+      "text": "In this made-up example: fifteen minutes lifting."
+    },
+    {
+      "start": 10.0765,
+      "end": 12.5843,
+      "text": "Twenty-five resting. Eight setting up."
+    },
+    {
+      "start": 12.7343,
+      "end": 13.7908,
+      "text": "And twelve waiting."
+    },
+    {
+      "start": 14.1667,
+      "end": 16.3146,
+      "text": "Those are four different problems."
+    },
+    {
+      "start": 16.4646,
+      "end": 19.3322,
+      "text": "Start with a delay you can actually change."
+    },
+    {
+      "start": 19.4822,
+      "end": 21.4791,
+      "text": "Like repeated trips for equipment."
+    },
+    {
+      "start": 21.8333,
+      "end": 23.9115,
+      "text": "A time audit is not a reason"
+    },
+    {
+      "start": 24.0615,
+      "end": 26.1049,
+      "text": "to rush every rest period."
+    },
+    {
+      "start": 26.2549,
+      "end": 29.1458,
+      "text": "The biggest block is not automatically the problem."
+    },
+    {
+      "start": 29.5,
+      "end": 32.2167,
+      "text": "For one session, log the four buckets."
+    },
+    {
+      "start": 32.3667,
+      "end": 34.0734,
+      "text": "Make one practical change."
+    },
+    {
+      "start": 34.2234,
+      "end": 35.9765,
+      "text": "Then compare the next session."
+    },
+    {
+      "start": 36.1265,
+      "end": 38.4834,
+      "text": "Measure the friction before you rewrite the plan."
+    },
+    {
+      "start": 38.8667,
+      "end": 40.3528,
+      "text": "Know why. Train better."
+    }
+  ],
+  "narration": "Existing synthetic MVP narration, no voice cloning",
+  "example": "15 + 25 + 8 + 12 = 60 invented minutes; not measured data",
+  "public_upload": false
+}

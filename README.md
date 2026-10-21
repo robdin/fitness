@@ -6,6 +6,8 @@ A working, local-first foundation for an evidence-led fitness content business. 
 
 ## Start here
 
+- [Current Codex handoff](docs/CODEX_HANDOFF.md): the finished 36.2-second V3 social cut, approved deeper voice, research, source-media recovery and continuation instructions.
+
 - [Narrated Blender MVP](examples/blender-mvp/README.md): a complete vertical video with animated 3D visuals, captions, original sound and editable sources.
 - [Rep & Reason brand brief](brand/README.md): recovered creative decisions and [recovery limits](brand/RECOVERY_STATUS.md).
 

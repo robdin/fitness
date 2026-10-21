@@ -1,0 +1,27 @@
+{
+  "full_mp4_decode": "passed",
+  "frames": 1086,
+  "duration_seconds": 36.2,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "subtitle_cues": 17,
+  "subtitle_bounds_and_overlap": "passed",
+  "max_caption_lines": 2,
+  "max_caption_line_characters": 34,
+  "max_caption_cps": 20.0,
+  "word_alignment_script_match": "passed after punctuation/hyphen normalization; provider alignment, not independent ASR",
+  "audio_integrated_lufs": -16.55,
+  "audio_true_peak_dbtp": -2.57,
+  "audio_loudness_range_lu": 2.4,
+  "visual_qa": "12 storyboard frames and decoded final audit frame inspected",
+  "example_tile_count": 60,
+  "bucket_tile_counts": [
+    15,
+    25,
+    8,
+    12
+  ],
+  "original_mvp_unchanged": true,
+  "additional_openart_generation_credits": 0
+}
