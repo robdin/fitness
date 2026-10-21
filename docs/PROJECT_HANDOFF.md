@@ -1,5 +1,9 @@
 # Continue the fitness MVP
 
+For the comprehensive current continuation guide, start with
+[CODEX_HANDOFF.md](CODEX_HANDOFF.md). It covers the V3 review cut, media recovery,
+approved voice, research, build commands, verification and remaining work.
+
 ## Latest continuation — 21 October 2026
 
 PR #2 is merged; the original Blender MVP is finished. The current creative
