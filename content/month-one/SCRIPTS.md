@@ -145,9 +145,9 @@ Expected answer: The specific goal, task, setup and constraints.
 
 ## M07 — Eight people. Sixteen legs. Which sample size?
 
-2026-11-12 · evidence · 71 words
+2026-11-12 · evidence · 70 words
 
-Eight people. Sixteen legs. Is that a study of sixteen people? No. A nine-week study tested a lunge with one leg and a leg press with the other. The participants were eight young, previously untrained women. The researchers reported comparable muscle growth in the measured thigh regions. That does not establish that every machine and free-weight exercise is equivalent. Check who was studied and what was compared before applying the headline.
+Eight people. Sixteen legs. Is that a study of sixteen people? No. A nine-week study tested a lunge with one leg and a leg press with the other. The participants were eight young, previously untrained women. The researchers reported comparable muscle growth in the measured thigh regions. That does not establish that every machine and free-weight exercise is equivalent. Look at the participants and the comparison before applying the headline.
 
 Visual: sample. Takeaway: A within-person study can compare limbs without having twice as many independent participants.
 

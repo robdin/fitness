@@ -14,6 +14,24 @@ import wave
 from pathlib import Path
 from month_one_core import ROOT, load_episodes, script, normalized, alignment_words, digest
 
+def finalize_stream_wav(source, target):
+    """Finalize a streaming WAV header without changing any PCM samples."""
+    pcm_bytes=0
+    with wave.open(str(source),'rb') as reader:
+        if reader.getframerate()!=44100 or reader.getnchannels()!=1 or reader.getsampwidth()!=2:
+            raise RuntimeError('Unexpected audio format')
+        reported_frames=reader.getnframes()
+        with wave.open(str(target),'wb') as writer:
+            # Streaming sentinels can overflow RIFF's 32-bit size field.
+            # Let the seekable writer calculate the real count from PCM bytes.
+            writer.setparams(reader.getparams()._replace(nframes=0))
+            while block:=reader.readframes(65536):
+                if len(block)%2: raise RuntimeError('Incomplete PCM sample')
+                writer.writeframesraw(block); pcm_bytes+=len(block)
+    if not pcm_bytes: raise RuntimeError('Empty audio stream')
+    return {'duration':pcm_bytes/2/44100,'provider_header_frames':reported_frames,
+            'finalized_frames':pcm_bytes//2,'provider_stream_sha256':digest(source)}
+
 def read_key():
     key=os.environ.get('FISH_API_KEY','').strip()
     local=ROOT/'.local/fish.env'
@@ -61,17 +79,19 @@ def generate(episode,key,profile,model):
         if not chunks or not partial.stat().st_size: raise RuntimeError('Incomplete response')
         if ''.join(normalized(w['text']) for w in alignment_words(chunks))!=normalized(text):
             raise RuntimeError('Alignment does not match the script')
-        with wave.open(str(partial)) as audio:
-            if audio.getframerate()!=44100: raise RuntimeError('Unexpected audio sample rate')
-            duration=audio.getnframes()/audio.getframerate()
-        partial.replace(out/'narration.wav')
+        finalized=out/'narration.finalized.wav'
+        audio_meta=finalize_stream_wav(partial,finalized)
+        if alignment_words(chunks,lead=0)[-1]['end']>audio_meta['duration']+.05:
+            raise RuntimeError('Alignment exceeds decoded audio')
+        finalized.replace(out/'narration.wav'); partial.unlink()
         (out/'alignment.json').write_text(json.dumps(chunks,indent=2)+'\n')
-        meta.update(status='complete',duration=duration,events=events,elapsed_seconds=time.time()-meta['started_unix'],
+        meta.update(status='complete',**audio_meta,events=events,elapsed_seconds=time.time()-meta['started_unix'],
                     audio_sha256=digest(out/'narration.wav'),alignment_sha256=digest(out/'alignment.json'))
         receipt.write_text(json.dumps(meta,indent=2)+'\n')
-        print(json.dumps({'id':episode['id'],'status':'complete','duration':round(duration,2)}),flush=True)
+        print(json.dumps({'id':episode['id'],'status':'complete','duration':round(audio_meta['duration'],2)}),flush=True)
     except Exception as error:
         meta.update(status='unresolved',error_type=type(error).__name__)
+        if isinstance(error,urllib.error.HTTPError): meta['http_status']=error.code
         receipt.write_text(json.dumps(meta,indent=2)+'\n')
         # Do not print provider bodies/headers, request objects or credential values.
         raise RuntimeError(f"{episode['id']}: {type(error).__name__}; reconcile before retry") from None

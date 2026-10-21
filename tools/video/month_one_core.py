@@ -54,6 +54,27 @@ def alignment_words(alignment, lead=.12):
             position+=size
     return words
 
+def fit_caption_timing(captions,duration,max_cps=20,slack=.45):
+    """Borrow nearby reading time with bounded displacement from spoken words.
+
+    Interior boundaries stay within 450 ms of the adjoining spoken edges.
+    No overlapping cues, changed speech, deleted text or hidden rate exceptions.
+    """
+    required=[len(c['text'])/max_cps for c in captions]; n=len(captions)
+    lower=[0]+[max(0,c['spoken_start']-slack) for c in captions[1:]]+[duration]
+    upper=[0]+[min(duration,captions[i-1]['spoken_end']+slack) for i in range(1,n)]+[duration]
+    for i in range(1,n+1):lower[i]=max(lower[i],lower[i-1]+required[i-1])
+    for i in range(n-1,-1,-1):upper[i]=min(upper[i],upper[i+1]-required[i])
+    if any(a>b+.000001 for a,b in zip(lower,upper)):
+        raise ValueError('Caption reading speed cannot fit within speech synchronization limits')
+    boundaries=[0]
+    for i in range(1,n):
+        preferred=(captions[i-1]['spoken_end']+captions[i]['spoken_start'])/2
+        boundaries.append(max(lower[i],boundaries[-1]+required[i-1],min(preferred,upper[i])))
+    boundaries.append(duration)
+    for i,c in enumerate(captions):
+        c.update(start=boundaries[i],end=boundaries[i+1],cps=len(c['text'])/(boundaries[i+1]-boundaries[i]))
+
 def make_timeline(episode, alignment=None, voice_duration=None):
     words=alignment_words(alignment) if alignment else []
     if words and normalized(script(episode))!=''.join(normalized(w['text']) for w in words):
@@ -89,7 +110,11 @@ def make_timeline(episode, alignment=None, voice_duration=None):
         c['start']=max(floor,c['spoken_start']-.1)
         # Use available pre-roll only; never silently overlap adjacent captions.
         c['start']=max(floor,min(c['start'],c['end']-len(c['text'])/20))
+        # Use an unused trailing pause too, while preserving the next speech cue.
+        c['end']=min(next_start,max(c['end'],c['start']+len(c['text'])/20))
         c['cps']=len(c['text'])/max(.001,c['end']-c['start'])
+    if words and any(c['cps']>20.01 for c in captions):
+        fit_caption_timing(captions,duration)
     markers={}
     whole=normalized(script(episode))
     for token in ['fifteen','twentyfive','eight','twelve']:

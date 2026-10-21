@@ -2,11 +2,11 @@
 
 **Know why. Train better.**
 
-A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The current release includes **one narrated Blender MVP** and **three topics × two sequence variants**, with six earlier silent video prototypes. It has not published videos, recruited participants, generated sales or run a live A/B test.
+A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The latest review package contains **16 narrated month-one videos, two additional matched visual treatments, four carousels and eight story sequences**. Earlier Blender/V3 work and six silent prototypes are retained. It has not published videos, recruited participants, generated sales or run a live A/B test.
 
 ## Start here
 
-- [Month-one validation pilot](docs/MONTH_ONE.md): 30-day calendar, 16 scripts,
+- [Month-one validation pilot](docs/MONTH_ONE.md): 30-day calendar, 16 narrated videos,
   three visual treatments, supporting posts, reusable production tools and an
   audience-interest / 12-hour-per-week go/no-go protocol.
 

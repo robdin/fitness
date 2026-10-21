@@ -2,15 +2,49 @@ import copy
 import json
 import sys
 import unittest
+import tempfile
+import wave
+import struct
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools/video'))
-from month_one_core import load_episodes,make_timeline,normalized,script,caption_chunks
+from month_one_core import load_episodes,make_timeline,normalized,script,caption_chunks,fit_caption_timing
 from month_one_metrics import analyze
+from synthesize_month_one import finalize_stream_wav
 
 class MonthOneTests(unittest.TestCase):
     def setUp(self):
         self.plan=json.loads((ROOT/'experiments/month-one-v1.json').read_text())
+
+    def test_streaming_wav_header_finalized_without_changing_samples(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source=Path(directory)/'stream.wav'; target=Path(directory)/'final.wav'
+            samples=struct.pack('<4h',0,32767,-32768,1234)*100
+            with wave.open(str(source),'wb') as writer:
+                writer.setparams((1,2,44100,0,'NONE','not compressed'));writer.writeframes(samples)
+            raw=bytearray(source.read_bytes())
+            raw[4:8]=struct.pack('<I',0xffffffff);raw[40:44]=struct.pack('<I',0xfffffffe)
+            source.write_bytes(raw)
+            result=finalize_stream_wav(source,target)
+            self.assertEqual(result['finalized_frames'],400)
+            self.assertAlmostEqual(result['duration'],400/44100)
+            with wave.open(str(target)) as reader:
+                self.assertEqual(reader.getnframes(),400)
+                self.assertEqual(reader.readframes(1000),samples)
+
+    def test_caption_timing_borrows_pause_with_bounded_sync_and_fails_if_impossible(self):
+        captions=[{'text':'A short opening.', 'spoken_start':.12,'spoken_end':1.2},
+                  {'text':'This longer phrase needs more reading time.', 'spoken_start':1.5,'spoken_end':3.3},
+                  {'text':'Last line.', 'spoken_start':3.5,'spoken_end':4.2}]
+        fit_caption_timing(captions,5)
+        for i,c in enumerate(captions):
+            self.assertLessEqual(c['cps'],20.001)
+            if i:
+                self.assertAlmostEqual(c['start'],captions[i-1]['end'])
+                self.assertGreaterEqual(c['start'],c['spoken_start']-.450001)
+                self.assertLessEqual(c['start'],captions[i-1]['spoken_end']+.450001)
+        with self.assertRaisesRegex(ValueError,'cannot fit'):
+            fit_caption_timing(captions,1)
 
     def test_content_coverage_and_source_resolution(self):
         eps=load_episodes();self.assertEqual(len(eps),16)

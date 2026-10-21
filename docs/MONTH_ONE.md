@@ -14,11 +14,21 @@ Prepared 21 October 2026. The user's goal is **audience interest and a sustainab
 
 PR #3 was already merged when this work began. Main's verified merge commit is `dcba7ba079fb6b05ec1ebbb2e4cb9094b7a3f701`. This work branches from that baseline. The historical Blender MVP and V3 source files are preserved. The V3 MP4 and voice source ZIP were not found in the local folders searched, so this work does **not** claim a new full playback review of V3. Its existing renderer, retained timing, documentation and receipts informed the new implementation.
 
+## Current delivery
+
+All 16 core videos now have the existing approved studio voice. The review package also includes two additional M01 treatments, 20 carousel panels and 16 story frames. The three M01 treatments have identical encoded audio, script and timing. The review hub selects only exports whose retained checksum and script match. Human watch/listen review and a preview in each target uploader remain pending; nothing has been published.
+
+The retained [verification receipt](../examples/month-one/verification.json) records actual durations, file hashes, caption rates and audio levels. Fish accepted 17 synthesis requests: one for each episode and one deliberate M07 clarity revision. The first streaming WAV header was finalized from its retained PCM without another request. A regression test covers the header boundary; no audio samples, pitch or speed are changed by header finalization. Model billing has not been reconciled to an invoice.
+
+Independent local speech recognition checked all 16 tracks with `base.en`; `small.en` rechecked 12 tracks with ambiguous differences. Both initially struggled with M07's closing phrase “check who,” so the closing sentence was revised and its original recording retained. These are text comparisons, not a human listening audit. Minor article, inflection and number-format differences remain documented in `.local/month-one/audio-qa/` for listening review. No substantive quantitative claim is inferred from recognition alone.
+
+Final caption timing uses pauses around adjacent speech where needed, with interior boundaries displaced by at most 450 ms from the adjacent spoken edges. Captions retain the entire script, do not overlap and stay at or below 20 characters per second. A failure to fit remains an error rather than triggering speech acceleration.
+
 ## Creative hypotheses and actual experiments
 
 The first frame should pose a recognizable decision with an immediately readable visual. Larger graphics, short phrases, semantic reveals and contrasting quantities are proposed improvements; none is established as an audience winner.
 
-M01 has three treatments of the **same script and timing**: A compact static diagram, B a larger static diagram, and C the larger diagram with explanatory motion. When narrated, all three reuse the exact same WAV and caption timings. A/B changes the scale/layout package; B/C changes motion. A is a new control reconstruction, **not the historical V3**. Do not call A versus C an isolated size test.
+M01 has three treatments of the **same script and timing**: A compact static diagram, B a larger static diagram, and C the larger diagram with explanatory motion. All three reuse the exact same WAV and caption timings. A/B changes the scale/layout package; B/C changes motion. A is a new control reconstruction, **not the historical V3**. Do not call A versus C an isolated size test.
 
 The renderer uses twelve diagram families: countable time tiles, decisions, relative/absolute change, rest clocks, equipment routes, paired participants, time constraints, rescaled axes, log context, variable switches, study weeks and question checklists. Numerical labels are deterministic. The 15/25/8/12 allocation stays invented and sums to 60. Graph examples remain explicitly invented. The sample-size story depicts eight people, not sixteen independent participants.
 
@@ -60,11 +70,15 @@ New narration requires the current `FISH_API_KEY` environment variable or ignore
 .venv/bin/python tools/video/synthesize_month_one.py --generate
 .venv/bin/python tools/video/build_month_one.py
 .venv/bin/python tools/video/package_month_one.py
+.venv/bin/python tools/video/verify_month_one.py
+.venv/bin/python tools/video/archive_month_one.py
 ```
 
 Synthesis is resumable and binds each receipt to the exact script. A started/unresolved request blocks automatic retries; reconcile its provider state first. Completed matching outputs are reused. No pitch shifting or speech time compression is applied. Changed scripts need new recordings and matching alignments. Explicit `--allow-silent` creates visibly labeled draft videos only; they are not narrated release masters.
 
 Media validation checks full decode, expected frame count, actual output duration, script/alignment equality, two-line captions, reading speed, core-text bounds and audio level where present. Source/provider alignment is not independent recognition or a human listening audit. The tools do not attest creative or publication approval. Each final asset still needs the operator's complete watch/listen review and target-uploader preview.
+
+Optional independent ASR uses locally cached models and FFmpeg-decoded PCM to avoid a PyAV API mismatch. Install `faster-whisper` separately and deliberately cache the selected model before running `tools/video/check_month_one_audio.py`. The check does not upload narration or automatically download models. Retained transcripts and the superseded M07 version are included in the source archive. API credentials and private profile configuration are excluded.
 
 ```bash
 .venv/bin/python -m fitness_os check

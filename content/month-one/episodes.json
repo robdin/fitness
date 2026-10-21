@@ -105,7 +105,7 @@
         ["sample", "The participants were eight young, previously untrained women."],
         ["result", "The researchers reported comparable muscle growth in the measured thigh regions."],
         ["caveat", "That does not establish that every machine and free-weight exercise is equivalent."],
-        ["close", "Check who was studied and what was compared before applying the headline."]
+        ["close", "Look at the participants and the comparison before applying the headline."]
       ],
       "cta": "Count people, then check the comparison.", "comment_prompt": "What do you check first in a study: people, comparison, or outcome?",
       "disclosure": "Amanuma et al. 2025; 8 women, 9 weeks, within-person leg comparison. Abstract-level review; no universal equivalence claim.",

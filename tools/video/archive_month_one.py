@@ -12,12 +12,15 @@ def main():
             if p.is_file():z.write(p,Path('Rep_and_Reason_Month_One')/p.relative_to(review))
     source_zip=delivery/'Rep_and_Reason_Month_One_Sources.zip'
     paths=[]
-    for pattern in ['content/month-one/*','research/month-one-sources.json','experiments/month-one-v1.json','measurement/month-one-*','tools/video/*month_one*','tools/video/render_supporting_posts.cjs','content/mvp/time-audit/fonts/*','tests/*month*','docs/MONTH_ONE.md','package.json','package-lock.json']:
+    for pattern in ['content/month-one/*','research/month-one-sources.json','experiments/month-one-v1.json','measurement/month-one-*','tools/video/*month_one*','tools/video/render_supporting_posts.cjs','content/mvp/time-audit/fonts/*','tests/*month*','docs/MONTH_ONE.md','examples/month-one/*.json','package.json','package-lock.json']:
         paths.extend(p for p in ROOT.glob(pattern) if p.is_file())
     # Allowlist voice artifacts: never bundle arbitrary .local content or credentials.
     voice=ROOT/'.local/month-one/voice'
     for name in ['narration.wav','alignment.json','generation.json']:
         paths.extend(p for p in voice.glob('M*/'+name) if p.is_file())
+    paths.extend(p for p in (ROOT/'.local/month-one/audio-qa').rglob('*.json') if p.is_file())
+    for name in ['narration.wav','alignment.json','generation.json','revision.json','base.en-asr.json','small.en-asr.json']:
+        paths.extend(p for p in (ROOT/'.local/month-one/voice-history').glob('M*/v*/'+name) if p.is_file())
     manifest=[]
     with zipfile.ZipFile(source_zip,'w',zipfile.ZIP_DEFLATED) as z:
         for p in sorted(set(paths)):
