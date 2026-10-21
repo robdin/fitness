@@ -1,0 +1,1471 @@
+{
+  "id": "month-one-v2",
+  "prepared_at": "2026-10-21",
+  "month": "2026-11",
+  "timezone": "America/New_York",
+  "purpose": "Audience interest and a sustainable production process",
+  "status": "proposed_schedule_not_published",
+  "cadence": "Four core videos per week, cross-posted to Shorts and Reels; one original master per episode",
+  "duration_target_seconds": [
+    30,
+    40
+  ],
+  "estimated_duration_basis": "Planning estimate at 150 spoken words/minute, not measured audio",
+  "weekly_capacity_hours": 12,
+  "weekly_capacity": [
+    {
+      "task": "Research and claim/source review",
+      "hours": 1.5
+    },
+    {
+      "task": "Script and caption editing",
+      "hours": 1
+    },
+    {
+      "task": "Visual, voice and full-video review",
+      "hours": 3.5
+    },
+    {
+      "task": "Supporting posts",
+      "hours": 1
+    },
+    {
+      "task": "Cross-posting and uploader checks",
+      "hours": 0.75
+    },
+    {
+      "task": "Community response review",
+      "hours": 0.75
+    },
+    {
+      "task": "Metrics export and decision log",
+      "hours": 0.75
+    },
+    {
+      "task": "Corrections and rework",
+      "hours": 1.5
+    },
+    {
+      "task": "Contingency",
+      "hours": 1.25
+    }
+  ],
+  "episode_ids": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09",
+    "N10",
+    "N11",
+    "N12",
+    "N13",
+    "N14",
+    "N15",
+    "N16"
+  ],
+  "episodes": [
+    {
+      "id": "N01",
+      "week": 1,
+      "day": 1,
+      "publish_at": "2026-11-01T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "time",
+      "hook_type": "Q",
+      "title": "Only two gym days?",
+      "alternate_hook_not_scheduled": "Two gym days can still be useful.",
+      "creator_ids": [
+        "C01"
+      ],
+      "community_ids": [
+        "R01",
+        "R02"
+      ],
+      "evidence_ids": [
+        "E01",
+        "E15"
+      ],
+      "why_this_topic": "A high-reach minimalist routine meets recent questions about cutting gym days and sessions running too long.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Only two gym days?",
+          "visual": "Two large gym blocks appear on a seven-day calendar; no intro logo."
+        },
+        {
+          "role": "problem",
+          "narration": "That is a schedule to plan around, not a reason to give up.",
+          "visual": "Work and commute blocks occupy other days."
+        },
+        {
+          "role": "answer",
+          "narration": "Research includes useful results from twice-weekly resistance training. It does not promise that every two-day routine matches a larger program.",
+          "visual": "Two blocks connect to a checklist labeled structured weekly work."
+        },
+        {
+          "role": "boundary",
+          "narration": "Think about the work across your week, instead of judging commitment by visits alone.",
+          "visual": "Show two calendars with different schedules; no equal-growth bars."
+        },
+        {
+          "role": "action",
+          "narration": "Choose a structured routine that fits those days, record what you do, and review it over several weeks.",
+          "visual": "A blank training log appears; highlight planned versus completed."
+        },
+        {
+          "role": "close",
+          "narration": "What usually steals your gym time: the commute, the session, or getting there at all?",
+          "visual": "Return to the two blocks with three short response choices."
+        }
+      ],
+      "caption": "Two available days are a starting constraint. Build around them and review what you actually complete. This is not a claim that every two-day plan matches more training. What gets in the way of your sessions?",
+      "cta": "What usually steals your gym time: the commute, the session, or getting there at all?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Plan useful weekly training around available days; fewer visits do not automatically mean wasted effort.",
+        "critical_error": "Two days guarantee the same gains as any higher-volume program."
+      },
+      "reuse_note": "Reuse calendar and time-budget components; new script, audio and exact visuals required.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N02",
+      "week": 1,
+      "day": 3,
+      "publish_at": "2026-11-03T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "effort",
+      "hook_type": "A",
+      "title": "Failure is not a compulsory finish line.",
+      "alternate_hook_not_scheduled": "Must every set reach failure?",
+      "creator_ids": [
+        "C02"
+      ],
+      "community_ids": [
+        "R06",
+        "R07"
+      ],
+      "evidence_ids": [
+        "E03"
+      ],
+      "why_this_topic": "Recent failure confusion makes a bounded answer more useful than another all-or-nothing debate.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Failure is not a compulsory finish line.",
+          "visual": "An effort track stops just before a finish flag."
+        },
+        {
+          "role": "problem",
+          "narration": "A set can be challenging before you reach the point where another repetition is impossible.",
+          "visual": "A final rep token remains; label it an estimate."
+        },
+        {
+          "role": "answer",
+          "narration": "Research suggests that training closer to failure matters for muscle growth. The exact best stopping point is still uncertain.",
+          "visual": "Highlight a broad near-failure region without a numerical growth curve."
+        },
+        {
+          "role": "boundary",
+          "narration": "That does not turn every set into a test you must fail.",
+          "visual": "Remove the word compulsory from every set."
+        },
+        {
+          "role": "action",
+          "narration": "Follow your program’s effort target and keep the movement consistent. If you do not understand its target, clarify that before adding more sets.",
+          "visual": "Effort target and consistent technique appear as two checklist items."
+        },
+        {
+          "role": "close",
+          "narration": "Which is harder to judge: the weight, or when to stop?",
+          "visual": "Split screen: weight / stopping point."
+        }
+      ],
+      "caption": "Closer to failure and failure on every set are different instructions. The research does not establish one exact stopping point for everyone. Use the effort target in your program and keep technique consistent.",
+      "cta": "Which is harder to judge: the weight, or when to stop?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Challenging sets can stop before failure; the exact ideal proximity is uncertain.",
+        "critical_error": "Every set must fail, or easy sets always work equally well."
+      },
+      "reuse_note": "Reuse effort/checklist graphics; no reuse of existing narration.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N03",
+      "week": 1,
+      "day": 5,
+      "publish_at": "2026-11-05T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "equipment",
+      "hook_type": "Q",
+      "title": "Can machines build muscle?",
+      "alternate_hook_not_scheduled": "Machines can belong in a muscle-building plan.",
+      "creator_ids": [
+        "C05"
+      ],
+      "community_ids": [
+        "R15",
+        "R16"
+      ],
+      "evidence_ids": [
+        "E06"
+      ],
+      "why_this_topic": "Viewers want alternatives to exercises treated as mandatory; machine-only access is a concrete constraint.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Can machines build muscle?",
+          "visual": "Machine and dumbbell icons meet at a muscle-building question."
+        },
+        {
+          "role": "problem",
+          "narration": "Yes. A review comparing machines with free weights found no clear difference in muscle growth across the included studies.",
+          "visual": "Show a study-summary card; do not draw identical growth bars."
+        },
+        {
+          "role": "answer",
+          "narration": "Strength was more specific to what people trained and how they were tested.",
+          "visual": "Separate muscle growth from skill on a particular lift."
+        },
+        {
+          "role": "boundary",
+          "narration": "That does not make every machine a perfect substitute for every free-weight exercise.",
+          "visual": "Two exercise cards receive a not identical tag."
+        },
+        {
+          "role": "action",
+          "narration": "Choose an option that fits your goal and lets you train consistently. Keep its settings and your technique repeatable so your log means something.",
+          "visual": "Highlight seat setting, movement and log as three repeatability cues."
+        },
+        {
+          "role": "close",
+          "narration": "Which exercise feels impossible to replace in your gym?",
+          "visual": "Leave one replacement slot empty for the viewer’s question."
+        }
+      ],
+      "caption": "Machines are a valid training option. The review did not detect a muscle-growth advantage for one equipment category, while strength depended on the trained/tested task. A substitute still needs to fit your goal.",
+      "cta": "Which exercise feels impossible to replace in your gym?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Machines can build muscle, but exercise specificity and goal matter.",
+        "critical_error": "All exercises and machines are equivalent or universally safer."
+      },
+      "reuse_note": "Adapt equipment-route diagram; new evidence card and narration.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N04",
+      "week": 1,
+      "day": 7,
+      "publish_at": "2026-11-07T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "progress",
+      "hook_type": "A",
+      "title": "More reps can count as progress.",
+      "alternate_hook_not_scheduled": "Does progress always need a heavier weight?",
+      "creator_ids": [
+        "C04"
+      ],
+      "community_ids": [
+        "R19",
+        "R20",
+        "R25"
+      ],
+      "evidence_ids": [
+        "E08"
+      ],
+      "why_this_topic": "Recent progression questions connect to a popular heavy/light comparison without copying its personal experiment.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "More reps can count as progress.",
+          "visual": "A large 8 changes to 9; persistent label: invented log example."
+        },
+        {
+          "role": "problem",
+          "narration": "Imagine the same exercise, load, technique and stopping rule. Last time you completed eight reps. Today you completed nine.",
+          "visual": "Lock icons hold exercise, load, technique and effort constant."
+        },
+        {
+          "role": "answer",
+          "narration": "That is a useful performance change to record. It is not a direct measurement of new muscle.",
+          "visual": "Tag the change performance, not measured growth."
+        },
+        {
+          "role": "boundary",
+          "narration": "In one eight-week study, progressing repetitions and progressing load both worked as training strategies.",
+          "visual": "Two arrows: add repetitions / add load; no winner podium."
+        },
+        {
+          "role": "action",
+          "narration": "Use the progression rule in your program instead of forcing a heavier weight every session.",
+          "visual": "A rep-range rule card replaces a compulsory weight jump."
+        },
+        {
+          "role": "close",
+          "narration": "What does your log track besides the number on the weight?",
+          "visual": "Blank log columns: reps, load, setup, effort."
+        }
+      ],
+      "caption": "An extra repetition under comparable conditions is worth logging. It does not directly measure muscle gained. The eight-to-nine example is invented; the progression study compared actual training strategies.",
+      "cta": "What does your log track besides the number on the weight?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Repetition progression can be useful; compare like conditions and do not equate a rep with muscle growth.",
+        "critical_error": "One additional rep proves a specific amount of muscle gain."
+      },
+      "reuse_note": "Reuse log graphics; numbers are illustrative, not study results.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N05",
+      "week": 2,
+      "day": 8,
+      "publish_at": "2026-11-08T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "effort",
+      "hook_type": "Q",
+      "title": "Two reps left—or just a guess?",
+      "alternate_hook_not_scheduled": "Reps in reserve are an estimate.",
+      "creator_ids": [
+        "C02"
+      ],
+      "community_ids": [
+        "R06",
+        "R07"
+      ],
+      "evidence_ids": [
+        "E09"
+      ],
+      "why_this_topic": "People need an operational explanation of an effort target, not another unexplained acronym.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Two reps left—or just a guess?",
+          "visual": "Two ghost rep tokens carry a question mark."
+        },
+        {
+          "role": "problem",
+          "narration": "Reps in reserve means how many more repetitions you think you could complete before failure.",
+          "visual": "Reveal RIR = estimated repetitions remaining."
+        },
+        {
+          "role": "answer",
+          "narration": "It is an estimate, not a sensor. A review found that people’s predictions varied, with substantial differences between studies.",
+          "visual": "Replace a precision gauge with a broad uncertainty bracket."
+        },
+        {
+          "role": "boundary",
+          "narration": "So a target of two reps left is not a guarantee of exactly two.",
+          "visual": "The number two gains an approximately symbol."
+        },
+        {
+          "role": "action",
+          "narration": "Keep the exercise and technique consistent, write down your estimate, and use feedback to improve your judgment over time.",
+          "visual": "Three log fields: exercise, completed reps, estimated remaining reps."
+        },
+        {
+          "role": "close",
+          "narration": "Does your program explain what its effort numbers actually mean?",
+          "visual": "Show effort target plus definition together."
+        }
+      ],
+      "caption": "RIR is an estimate of repetitions remaining before failure. Prediction accuracy varies; do not treat a pooled error from research as a correction factor for everyone. Consistent technique makes the estimate more interpretable.",
+      "cta": "Does your program explain what its effort numbers actually mean?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "RIR estimates remaining repetitions and is imperfect.",
+        "critical_error": "RIR is an objective measurement or everyone makes the same prediction error."
+      },
+      "reuse_note": "New rep-token diagram can reuse existing countable-object primitives.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N06",
+      "week": 2,
+      "day": 10,
+      "publish_at": "2026-11-10T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "equipment",
+      "hook_type": "A",
+      "title": "Plan your swap before the queue.",
+      "alternate_hook_not_scheduled": "Busy gym—what is your backup?",
+      "creator_ids": [
+        "C01",
+        "C05"
+      ],
+      "community_ids": [
+        "R12",
+        "R15",
+        "R16"
+      ],
+      "evidence_ids": [],
+      "why_this_topic": "Crowded-gym logistics are a practical gap between ideal routines and usable sessions.",
+      "claim_type": "editorial_workflow_not_exercise_prescription",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Plan your swap before the queue.",
+          "visual": "Occupied station flashes; a prepared backup card slides in."
+        },
+        {
+          "role": "problem",
+          "narration": "If your next station is occupied, choosing a backup is easier when you already know the job of the exercise.",
+          "visual": "Show goal before equipment."
+        },
+        {
+          "role": "answer",
+          "narration": "Ask what you are trying to train, which equipment is available, and whether you know how to use it.",
+          "visual": "Three checks: training goal, available equipment, familiar movement."
+        },
+        {
+          "role": "boundary",
+          "narration": "A similar-looking movement is not automatically an identical replacement.",
+          "visual": "Similar-looking cards remain separate."
+        },
+        {
+          "role": "action",
+          "narration": "Write one familiar backup beside the exercise in your plan, then log it as a different exercise when you use it.",
+          "visual": "Branch from planned exercise to backup; create a new log row."
+        },
+        {
+          "role": "close",
+          "narration": "Which station causes the longest queue at your gym?",
+          "visual": "Hold an empty station label for the response."
+        }
+      ],
+      "caption": "A practical planning checklist, not a claim that every exercise has an exact substitute: define the job, choose a familiar available option, and log the change. What station needs a backup in your gym?",
+      "cta": "Which station causes the longest queue at your gym?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Prepare a familiar goal-relevant backup and record it separately.",
+        "critical_error": "Any visually similar exercise is an equivalent replacement."
+      },
+      "reuse_note": "Reuse M05/M13 route components as visual starting points; do not reuse their audio as if it matches.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N07",
+      "week": 2,
+      "day": 12,
+      "publish_at": "2026-11-12T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "progress",
+      "hook_type": "Q",
+      "title": "One bad workout—or a trend?",
+      "alternate_hook_not_scheduled": "A training log needs context.",
+      "creator_ids": [
+        "C04"
+      ],
+      "community_ids": [
+        "R19",
+        "R20"
+      ],
+      "evidence_ids": [],
+      "why_this_topic": "Plateau questions benefit from checking comparable records before prescribing more work.",
+      "claim_type": "editorial_measurement_workflow",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "One bad workout—or a trend?",
+          "visual": "One log row appears, then zoom out to several rows."
+        },
+        {
+          "role": "problem",
+          "narration": "Before changing your entire plan, compare the same exercise under similar conditions.",
+          "visual": "Highlight matching exercise names."
+        },
+        {
+          "role": "answer",
+          "narration": "Did the load, repetitions, technique, rest or equipment change? If several changed together, the comparison is harder to interpret.",
+          "visual": "Five context fields light up one at a time."
+        },
+        {
+          "role": "boundary",
+          "narration": "A single result is not a diagnosis of why progress stalled.",
+          "visual": "A diagnosis stamp is replaced by a question mark."
+        },
+        {
+          "role": "action",
+          "narration": "Look across several sessions, record the differences, and choose one question to investigate. That might be consistency, progression, or whether the plan fits your week.",
+          "visual": "Circle one changed field; do not plot a fake muscle-growth trend."
+        },
+        {
+          "role": "close",
+          "narration": "What detail is missing from your training log right now?",
+          "visual": "Empty notes column remains on screen."
+        }
+      ],
+      "caption": "This is a comparison checklist, not a diagnosis of a plateau. Compare similar sessions, note what changed, and investigate one question before rewriting everything.",
+      "cta": "What detail is missing from your training log right now?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Compare several like-for-like records; one session cannot identify the cause of a stall.",
+        "critical_error": "One bad session diagnoses overtraining or demands a volume increase."
+      },
+      "reuse_note": "Reuse M09 log-context structure with new words and timing.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N08",
+      "week": 2,
+      "day": 14,
+      "publish_at": "2026-11-14T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "time",
+      "hook_type": "A",
+      "title": "Rest is part of the work.",
+      "alternate_hook_not_scheduled": "Are shorter rests always better?",
+      "creator_ids": [
+        "C06"
+      ],
+      "community_ids": [
+        "R02",
+        "R03",
+        "R14"
+      ],
+      "evidence_ids": [
+        "E16",
+        "E01"
+      ],
+      "why_this_topic": "Long-session questions can tempt viewers to cut useful recovery along with avoidable delays.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Rest is part of the work.",
+          "visual": "Rest block fits inside the workout rather than outside it."
+        },
+        {
+          "role": "problem",
+          "narration": "Making the timer smaller does not automatically make a workout better.",
+          "visual": "A countdown shrinks while the next-set quality question remains."
+        },
+        {
+          "role": "answer",
+          "narration": "In one study of trained men, three-minute rests produced better results on some outcomes than one-minute rests.",
+          "visual": "Small study card: 1 min / 3 min; scope: trained men, 8 weeks."
+        },
+        {
+          "role": "boundary",
+          "narration": "That is not a universal rule that everyone needs three minutes after every exercise.",
+          "visual": "Cross out universal timer without implying short rest is always wrong."
+        },
+        {
+          "role": "action",
+          "narration": "If time is tight, separate planned recovery from wandering, waiting and changing equipment. Protect the work your plan asks you to perform.",
+          "visual": "Time blocks labeled recovery, setup and waiting; no invented proportions."
+        },
+        {
+          "role": "close",
+          "narration": "Where does your session actually lose time: recovery, setup, or the queue?",
+          "visual": "Highlight the three buckets as response choices."
+        }
+      ],
+      "caption": "A small rest-interval trial is a reason to avoid assuming shorter is always better, not a universal timer prescription. Audit recovery and avoidable delays separately.",
+      "cta": "Where does your session actually lose time: recovery, setup, or the queue?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Recovery has a purpose; audit avoidable delays without treating one study as a universal rest rule.",
+        "critical_error": "Cut all rest periods, or everyone must rest exactly three minutes."
+      },
+      "reuse_note": "Reuse M04/M12 rest-clock components; revised scope and timing need a new render.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N09",
+      "week": 3,
+      "day": 15,
+      "publish_at": "2026-11-15T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "equipment",
+      "hook_type": "A",
+      "title": "Light weights can still build muscle.",
+      "alternate_hook_not_scheduled": "Do light weights count?",
+      "creator_ids": [
+        "C04"
+      ],
+      "community_ids": [
+        "R25",
+        "R26"
+      ],
+      "evidence_ids": [
+        "E14"
+      ],
+      "why_this_topic": "Recent beginner questions repeat the heavy/light choice featured in a high-reach comparison video.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Light weights can still build muscle.",
+          "visual": "A light and heavy dumbbell share a question card."
+        },
+        {
+          "role": "problem",
+          "narration": "For muscle growth, the weight alone does not tell the whole story.",
+          "visual": "Separate load from effort."
+        },
+        {
+          "role": "answer",
+          "narration": "A review found similar growth with lighter and heavier loads in studies where sets were taken to failure. Heavier loads did better for maximum-strength gains.",
+          "visual": "Two outcome labels: muscle growth / maximum strength; retain sets to failure."
+        },
+        {
+          "role": "boundary",
+          "narration": "Notice that effort condition. This does not mean any easy set with a light dumbbell is equivalent.",
+          "visual": "Easy set card is visibly outside the studied condition."
+        },
+        {
+          "role": "action",
+          "narration": "Choose loading that fits your goal and program, then track it consistently.",
+          "visual": "Goal points to loading and repeatable log."
+        },
+        {
+          "role": "close",
+          "narration": "Are you training for a bigger maximum lift, muscle growth, or both?",
+          "visual": "Show three goal choices without ranking them."
+        }
+      ],
+      "caption": "The load comparison depends on the outcome and effort. The cited review included sets taken to failure; it does not show that easy light sets are interchangeable with hard training.",
+      "cta": "Are you training for a bigger maximum lift, muscle growth, or both?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Lighter loads can support growth under studied effort conditions; maximum strength is a different outcome.",
+        "critical_error": "Any easy light set produces the same result as heavier demanding work."
+      },
+      "reuse_note": "Original two-dumbbell comparison; no creator footage or experiment results reused.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N10",
+      "week": 3,
+      "day": 17,
+      "publish_at": "2026-11-17T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "progress",
+      "hook_type": "Q",
+      "title": "Should every rep become a partial?",
+      "alternate_hook_not_scheduled": "Partial reps are not an automatic upgrade.",
+      "creator_ids": [
+        "C02"
+      ],
+      "community_ids": [
+        "R27",
+        "R28"
+      ],
+      "evidence_ids": [
+        "E10",
+        "E11"
+      ],
+      "why_this_topic": "Older creator-driven questions remain useful, while an October 2026 study makes blanket superiority claims especially inappropriate.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Should every rep become a partial?",
+          "visual": "Full and partial motion paths appear without a better badge."
+        },
+        {
+          "role": "problem",
+          "narration": "Lengthened partials use part of a movement where the working muscle is relatively stretched.",
+          "visual": "Highlight the relevant section on a schematic arc, labeled concept only."
+        },
+        {
+          "role": "answer",
+          "narration": "Recent studies have found similar measured growth to full-range training in specific exercises. That does not settle every muscle or movement.",
+          "visual": "Study cards: upper body 2025 / leg comparison 2026; no invented growth chart."
+        },
+        {
+          "role": "boundary",
+          "narration": "A small study finding no clear difference is not proof that two methods are always identical.",
+          "visual": "Equal sign becomes limited evidence."
+        },
+        {
+          "role": "action",
+          "narration": "Before changing your range, know which exercise, comparison and outcome the claim actually covers.",
+          "visual": "Three checks: exercise, comparison, outcome."
+        },
+        {
+          "role": "close",
+          "narration": "Which training claim would you like to see unpacked next?",
+          "visual": "Leave one claim card blank for the audience."
+        }
+      ],
+      "caption": "A technique can be useful without being universally superior. These studies cover specific exercises and measurements; the small 2026 comparison cannot establish universal equivalence. Check the scope before changing your whole routine.",
+      "cta": "Which training claim would you like to see unpacked next?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Evidence about partials is exercise- and outcome-specific; neither universal superiority nor universal equality follows.",
+        "critical_error": "All partial reps are better, or every range of motion gives identical results."
+      },
+      "reuse_note": "Reuse range/checklist concepts; any movement schematic must be clearly conceptual, not an exercise tutorial.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N11",
+      "week": 3,
+      "day": 19,
+      "publish_at": "2026-11-19T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "time",
+      "hook_type": "A",
+      "title": "Supersets can save time—with a tradeoff.",
+      "alternate_hook_not_scheduled": "Can supersets save your workout time?",
+      "creator_ids": [
+        "C03"
+      ],
+      "community_ids": [
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "evidence_ids": [
+        "E05"
+      ],
+      "why_this_topic": "A creator time-saving promise meets actual questions about pairing exercises and sharing gym equipment.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Supersets can save time—with a tradeoff.",
+          "visual": "Two exercise blocks move onto one compact timeline."
+        },
+        {
+          "role": "problem",
+          "narration": "They pair exercises with little rest between them. A review found shorter sessions, but also higher perceived effort.",
+          "visual": "A shorter timeline sits beside an effort-up label; no measured percentage."
+        },
+        {
+          "role": "answer",
+          "narration": "Available long-term comparisons showed similar adaptations, though the evidence and exercise pairings varied.",
+          "visual": "Study-summary card marks varied pairings and limited chronic evidence."
+        },
+        {
+          "role": "boundary",
+          "narration": "That is not permission to rush every demanding lift or reserve half the gym.",
+          "visual": "Highlight one shared equipment area, not multiple occupied stations."
+        },
+        {
+          "role": "action",
+          "narration": "If your program uses supersets, choose a practical setup and keep an eye on performance. The best-looking timetable still has to work on the gym floor.",
+          "visual": "Checklist: setup, performance, available space."
+        },
+        {
+          "role": "close",
+          "narration": "What limits you more: time, fatigue, or available equipment?",
+          "visual": "Three short constraints appear for response."
+        }
+      ],
+      "caption": "Supersets can trade shorter sessions for higher perceived effort. The size of the saving depends on the pairing and setup. In a shared gym, practicality and performance still matter.",
+      "cta": "What limits you more: time, fatigue, or available equipment?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Supersets may save time but add effort and depend on pairing and setup.",
+        "critical_error": "Every pairing saves a fixed percentage of time with no tradeoff."
+      },
+      "reuse_note": "Reuse time-block layout; timeline explicitly illustrative and without quantified savings.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N12",
+      "week": 3,
+      "day": 21,
+      "publish_at": "2026-11-21T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "effort",
+      "hook_type": "Q",
+      "title": "Does no soreness mean no progress?",
+      "alternate_hook_not_scheduled": "Soreness is not a growth score.",
+      "creator_ids": [
+        "C04"
+      ],
+      "community_ids": [
+        "R06",
+        "R09",
+        "R10"
+      ],
+      "evidence_ids": [
+        "E13"
+      ],
+      "why_this_topic": "Multiple newer-lifter questions treat soreness as proof of effort or progress; answer without making a diagnosis.",
+      "claim_type": "bounded_research_background_with_editorial_inference",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Does no soreness mean no progress?",
+          "visual": "A soreness dial is detached from a muscle-growth scoreboard."
+        },
+        {
+          "role": "problem",
+          "narration": "Feeling sore tells you how you feel. It does not tell you how much muscle you gained.",
+          "visual": "Feeling and measured growth become separate cards."
+        },
+        {
+          "role": "answer",
+          "narration": "Research on muscle damage distinguishes early repair responses from later changes associated with growth. Damage and soreness are not exactly the same thing, either.",
+          "visual": "Two conceptual labels: repair response / longer-term adaptation; no biological animation claiming precision."
+        },
+        {
+          "role": "boundary",
+          "narration": "So do not add sets just to chase a sore feeling.",
+          "visual": "Extra set cards stop beside a why? prompt."
+        },
+        {
+          "role": "action",
+          "narration": "Review the training you completed and comparable performance records over time, instead of grading a workout only by tomorrow’s discomfort.",
+          "visual": "Completed training and comparable logs replace the soreness score."
+        },
+        {
+          "role": "close",
+          "narration": "What do you currently use to decide whether a workout worked?",
+          "visual": "Leave a workout-quality checklist unfinished."
+        }
+      ],
+      "caption": "Soreness alone cannot quantify muscle gained. The cited small study concerns damage and adaptation, not a validated soreness test. Our practical suggestion is to review completed training and comparable records rather than chase discomfort.",
+      "cta": "What do you currently use to decide whether a workout worked?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Soreness is not a quantitative measure of growth; use training records rather than deliberately chasing discomfort.",
+        "critical_error": "No soreness means no growth, or all pain should be ignored."
+      },
+      "reuse_note": "New diagram; this is not injury advice and must not visually depict training through pain.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N13",
+      "week": 4,
+      "day": 22,
+      "publish_at": "2026-11-22T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "progress",
+      "hook_type": "A",
+      "title": "A ranked exercise list is not a program.",
+      "alternate_hook_not_scheduled": "Can a tier list build your program?",
+      "creator_ids": [
+        "C05"
+      ],
+      "community_ids": [
+        "R24",
+        "R10"
+      ],
+      "evidence_ids": [],
+      "why_this_topic": "A direct community example turns popular ranking content into a useful planning question.",
+      "claim_type": "editorial_planning_checklist",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "A ranked exercise list is not a program.",
+          "visual": "A stack of ranked cards fails to fit a blank weekly calendar."
+        },
+        {
+          "role": "problem",
+          "narration": "A ranking might help you discover an exercise. It does not automatically tell you how to organize your training week.",
+          "visual": "One exercise card enters an ideas tray."
+        },
+        {
+          "role": "answer",
+          "narration": "You still need a goal, a workable schedule, an amount of training, and a way to progress.",
+          "visual": "Four plan fields: goal, schedule, work, progression."
+        },
+        {
+          "role": "boundary",
+          "narration": "Collecting every top-ranked movement does not answer those questions.",
+          "visual": "Top-rank badges fade while fields remain blank."
+        },
+        {
+          "role": "action",
+          "narration": "Use rankings as ideas to evaluate within a structured plan, especially when your equipment and available time differ from the video.",
+          "visual": "One suitable idea joins a complete plan."
+        },
+        {
+          "role": "close",
+          "narration": "Which part is missing from your current plan: schedule, progression, or a clear goal?",
+          "visual": "Show three missing-field choices."
+        }
+      ],
+      "caption": "Exercise rankings can generate ideas. They do not supply a complete schedule, dose or progression rule. This is an editorial planning checklist, not a review of anyone’s paid program.",
+      "cta": "Which part is missing from your current plan: schedule, progression, or a clear goal?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "An exercise ranking is a selection aid; a program still needs structure and progression.",
+        "critical_error": "A collection of top-ranked exercises guarantees an optimal program."
+      },
+      "reuse_note": "Reuse checklist/calendar primitives; no creator thumbnails, rankings or paid program text copied.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N14",
+      "week": 4,
+      "day": 24,
+      "publish_at": "2026-11-24T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "time",
+      "hook_type": "Q",
+      "title": "Full body or split—which fits your week?",
+      "alternate_hook_not_scheduled": "Choose a split you can repeat.",
+      "creator_ids": [
+        "C01"
+      ],
+      "community_ids": [
+        "R22",
+        "R23"
+      ],
+      "evidence_ids": [
+        "E04"
+      ],
+      "why_this_topic": "Recent three-day schedule questions offer a practical application of volume-equated split research.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Full body or split—which fits your week?",
+          "visual": "Calendar blocks rearrange without adding or removing work tokens."
+        },
+        {
+          "role": "problem",
+          "narration": "Full body, upper and lower, or another split: the label alone does not decide your results.",
+          "visual": "Three schedule labels appear at equal visual size."
+        },
+        {
+          "role": "answer",
+          "narration": "A review found similar strength and muscle growth between split and full-body routines when training volume was matched.",
+          "visual": "Persistent label: comparison matched weekly volume."
+        },
+        {
+          "role": "boundary",
+          "narration": "That last condition matters. Two plans with different weekly work are not the same comparison.",
+          "visual": "Adding work tokens breaks the matched condition."
+        },
+        {
+          "role": "action",
+          "narration": "Start with the days you can reliably attend, then choose a structured plan that fits them.",
+          "visual": "Real available days receive a plan, not the reverse."
+        },
+        {
+          "role": "close",
+          "narration": "How many gym days fit your real week, rather than your ideal one?",
+          "visual": "A seven-day calendar waits for the viewer’s number."
+        }
+      ],
+      "caption": "When weekly volume was equated, split and full-body routines produced similar average outcomes in the review. That does not mean every program is interchangeable. Start with a schedule you can repeat.",
+      "cta": "How many gym days fit your real week, rather than your ideal one?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Schedule labels matter less than the full plan; the study comparison matched volume.",
+        "critical_error": "All splits are identical regardless of weekly work or attendance."
+      },
+      "reuse_note": "Reuse schedule blocks; do not imply that merely rearranging unmatched plans preserves outcomes.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N15",
+      "week": 4,
+      "day": 26,
+      "publish_at": "2026-11-26T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "effort",
+      "hook_type": "A",
+      "title": "More sets have diminishing returns.",
+      "alternate_hook_not_scheduled": "More sets—or just more time?",
+      "creator_ids": [
+        "C02"
+      ],
+      "community_ids": [
+        "R01",
+        "R06"
+      ],
+      "evidence_ids": [
+        "E02"
+      ],
+      "why_this_topic": "Connect the recent volume debate to the user’s limited time rather than inventing a universal optimal dose.",
+      "claim_type": "research_summary_with_editorial_action",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "More sets have diminishing returns.",
+          "visual": "Additional set cards compete with a fixed weekly time box."
+        },
+        {
+          "role": "problem",
+          "narration": "A recent research synthesis found that more weekly training volume was associated with greater adaptation, but with diminishing returns.",
+          "visual": "Use shrinking marginal-benefit arrows labeled conceptual, not a numeric dose-response curve."
+        },
+        {
+          "role": "answer",
+          "narration": "That is a group-level pattern, not your personal instruction to add sets indefinitely.",
+          "visual": "A personal prescription stamp becomes group evidence."
+        },
+        {
+          "role": "boundary",
+          "narration": "The extra work also has to fit your schedule and the rest of your plan.",
+          "visual": "Weekly time budget stays fixed."
+        },
+        {
+          "role": "action",
+          "narration": "Before adding more, check whether you are consistently completing the current work and how performance is changing. Change one thing you can actually track.",
+          "visual": "Three checks: completed work, performance, one recorded change."
+        },
+        {
+          "role": "close",
+          "narration": "What would another set cost you: time, recovery, or consistency?",
+          "visual": "The extra set sits beside three tradeoff labels."
+        }
+      ],
+      "caption": "More volume is not an unlimited free upgrade. The synthesis describes an average dose-response pattern with diminishing returns, not a personalized set target. Check what you already complete before adding work.",
+      "cta": "What would another set cost you: time, recovery, or consistency?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "More volume can help on average with diminishing returns; personal changes need context.",
+        "critical_error": "More sets are always better, or the graphic reveals an exact personal optimum."
+      },
+      "reuse_note": "Reuse budget tokens; any arrows are explicitly conceptual, not traced study estimates.",
+      "estimated_hands_on_minutes": 90
+    },
+    {
+      "id": "N16",
+      "week": 4,
+      "day": 28,
+      "publish_at": "2026-11-28T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "equipment",
+      "hook_type": "Q",
+      "title": "Does the same stack number mean the same lift?",
+      "alternate_hook_not_scheduled": "New machine? Start a separate log.",
+      "creator_ids": [
+        "C04"
+      ],
+      "community_ids": [
+        "R17",
+        "R18"
+      ],
+      "evidence_ids": [],
+      "why_this_topic": "An October question and an older recurrence show a specific comparison problem that needs no speculative pulley explanation.",
+      "claim_type": "editorial_measurement_workflow",
+      "status": "scripted_not_rendered_or_published",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Does the same stack number mean the same lift?",
+          "visual": "Two different machines display the same stack label."
+        },
+        {
+          "role": "problem",
+          "narration": "The number on one weight stack is not enough information to compare it with another machine.",
+          "visual": "A question mark separates the labels; do not invent a pulley ratio."
+        },
+        {
+          "role": "answer",
+          "narration": "If the equipment or setup changes, you have changed the task you are recording.",
+          "visual": "Machine A and machine B receive separate log tabs."
+        },
+        {
+          "role": "boundary",
+          "narration": "You do not need to guess the machine’s mechanics to make your log more useful.",
+          "visual": "Technical cutaway is replaced by a simple setup record."
+        },
+        {
+          "role": "action",
+          "narration": "Record the machine, seat setting, repetitions and load. Compare progress on that same setup before treating a different number elsewhere as a gain or a loss.",
+          "visual": "Four fields: machine, setting, reps, load."
+        },
+        {
+          "role": "close",
+          "narration": "Have you ever changed gyms and thought you suddenly got weaker?",
+          "visual": "Return to both tabs without a stronger/weaker verdict."
+        }
+      ],
+      "caption": "Treat a different machine as a different logging context. Record its identity and setup; a stack number alone is not a complete description of the task. No specific machine mechanics or conversion ratio is assumed.",
+      "cta": "Have you ever changed gyms and thought you suddenly got weaker?",
+      "comprehension": {
+        "question": "What is the main takeaway, and what would you do next?",
+        "answer": "Compare performance within a repeatable setup and record a different machine separately.",
+        "critical_error": "Identical stack labels guarantee identical resistance or a fixed conversion ratio."
+      },
+      "reuse_note": "Reuse M09 context-log graphics; add equipment identity.",
+      "estimated_hands_on_minutes": 90
+    }
+  ],
+  "supporting_posts": [
+    {
+      "id": "S01",
+      "kind": "story",
+      "day": 2,
+      "publish_at": "2026-11-02T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "What takes your time?",
+      "episode_ids": [
+        "N01"
+      ],
+      "frames": [
+        {
+          "text": "What most often blocks a gym session?",
+          "sticker": "native_poll",
+          "options": [
+            "Getting there",
+            "Session length"
+          ]
+        },
+        {
+          "text": "A useful plan has to fit the constraint. Yesterday’s video starts with the days actually available.",
+          "sticker": "none"
+        }
+      ],
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "K01",
+      "kind": "carousel",
+      "day": 4,
+      "publish_at": "2026-11-04T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Build around your actual week",
+      "episode_ids": [
+        "N01",
+        "N02"
+      ],
+      "slides": [
+        "Your real week is the starting point.",
+        "Mark the gym days you can reliably attend.",
+        "Choose a structured routine that fits those days.",
+        "Read its effort targets. More visits and more failure are not automatic requirements.",
+        "Record what you complete. Review the pattern over several weeks."
+      ],
+      "caption": "A planning checklist for a busy week. It does not promise that every two-day routine matches more training. Save this for your next planning session.",
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "S02",
+      "kind": "story",
+      "day": 6,
+      "publish_at": "2026-11-06T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Your equipment constraint",
+      "episode_ids": [
+        "N03"
+      ],
+      "frames": [
+        {
+          "text": "Which do you use most?",
+          "sticker": "native_poll",
+          "options": [
+            "Mostly machines",
+            "Mostly free weights"
+          ]
+        },
+        {
+          "text": "The category alone does not decide muscle growth. Your goal, exercise and repeatable setup still matter.",
+          "sticker": "none"
+        }
+      ],
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "S03",
+      "kind": "story",
+      "day": 9,
+      "publish_at": "2026-11-09T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Effort target check",
+      "episode_ids": [
+        "N05"
+      ],
+      "frames": [
+        {
+          "text": "Does your plan explain its effort target?",
+          "sticker": "native_poll",
+          "options": [
+            "Clearly",
+            "Not really"
+          ]
+        },
+        {
+          "text": "Reps in reserve is an estimate of repetitions remaining. It is not a measurement from a sensor.",
+          "sticker": "none"
+        }
+      ],
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "K02",
+      "kind": "carousel",
+      "day": 11,
+      "publish_at": "2026-11-11T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Your crowded-gym backup card",
+      "episode_ids": [
+        "N03",
+        "N06"
+      ],
+      "slides": [
+        "The station is taken. What now?",
+        "Write the job of the exercise: what are you trying to train?",
+        "Choose one familiar option using available equipment.",
+        "A substitute is not automatically identical. Log it separately.",
+        "Save a backup beside the original exercise before your next visit."
+      ],
+      "caption": "Use this as a planning template, not a list of exact exercise equivalents. Add one familiar backup for your most congested station.",
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "S04",
+      "kind": "story",
+      "day": 13,
+      "publish_at": "2026-11-13T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "What is in your log?",
+      "episode_ids": [
+        "N07"
+      ],
+      "frames": [
+        {
+          "text": "Do you record setup or rest notes?",
+          "sticker": "native_poll",
+          "options": [
+            "Usually",
+            "Rarely"
+          ]
+        },
+        {
+          "text": "A comparison gets harder when several conditions change. Add one useful context note next session.",
+          "sticker": "none"
+        }
+      ],
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "S05",
+      "kind": "story",
+      "day": 16,
+      "publish_at": "2026-11-16T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Choose the outcome",
+      "episode_ids": [
+        "N09"
+      ],
+      "frames": [
+        {
+          "text": "What matters most right now?",
+          "sticker": "native_poll",
+          "options": [
+            "Muscle growth",
+            "Maximum strength"
+          ]
+        },
+        {
+          "text": "Those outcomes are related but different. The heavy/light comparison depends on effort and the outcome being measured.",
+          "sticker": "none"
+        }
+      ],
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "K03",
+      "kind": "carousel",
+      "day": 18,
+      "publish_at": "2026-11-18T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Before you change your range of motion",
+      "episode_ids": [
+        "N10"
+      ],
+      "slides": [
+        "One study does not rewrite every exercise.",
+        "Which exercise and people were studied?",
+        "Which range of motion was actually compared?",
+        "Which outcome and measurement site changed?",
+        "No clear difference in a small study does not prove universal equality."
+      ],
+      "caption": "Ask these questions before turning a technique headline into a whole-program change. The partial-range studies cover specific exercises and outcomes.",
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "S06",
+      "kind": "story",
+      "day": 20,
+      "publish_at": "2026-11-20T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Superset reality check",
+      "episode_ids": [
+        "N11"
+      ],
+      "frames": [
+        {
+          "text": "What makes supersets hardest?",
+          "sticker": "native_poll",
+          "options": [
+            "Equipment access",
+            "Extra fatigue"
+          ]
+        },
+        {
+          "text": "Shorter sessions can come with higher perceived effort. The pairing and setup still have to work in your gym.",
+          "sticker": "none"
+        }
+      ],
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "S07",
+      "kind": "story",
+      "day": 23,
+      "publish_at": "2026-11-23T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Your plan’s missing piece",
+      "episode_ids": [
+        "N13"
+      ],
+      "frames": [
+        {
+          "text": "What is less clear in your plan?",
+          "sticker": "native_poll",
+          "options": [
+            "Progression",
+            "Weekly structure"
+          ]
+        },
+        {
+          "text": "A ranked exercise list cannot answer every planning question. Start with the missing piece, not another ranking.",
+          "sticker": "none"
+        }
+      ],
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "K04",
+      "kind": "carousel",
+      "day": 25,
+      "publish_at": "2026-11-25T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "A program needs more than a ranking",
+      "episode_ids": [
+        "N13",
+        "N14",
+        "N04"
+      ],
+      "slides": [
+        "Top-ranked exercises are ideas, not a complete week.",
+        "Choose a goal and a schedule you can repeat.",
+        "Know the weekly work and effort the plan asks for.",
+        "Use a progression rule. Adding reps can be part of it.",
+        "Keep a comparable log, then review the plan rather than collecting more badges."
+      ],
+      "caption": "A practical program checklist: goal, schedule, training work, progression and a log. Which one needs the most attention in your plan?",
+      "status": "copy_ready_not_rendered_or_published"
+    },
+    {
+      "id": "S08",
+      "kind": "story",
+      "day": 27,
+      "publish_at": "2026-11-27T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Volume versus capacity",
+      "episode_ids": [
+        "N15"
+      ],
+      "frames": [
+        {
+          "text": "What does one extra set cost most?",
+          "sticker": "native_poll",
+          "options": [
+            "More time",
+            "More fatigue"
+          ]
+        },
+        {
+          "text": "Average research patterns are not personal set targets. Check what you consistently complete before adding more.",
+          "sticker": "none"
+        }
+      ],
+      "status": "copy_ready_not_rendered_or_published"
+    }
+  ],
+  "review_days": [
+    {
+      "day": 29,
+      "title": "Complete week-four review and labor log",
+      "action": "Review available 7-day snapshots and all four weeks of hands-on work. Week-four releases are not all mature."
+    },
+    {
+      "day": 30,
+      "title": "Provisional month-end review",
+      "action": "Freeze an interim report. At 18:00 only N01–N13 have reached seven days; wait until December 5 for the full planned cohort."
+    }
+  ],
+  "final_readout_at": "2026-12-05T18:00:00-05:00",
+  "bounded_extension_end": "2026-12-19T18:00:00-05:00",
+  "launch_assumption": "November is the next complete month. Dates are a proposed plan; no platform scheduling or publication has occurred."
+}

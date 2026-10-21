@@ -1,0 +1,13 @@
+{
+  "record_type": "blank_template_not_observations",
+  "comprehension_checks": null,
+  "comprehension_passes": null,
+  "distinct_useful_responses": null,
+  "unresolved_recurring_critical_error": null,
+  "weekly_operator_hours": [],
+  "simplification_attempted": false,
+  "setup_operator_hours": null,
+  "unattended_render_hours": null,
+  "provider_costs_status": "not_reconciled",
+  "note": "Copy into ignored .local/month-one-v2/measurement. No actual audience or labor data has been entered."
+}

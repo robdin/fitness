@@ -1,0 +1,413 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rep and Reason//Demand Calendar V2//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rep and Reason — proposed November pilot
+BEGIN:VEVENT
+UID:n01-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261101T230000Z
+DTEND:20261101T233000Z
+SUMMARY:Only two gym days?
+DESCRIPTION:Proposed Shorts + Reels post. N01\; Q opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-02T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-08T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s01-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261102T230000Z
+DTEND:20261102T231500Z
+SUMMARY:Story: What takes your time?
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n02-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261103T230000Z
+DTEND:20261103T233000Z
+SUMMARY:Failure is not a compulsory finish line.
+DESCRIPTION:Proposed Shorts + Reels post. N02\; A opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-04T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-10T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k01-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261104T230000Z
+DTEND:20261104T231500Z
+SUMMARY:Carousel: Build around your actual week
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n03-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261105T230000Z
+DTEND:20261105T233000Z
+SUMMARY:Can machines build muscle?
+DESCRIPTION:Proposed Shorts + Reels post. N03\; Q opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-06T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-12T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s02-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261106T230000Z
+DTEND:20261106T231500Z
+SUMMARY:Story: Your equipment constraint
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n04-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261107T230000Z
+DTEND:20261107T233000Z
+SUMMARY:More reps can count as progress.
+DESCRIPTION:Proposed Shorts + Reels post. N04\; A opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-08T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-14T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n05-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261108T230000Z
+DTEND:20261108T233000Z
+SUMMARY:Two reps left—or just a guess?
+DESCRIPTION:Proposed Shorts + Reels post. N05\; Q opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-09T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-15T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:review-8-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T014500Z
+SUMMARY:Weekly pilot review and labor log
+DESCRIPTION:Review available mature snapshots\, useful responses and actual
+  hands-on time. Keep thresholds unchanged.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s03-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261109T230000Z
+DTEND:20261109T231500Z
+SUMMARY:Story: Effort target check
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n06-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261110T230000Z
+DTEND:20261110T233000Z
+SUMMARY:Plan your swap before the queue.
+DESCRIPTION:Proposed Shorts + Reels post. N06\; A opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-11T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-17T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k02-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261111T230000Z
+DTEND:20261111T231500Z
+SUMMARY:Carousel: Your crowded-gym backup card
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n07-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261112T230000Z
+DTEND:20261112T233000Z
+SUMMARY:One bad workout—or a trend?
+DESCRIPTION:Proposed Shorts + Reels post. N07\; Q opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-13T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-19T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s04-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261113T230000Z
+DTEND:20261113T231500Z
+SUMMARY:Story: What is in your log?
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n08-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261114T230000Z
+DTEND:20261114T233000Z
+SUMMARY:Rest is part of the work.
+DESCRIPTION:Proposed Shorts + Reels post. N08\; A opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-15T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-21T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n09-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261115T230000Z
+DTEND:20261115T233000Z
+SUMMARY:Light weights can still build muscle.
+DESCRIPTION:Proposed Shorts + Reels post. N09\; A opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-16T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-22T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:review-15-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T014500Z
+SUMMARY:Weekly pilot review and labor log
+DESCRIPTION:Review available mature snapshots\, useful responses and actual
+  hands-on time. Keep thresholds unchanged.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s05-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261116T230000Z
+DTEND:20261116T231500Z
+SUMMARY:Story: Choose the outcome
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n10-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261117T230000Z
+DTEND:20261117T233000Z
+SUMMARY:Should every rep become a partial?
+DESCRIPTION:Proposed Shorts + Reels post. N10\; Q opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-18T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-24T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k03-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261118T230000Z
+DTEND:20261118T231500Z
+SUMMARY:Carousel: Before you change your range of motion
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n11-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261119T230000Z
+DTEND:20261119T233000Z
+SUMMARY:Supersets can save time—with a tradeoff.
+DESCRIPTION:Proposed Shorts + Reels post. N11\; A opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-20T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-26T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s06-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261120T230000Z
+DTEND:20261120T231500Z
+SUMMARY:Story: Superset reality check
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n12-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261121T230000Z
+DTEND:20261121T233000Z
+SUMMARY:Does no soreness mean no progress?
+DESCRIPTION:Proposed Shorts + Reels post. N12\; Q opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-22T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-28T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n13-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261122T230000Z
+DTEND:20261122T233000Z
+SUMMARY:A ranked exercise list is not a program.
+DESCRIPTION:Proposed Shorts + Reels post. N13\; A opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-23T18:00:00-05:00.
+  Seven-day snapshot: 2026-11-29T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:review-22-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261123T010000Z
+DTEND:20261123T014500Z
+SUMMARY:Weekly pilot review and labor log
+DESCRIPTION:Review available mature snapshots\, useful responses and actual
+  hands-on time. Keep thresholds unchanged.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s07-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261123T230000Z
+DTEND:20261123T231500Z
+SUMMARY:Story: Your plan’s missing piece
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n14-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261124T230000Z
+DTEND:20261124T233000Z
+SUMMARY:Full body or split—which fits your week?
+DESCRIPTION:Proposed Shorts + Reels post. N14\; Q opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-25T18:00:00-05:00.
+  Seven-day snapshot: 2026-12-01T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k04-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261125T230000Z
+DTEND:20261125T231500Z
+SUMMARY:Carousel: A program needs more than a ranking
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n15-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261126T230000Z
+DTEND:20261126T233000Z
+SUMMARY:More sets have diminishing returns.
+DESCRIPTION:Proposed Shorts + Reels post. N15\; A opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-27T18:00:00-05:00.
+  Seven-day snapshot: 2026-12-03T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:s08-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261127T230000Z
+DTEND:20261127T231500Z
+SUMMARY:Story: Volume versus capacity
+DESCRIPTION:Proposed Instagram support post. Copy: content/month-one-v2/SUP
+ PORTING_POSTS.md. Native stickers are manual.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:n16-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261128T230000Z
+DTEND:20261128T233000Z
+SUMMARY:Does the same stack number mean the same lift?
+DESCRIPTION:Proposed Shorts + Reels post. N16\; Q opening. Exact script: co
+ ntent/month-one-v2/SCRIPTS.md. Diagnostic +24h: 2026-11-29T18:00:00-05:00.
+  Seven-day snapshot: 2026-12-05T18:00:00-05:00. Not scheduled on either pl
+ atform.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:review-29-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261130T010000Z
+DTEND:20261130T014500Z
+SUMMARY:Weekly pilot review and labor log
+DESCRIPTION:Review available mature snapshots\, useful responses and actual
+  hands-on time. Keep thresholds unchanged.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:interim-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261130T230000Z
+DTEND:20261201T000000Z
+SUMMARY:Provisional month-end review
+DESCRIPTION:Only N01–N13 are seven days old. Full-cohort review is Decemb
+ er 5.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:final-202611-v2@rep-and-reason.local
+DTSTAMP:20261021T160000Z
+DTSTART:20261205T230000Z
+DTEND:20261206T000000Z
+SUMMARY:Full-cohort go / iterate / no-go review
+DESCRIPTION:Use first-seven-day exports\, useful-response coding\, V2 compr
+ ehension checks and measured labor. Missing evidence stays missing.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

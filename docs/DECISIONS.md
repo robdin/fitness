@@ -14,3 +14,15 @@
 | D10 | Turuan is a reference, not an audited dependency | Access limitation | Authenticated code review and compatibility fixtures pass |
 
 Record later changes with date, owner, evidence, affected IDs and reason. Do not rewrite an old result to match a new preference.
+
+## 21 October 2026 — sourced month-one revision
+
+Requested by Ron: ground the calendar in similar popular creators and community
+questions, prepare the experiment framework, and write the month of content.
+The resulting [V2 proposal](MONTH_ONE_V2.md) uses N01–N16, preserving M01–M16 and
+their existing exports. It targets audience interest within the user's selected
+12-hour weekly limit. Hook assignment is balanced across weeks, topic clusters
+and weekdays, but organic comparisons remain descriptive. Creator popularity
+and Reddit questions are topic-selection leads, not scientific or audience
+validation. Proposed dates and thresholds remain unlaunched; no publication,
+participant result or business GO has been recorded.

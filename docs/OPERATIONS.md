@@ -28,7 +28,12 @@ These are syntax examples, not approvals. Silent previews cannot pass this gate.
 
 ## Provider ledger
 
-No generation provider is connected. Budget commands record your explicit authorized cumulative limit in minor currency units; the convention in this project is USD cents. Do not mix currencies in one provider budget. There is no automatic monthly reset.
+The core ledger is not wired to a generation-provider adapter. Existing OpenArt
+assets and Fish synthesis scripts are separate production integrations, described
+in CODEX_HANDOFF.md and MONTH_ONE.md. Budget commands record your explicit
+authorized cumulative limit in minor currency units; the convention in this
+project is USD cents. Do not mix currencies in one provider budget. There is no
+automatic monthly reset. A script receipt is not an invoice or ledger integration.
 
 ~~~bash
 python -m fitness_os budget openart --ceiling-cents 500 --concurrency 1

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-21",
+  "method": "Independent local speech recognition followed by text-difference review; no human listening attestation.",
+  "base_en_current_tracks": 16,
+  "small_en_targeted_tracks": 12,
+  "m07_revision": "Original closing phrase repeatedly recognized as a nonword by both models. Revised sentence and regenerated once. Current small.en transcript matches the entire revised script apart from number spelling; base.en still misrecognizes lunge/thigh.",
+  "residual_listening_focus": {
+    "M02": "Articles and initial the; intended decision unchanged.",
+    "M04": "Plural endings rests/tests; all study numbers retained.",
+    "M08": "Both models insert but before the first if. No meaning change.",
+    "M10": "Past-tense endings changed/performed.",
+    "M11": "Article a/the before confident explanation and rests/rest.",
+    "M12": "Happened/happen ending.",
+    "M15": "One recognizer hears to instead of they at the appraisal transition; base.en matches they."
+  },
+  "release_approval": false,
+  "actual_audience_data": false,
+  "checks": {
+    "python_tests_passed": 31,
+    "javascript_tests_passed": 2,
+    "narrated_layout_frames": 781,
+    "browser_narrated_cards": 16,
+    "browser_broken_images": 0,
+    "browser_playback_checked": [
+      "M01-motion.mp4"
+    ],
+    "visual_inspection": "Final narrated-frame contact sheet across 16 episodes, plus earlier scene/detail review. Full human watch/listen review remains pending."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "episodes": 16,
+  "creators": 6,
+  "community_threads": 23,
+  "research_records": 14,
+  "script_word_range": [
+    81,
+    91
+  ],
+  "balanced_by": [
+    "week",
+    "topic cluster",
+    "weekday"
+  ],
+  "planned_weekly_hours": 12.0,
+  "audience_tests_conducted": false,
+  "v2_media_rendered": false,
+  "scope": "Structural, source-reference, schedule and content-budget checks only; not scientific approval or audience validation."
+}
