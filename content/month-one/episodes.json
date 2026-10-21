@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "brand": "Rep & Reason",
+  "start_date": "2026-11-01",
+  "timezone": "America/New_York",
+  "status": "editorial_drafts_not_published",
+  "goal": "Audience interest and a sustainable production process",
+  "episodes": [
+    {
+      "id": "M01", "day": 1, "pillar": "time", "title": "Where did your gym hour go?", "cover": ["60 MINUTES.", "OF WHAT?"], "visual": "audit", "source_ids": ["EDITORIAL"],
+      "hook_type": "question", "takeaway": "Measure lifting, rest, setup and waiting separately before changing a plan.",
+      "beats": [
+        ["question", "Your workout took an hour. But where did that hour go?"],
+        ["example", "Here's a made-up example. Fifteen minutes lifting. Twenty-five resting."],
+        ["buckets", "Eight setting up. Twelve waiting. That's sixty minutes, with four different jobs."],
+        ["caveat", "The biggest block is not automatically the problem. Rest has a purpose."],
+        ["action", "Log one session. Find one delay you can change, like repeated equipment trips."],
+        ["close", "Then compare your next session. Measure the friction before you rewrite the plan."]
+      ],
+      "cta": "Try a one-session audit.", "comment_prompt": "Which bucket surprised you: lifting, rest, setup, or waiting?",
+      "disclosure": "Invented example: 15 + 25 + 8 + 12 = 60 minutes. Not research data or a typical workout.",
+      "comprehension": {"question": "Does the largest time bucket necessarily need cutting?", "answer": "No. Rest can serve the plan; first identify a changeable delay."}
+    },
+    {
+      "id": "M02", "day": 3, "pillar": "equipment", "title": "Machine taken? Ask this before you swap.", "cover": ["MACHINE TAKEN?", "KEEP THE GOAL."], "visual": "decision", "source_ids": ["EDITORIAL"],
+      "hook_type": "answer", "takeaway": "Start substitution decisions with the exercise's purpose and practical constraints.",
+      "beats": [
+        ["question", "The machine is taken. Start with the goal before picking a replacement."],
+        ["goal", "Were you practicing a specific lift, or training a particular muscle?"],
+        ["constraints", "Next, check the equipment available and the movements you already know."],
+        ["caveat", "Two exercises sharing a muscle label are not automatically interchangeable."],
+        ["action", "Write down the goal and the constraint. Use those to narrow the choice."],
+        ["close", "If you're unsure, ask a qualified coach. A crowded gym should not make the decision for you."]
+      ],
+      "cta": "Name the goal before the swap.", "comment_prompt": "What usually forces your swap: a busy station, travel, or limited equipment?",
+      "disclosure": "Decision checklist, not an individualized replacement prescription.",
+      "comprehension": {"question": "Does training the same muscle guarantee an equivalent substitution?", "answer": "No."}
+    },
+    {
+      "id": "M03", "day": 5, "pillar": "evidence", "title": "50% better—from what?", "cover": ["50% BETTER?", "FROM WHAT?"], "visual": "relative", "source_ids": ["MATH"],
+      "hook_type": "question", "takeaway": "Ask for the baseline, absolute change and outcome behind a relative percentage.",
+      "beats": [
+        ["question", "Fifty percent better sounds huge. Better than what?"],
+        ["example", "In this invented example, a score moves from two to three."],
+        ["relative", "That's a fifty percent increase. It's also one extra point."],
+        ["caveat", "Both descriptions are true. Neither tells you whether the difference matters."],
+        ["action", "Before changing your workout, ask: what was measured, what was the starting value,"],
+        ["close", "and how large was the actual change? A percentage needs a denominator."]
+      ],
+      "cta": "Ask: better at what, and by how much?", "comment_prompt": "Which would you want first: the baseline or the outcome being measured?",
+      "disclosure": "Invented score units; 2 to 3 is +1 point and +50%. No fitness outcome data.",
+      "comprehension": {"question": "What absolute change produced the 50% increase?", "answer": "One point, from two to three."}
+    },
+    {
+      "id": "M04", "day": 7, "pillar": "time", "title": "Rest is not automatically wasted time", "cover": ["REST IS", "PART OF IT."], "visual": "rest", "source_ids": ["REST2016"],
+      "hook_type": "answer", "takeaway": "A shorter session is not enough reason to cut every rest period.",
+      "beats": [
+        ["question", "Rest is part of training. Don't cut it just because the clock looks bad."],
+        ["study", "One eight-week trial compared one-minute and three-minute rests in twenty-one trained young men."],
+        ["result", "The three-minute group improved more on the squat and bench strength tests."],
+        ["caveat", "That does not make three minutes a universal rule for every person or exercise."],
+        ["action", "It does challenge the idea that shorter rest is always better."],
+        ["close", "Audit avoidable delays before treating every pause as wasted time."]
+      ],
+      "cta": "Separate recovery from avoidable delay.", "comment_prompt": "What extends your sessions most: rest, setup, or waiting?",
+      "disclosure": "Schoenfeld et al. 2016; 21 trained young men; 8 weeks. Abstract-level review. No universal rest prescription.",
+      "comprehension": {"question": "Does this trial establish a three-minute rest rule for everyone?", "answer": "No. It studied a specific group and program."}
+    },
+    {
+      "id": "M05", "day": 8, "pillar": "time", "title": "How many laps does your workout include?", "cover": ["ANOTHER TRIP?", "MAP THE DELAY."], "visual": "route", "source_ids": ["EDITORIAL"],
+      "hook_type": "question", "takeaway": "Look for repeated avoidable equipment trips without hoarding equipment.",
+      "beats": [
+        ["question", "How many laps around the gym does your workout include?"],
+        ["before", "Picture returning for a handle, then a collar, then the item you forgot."],
+        ["map", "This diagram is illustrative. The useful question is which trips were avoidable."],
+        ["action", "Before the next exercise, check what you need and what is actually available."],
+        ["caveat", "Keep shared equipment available. This is not a reason to claim several stations."],
+        ["close", "Try one setup change. Measure your own session before claiming any time saved."]
+      ],
+      "cta": "Remove one unnecessary trip.", "comment_prompt": "What is the item you most often forget to grab?",
+      "disclosure": "Illustrative route; no measured time savings or instruction to occupy multiple stations.",
+      "comprehension": {"question": "Does this example prove a certain number of minutes saved?", "answer": "No. Measure your own sessions."}
+    },
+    {
+      "id": "M06", "day": 10, "pillar": "equipment", "title": "Same muscle does not mean the same task", "cover": ["SAME MUSCLE.", "SAME TASK?"], "visual": "decision", "source_ids": ["EDITORIAL"],
+      "hook_type": "answer", "takeaway": "A muscle label alone does not describe an exercise's purpose or constraints.",
+      "beats": [
+        ["question", "A muscle label is not a complete exercise description."],
+        ["goal", "Imagine two options both labeled chest. That label leaves important questions unanswered."],
+        ["constraints", "Is the aim to practice a particular lift? What equipment and setup are involved?"],
+        ["caveat", "This checklist does not prove that one option is better, safer, or equivalent."],
+        ["action", "Write the purpose of the exercise in one sentence before choosing a substitute."],
+        ["close", "A clearer question makes a more useful conversation with your coach."]
+      ],
+      "cta": "Write the purpose in one sentence.", "comment_prompt": "When you swap an exercise, what do you try to preserve?",
+      "disclosure": "Editorial decision framework; no exact biomechanical equivalence claim.",
+      "comprehension": {"question": "What does a muscle label leave out?", "answer": "The specific goal, task, setup and constraints."}
+    },
+    {
+      "id": "M07", "day": 12, "pillar": "evidence", "title": "Eight people. Sixteen legs. Which sample size?", "cover": ["8 PEOPLE.", "16 LEGS."], "visual": "sample", "source_ids": ["LEGS2025"],
+      "hook_type": "question", "takeaway": "A within-person study can compare limbs without having twice as many independent participants.",
+      "beats": [
+        ["question", "Eight people. Sixteen legs. Is that a study of sixteen people?"],
+        ["study", "No. A nine-week study tested a lunge with one leg and a leg press with the other."],
+        ["sample", "The participants were eight young, previously untrained women."],
+        ["result", "The researchers reported comparable muscle growth in the measured thigh regions."],
+        ["caveat", "That does not establish that every machine and free-weight exercise is equivalent."],
+        ["close", "Check who was studied and what was compared before applying the headline."]
+      ],
+      "cta": "Count people, then check the comparison.", "comment_prompt": "What do you check first in a study: people, comparison, or outcome?",
+      "disclosure": "Amanuma et al. 2025; 8 women, 9 weeks, within-person leg comparison. Abstract-level review; no universal equivalence claim.",
+      "comprehension": {"question": "How many people participated?", "answer": "Eight; the sixteen legs are paired within those participants."}
+    },
+    {
+      "id": "M08", "day": 14, "pillar": "time", "title": "Thirty minutes? Make the constraint visible.", "cover": ["30 MINUTES?", "PLAN THE LIMIT."], "visual": "budget", "source_ids": ["EDITORIAL"],
+      "hook_type": "answer", "takeaway": "Plan around available time without assuming everything fits by rushing.",
+      "beats": [
+        ["question", "If you have thirty minutes, make that limit visible before you start."],
+        ["example", "An hour-long plan does not become a thirty-minute plan just by moving the clock."],
+        ["constraints", "List what matters most, the equipment available, and the time you actually have."],
+        ["caveat", "This is a planning prompt, not a complete workout or a reason to rush every rest."],
+        ["action", "Ask what can realistically fit, and what needs a different session."],
+        ["close", "A useful plan acknowledges the constraint instead of hiding it."]
+      ],
+      "cta": "Plan with the actual time available.", "comment_prompt": "What is your realistic gym window on a busy day?",
+      "disclosure": "Illustrative time constraint; no dose or exercise prescription.",
+      "comprehension": {"question": "Is rushing all rest periods the proposed solution?", "answer": "No. Make the constraint explicit and revise the plan appropriately."}
+    },
+    {
+      "id": "M09", "day": 15, "pillar": "evidence", "title": "Same numbers. Very different-looking chart.", "cover": ["SAME NUMBERS.", "BIGGER STORY?"], "visual": "axis", "source_ids": ["MATH"],
+      "hook_type": "question", "takeaway": "Read the scale and units before judging a visual difference.",
+      "beats": [
+        ["question", "Can the same two numbers look like a completely different story?"],
+        ["full", "Here are two invented scores: ninety and one hundred, on a zero-based scale."],
+        ["zoom", "Now the axis starts at eighty. The difference looks much larger."],
+        ["caveat", "The scores did not change. The displayed scale did."],
+        ["action", "A close-up can be useful, but the axis and units must stay visible."],
+        ["close", "Before a fitness chart changes your mind, read the scale beneath the claim."]
+      ],
+      "cta": "Read the axis before the headline.", "comment_prompt": "Did the second chart change your first impression?",
+      "disclosure": "Invented scores 90 and 100; scales start at 0 and 80. No measured training outcomes.",
+      "comprehension": {"question": "Did the underlying numbers change between charts?", "answer": "No; only the axis minimum changed."}
+    },
+    {
+      "id": "M10", "day": 17, "pillar": "equipment", "title": "A different machine needs a different log entry", "cover": ["NEW MACHINE.", "NEW ENTRY."], "visual": "log", "source_ids": ["EDITORIAL"],
+      "hook_type": "answer", "takeaway": "Identify equipment and setup when comparing entries in a training log.",
+      "beats": [
+        ["question", "Changed the machine? Make that change visible in your training log."],
+        ["example", "Two entries that both say fifty leave out which machine and which units."],
+        ["detail", "Add the exercise, equipment, setup, load and repetitions."],
+        ["caveat", "The matching number alone does not establish that you performed the same task."],
+        ["action", "Keep comparisons clearly labeled, especially when you train in different gyms."],
+        ["close", "Your future self needs the context, not just a bigger number."]
+      ],
+      "cta": "Add equipment and units to your log.", "comment_prompt": "What detail do you wish you had recorded last session?",
+      "disclosure": "Illustrative log entries; no conversion between machines or force calculation.",
+      "comprehension": {"question": "Do identical displayed loads guarantee the same task?", "answer": "No; equipment, setup and units need context."}
+    },
+    {
+      "id": "M11", "day": 19, "pillar": "time", "title": "Changed five things? What actually helped?", "cover": ["5 CHANGES.", "WHICH HELPED?"], "visual": "variables", "source_ids": ["EDITORIAL"],
+      "hook_type": "question", "takeaway": "Change one practical setup variable at a time and keep cautious notes.",
+      "beats": [
+        ["question", "You changed five things and the session went better. Which change helped?"],
+        ["many", "A new time, a new gym, different exercises, shorter rests, and a new setup."],
+        ["caveat", "That makes a confident explanation difficult. One good session is not proof."],
+        ["one", "For a practical time audit, try one manageable setup change first."],
+        ["action", "Record what else was different, including how busy the gym was."],
+        ["close", "Compare several sessions. Use the notes to guide your next question, not declare a miracle."]
+      ],
+      "cta": "Change one thing. Keep the context.", "comment_prompt": "What single setup change would you try first?",
+      "disclosure": "Personal observations are not a randomized experiment; no causal or outcome guarantee.",
+      "comprehension": {"question": "Does one better session prove the change caused it?", "answer": "No; other factors and variation remain."}
+    },
+    {
+      "id": "M12", "day": 21, "pillar": "evidence", "title": "An eight-week result is not a one-workout result", "cover": ["ONE SESSION?", "EIGHT WEEKS?"], "visual": "weeks", "source_ids": ["REST2016"],
+      "hook_type": "answer", "takeaway": "Match a study's measurement horizon to the claim being made.",
+      "beats": [
+        ["question", "An eight-week result is not a prediction for your next workout."],
+        ["study", "That rest-interval trial measured changes across eight weeks of training."],
+        ["timeline", "The squat and bench tests happened before and after the program."],
+        ["caveat", "The result does not tell you exactly what you will gain tomorrow, or next month."],
+        ["action", "When a headline promises an immediate payoff, check when the outcome was measured."],
+        ["close", "Match the time scale of the evidence to the time scale of the claim."]
+      ],
+      "cta": "Ask: measured over how long?", "comment_prompt": "Which is more useful to you: a single-session result or a longer training study?",
+      "disclosure": "Schoenfeld et al. 2016; 8-week trial in 21 trained young men. No individual prediction.",
+      "comprehension": {"question": "Was the strength change measured after one workout?", "answer": "No; before and after eight weeks."}
+    },
+    {
+      "id": "M13", "day": 22, "pillar": "time", "title": "Which delay can you actually change?", "cover": ["BIGGEST BLOCK?", "WRONG QUESTION."], "visual": "audit", "source_ids": ["EDITORIAL"],
+      "hook_type": "answer", "takeaway": "Prioritize a practical, changeable source of friction rather than the biggest time category.",
+      "beats": [
+        ["question", "Start with a delay you can change, not automatically the biggest block."],
+        ["example", "Our invented hour has fifteen minutes lifting and twenty-five resting."],
+        ["buckets", "Eight go to setup. Twelve to waiting. Those are example numbers, not a target."],
+        ["caveat", "You cannot know what to cut just by ranking the blocks."],
+        ["action", "Look for one specific issue, such as returning for forgotten equipment."],
+        ["close", "Try a practical change, log the next session, and keep the rest of the context."]
+      ],
+      "cta": "Choose a changeable delay.", "comment_prompt": "Which delay is most under your control?",
+      "disclosure": "Invented 15/25/8/12-minute example; not a target distribution or measured result.",
+      "comprehension": {"question": "Should the example's distribution be your target?", "answer": "No; it is invented and only illustrates separate categories."}
+    },
+    {
+      "id": "M14", "day": 24, "pillar": "equipment", "title": "What belongs in your Plan B?", "cover": ["PLAN B?", "WRITE THE WHY."], "visual": "decision", "source_ids": ["EDITORIAL"],
+      "hook_type": "question", "takeaway": "Prepare a bounded Plan B question before a common equipment constraint arises.",
+      "beats": [
+        ["question", "If your usual station is busy, what belongs in your Plan B?"],
+        ["goal", "Start by writing what the original exercise is meant to accomplish."],
+        ["constraints", "Then note the equipment you can use and any unfamiliar movements."],
+        ["action", "Discuss a suitable alternative with your coach before the next crowded session."],
+        ["caveat", "A backup is a decision made with context, not a universal swap list."],
+        ["close", "Prepare the question now, so the queue does not write your training plan."]
+      ],
+      "cta": "Prepare one Plan B question.", "comment_prompt": "Which station most often needs a Plan B?",
+      "disclosure": "Planning checklist; no prescribed exercise substitutions.",
+      "comprehension": {"question": "Is Plan B a universal list of equivalent exercises?", "answer": "No; the goal and constraints determine the discussion."}
+    },
+    {
+      "id": "M15", "day": 26, "pillar": "evidence", "title": "Three questions before you change your workout", "cover": ["NEW STUDY?", "3 QUESTIONS."], "visual": "checklist", "source_ids": ["EDITORIAL"],
+      "hook_type": "answer", "takeaway": "Check population, comparison and outcome before applying a study headline.",
+      "beats": [
+        ["question", "Before a new study rewrites your workout, ask three questions."],
+        ["who", "Who was studied? Their experience and situation might differ from yours."],
+        ["what", "What was compared? The actual programs matter more than the headline labels."],
+        ["outcome", "What changed, and over how long? Strength and muscle size are different outcomes."],
+        ["caveat", "These questions do not replace a full appraisal. They help you avoid a rushed conclusion."],
+        ["close", "Save the questions: who, compared with what, and which outcome?"]
+      ],
+      "cta": "Save: who / comparison / outcome.", "comment_prompt": "Which of the three is most often missing from fitness headlines?",
+      "disclosure": "Introductory appraisal prompts, not a research-quality scoring system.",
+      "comprehension": {"question": "Do these three questions fully appraise a study?", "answer": "No; they are a starting point."}
+    },
+    {
+      "id": "M16", "day": 28, "pillar": "time", "title": "Your next workout needs one useful question", "cover": ["NEXT SESSION.", "ONE QUESTION."], "visual": "checklist", "source_ids": ["EDITORIAL"],
+      "hook_type": "question", "takeaway": "Choose one concrete question to investigate in your next session.",
+      "beats": [
+        ["question", "What is the one question your next gym session could answer?"],
+        ["who", "Where did the time go? Log lifting, rest, setup and waiting."],
+        ["what", "Why this exercise? Write down the goal before choosing a substitute."],
+        ["outcome", "What would change your mind? Name the outcome you actually care about."],
+        ["caveat", "You do not need to change everything, and one session will not prove everything."],
+        ["close", "Choose one question. Record what happened. Know why. Train better."]
+      ],
+      "cta": "Choose one question for your next session.", "comment_prompt": "Which series should go deeper next: time, equipment, or reading research?",
+      "disclosure": "Editorial recap; no claim that this series has produced audience or training results.",
+      "comprehension": {"question": "Does one session prove that every change worked?", "answer": "No; it starts an observation, not a universal conclusion."}
+    }
+  ]
+}

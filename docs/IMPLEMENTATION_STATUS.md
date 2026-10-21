@@ -1,6 +1,14 @@
 # Implementation status
 
-Foundation prepared 20 September 2026; Blender MVP added 12 October 2026 in PR #2.
+Current continuation, 21 October 2026: PR #3 is merged. The approved deeper-voice
+V3 and its timed JavaScript graphics are retained. The new [month-one pilot](MONTH_ONE.md)
+adds canonical scripts, twelve diagram families, a 30-day calendar, supporting
+posts, local review exports and separate decision support. See its build receipts
+for actual rendered/audio status. No audience test or social publication has occurred.
+
+The table below describes the earlier foundation (20 September) and Blender MVP
+(12 October). In particular, its older provider and narration gaps do not negate
+the subsequently delivered OpenArt media and approved Fish voice.
 
 | Area | Delivered | Still needed |
 | --- | --- | --- |
@@ -21,7 +29,10 @@ Foundation prepared 20 September 2026; Blender MVP added 12 October 2026 in PR #
 
 ## What has not occurred
 
-No paid generation, customer recruitment, outreach, public upload, checkout creation, purchase, renewal or live audience test. No statistical winner is claimed. Synthetic test fixtures are confined to temporary test stores and are not research observations.
+No customer recruitment, outreach, public upload, checkout creation, purchase,
+renewal or live audience test is recorded. Earlier OpenArt generations did use
+account credits; V3 reused them. No statistical winner is claimed. Synthetic
+test fixtures remain separate from research observations.
 
 The workstream label “desk pass completed” means a documented evidence/design pass with a decision and remaining gap. It does not mean every paper, market question or field experiment is complete.
 

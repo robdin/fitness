@@ -1,5 +1,11 @@
 # Rep & Reason — complete Codex handoff
 
+> **Continuation verified 21 October 2026:** PR #3 is now merged at
+> `dcba7ba079fb6b05ec1ebbb2e4cb9094b7a3f701`. Continue with
+> [MONTH_ONE.md](MONTH_ONE.md) for the new calendar, content, tests and media
+> status. The original handoff below preserves the earlier delivery snapshot;
+> references to PR #3 being open/draft are historical.
+
 **Prepared:** 21 October 2026  
 **Owner:** Ron  
 **Repository:** https://github.com/robdin/fitness  

@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-21",
+  "status": "visual_drafts_complete_narration_pending",
+  "core_episodes": 16,
+  "video_exports": 18,
+  "carousel_images": 20,
+  "story_images": 16,
+  "captions": "estimated_until_narration",
+  "max_estimated_caption_cps": 18.307,
+  "python_tests_passed": 29,
+  "javascript_tests_passed": 2,
+  "decode_passes": 18,
+  "browser_playback_checked": [
+    "M01-motion-silent-draft.mp4"
+  ],
+  "visual_inspection": "Contact sheet across all 16 episodes; enlarged complex frames and selected supporting panels. No claim of full human listening or audience testing.",
+  "new_openart_generation_calls": 0,
+  "fish_synthesis_requests_submitted": 0,
+  "live_audience_observations": 0,
+  "historical_source_changes": false,
+  "outputs": [
+    {
+      "file": "M01/M01-compact-silent-draft.mp4",
+      "sha256": "d9e3e05cfa25405266a182c8e7da2728d47652761f5e92d267a5232c7b48d8bf",
+      "bytes": 750921,
+      "duration": 26.9,
+      "frames": 807,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M01/M01-large-silent-draft.mp4",
+      "sha256": "736b88be42dcd135059378c3f4e945c57e504b29e02b6680e7bf42d35062ef1a",
+      "bytes": 728763,
+      "duration": 26.9,
+      "frames": 807,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M01/M01-motion-silent-draft.mp4",
+      "sha256": "d9bdcdfdb9bc7da59cc3f999d6334e4b217e06e5d0d443696ef340fb05b9de8b",
+      "bytes": 796918,
+      "duration": 26.9,
+      "frames": 807,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M02/M02-motion-silent-draft.mp4",
+      "sha256": "fb43752b11db40045778729e0e35ca4a165733b0a99143a5ec31181d78c7d90a",
+      "bytes": 733061,
+      "duration": 27.933333,
+      "frames": 838,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M03/M03-motion-silent-draft.mp4",
+      "sha256": "8d10046a8f21259879afe77d1a802f92960c4c0f9454fc7085fa40a456f7049a",
+      "bytes": 586220,
+      "duration": 24.566667,
+      "frames": 737,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M04/M04-motion-silent-draft.mp4",
+      "sha256": "93f27e74f8d16a544d42e16d82ffabbf9e81e46dbfc16c9a72b56bf89627b9b6",
+      "bytes": 780988,
+      "duration": 28.133008,
+      "frames": 844,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M05/M05-motion-silent-draft.mp4",
+      "sha256": "f856a7149b8fc10f108c1bbfe02b41665c29a759cc45cef64ac509f82fc7ffc1",
+      "bytes": 782940,
+      "duration": 27.466667,
+      "frames": 824,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M06/M06-motion-silent-draft.mp4",
+      "sha256": "baa8e0f080dc1051587d38a67acbe585947b12a7a1c22134f0230d6d0a59e5db",
+      "bytes": 720011,
+      "duration": 27.266667,
+      "frames": 818,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M07/M07-motion-silent-draft.mp4",
+      "sha256": "4030157ae0e29562e03d1cfb82f96042715c09814e0459a0e46dc19bf0d4be96",
+      "bytes": 759231,
+      "duration": 27.666667,
+      "frames": 830,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M08/M08-motion-silent-draft.mp4",
+      "sha256": "f0af2dd0b75042bffe846a1cdf4ed679265b4f462231b971efc36946aa1986ae",
+      "bytes": 724657,
+      "duration": 28.0,
+      "frames": 840,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M09/M09-motion-silent-draft.mp4",
+      "sha256": "a56bbfa7973143e34362eeb50b6e7adab6608ca682c9eab23cb4abbf731d3498",
+      "bytes": 639076,
+      "duration": 25.9,
+      "frames": 777,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M10/M10-motion-silent-draft.mp4",
+      "sha256": "926991611671d92d976a30f80e75ea74af56ab196019b7354f9d95bd6cabb464",
+      "bytes": 654692,
+      "duration": 25.633333,
+      "frames": 769,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M11/M11-motion-silent-draft.mp4",
+      "sha256": "39953eff042d0cae3f82a56823f1f4a73c6c6d1a572499398b334f0f118654b6",
+      "bytes": 670174,
+      "duration": 27.633333,
+      "frames": 829,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M12/M12-motion-silent-draft.mp4",
+      "sha256": "c94cf29db9f2172ddc6e9ec64b1facdc23bc50070eb5808a3929b5b9ced0c072",
+      "bytes": 792067,
+      "duration": 27.8,
+      "frames": 834,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M13/M13-motion-silent-draft.mp4",
+      "sha256": "dbd182f57f83020eb483e5e917eaf3d3cdfff5a9b67a13cc36a081ef321a4f21",
+      "bytes": 795162,
+      "duration": 27.333333,
+      "frames": 820,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M14/M14-motion-silent-draft.mp4",
+      "sha256": "af1514ef354698b4fee41a5fcc7f3bfa15e18f7bab05599dcfb68250fb153f97",
+      "bytes": 707880,
+      "duration": 26.733333,
+      "frames": 802,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M15/M15-motion-silent-draft.mp4",
+      "sha256": "f1126e3ceabd2f7b4e4323282adba5b7e5d4587cf5118eb2ed6c87d730e6fe0d",
+      "bytes": 713496,
+      "duration": 26.366667,
+      "frames": 791,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    },
+    {
+      "file": "M16/M16-motion-silent-draft.mp4",
+      "sha256": "15fc1436be06a99e0ce09e89f3bf6c75f15ddaac0f2680214b36f73eafd856dc",
+      "bytes": 678935,
+      "duration": 25.7,
+      "frames": 771,
+      "width": 1080,
+      "height": 1920,
+      "audio_present": false
+    }
+  ]
+}

@@ -6,6 +6,10 @@ A working, local-first foundation for an evidence-led fitness content business. 
 
 ## Start here
 
+- [Month-one validation pilot](docs/MONTH_ONE.md): 30-day calendar, 16 scripts,
+  three visual treatments, supporting posts, reusable production tools and an
+  audience-interest / 12-hour-per-week go/no-go protocol.
+
 - [Current Codex handoff](docs/CODEX_HANDOFF.md): the finished 36.2-second V3 social cut, approved deeper voice, research, source-media recovery and continuation instructions.
 
 - [Narrated Blender MVP](examples/blender-mvp/README.md): a complete vertical video with animated 3D visuals, captions, original sound and editable sources.
