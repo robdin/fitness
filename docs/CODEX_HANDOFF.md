@@ -1,8 +1,8 @@
 # Rep & Reason — complete Codex handoff
 
-> **Current production, 22 October 2026:** [MONTH_ONE_V4.md](MONTH_ONE_V4.md) contains the owner-requested Training Club character revision: 16 narrated masters, 36 supporting images, six matched character stimuli and two citation stimuli (21 distinct videos total). The muscular guide is a provisional creative choice, not an audience winner. Approved narration is reused. Open `.local/month-one-v4/review/index.html`; archives are in `../fitness-deliverables/month-one-v4`. Full listening, target-app preview and real audience/labor measurements remain pending. V3 is preserved.
+> **Current production, 22 October 2026:** [MONTH_ONE_V4.md](MONTH_ONE_V4.md) is the graphics-led V4.1 update. The owner removed the AI character. All 16 narrated masters and 36 supporting images are rebuilt without it; a separate B03 citation control gives 17 distinct videos. Open `.local/month-one-v4-graphics/review/index.html`; current archives are in `../fitness-deliverables/month-one-v4-graphics`. Character testing is retired without observations. Approved narration, source boundaries and the November calendar are retained. Full listening, target-app preview and audience/labor measurements remain pending.
 
-> **Research foundation, 22 October 2026:** [MONTH_ONE_V3.md](MONTH_ONE_V3.md) documents the five research perspectives, canonical B-series scripts and November schedule. Ron selected Training Club. The [character/trust research](../research/audience-v3/07_TRUST_AND_CHARACTER.md) and [CT1 protocol](../research/audience-v3/08_CHARACTER_TEST_PROTOCOL.md) remain untested with participants; their stimuli are now produced in V4.
+> **Research foundation:** [MONTH_ONE_V3.md](MONTH_ONE_V3.md) documents the five research perspectives, canonical B-series scripts and schedule. Training Club remains selected. The active follow-up is [citation visibility](../experiments/citation-visibility-v1.json); the prior character research is historical, not a launch gate.
 
 > **Latest content revision, 21 October 2026:** use [MONTH_ONE_V2.md](MONTH_ONE_V2.md)
 > for the creator/community-sourced calendar, 16 new N-series scripts and the

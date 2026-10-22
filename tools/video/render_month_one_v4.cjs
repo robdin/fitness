@@ -1,12 +1,11 @@
-/* Training Club character candidates. V3 factual diagrams retained; V4 layout and cues. */
+/* Training Club: full-width explanations, readable captions and bounded source cues. */
 const fs=require('node:fs'),path=require('node:path'),{spawn}=require('node:child_process'),{once}=require('node:events');
-const {createCanvas,GlobalFonts,loadImage}=require('@napi-rs/canvas');
+const {createCanvas,GlobalFonts}=require('@napi-rs/canvas');
 const ROOT=path.resolve(__dirname,'../..'),BRANDS=JSON.parse(fs.readFileSync(path.join(ROOT,'brand/v3/tokens.json')));
 GlobalFonts.registerFromPath(path.join(ROOT,'content/mvp/time-audit/fonts/SpaceGrotesk.ttf'),'Space');
 const clamp=x=>Math.max(0,Math.min(1,x)),ease=x=>1-(1-clamp(x))**3;
 async function createRenderer(tl,{width=1080,treatment='motion',captions=true}={}){
  const design=tl.episode.graphics,brand=design.brand||'club',C=BRANDS[brand];if(!C)throw Error('Unknown brand');
- const portrait=design.character_asset?await loadImage(path.join(ROOT,design.character_asset)):null;
  const canvas=createCanvas(width,Math.round(width*16/9)),g=canvas.getContext('2d'),checks=[];let idx=0,local=0,p=1,t=0,diagram=false;
  const motion=treatment==='motion',dark=brand==='lab',club=brand==='club',paper=brand==='notebook';
  const graphicInk=dark?'#F4F7EF':C.ink,chipInk=club?'#F5F3EA':C.ink;
@@ -17,7 +16,7 @@ async function createRenderer(tl,{width=1080,treatment='motion',captions=true}={
   const font=n=>{g.font=`${weight} ${n}px Space`;};font(size);while(g.measureText(s).width>max&&size>24)font(--size);
   const w=g.measureText(s).width,left=align==='center'?x-w/2:align==='right'?x-w:x;
   const box={text:s,x:left,y,size,width:w,right:left+w,bottom:y+size*1.2,color,brand};
-  if(diagram){box.x=75+left*.85;box.y=222+y*.85;box.right=75+(left+w)*.85;box.bottom=222+(y+size*1.2)*.85;box.size=size*.85;box.width=w*.85;}checks.push(box);
+  if(diagram){box.y+=32;box.bottom+=32;}checks.push(box);
   g.textAlign=align;g.textBaseline='top';g.fillStyle=color;g.fillText(s,x,y);
  }
  function tick(x,y,c){line(x-13,y,x-1,y+12,c,7);line(x-1,y+12,x+24,y-18,c,7);}
@@ -53,15 +52,11 @@ async function createRenderer(tl,{width=1080,treatment='motion',captions=true}={
   if(club){rect(0,0,1080,180,C.secondary,0);rect(0,1560,1080,360,C.secondary,0);rect(54,240,12,1240,C.ink,0);}
   if(paper){rect(72,580,860,584,C.panel,28);line(118,604,118,1136,'#D8A28D',2);for(let y=637;y<1140;y+=64)line(135,y,909,y,'#E7DFD3',1);}
   const markBg=paper?C.accent:C.accent,markFg=C.accentInk;rect(84,250,70,61,markBg,paper?19:4);text(club?'R/R':dark?'R²':'R',119,263,27,markFg,'center',62,700);text('REP & REASON',177,265,28,C.ink,'left',380,700);text(tl.episode.id+' / '+tl.episode.pillar.toUpperCase(),915,267,23,C.muted,'right',310);
-  // Fixed portrait slot in every arm; the graphics-only control keeps the same geometry.
-  if(portrait){const drift=motion?12*(1-ease(t/.7)):0;g.drawImage(portrait,625,326+drift,280,420);}
-  function wrapHeadline(size){g.font=`700 ${size}px Space`;const lines=[];for(const input of design.headlines[idx]){let line='';for(const word of input.split(' ')){const trial=line?line+' '+word:word;if(line&&g.measureText(trial).width>510){lines.push(line);line=word;}else line=trial;}if(line)lines.push(line);}return lines;}
-  let hs=66,head=wrapHeadline(hs);while(head.length>4&&hs>48)head=wrapHeadline(--hs);
-  head.forEach((s,i)=>text(s,84,365+i*(hs+9),hs,C.ink,'left',510,700));
-  const phases=['THE QUESTION','THE ANSWER','SEE IT','KEEP THE CONTEXT','YOUR NEXT STEP','YOUR TURN'];
-  rect(84,687,500,42,C.accent,4);text(phases[idx],101,694,25,C.accentInk,'left',464,700);
-  for(let j=0;j<tl.beats.length;j++)rect(85+j*141,744,125,6,j<=idx?C.secondary:'#D0D7C5',2);
-  g.save();g.translate(75,222);g.scale(.85,.85);diagram=true;graphic();diagram=false;g.restore();
+  design.headlines[idx].forEach((s,i)=>text(s,84,354+i*99,88,C.ink,'left',830,700));
+  const phases=['START HERE','THE ANSWER','SEE IT','KEEP THE CONTEXT','YOUR NEXT STEP','YOUR TURN'];
+  rect(84,574,830,42,C.accent,4);text(phases[idx],101,581,25,C.accentInk,'left',796,700);
+  for(let j=0;j<tl.beats.length;j++)rect(85+j*141,637,125,6,j<=idx?C.secondary:'#D0D7C5',2);
+  g.save();g.translate(0,32);diagram=true;graphic();diagram=false;g.restore();
   text(design.scope_label,500,1206,25,C.muted,'center',820,500);
   if(design.source_cue_visible)text(design.source_cue.label,500,1250,27,C.secondary,'center',820,600);
   const ci=tl.captions.findIndex(c=>t>=c.start&&t<c.end);

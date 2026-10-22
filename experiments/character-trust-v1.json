@@ -3,7 +3,7 @@
   "type": "controlled_character_screen_plan",
   "version": "1.1",
   "prepared_at": "2026-10-22",
-  "status": "stimuli_produced_pretest_pending",
+  "status": "retired_by_owner_without_participant_testing",
   "brand": "club",
   "research": "research/audience-v3/07_TRUST_AND_CHARACTER.md",
   "protocol": "research/audience-v3/08_CHARACTER_TEST_PROTOCOL.md",
@@ -137,7 +137,8 @@
   "public_upload": false,
   "month_replacement": false,
   "production": "docs/MONTH_ONE_V4.md",
-  "stimulus_manifest": "examples/month-one-v4/test-stimuli.json",
-  "production_candidate": "V4-M; owner-requested creative adoption, not audience validated",
-  "preserved_baseline": "V3 exports retained; V4 supplied as a separate full-month candidate"
+  "stimulus_manifest": null,
+  "production_candidate": "v4.1-graphics",
+  "preserved_baseline": "Historical stimulus hashes below refer to V4.0, not current production.",
+  "retired_reason": "Owner requested removal of the AI character from production."
 }

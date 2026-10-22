@@ -1,29 +1,23 @@
-# Training Club · production application V4
+# Training Club · graphics-led production
 
-This extends the selected [Training Club system](../v3/STYLE_GUIDE.md). Rep & Reason answers one beginner question with a visible explanation and a usable next step. The audience is men aged 16–35; adult research and youth supervision remain explicitly distinguished in the scripts.
-
-## Character
-
-The original fictional adult guide is a visual host, not a real trainer, an expert credential or proof of an outcome. M has a visibly muscular build and a relaxed, friendly expression. R uses the same identity and pose with narrower shoulders and smaller arms. R still looks athletic; do not describe him as representative of all beginners. G removes the guide while retaining the V4 layout.
-
-The production candidate uses M following the owner's request to apply the research across the month. This is a creative choice, not an audience-validated winner. Keep R/G available for CT1. Two image-generation requests produced the reusable PNGs; subsequent clips reuse them without additional image generation. Prompts, hashes and limitations are retained beside this guide.
-
-Use the same artwork, shirt, face, skin tone and pose across the month. Do not imply the viewer should have this body or promise a transformation. No flexing, shaming, before/after comparison, invented medical credential or celebrity resemblance. The character does not demonstrate exercise form; the explanatory object carries the teaching.
+Rep & Reason answers one beginner question with a visible explanation and one usable next step. Current V4.1 production uses typography, diagrams and narration. The AI character and its test variants have been removed from the active package at the owner's request.
 
 ## Visual hierarchy
 
-Retain warm white #F5F3EA, ink #14221C, lime #CAEF51 and cobalt #2149CA with Space Grotesk. Vertical masters are 1080 × 1920 at 30 fps. The hook occupies the left column; the guide has a fixed right slot. A six-step progress line and phase label help orient the viewer. The diagram remains central; captions are visually separate below it. Opening movement is restrained, and the explanatory animation follows the spoken example.
+Retain the selected Training Club palette: warm white #F5F3EA, ink #14221C, lime #CAEF51 and cobalt #2149CA, with Space Grotesk. Vertical masters are 1080 × 1920 at 30 fps.
 
-Critical text stays within x=75–925 and y=240–1500. Captions use 43 px type and at most two lines, with a 20-character-per-second ceiling. These are conservative house margins, not guaranteed social-platform overlays. Test the real uploader before publishing. Scope and reference lines are secondary reading at phone size; material qualifications must remain in the narration and full description.
+Headlines use the full 830-pixel content width with type up to 88 px, rather than the former 510-pixel column. Diagrams return to 800 pixels wide, about 18% wider than the former 680-pixel treatment. There is no empty portrait slot. A compact phase label and progress line separate the headline from the explanatory object. Motion follows the spoken explanation; diagrams do not masquerade as measured study results.
 
-Carousels use the same guide in the header, keeping body copy unobstructed. Stories retain large text and a blank native-poll region; no added portrait competes with the question. Never flatten a fake interactive poll into the image.
+Critical text stays within x=75–925 and y=240–1500. Captions use 43 px type and at most two lines, with a 20-character-per-second ceiling. These are conservative house margins, not universal platform guarantees. Check the real uploader before release. Material qualifications stay in the narration and descriptions as well as the secondary scope line.
 
-## Evidence treatment
+Carousels use large text and numbered steps with no portrait. Stories retain their blank native-poll region. The image itself is not interactive; the uploader adds the real poll.
 
-Use a short claim-specific source cue: for example, “Schoenfeld et al., 2016 · 21 trained men.” Retain the small-study boundary and full link. Government/professional guidance is labeled as guidance. Definitions and editorial checklists do not receive scientific authority badges. Sources support individual claims; they do not endorse the character or every action in the video.
+## Evidence and writing
 
-B03's separate citation control removes only the short source cue. Narration, scope text, timing, captions and full description links remain identical. Whether the cue improves trust remains unmeasured.
+Show a short, claim-specific source cue, such as “Schoenfeld et al., 2016 · 21 trained men,” with the full reference in posting copy. Label government/professional guidance as guidance. Label definitions and editorial checklists honestly. Citations support the named claim and are not a blanket endorsement of every tip.
 
-## Writing and release
+Preserve the researched script structure: a recognizable question, an early answer, a concrete example, a boundary, one action and a relevant response prompt. Keep adult research and youth supervision distinct. The canonical November calendar, scripts and approved narration remain in the V3 content source.
 
-Preserve the researched B-series wording: a recognizable question, an early answer, a concrete example, a boundary, one action and a relevant response prompt. No generic comment bait or withheld payoff. The calendar and narration remain canonical V3 content; V4 is a visual production version. Label results with both episode and visual version so later revisions do not silently contaminate the same experiment.
+## Testing
+
+The character experiment is retired without participant results. Its removal is a production decision, not evidence that characters reduce engagement. The active B03 citation comparison changes only source-label visibility, preserving narration, scope, captions, layout, runtime and description links. Label future data `v4.1-graphics`; do not pool it with earlier layouts. Audience interest and recurring weekly labor still need real measurement.

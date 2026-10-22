@@ -1,0 +1,48 @@
+{
+  "id": "CV1",
+  "type": "controlled_citation_screen_plan",
+  "version": "1.0",
+  "status": "stimuli_produced_test_not_run",
+  "visual_version": "v4.1-graphics",
+  "episode": "B03",
+  "arms": [
+    "links_in_description",
+    "same_links_plus_on_screen_source_label"
+  ],
+  "label": "Schoenfeld et al., 2016 \u00b7 21 trained men",
+  "screen_n_range": [
+    24,
+    36
+  ],
+  "primary_item": "I would trust this channel to explain another beginner question.",
+  "controls": "Identical character-free layout, narration, captions, spoken scope, runtime and complete description links. Only the on-screen source label changes.",
+  "eligibility": "Adult men aged 18\u201335 who report at most six months of consistent resistance training; voluntary participation. No inference to under-18 viewers.",
+  "assignment": "Fresh participants, randomly assigned in balanced blocks of two to label-on or label-off; preserve enrollment order, allocation and missingness. One version first; do not show the comparison hub before responses.",
+  "questions_in_order": [
+    "What was the main point?",
+    "What would you do with this advice?",
+    "Does this establish a rest target for every person and exercise? Why?",
+    "Rate trust in this channel explaining another beginner question: 1\u20137 or cannot tell.",
+    "Rate clarity: 1\u20137 or cannot tell.",
+    "Which source, if any, do you remember?"
+  ],
+  "comprehension": "Rest is part of training; the small trained-adult trial is not a universal rest prescription. Score with the canonical B03 rubric, blind to arm where possible.",
+  "instrument_limit": "Custom product-research questions, not a validated psychological scale. Observe voluntary viewing only with an instrumented player or clearly label estimates; no telemetry collector is bundled.",
+  "analysis": "Report assigned, started, skipped, failed playback and missing for each arm; trust rating distributions, comprehension and source recall. Do not impute missing values as zero or infer small causal effects from this small screen.",
+  "interpretation": "Exploratory usability/trust screen, not powered for small citation effects. Separate from CT1.",
+  "stimulus_hashes": [
+    {
+      "citation": true,
+      "sha256": "d28a44afeaeff68a3dc49675cc60f70630f443a428b87d11876f90200f527459"
+    },
+    {
+      "citation": false,
+      "sha256": "d71ccbc7bc36d0b8f664d1f7be80249515d88ae755ff3e8a49cf1e2921445c5c"
+    }
+  ],
+  "live_participants": 0,
+  "observed_effect": null,
+  "recruitment_started": false,
+  "spending_committed": false,
+  "public_upload": false
+}

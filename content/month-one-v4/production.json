@@ -1,8 +1,7 @@
 {
-  "version": 4,
+  "version": "4.1",
   "brand": "club",
   "canonical_content": "content/month-one-v3/calendar.json",
-  "default_character": "M",
   "status": "production_candidate_not_audience_validated",
   "episodes": {
     "B01": {
@@ -103,5 +102,7 @@
       "source_ids": [],
       "kind": "editorial"
     }
-  }
+  },
+  "layout": "full-width-graphics",
+  "character_assets": 0
 }

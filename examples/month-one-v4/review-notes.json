@@ -1,35 +1,33 @@
 {
   "date": "2026-10-22",
-  "python_tests_passed": 56,
+  "visual_version": "v4.1-graphics",
+  "python_tests_passed": 55,
   "node_tests_passed": 13,
-  "calendar_checks": [
-    "V2 passed",
-    "V3 passed"
-  ],
-  "content_validation": "passed; legacy MVP release review warnings retained",
-  "hub_local_references_checked": 199,
-  "missing_hub_references": 0,
+  "calendar_validation": "V3 schedule, source references, balance and capacity passed",
+  "content_validation": "passed; legacy MVP release-review warnings retained",
   "visual_samples": [
-    "B04 M/R layout",
-    "B08 360px preview",
-    "B03 timer and source cue",
-    "B02 machine setup",
-    "B05 youth supervision",
-    "B07 rep progression",
+    "B03 larger timers and source cue",
+    "B08 full-width headline and calendar",
     "B12 effort scale",
-    "BK02 panel 4",
-    "BS01 native poll blank"
+    "BK02 panel 4 without portrait"
   ],
-  "browser_checks": [
-    "B04 native browser playback at 1080x1920, readyState 4, time advancing",
-    "All six character players loaded 1080px metadata with matching topic durations",
-    "Comparison page layout inspected"
-  ],
-  "fixed_during_review": [
-    "Portrait initially did not load synchronously; changed to awaited image loading and added nonblank/pixel-isolation regression test",
-    "B03 timer label overlapped dial; reduced and raised dial, then rebuilt all export receipts"
-  ],
+  "character_assets": 0,
+  "character_test_status": "retired_without_participant_testing",
   "full_human_listening": false,
   "target_platform_preview": false,
-  "audience_participants": 0
+  "audience_participants": 0,
+  "phone_previews_reviewed": [
+    "B03 at 360 × 640",
+    "B08 at 360 × 640"
+  ],
+  "browser_review": {
+    "hub_loaded": true,
+    "video_players": 18,
+    "unique_video_files": 17,
+    "video_errors": 0,
+    "B03_playback_reached_end": true,
+    "B03_duration": 20.9
+  },
+  "local_hub_references_checked": 179,
+  "missing_local_references": 0
 }

@@ -1,6 +1,6 @@
 /* Original supporting images; native poll controls are added by the uploader. */
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
-const {createCanvas,GlobalFonts,loadImage}=require('@napi-rs/canvas');
+const {createCanvas,GlobalFonts}=require('@napi-rs/canvas');
 const ROOT=path.resolve(__dirname,'../..');
 GlobalFonts.registerFromPath(path.join(ROOT,'content/mvp/time-audit/fonts/SpaceGrotesk.ttf'),'Space');
 async function renderPost(post,index){
@@ -17,8 +17,7 @@ async function renderPost(post,index){
  text(story?`${index+1}/2`:`${index+1}/5`,825,top+42,28,lime,70);
  const label=story?(index===0?'YOUR TURN':'KEEP THE CONTEXT'):(post.id==='BK03'?'CHECK THE CLAIM':'YOUR NEXT STEP');
  text(label,112,top+125,25,muted,760);
- if(!story){const portrait=await loadImage(path.join(ROOT,'brand/v4/characters/guide-muscular.png'));g.drawImage(portrait,710,top+85,150,225);}
- else text('TRAINING CLUB',112,top+176,22,lime,600);
+ if(story)text('TRAINING CLUB',112,top+176,22,lime,600);
  const copy=story?post.frames[index].text:post.slides[index];
  let size=story?76:72,lines=wrap(copy,size,762);while(lines.length>6&&size>54){size-=2;lines=wrap(copy,size,762);}
  const bodyY=top+(story?223:328);
@@ -32,13 +31,13 @@ async function renderPost(post,index){
 }
 async function main(){
  const data=JSON.parse(fs.readFileSync(path.join(ROOT,'content/month-one-v3/calendar.json')));
- const out=path.join(ROOT,'.local/month-one-v4/review/supporting'),report=[];
+ const out=path.join(ROOT,'.local/month-one-v4-graphics/review/supporting'),report=[];
  for(const post of data.supporting_posts){const dir=path.join(out,post.id);fs.mkdirSync(dir,{recursive:true});const count=post.kind==='story'?2:5;
   for(let i=0;i<count;i++){const r=await renderPost(post,i),name=post.kind==='story'?(i?'followup.png':'prompt.png'):`${i+1}.png`;fs.writeFileSync(path.join(dir,name),r.canvas.toBuffer('image/png'));report.push({id:post.id,file:`${post.id}/${name}`,text:r.bounds});}
  }
  fs.writeFileSync(path.join(out,'layout.json'),JSON.stringify(report,null,2)+'\n');
  const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
- fs.writeFileSync(path.join(out,'manifest.json'),JSON.stringify({content_sha256:hash(path.join(ROOT,'content/month-one-v3/calendar.json')),renderer_sha256:hash(__filename),character_sha256:hash(path.join(ROOT,'brand/v4/characters/guide-muscular.png')),outputs:report.map(r=>({file:r.file,sha256:hash(path.join(out,r.file))}))},null,2)+'\n');
+ fs.writeFileSync(path.join(out,'manifest.json'),JSON.stringify({content_sha256:hash(path.join(ROOT,'content/month-one-v3/calendar.json')),renderer_sha256:hash(__filename),character_assets:0,outputs:report.map(r=>({file:r.file,sha256:hash(path.join(out,r.file))}))},null,2)+'\n');
  console.log('Rendered 20 carousel panels and 16 story frames.');
 }
 module.exports={renderPost};if(require.main===module)main().catch(e=>{console.error(e);process.exitCode=1;});
