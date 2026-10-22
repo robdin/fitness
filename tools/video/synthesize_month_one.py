@@ -42,8 +42,8 @@ def read_key():
     if not key: raise RuntimeError('FISH_API_KEY is not configured; no request sent')
     return key
 
-def generate(episode,key,profile,model):
-    out=ROOT/'.local/month-one/voice'/episode['id']; out.mkdir(parents=True,exist_ok=True)
+def generate(episode,key,profile,model,output_root=None):
+    out=(Path(output_root) if output_root is not None else ROOT/'.local/month-one/voice')/episode['id']; out.mkdir(parents=True,exist_ok=True)
     text=script(episode); sha=hashlib.sha256(text.encode()).hexdigest()
     receipt=out/'generation.json'
     if receipt.exists():

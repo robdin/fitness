@@ -1,6 +1,6 @@
 {
   "name": "rep-and-reason-video",
   "private": true,
-  "scripts": {"test": "node --test tests/month-one.test.cjs"},
+  "scripts": {"test": "node --test tests/*.test.cjs"},
   "dependencies": {"@napi-rs/canvas": "0.1.100"}
 }

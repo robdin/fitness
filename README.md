@@ -2,15 +2,17 @@
 
 **Know why. Train better.**
 
-A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The latest review package contains **16 narrated month-one videos, two additional matched visual treatments, four carousels and eight story sequences**. Earlier Blender/V3 work and six silent prototypes are retained. It has not published videos, recruited participants, generated sales or run a live A/B test.
+A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The latest N-series review package contains **16 narrated month-one videos, one additional matched motion control, four carousels and eight story sequences**. Earlier M-series, Blender/V3 work and six silent prototypes are retained. It has not published videos, recruited participants, generated sales or run a live A/B test.
 
 ## Start here
 
 - [Demand-led calendar V2](docs/MONTH_ONE_V2.md): creator/community source map,
   16 new original scripts and visual briefs, complete supporting copy, November
   planning calendar and balanced testing protocol. [Open the visual calendar](examples/month-one-v2/index.html).
-  These new N-series scripts are not yet rendered; the existing M-series media
-  below remains a separate review package.
+  [Finished N-series review media](docs/MONTH_ONE_V2_PRODUCTION.md): 16 narrated
+  videos, one matched motion control and 36 supporting images, with source-linked
+  posting copy and retained production inputs. Listening/editorial review remains
+  pending. The M-series media below is a separate earlier package.
 
 - [Month-one validation pilot](docs/MONTH_ONE.md): 30-day calendar, 16 narrated videos,
   three visual treatments, supporting posts, reusable production tools and an

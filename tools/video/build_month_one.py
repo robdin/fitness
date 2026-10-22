@@ -15,10 +15,12 @@ def run(*args, capture=False):
 def probe(path):
     return json.loads(run('ffprobe','-v','error','-show_streams','-show_format','-of','json',path,capture=True).stdout)
 
-def build(ep,args):
-    start=time.monotonic(); work=ROOT/'.local/month-one/build'/ep['id']; work.mkdir(parents=True,exist_ok=True)
-    out=ROOT/'.local/month-one/review'/ep['id'];out.mkdir(parents=True,exist_ok=True)
-    voice=ROOT/'.local/month-one/voice'/ep['id']; voiced=(voice/'narration.wav').exists()
+def build(ep,args,workspace=None,renderer=None):
+    workspace=Path(workspace) if workspace is not None else ROOT/'.local/month-one'
+    renderer=Path(renderer) if renderer is not None else ROOT/'tools/video/render_month_one.cjs'
+    start=time.monotonic(); work=workspace/'build'/ep['id']; work.mkdir(parents=True,exist_ok=True)
+    out=workspace/'review'/ep['id'];out.mkdir(parents=True,exist_ok=True)
+    voice=workspace/'voice'/ep['id']; voiced=(voice/'narration.wav').exists()
     if voiced:
         generation=json.loads((voice/'generation.json').read_text())
         if generation.get('status')!='complete' or generation.get('script_sha256')!=hashlib.sha256(script(ep).encode()).hexdigest():
@@ -35,13 +37,13 @@ def build(ep,args):
     (work/'timeline.json').write_text(json.dumps(tl,indent=2)+'\n')
     (out/'timeline.json').write_text(json.dumps(tl,indent=2)+'\n')
     write_srt(tl,out/f"{ep['id']}.srt")
-    run('node',ROOT/'tools/video/render_month_one.cjs',work/'timeline.json',out,'--stills','--treatment',args.treatment,capture=True)
+    run('node',renderer,work/'timeline.json',out,'--stills','--treatment',args.treatment,capture=True)
     if args.stills: return {'id':ep['id'],'status':'stills','timing':tl['timing']}
     if not voiced and not args.allow_silent: raise RuntimeError(f"{ep['id']}: voice absent; use --allow-silent only for drafts")
     segments=work/args.treatment;segments.mkdir(exist_ok=True)
     frames=round(tl['duration']*30)
     for first in range(0,frames,150):
-        run('node',ROOT/'tools/video/render_month_one.cjs',work/'timeline.json',segments,'--range',first,min(150,frames-first),'--treatment',args.treatment,'--width',args.width,capture=True)
+        run('node',renderer,work/'timeline.json',segments,'--range',first,min(150,frames-first),'--treatment',args.treatment,'--width',args.width,capture=True)
     paths=[segments/f'segment-{f:05}.mp4' for f in range(0,frames,150)]
     (segments/'concat.txt').write_text('\n'.join("file '"+str(p).replace("'","'\\''")+"'" for p in paths))
     target=out/f"{ep['id']}-{args.treatment}{'-silent-draft' if not voiced else ''}.mp4"
@@ -59,7 +61,7 @@ def build(ep,args):
       'full_decode':'passed','voice_present':voiced,'timing':tl['timing'],'render_elapsed_seconds':round(time.monotonic()-start,2),
       'caption_count':len(tl['captions']),'max_cps':round(max(c['cps'] for c in tl['captions']),3),
       'script_sha256':tl['script_sha256'],'public_upload':False,'human_listening_review':False}
-    report['renderer_sha256']=digest(ROOT/'tools/video/render_month_one.cjs')
+    report['renderer_sha256']=digest(renderer)
     report['timeline_sha256']=digest(out/'timeline.json')
     report['width']=args.width;report['height']=args.width*16//9
     if report['frames']!=frames:raise RuntimeError('Frame count mismatch')

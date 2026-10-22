@@ -97,7 +97,7 @@ def validate(data, sources, plan):
             'community_threads': len(sources['community']), 'research_records': len(sources['evidence']),
             'script_word_range': [min(len(narration(e).split()) for e in episodes), max(len(narration(e).split()) for e in episodes)],
             'balanced_by': ['week', 'topic cluster', 'weekday'], 'planned_weekly_hours': sum(t['hours'] for t in data['weekly_capacity']),
-            'audience_tests_conducted': False, 'v2_media_rendered': False,
+            'audience_tests_conducted': False, 'media_verification': 'Separate production receipt; this planner does not inspect media',
             'scope': 'Structural, source-reference, schedule and content-budget checks only; not scientific approval or audience validation.'}
 
 
@@ -148,8 +148,8 @@ def calendar_md(data):
 
 def scripts_md(data, sm):
     lines = ['# Sixteen original video scripts', '',
-             'Status: authored and source-linked; new narration, rendered media, final editorial review and live audience tests remain pending. The old M-series exports do not contain these scripts.', '',
-             'Target: 30–40 seconds. Estimated length uses 150 words/minute; actual spoken audio controls final timing. Keep the first visual legible immediately, before any logo. Six beats are semantic transitions, not rigid second marks. Use full spoken captions, not only headlines.', '']
+             'Authored scripts and visual briefs. Current N-series exports, exact durations and pending review are documented in [the production guide](../../docs/MONTH_ONE_V2_PRODUCTION.md). The old M-series exports contain different scripts.', '',
+             'Original planning estimate: 30–40 seconds at 150 words/minute. The approved voice produced 26.27–32.67-second exports; the documented prelaunch working target is 25–35 seconds. Per-script estimates below remain the original planning estimates, not measured audio. Keep the first visual legible immediately, before any logo. Six beats are semantic transitions, not rigid second marks. Use full spoken captions, not only headlines.', '']
     for e in data['episodes']:
         words = len(narration(e).split())
         lines += [f'<a id="{e["id"].lower()}"></a>', f'## {e["id"]} · {e["title"]}', '',
@@ -168,7 +168,7 @@ def scripts_md(data, sm):
 
 def supporting_md(data, sm):
     eps = {e['id']: e for e in data['episodes']}
-    lines = ['# Supporting-post copy', '', 'Four five-panel carousels and eight two-frame stories. Copy is complete; image exports and native stickers have not been created. These posts support the pilot and are not independent randomized experiments.', '']
+    lines = ['# Supporting-post copy', '', 'Four five-panel carousels and eight two-frame stories. Copy is complete; image exports are in [the production package](../../docs/MONTH_ONE_V2_PRODUCTION.md). Native stickers must be added manually before posting. These posts support the pilot and are not independent randomized experiments.', '']
     for s in data['supporting_posts']:
         lines += [f'<a id="{s["id"].lower()}"></a>', f'## {s["id"]} · November {s["day"]} · {s["title"]}', '']
         if s['kind'] == 'carousel':
@@ -266,7 +266,7 @@ def make_html(data, sources, plan):
     for e in data['episodes']:
         links = ' '.join(f'<a href="{esc(sm[id]["url"])}" target="_blank" rel="noopener">{id}</a>' for field in ('creator_ids', 'community_ids', 'evidence_ids') for id in e[field])
         visuals = ''.join(f'<li><b>{esc(b["role"].capitalize())}.</b> {esc(b["visual"])}</li>' for b in e['beats'])
-        cards.append(f'''<details id="{e['id']}" class="brief" data-week="{e['week']}" data-cluster="{e['cluster']}"><summary><span class="meta">{e['id']} · NOV {e['day']} · {e['hook_type']} OPENING · {e['cluster'].upper()}</span><h3>{esc(e['title'])}</h3><span class="hint">Read script, visual brief and sources ↗</span></summary><div class="body"><p class="why">{esc(e['why_this_topic'])}</p><h4>Exact narration</h4><p class="script">{esc(narration(e))}</p><h4>Visual sequence</h4><ol>{visuals}</ol><h4>Posting caption</h4><p>{esc(e['caption'])}</p><h4>Review boundary</h4><p>{esc(e['comprehension']['critical_error'])}</p><p class="sources">Topic leads + research: {links}</p><p class="muted">{esc(e['reuse_note'])} New media still needs production and review.</p></div></details>''')
+        cards.append(f'''<details id="{e['id']}" class="brief" data-week="{e['week']}" data-cluster="{e['cluster']}"><summary><span class="meta">{e['id']} · NOV {e['day']} · {e['hook_type']} OPENING · {e['cluster'].upper()}</span><h3>{esc(e['title'])}</h3><span class="hint">Read script, visual brief and sources ↗</span></summary><div class="body"><p class="why">{esc(e['why_this_topic'])}</p><h4>Exact narration</h4><p class="script">{esc(narration(e))}</p><h4>Visual sequence</h4><ol>{visuals}</ol><h4>Posting caption</h4><p>{esc(e['caption'])}</p><h4>Review boundary</h4><p>{esc(e['comprehension']['critical_error'])}</p><p class="sources">Topic leads + research: {links}</p><p class="muted">{esc(e['reuse_note'])} Current narrated media and remaining review are documented in the production guide.</p></div></details>''')
     support = []
     for s in data['supporting_posts']:
         copy = ''.join('<li>' + esc(x) + '</li>' for x in s['slides']) if s['kind'] == 'carousel' else ''.join('<li>' + esc(f['text']) + ('<br><small>Poll: ' + esc(' / '.join(f['options'])) + '</small>' if 'options' in f else '') + '</li>' for f in s['frames'])

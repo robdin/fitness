@@ -2,7 +2,7 @@
 
 Prepared October 21, 2026. The user’s decision is whether **audience interest and a sustainable production process** justify continuing. The capacity limit is **12 hands-on hours per week**.
 
-This revision uses actual creator topics and public community questions to select the content. It contains **16 original scripts, complete visual briefs and platform copy, four five-panel carousels, eight two-frame stories, a November schedule, an importable planning calendar and a test protocol**. The scripts are ready for production; the new N-series videos have not been rendered or published. Existing M-series videos and their source package remain intact.
+This revision uses actual creator topics and public community questions to select the content. It contains **16 original scripts, complete visual briefs and platform copy, four five-panel carousels, eight two-frame stories, a November schedule, an importable planning calendar and a test protocol**. The N-series now has narrated review exports and supporting images; see the [production package](MONTH_ONE_V2_PRODUCTION.md) for exact artifacts, verification and remaining listening/editorial review. Nothing has been published. Existing M-series videos and their source package remain intact.
 
 ## Open the working package
 
@@ -31,7 +31,7 @@ These are qualitative, purposively selected leads. They do not estimate audience
 
 ## Creative direction to test
 
-Each 30–40-second script has one concrete question, one answer, its material limitation and one action. Show the relevant object on the first frame: a two-day calendar, a rep counter, an occupied station or a log entry. The first visual should be understandable before the full opening sentence finishes. Reveal information at meaningful transitions; do not require continuous decorative motion.
+Each short script has one concrete question, one answer, its material limitation and one action. The original 30–40-second planning estimate became 26.27–32.67 seconds with the approved voice; the documented prelaunch working target is now 25–35 seconds, with no script or voice-speed change. Show the relevant object on the first frame: a two-day calendar, a rep counter, an occupied station or a log entry. The first visual should be understandable before the full opening sentence finishes. Reveal information at meaningful transitions; do not require continuous decorative motion.
 
 Use original diagrams in the existing navy/lime/cream identity and the approved narration voice. Keep a single focal graphic and at most two short caption lines. Show all spoken words in captions, retimed against the final audio. Preserve the existing ≤20-character-per-second ceiling and check phone-size readability. Move detailed references into posting copy; keep important study conditions in speech and on screen. Never draw measured-looking growth curves from an editorial concept. N04’s eight-to-nine example stays labeled invented; N15’s arrows remain conceptual.
 
@@ -124,4 +124,4 @@ For real observations, copy the existing blank [observation template](../measure
   --plan experiments/month-one-v2.json
 ```
 
-Do not run the old M-series synthesis command expecting it to render the N-series scripts. This revision is a sourced planning and writing package; a production adapter must bind the new content, source hashes, narration and exact visuals before rendering them.
+Use the separate [N-series production adapter](MONTH_ONE_V2_PRODUCTION.md#reproduce-without-buying-another-generation). It binds canonical scripts, retained narration and exact graphics without mutating the M-series media.

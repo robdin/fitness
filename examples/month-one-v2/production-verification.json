@@ -1,0 +1,554 @@
+{
+  "status": "narrated_review_assets_complete_human_review_pending",
+  "core_episodes": 16,
+  "video_exports": 17,
+  "carousel_panels": 20,
+  "story_frames": 16,
+  "duration_seconds_range": [
+    26.266667,
+    32.666667
+  ],
+  "decode_passes": 17,
+  "max_caption_cps": 20.0,
+  "frames_checked": 13747,
+  "comparison_audio_identical": true,
+  "fish_requests_submitted": 16,
+  "provider_actual_charge": null,
+  "new_image_generation_requests": 0,
+  "human_listening_review": false,
+  "target_uploader_preview": false,
+  "live_audience_observations": 0,
+  "hands_on_labor_measured": false,
+  "public_upload": false,
+  "asr_review": [
+    {
+      "id": "N01",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N02",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N03",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "and",
+              "recognized": "in"
+            },
+            {
+              "kind": "insert",
+              "expected": "",
+              "recognized": "each"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "and",
+              "recognized": "in"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N04",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "does",
+              "recognized": "is"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "does",
+              "recognized": "is"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N05",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N06",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N07",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "changed",
+              "recognized": "change"
+            },
+            {
+              "kind": "replace",
+              "expected": "why",
+              "recognized": "wide"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "changed",
+              "recognized": "change"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N08",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "produced",
+              "recognized": "produce"
+            },
+            {
+              "kind": "replace",
+              "expected": "rests",
+              "recognized": "rest"
+            },
+            {
+              "kind": "replace",
+              "expected": "planned",
+              "recognized": "plan"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "produced",
+              "recognized": "produce"
+            },
+            {
+              "kind": "replace",
+              "expected": "rests",
+              "recognized": "rest"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N09",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "in",
+              "recognized": "and"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "light weights",
+              "recognized": "lightweights"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N10",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "lengthened",
+              "recognized": "lengthen"
+            },
+            {
+              "kind": "replace",
+              "expected": "the",
+              "recognized": "to"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N11",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "tradeoff",
+              "recognized": "trade off"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "tradeoff",
+              "recognized": "trade off"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N12",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "worked",
+              "recognized": "works"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N13",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N14",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N15",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "N16",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    }
+  ],
+  "outputs": [
+    {
+      "file": "N01/N01-motion.mp4",
+      "sha256": "a9ac1eed409505ed177f385c22170660243edc527d97e52beb770b2edfa3e3d5",
+      "bytes": 1238788,
+      "duration": 27.133333,
+      "frames": 814,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.13",
+        "input_tp": "-5.25",
+        "input_lra": "1.80"
+      }
+    },
+    {
+      "file": "N01/N01-static.mp4",
+      "sha256": "ddce23fdb0d133ac5a423b717cde08e2a576e9b8ba5a144b8f00a0ece2bc1752",
+      "bytes": 1210253,
+      "duration": 27.133333,
+      "frames": 814,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.13",
+        "input_tp": "-5.25",
+        "input_lra": "1.80"
+      }
+    },
+    {
+      "file": "N02/N02-motion.mp4",
+      "sha256": "bb3ebfdff92ec6962bb872cc69c0ea152fb3966210733ed02613cbaa767a959d",
+      "bytes": 1266440,
+      "duration": 28.0,
+      "frames": 840,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.35",
+        "input_tp": "-4.57",
+        "input_lra": "1.60"
+      }
+    },
+    {
+      "file": "N03/N03-motion.mp4",
+      "sha256": "bff0101b7b6a06bf18b5b8dc5d208e3f43c3a865944ff9953e75cf6299d14ee9",
+      "bytes": 1307746,
+      "duration": 27.9,
+      "frames": 837,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-17.10",
+        "input_tp": "-4.40",
+        "input_lra": "2.30"
+      }
+    },
+    {
+      "file": "N04/N04-motion.mp4",
+      "sha256": "ffdb6cf4a2a3b33c49a33db796d5eaf61860a2dfc2fb82d760643ce8d9186dee",
+      "bytes": 1300558,
+      "duration": 28.033333,
+      "frames": 841,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.07",
+        "input_tp": "-4.84",
+        "input_lra": "2.20"
+      }
+    },
+    {
+      "file": "N05/N05-motion.mp4",
+      "sha256": "f359ea47234d9982777d2a7c7dd16ef348337630c3ef555b37e070dce2d64ac6",
+      "bytes": 1209149,
+      "duration": 28.2,
+      "frames": 846,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.55",
+        "input_tp": "-5.09",
+        "input_lra": "2.40"
+      }
+    },
+    {
+      "file": "N06/N06-motion.mp4",
+      "sha256": "3de330d896ab90b433688aa89400ffb0284ca3c0a942b0d920b59967e61cf687",
+      "bytes": 1313364,
+      "duration": 26.266667,
+      "frames": 788,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.47",
+        "input_tp": "-4.93",
+        "input_lra": "2.40"
+      }
+    },
+    {
+      "file": "N07/N07-motion.mp4",
+      "sha256": "72a5f05566c8934870065add3ab6d45ca06fd01ce7c7a755f5ebd369fbaacec1",
+      "bytes": 1384094,
+      "duration": 30.166667,
+      "frames": 905,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.30",
+        "input_tp": "-4.78",
+        "input_lra": "1.60"
+      }
+    },
+    {
+      "file": "N08/N08-motion.mp4",
+      "sha256": "e9016adb590e56011f0c14b97528fcf2fe2af1cb1a32541dbb6603e9fa6a99e8",
+      "bytes": 1268023,
+      "duration": 28.633333,
+      "frames": 859,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.37",
+        "input_tp": "-5.27",
+        "input_lra": "2.50"
+      }
+    },
+    {
+      "file": "N09/N09-motion.mp4",
+      "sha256": "a7bffcd81d3aa4febf7f793b5a703a6f4bea8535131e6967df873edd88c4bf04",
+      "bytes": 1329747,
+      "duration": 27.6,
+      "frames": 828,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.60",
+        "input_tp": "-4.94",
+        "input_lra": "3.10"
+      }
+    },
+    {
+      "file": "N10/N10-motion.mp4",
+      "sha256": "a46a8a3ca1fad5613d3b72a01acce1cdcd73de1c60aa3b1258adea408b526566",
+      "bytes": 1329706,
+      "duration": 28.2,
+      "frames": 846,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.30",
+        "input_tp": "-4.91",
+        "input_lra": "3.40"
+      }
+    },
+    {
+      "file": "N11/N11-motion.mp4",
+      "sha256": "242c1c8ddce38a3c09e18bea033af438f0a79b5952d01851b2e905d7856f7d59",
+      "bytes": 1489531,
+      "duration": 32.666667,
+      "frames": 980,
+      "max_cps": 19.868,
+      "loudness": {
+        "input_i": "-15.99",
+        "input_tp": "-4.12",
+        "input_lra": "2.30"
+      }
+    },
+    {
+      "file": "N12/N12-motion.mp4",
+      "sha256": "31e00151cbcdb804971fa814120b96645467083389de1d30b1c72e935adcfc57",
+      "bytes": 1321804,
+      "duration": 29.5,
+      "frames": 885,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.24",
+        "input_tp": "-5.38",
+        "input_lra": "1.40"
+      }
+    },
+    {
+      "file": "N13/N13-motion.mp4",
+      "sha256": "7c690f80e72f9b97b2d043b77a6915795acf39699676c881dae21ed70128307f",
+      "bytes": 1310558,
+      "duration": 29.033333,
+      "frames": 871,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.13",
+        "input_tp": "-4.15",
+        "input_lra": "2.70"
+      }
+    },
+    {
+      "file": "N14/N14-motion.mp4",
+      "sha256": "a6d7802137f9fe9fe2e32814f70ad82cc540e0dfa6332c518ecc024a07806b9c",
+      "bytes": 1248679,
+      "duration": 28.0,
+      "frames": 840,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.28",
+        "input_tp": "-4.36",
+        "input_lra": "2.80"
+      }
+    },
+    {
+      "file": "N15/N15-motion.mp4",
+      "sha256": "2469dd5f2f2d620dcc7900f5460800ee8e3c07503135f0dd2a9c972b4179c86d",
+      "bytes": 1419275,
+      "duration": 30.633333,
+      "frames": 919,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.38",
+        "input_tp": "-4.44",
+        "input_lra": "3.90"
+      }
+    },
+    {
+      "file": "N16/N16-motion.mp4",
+      "sha256": "bd970ddad4cb90bfa6360ece64b7bdfcaa7d1230b1b4ad21c4f07c6dbc00c6ad",
+      "bytes": 1262857,
+      "duration": 28.266667,
+      "frames": 848,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.33",
+        "input_tp": "-4.91",
+        "input_lra": "2.40"
+      }
+    }
+  ]
+}

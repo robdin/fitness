@@ -1,0 +1,476 @@
+{
+  "id": "month-one-v2-production",
+  "style": "Original editorial motion graphics; navy, cream and lime; exact labels and timed captions.",
+  "safe_content_bounds": [
+    70,
+    240,
+    940,
+    1510
+  ],
+  "episodes": {
+    "N01": {
+      "headlines": [
+        [
+          "ONLY TWO",
+          "GYM DAYS?"
+        ],
+        [
+          "BUILD AROUND",
+          "YOUR WEEK."
+        ],
+        [
+          "TWO DAYS.",
+          "STRUCTURED WORK."
+        ],
+        [
+          "COUNT THE WORK.",
+          "NOT THE VISITS."
+        ],
+        [
+          "PLAN. LOG.",
+          "REVIEW."
+        ],
+        [
+          "WHAT GETS",
+          "IN YOUR WAY?"
+        ]
+      ],
+      "scope_label": "WEEKLY PLAN \u00b7 NOT A PROMISE OF EQUAL GAINS"
+    },
+    "N02": {
+      "headlines": [
+        [
+          "NOT EVERY SET",
+          "HAS TO FAIL."
+        ],
+        [
+          "CHALLENGING",
+          "CAN BE ENOUGH."
+        ],
+        [
+          "CLOSER MATTERS.",
+          "THE TARGET VARIES."
+        ],
+        [
+          "EVERY SET?",
+          "NOT NECESSARILY."
+        ],
+        [
+          "KNOW YOUR",
+          "EFFORT TARGET."
+        ],
+        [
+          "THE WEIGHT?",
+          "OR WHEN TO STOP?"
+        ]
+      ],
+      "scope_label": "EFFORT TARGETS VARY \u00b7 NO UNIVERSAL STOPPING POINT"
+    },
+    "N03": {
+      "headlines": [
+        [
+          "CAN MACHINES",
+          "BUILD MUSCLE?"
+        ],
+        [
+          "YES. EQUIPMENT",
+          "IS NOT THE WHOLE STORY."
+        ],
+        [
+          "STRENGTH IS",
+          "TASK-SPECIFIC."
+        ],
+        [
+          "SIMILAR GOAL.",
+          "DIFFERENT TASK."
+        ],
+        [
+          "KEEP THE",
+          "SETUP REPEATABLE."
+        ],
+        [
+          "WHAT IS HARD",
+          "TO REPLACE?"
+        ]
+      ],
+      "scope_label": "GROWTH AND SPECIFIC LIFTING SKILL ARE DIFFERENT"
+    },
+    "N04": {
+      "headlines": [
+        [
+          "MORE REPS CAN",
+          "COUNT AS PROGRESS."
+        ],
+        [
+          "SAME SETUP.",
+          "EIGHT TO NINE."
+        ],
+        [
+          "PERFORMANCE.",
+          "NOT MUSCLE MEASURED."
+        ],
+        [
+          "REPS OR LOAD:",
+          "TWO WAYS FORWARD."
+        ],
+        [
+          "FOLLOW YOUR",
+          "PROGRESSION RULE."
+        ],
+        [
+          "WHAT DOES",
+          "YOUR LOG MISS?"
+        ]
+      ],
+      "scope_label": "INVENTED LOG EXAMPLE \u00b7 NOT MEASURED MUSCLE GROWTH"
+    },
+    "N05": {
+      "headlines": [
+        [
+          "TWO REPS LEFT.",
+          "OR A GUESS?"
+        ],
+        [
+          "RIR = REPS",
+          "YOU THINK REMAIN."
+        ],
+        [
+          "AN ESTIMATE.",
+          "NOT A SENSOR."
+        ],
+        [
+          "TWO MEANS",
+          "ABOUT TWO."
+        ],
+        [
+          "REPEAT. RECORD.",
+          "REFINE."
+        ],
+        [
+          "DO YOU KNOW",
+          "YOUR EFFORT TARGET?"
+        ]
+      ],
+      "scope_label": "RIR IS AN ESTIMATE \u00b7 ACCURACY VARIES"
+    },
+    "N06": {
+      "headlines": [
+        [
+          "PLAN YOUR SWAP",
+          "BEFORE THE QUEUE."
+        ],
+        [
+          "START WITH",
+          "THE EXERCISE\u2019S JOB."
+        ],
+        [
+          "GOAL. EQUIPMENT.",
+          "FAMILIARITY."
+        ],
+        [
+          "SIMILAR LOOK.",
+          "DIFFERENT EXERCISE."
+        ],
+        [
+          "WRITE A BACKUP.",
+          "LOG IT SEPARATELY."
+        ],
+        [
+          "WHICH STATION",
+          "HOLDS YOU UP?"
+        ]
+      ],
+      "scope_label": "PLANNING CHECKLIST \u00b7 NOT AN EXACT EXERCISE SWAP"
+    },
+    "N07": {
+      "headlines": [
+        [
+          "ONE BAD WORKOUT.",
+          "OR A TREND?"
+        ],
+        [
+          "COMPARE",
+          "LIKE WITH LIKE."
+        ],
+        [
+          "WHAT ELSE",
+          "CHANGED?"
+        ],
+        [
+          "ONE SESSION",
+          "IS NOT A DIAGNOSIS."
+        ],
+        [
+          "LOOK ACROSS",
+          "SEVERAL SESSIONS."
+        ],
+        [
+          "WHAT CONTEXT",
+          "DOES YOUR LOG NEED?"
+        ]
+      ],
+      "scope_label": "COMPARISON CHECKLIST \u00b7 NOT A PLATEAU DIAGNOSIS"
+    },
+    "N08": {
+      "headlines": [
+        [
+          "REST IS PART",
+          "OF THE WORK."
+        ],
+        [
+          "A SHORTER TIMER",
+          "IS NOT THE GOAL."
+        ],
+        [
+          "ONE MINUTE.",
+          "THREE MINUTES."
+        ],
+        [
+          "ONE STUDY.",
+          "NOT ONE RULE."
+        ],
+        [
+          "RECOVERY \u2260",
+          "AVOIDABLE DELAY."
+        ],
+        [
+          "REST, SETUP",
+          "OR THE QUEUE?"
+        ]
+      ],
+      "scope_label": "21 TRAINED MEN \u00b7 8 WEEKS \u00b7 LIMITED COMPARISON"
+    },
+    "N09": {
+      "headlines": [
+        [
+          "LIGHT WEIGHTS",
+          "CAN BUILD MUSCLE."
+        ],
+        [
+          "LOAD IS ONLY",
+          "PART OF THE STORY."
+        ],
+        [
+          "GROWTH AND",
+          "MAXIMUM STRENGTH."
+        ],
+        [
+          "THE EFFORT",
+          "CONDITION MATTERS."
+        ],
+        [
+          "MATCH THE LOAD",
+          "TO THE GOAL."
+        ],
+        [
+          "GROWTH, STRENGTH",
+          "OR BOTH?"
+        ]
+      ],
+      "scope_label": "LOAD REVIEW INCLUDED SETS TAKEN TO FAILURE"
+    },
+    "N10": {
+      "headlines": [
+        [
+          "SHOULD EVERY REP",
+          "BECOME A PARTIAL?"
+        ],
+        [
+          "PART OF",
+          "THE MOVEMENT."
+        ],
+        [
+          "SPECIFIC EXERCISES.",
+          "SPECIFIC RESULTS."
+        ],
+        [
+          "NO CLEAR DIFFERENCE",
+          "IS NOT ALWAYS EQUAL."
+        ],
+        [
+          "CHECK WHAT",
+          "THE CLAIM COVERS."
+        ],
+        [
+          "WHICH CLAIM",
+          "SHOULD WE UNPACK?"
+        ]
+      ],
+      "scope_label": "EXERCISE-SPECIFIC EVIDENCE \u00b7 NOT A UNIVERSAL RULE"
+    },
+    "N11": {
+      "headlines": [
+        [
+          "SUPERSETS SAVE TIME",
+          "WITH A TRADEOFF."
+        ],
+        [
+          "LESS TIME.",
+          "MORE PERCEIVED EFFORT."
+        ],
+        [
+          "THE PAIRING",
+          "STILL MATTERS."
+        ],
+        [
+          "DO NOT RUSH",
+          "OR RESERVE EVERYTHING."
+        ],
+        [
+          "A PLAN FOR",
+          "THE ACTUAL GYM."
+        ],
+        [
+          "TIME, FATIGUE",
+          "OR EQUIPMENT?"
+        ]
+      ],
+      "scope_label": "PAIRINGS VARY \u00b7 NO FIXED TIME-SAVING PERCENTAGE"
+    },
+    "N12": {
+      "headlines": [
+        [
+          "NO SORENESS.",
+          "NO PROGRESS?"
+        ],
+        [
+          "A FEELING IS NOT",
+          "A GROWTH MEASUREMENT."
+        ],
+        [
+          "REPAIR AND GROWTH",
+          "ARE DIFFERENT QUESTIONS."
+        ],
+        [
+          "DO NOT CHASE",
+          "DISCOMFORT."
+        ],
+        [
+          "REVIEW THE WORK.",
+          "COMPARE YOUR RECORDS."
+        ],
+        [
+          "WHAT MAKES A",
+          "WORKOUT WORK?"
+        ]
+      ],
+      "scope_label": "SORENESS DOES NOT QUANTIFY MUSCLE GAINED"
+    },
+    "N13": {
+      "headlines": [
+        [
+          "A RANKED LIST",
+          "IS NOT A PROGRAM."
+        ],
+        [
+          "AN EXERCISE",
+          "IS ONE INGREDIENT."
+        ],
+        [
+          "YOUR PLAN NEEDS",
+          "MORE THAN BADGES."
+        ],
+        [
+          "TOP PICKS",
+          "DO NOT FILL THE GAPS."
+        ],
+        [
+          "USE THE IDEA",
+          "WITHIN A PLAN."
+        ],
+        [
+          "GOAL, SCHEDULE",
+          "OR PROGRESSION?"
+        ]
+      ],
+      "scope_label": "RANKINGS SUPPLY IDEAS \u00b7 PROGRAMS NEED STRUCTURE"
+    },
+    "N14": {
+      "headlines": [
+        [
+          "FULL BODY",
+          "OR A SPLIT?"
+        ],
+        [
+          "THE LABEL",
+          "DOES NOT DECIDE."
+        ],
+        [
+          "SIMILAR OUTCOMES",
+          "WITH MATCHED VOLUME."
+        ],
+        [
+          "MATCHED WORK",
+          "IS THE CONDITION."
+        ],
+        [
+          "START WITH",
+          "YOUR REAL WEEK."
+        ],
+        [
+          "HOW MANY DAYS",
+          "ACTUALLY FIT?"
+        ]
+      ],
+      "scope_label": "SPLIT COMPARISON MATCHED WEEKLY VOLUME"
+    },
+    "N15": {
+      "headlines": [
+        [
+          "MORE SETS.",
+          "DIMINISHING RETURNS."
+        ],
+        [
+          "EXTRA WORK.",
+          "SMALLER EXTRA BENEFITS."
+        ],
+        [
+          "GROUP EVIDENCE.",
+          "NOT YOUR SET TARGET."
+        ],
+        [
+          "IT STILL HAS",
+          "TO FIT YOUR WEEK."
+        ],
+        [
+          "COMPLETE. TRACK.",
+          "THEN CONSIDER MORE."
+        ],
+        [
+          "WHAT DOES AN",
+          "EXTRA SET COST?"
+        ]
+      ],
+      "scope_label": "CONCEPTUAL DIAGRAM \u00b7 NOT A PERSONAL DOSE TARGET"
+    },
+    "N16": {
+      "headlines": [
+        [
+          "SAME STACK NUMBER.",
+          "SAME LIFT?"
+        ],
+        [
+          "THE LABEL",
+          "IS NOT THE WHOLE TASK."
+        ],
+        [
+          "NEW EQUIPMENT.",
+          "NEW LOG ENTRY."
+        ],
+        [
+          "RECORD THE SETUP.",
+          "NO GUESSWORK NEEDED."
+        ],
+        [
+          "COMPARE THE",
+          "SAME SETUP FIRST."
+        ],
+        [
+          "NEW GYM.",
+          "DIFFERENT NUMBERS?"
+        ]
+      ],
+      "scope_label": "DIFFERENT MACHINES \u00b7 NO ASSUMED CONVERSION RATIO"
+    }
+  }
+}

@@ -76,12 +76,12 @@
   "maximum_snapshot_delay_hours": 24,
   "final_readout_at": "2026-12-05T18:00:00-05:00",
   "content_duration_target_seconds": [
-    30,
-    40
+    25,
+    35
   ],
   "controls": [
     "Approved voice and speaking style",
-    "30–40-second target; actual duration recorded",
+    "25\u201335-second target; actual duration recorded",
     "One concrete diagram and six semantic beats",
     "Same caption styling and source treatment",
     "18:00 America/New_York slot",
@@ -105,7 +105,7 @@
       "What would you do next?",
       "What does the video NOT establish?",
       "Was any text hard to read?",
-      "Usefulness and readability, 1–5"
+      "Usefulness and readability, 1\u20135"
     ],
     "scoring": "Pass requires correct main takeaway plus no episode-specific critical overgeneralization; use the answer key in calendar.json. Record raw answer before scoring. Do not count V1-only checks toward the V2 gate.",
     "critical_recurrence": "At least two distinct viewers repeat the same critical error; document, repair and recheck before release. Any serious individual error also gets editorial review."
@@ -118,5 +118,18 @@
   },
   "freeze_rule": "Freeze IDs, scripts, assignment, primary metric definitions and hurdles before first publication. Corrections can always be made, but record version, reason and affected analyses. No post-hoc threshold changes.",
   "interpretation": "Only live audience observations can decide GO. Desk research and automated QA can establish readiness, not audience interest.",
-  "require_reporting_window_label": true
+  "require_reporting_window_label": true,
+  "prelaunch_production_revision": {
+    "date": "2026-10-21",
+    "prior_estimated_duration_seconds": [
+      30,
+      40
+    ],
+    "actual_export_duration_seconds": [
+      26.266667,
+      32.666667
+    ],
+    "reason": "Approved voice natural delivery is faster than the original 150-wpm estimate. No script, speed or pitch change. No audience observations preceded this revision.",
+    "motion_control": "Optional matched N01 static/motion usability screen; not a second scheduled post or a replacement for the five-topic comprehension gate."
+  }
 }
