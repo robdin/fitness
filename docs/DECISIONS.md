@@ -26,3 +26,10 @@ and weekdays, but organic comparisons remain descriptive. Creator popularity
 and Reddit questions are topic-selection leads, not scientific or audience
 validation. Proposed dates and thresholds remain unlaunched; no publication,
 participant result or business GO has been recorded.
+
+
+## 2026-10-22 — Beginner-first B-series and Training Club
+
+The user requested five comprehensive research perspectives and application to the entire month. The new research register separates primary evidence, platform guidance, creator packaging and public demand. The B-series replaces advanced optimization as the opening sequence with orientation, notation, setup, comparison and repeatable planning. M/N assets remain intact. The user selected Training Club from three concrete visual packages; that is owner preference, not target-audience validation.
+
+Keep the purpose as audience interest and sustainable production within 12 hands-on hours per week. Require two representative four-video production batches before passing that gate; uploading prebuilt media is insufficient. Twenty completed narration requests include four retained revisions, with actual charges unknown. No publication, recruitment or live results are implied. See [current handoff](MONTH_ONE_V3.md).

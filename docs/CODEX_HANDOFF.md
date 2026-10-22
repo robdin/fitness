@@ -1,5 +1,7 @@
 # Rep & Reason — complete Codex handoff
 
+> **Latest revision, 22 October 2026:** [MONTH_ONE_V3.md](MONTH_ONE_V3.md) is the current production handoff. Five research perspectives were compiled and applied to 16 new B-series scripts and narrated videos, 36 supporting images, two brand alternatives and a motion control. Ron selected Training Club. The full local hub is `.local/month-one-v3/review/index.html`; archives are in the sibling `fitness-deliverables/month-one-v3` directory. Real audience validation, final listening and recurring owner labor remain unmeasured. Preserve all earlier versions.
+
 > **Latest content revision, 21 October 2026:** use [MONTH_ONE_V2.md](MONTH_ONE_V2.md)
 > for the creator/community-sourced calendar, 16 new N-series scripts and the
 > balanced experiment framework. The [N-series production package](MONTH_ONE_V2_PRODUCTION.md)

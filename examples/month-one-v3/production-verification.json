@@ -1,0 +1,650 @@
+{
+  "status": "narrated_review_package_complete_audience_validation_pending",
+  "core_episodes": 16,
+  "video_exports": 19,
+  "carousel_panels": 20,
+  "story_frames": 16,
+  "brand_packages": 3,
+  "decode_passes": 19,
+  "frames_checked": 12138,
+  "max_caption_cps": 20.0,
+  "duration_seconds_range": [
+    16.666667,
+    23.933333
+  ],
+  "maximum_answer_start_seconds": 3.43,
+  "brand_comparison_audio_identical": true,
+  "motion_comparison_audio_identical": true,
+  "provider_requests_completed": 20,
+  "retained_prior_voice_revisions": 4,
+  "provider_actual_charge": null,
+  "new_image_requests": 0,
+  "human_listening_review": false,
+  "target_uploader_preview": false,
+  "target_audience_tests": 0,
+  "live_audience_observations": 0,
+  "hands_on_labor_measured": false,
+  "public_upload": false,
+  "asr_review": [
+    {
+      "id": "B01",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B02",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "free weights",
+              "recognized": "freeways"
+            },
+            {
+              "kind": "replace",
+              "expected": "explained",
+              "recognized": "to explain"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B03",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B04",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "twenty four",
+              "recognized": "24"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B05",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "sixteen",
+              "recognized": "16"
+            },
+            {
+              "kind": "replace",
+              "expected": "seventeen",
+              "recognized": "17"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B06",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "sore to count",
+              "recognized": "sort account"
+            },
+            {
+              "kind": "replace",
+              "expected": "do",
+              "recognized": "are"
+            },
+            {
+              "kind": "replace",
+              "expected": "use",
+              "recognized": "used"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B07",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B08",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "delete",
+              "expected": "two",
+              "recognized": ""
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B09",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B10",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "the",
+              "recognized": "a"
+            },
+            {
+              "kind": "replace",
+              "expected": "rewriting",
+              "recognized": "re running"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "the",
+              "recognized": "a"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B11",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "plan",
+              "recognized": "climb"
+            },
+            {
+              "kind": "replace",
+              "expected": "backup",
+              "recognized": "back up"
+            },
+            {
+              "kind": "delete",
+              "expected": "s",
+              "recognized": ""
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "delete",
+              "expected": "s",
+              "recognized": ""
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B12",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B13",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "setup",
+              "recognized": "set up"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "one",
+              "recognized": "1"
+            },
+            {
+              "kind": "replace",
+              "expected": "setup",
+              "recognized": "set up"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B14",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B15",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "B16",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "clearer",
+              "recognized": "a clear"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "missed a",
+              "recognized": "miss the"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    }
+  ],
+  "outputs": [
+    {
+      "id": "B01",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "1185d97210b74b536c3f9b62f306992bee843d1d5a3e31a8c7f5769a052dd870",
+      "duration": 21.033333,
+      "frames": 631,
+      "bytes": 896226,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.78",
+        "input_tp": "-5.53",
+        "input_lra": "3.20"
+      },
+      "answer_starts_seconds": 2.39
+    },
+    {
+      "id": "B02",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "245dc59190a1f0be66ef0f434d1625d11a035acf1b9591bdd01e199fe43f9895",
+      "duration": 20.4,
+      "frames": 612,
+      "bytes": 847935,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.39",
+        "input_tp": "-4.74",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.31
+    },
+    {
+      "id": "B03",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "19d05777b2ff1eb90f0d066c20fce1505847ef1321053add77343e8da21c6074",
+      "duration": 20.9,
+      "frames": 627,
+      "bytes": 934949,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75
+    },
+    {
+      "id": "B04",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "c72877e703de22b57ce3a99ba01fe93199444aff774d395c561b16b82456ef7d",
+      "duration": 21.733333,
+      "frames": 652,
+      "bytes": 937205,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.28",
+        "input_tp": "-4.26",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.15
+    },
+    {
+      "id": "B05",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "ca2191916b69538db0c0966790247e329f97416f83866cd08570e48192e32bed",
+      "duration": 22.766667,
+      "frames": 683,
+      "bytes": 944781,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-15.90",
+        "input_tp": "-4.20",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.59
+    },
+    {
+      "id": "B06",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "b4da7bdf8c1a3d7bf0acf4a4e41ccf8d55ad5db5f283be0743fc5f388ee99f90",
+      "duration": 21.2,
+      "frames": 636,
+      "bytes": 897317,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.10",
+        "input_tp": "-4.73",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.31
+    },
+    {
+      "id": "B07",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "289de9b077b880b06f69cd7766ddcfc424c610378bfa3ef83fe2964d23ef3bae",
+      "duration": 22.0,
+      "frames": 660,
+      "bytes": 900774,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.19",
+        "input_tp": "-3.96",
+        "input_lra": "2.40"
+      },
+      "answer_starts_seconds": 2.87
+    },
+    {
+      "id": "B08",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "ad3129ba06f8d7334bde7f5c8ea342ee0af08de22dcdb8b7aff821b12e594d5d",
+      "duration": 21.933333,
+      "frames": 658,
+      "bytes": 883235,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.84",
+        "input_tp": "-4.22",
+        "input_lra": "2.30"
+      },
+      "answer_starts_seconds": 2.39
+    },
+    {
+      "id": "B09",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "b20894274be2ec7db33f089da802d89c66172cf28fc67981c5abd3986d2f6e43",
+      "duration": 23.933333,
+      "frames": 718,
+      "bytes": 961196,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-15.96",
+        "input_tp": "-4.90",
+        "input_lra": "3.70"
+      },
+      "answer_starts_seconds": 3.43
+    },
+    {
+      "id": "B10",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "770b8b73da4fece30a19b2a8c1f2ce32085c483da31214aaf2135b9122564580",
+      "duration": 22.433333,
+      "frames": 673,
+      "bytes": 970370,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.04",
+        "input_tp": "-4.12",
+        "input_lra": "1.30"
+      },
+      "answer_starts_seconds": 2.39
+    },
+    {
+      "id": "B11",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "d5b6e6c1d77faa2004a2e591f4c7425b5d2b432aa32aa8294805e75e231331be",
+      "duration": 20.9,
+      "frames": 627,
+      "bytes": 867815,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-15.94",
+        "input_tp": "-4.02",
+        "input_lra": "2.10"
+      },
+      "answer_starts_seconds": 2.15
+    },
+    {
+      "id": "B12",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "3e36739f14a0894745c427bb49e5479c5c7b7b71ab75584ba8af0a3dc0056003",
+      "duration": 22.833333,
+      "frames": 685,
+      "bytes": 934815,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.25",
+        "input_tp": "-4.25",
+        "input_lra": "2.60"
+      },
+      "answer_starts_seconds": 2.07
+    },
+    {
+      "id": "B13",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "3474603ca47e3689f2ab939f7e9bea51495707932b942f96b22fb631b5f70cc0",
+      "duration": 16.666667,
+      "frames": 500,
+      "bytes": 729700,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-15.78",
+        "input_tp": "-4.46",
+        "input_lra": "1.30"
+      },
+      "answer_starts_seconds": 1.99
+    },
+    {
+      "id": "B14",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "9af734c608a821b1c23183a3130e5215bcc344c2d5bfb13d541ad1aef461dc90",
+      "duration": 21.1,
+      "frames": 633,
+      "bytes": 903755,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.09",
+        "input_tp": "-5.48",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.63
+    },
+    {
+      "id": "B15",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "3e3ebdc62c4dd61f7247afeaaf304ba19ace2ef04242d5bab42933f17950b60a",
+      "duration": 19.666667,
+      "frames": 590,
+      "bytes": 802259,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.04",
+        "input_tp": "-4.85",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.83
+    },
+    {
+      "id": "B16",
+      "brand": "club",
+      "treatment": "motion",
+      "sha256": "5a42f0769445063dad091101911a692d8983dfa8bf73957e21f5af17b7b2520f",
+      "duration": 21.033333,
+      "frames": 631,
+      "bytes": 873948,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.32",
+        "input_tp": "-4.63",
+        "input_lra": "2.40"
+      },
+      "answer_starts_seconds": 2.31
+    },
+    {
+      "id": "B07",
+      "brand": "club",
+      "treatment": "static",
+      "sha256": "6d6a09961f1b92d1d51172eb4f8e61bc9523c32af8a580cf4b67fb5aa52dcbd4",
+      "duration": 22.0,
+      "frames": 660,
+      "bytes": 897222,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.19",
+        "input_tp": "-3.96",
+        "input_lra": "2.40"
+      },
+      "answer_starts_seconds": 2.87
+    },
+    {
+      "id": "B01",
+      "brand": "lab",
+      "treatment": "motion",
+      "sha256": "740d247e8d8e8acb6cf1eca1c223b07e4738200e7bb8edd917abaf0482b0e681",
+      "duration": 21.033333,
+      "frames": 631,
+      "bytes": 946160,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.78",
+        "input_tp": "-5.53",
+        "input_lra": "3.20"
+      },
+      "answer_starts_seconds": 2.39
+    },
+    {
+      "id": "B01",
+      "brand": "notebook",
+      "treatment": "motion",
+      "sha256": "fa99da0b29bf8e72bcf7528272b3ef920bbfbe6b13e77b12d6b9413ba706c9e6",
+      "duration": 21.033333,
+      "frames": 631,
+      "bytes": 872516,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.78",
+        "input_tp": "-5.53",
+        "input_lra": "3.20"
+      },
+      "answer_starts_seconds": 2.39
+    }
+  ]
+}
