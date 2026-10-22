@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-22",
+  "python_tests_passed": 56,
+  "node_tests_passed": 13,
+  "calendar_checks": [
+    "V2 passed",
+    "V3 passed"
+  ],
+  "content_validation": "passed; legacy MVP release review warnings retained",
+  "hub_local_references_checked": 199,
+  "missing_hub_references": 0,
+  "visual_samples": [
+    "B04 M/R layout",
+    "B08 360px preview",
+    "B03 timer and source cue",
+    "B02 machine setup",
+    "B05 youth supervision",
+    "B07 rep progression",
+    "B12 effort scale",
+    "BK02 panel 4",
+    "BS01 native poll blank"
+  ],
+  "browser_checks": [
+    "B04 native browser playback at 1080x1920, readyState 4, time advancing",
+    "All six character players loaded 1080px metadata with matching topic durations",
+    "Comparison page layout inspected"
+  ],
+  "fixed_during_review": [
+    "Portrait initially did not load synchronously; changed to awaited image loading and added nonblank/pixel-isolation regression test",
+    "B03 timer label overlapped dial; reduced and raised dial, then rebuilt all export receipts"
+  ],
+  "full_human_listening": false,
+  "target_platform_preview": false,
+  "audience_participants": 0
+}

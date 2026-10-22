@@ -36,7 +36,7 @@ Test that candidate against the same character with less muscular definition, pl
 
 A coach-and-beginner pair could combine aspiration with identification, but it adds a character, dialogue and production work. Reserve it for a later test if the single-character results identify a specific unmet need. Do not combine it with the first physique comparison.
 
-The [test protocol](08_CHARACTER_TEST_PROTOCOL.md) and [field guide](CHARACTER_TEST_FIELD_GUIDE.md) define stimuli, assignment, questions, uncertainty and decisions. The original November exports remain the baseline. There is no basis yet to rerender the full month with a character or to claim a trust/retention lift.
+The [test protocol](08_CHARACTER_TEST_PROTOCOL.md) and [field guide](CHARACTER_TEST_FIELD_GUIDE.md) define stimuli, assignment, questions, uncertainty and decisions. The owner subsequently requested that this research be applied to production. [V4](../../docs/MONTH_ONE_V4.md) now supplies a full-month muscular-guide candidate plus matched M/R/G and citation controls. The original November exports are preserved. This is an owner-directed creative choice; there is still no evidence of a trust/retention lift.
 
 ## Access and interpretation
 

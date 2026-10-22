@@ -1,6 +1,6 @@
 # Character test: does aspiration earn useful attention?
 
-Protocol CT1 · proposed 22 October 2026 · not run. This supplements the month-one protocol; it does not replace its interest, comprehension or 12-hour production gates. No participant outreach, paid recruitment or publication has occurred. The exact stimuli still need to be produced and inspected before enrollment.
+Protocol CT1 · proposed 22 October 2026 · not run. This supplements the month-one protocol; it does not replace its interest, comprehension or 12-hour production gates. No participant outreach, paid recruitment or publication has occurred. The [V4 stimuli](../../examples/month-one-v4/test-stimuli.json) are produced and technically checked. Perceived muscularity, identity and readability still need the Phase 0 viewer pretest before enrollment.
 
 ## Question and arms
 
@@ -58,4 +58,4 @@ A separate 24–36-person screen can assess noticing, credibility, comprehension
 
 ## Relationship to launch
 
-The proposed November month stays graphics-only until a revised export has passed review and a bounded adoption decision is recorded. Organic Reels/Shorts comparisons later can show whether a chosen format travels well, but different posting times, viewers and topics prevent a causal claim from raw views. Keep exact variant IDs and platform-specific denominators. No test here authorizes automatic replacement, publication, recruitment or spending.
+After this protocol was drafted, the owner requested a full production update. [V4](../../docs/MONTH_ONE_V4.md) records the resulting muscular-guide production candidate, with the original graphics-only month preserved. This bounded creative adoption does not claim an experimental winner; the tests above remain unrun. The G stimulus uses the same V4 composition with an empty portrait slot, so it is not byte-identical to the older V3 baseline. Organic Reels/Shorts comparisons later can show whether a chosen format travels well, but different posting times, viewers and topics prevent a causal claim from raw views. Keep exact variant IDs and platform-specific denominators. No test here authorizes automatic replacement, publication, recruitment or spending.

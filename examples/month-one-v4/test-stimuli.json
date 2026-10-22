@@ -1,0 +1,152 @@
+{
+  "status": "produced_pretest_pending",
+  "character": [
+    {
+      "id": "B04",
+      "arm": "M",
+      "citation": true,
+      "path": "B04/B04-motion.mp4",
+      "sha256": "3a92973d3d830b09801437ed65ab08d64ed19571e32757c5839e52cd3e54ecc7",
+      "audio_md5": "MD5=c48da7fdc7f7626ec5e308e70f7866ba",
+      "duration": 21.733333,
+      "frames": 652,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.28",
+        "input_tp": "-4.26",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.15,
+      "render_elapsed_seconds": 4.97
+    },
+    {
+      "id": "B08",
+      "arm": "M",
+      "citation": true,
+      "path": "B08/B08-motion.mp4",
+      "sha256": "534656de2ed3b38ee8dae36e41824177d110b7dd477e34050230166a215e2ddf",
+      "audio_md5": "MD5=b81890496b80a460cc66c434dcdfe394",
+      "duration": 21.933333,
+      "frames": 658,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.84",
+        "input_tp": "-4.22",
+        "input_lra": "2.30"
+      },
+      "answer_starts_seconds": 2.39,
+      "render_elapsed_seconds": 5.1
+    },
+    {
+      "id": "B04",
+      "arm": "R",
+      "citation": true,
+      "path": "variants/R/B04/B04-motion.mp4",
+      "sha256": "63bc6c115a54d7b9a0ccae5df653fef7db90a4a8055824e5dc4d3c5f7810deb3",
+      "audio_md5": "MD5=c48da7fdc7f7626ec5e308e70f7866ba",
+      "duration": 21.733333,
+      "frames": 652,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.28",
+        "input_tp": "-4.26",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.15,
+      "render_elapsed_seconds": 5.03
+    },
+    {
+      "id": "B08",
+      "arm": "R",
+      "citation": true,
+      "path": "variants/R/B08/B08-motion.mp4",
+      "sha256": "47a3fea4680f76e3c1398556e380ac8507679267fe0f492d3a5d8cf340964a22",
+      "audio_md5": "MD5=b81890496b80a460cc66c434dcdfe394",
+      "duration": 21.933333,
+      "frames": 658,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.84",
+        "input_tp": "-4.22",
+        "input_lra": "2.30"
+      },
+      "answer_starts_seconds": 2.39,
+      "render_elapsed_seconds": 5.04
+    },
+    {
+      "id": "B04",
+      "arm": "G",
+      "citation": true,
+      "path": "variants/G/B04/B04-motion.mp4",
+      "sha256": "52940c275d7867ed7b4e083c013188d9cfbb115c587d6a610ec07b74b234e52b",
+      "audio_md5": "MD5=c48da7fdc7f7626ec5e308e70f7866ba",
+      "duration": 21.733333,
+      "frames": 652,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.28",
+        "input_tp": "-4.26",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.15,
+      "render_elapsed_seconds": 4.65
+    },
+    {
+      "id": "B08",
+      "arm": "G",
+      "citation": true,
+      "path": "variants/G/B08/B08-motion.mp4",
+      "sha256": "e9db70548b75862d7f6e061526c2fcccf42252c02e47d4243a1d79fc141f7873",
+      "audio_md5": "MD5=b81890496b80a460cc66c434dcdfe394",
+      "duration": 21.933333,
+      "frames": 658,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.84",
+        "input_tp": "-4.22",
+        "input_lra": "2.30"
+      },
+      "answer_starts_seconds": 2.39,
+      "render_elapsed_seconds": 4.69
+    }
+  ],
+  "citation": [
+    {
+      "id": "B03",
+      "arm": "M",
+      "citation": true,
+      "path": "B03/B03-motion.mp4",
+      "sha256": "9feb0a77eda897c59acc26a13427e3fff077eab72e736fc3135ed7e9e27bc3bf",
+      "audio_md5": "MD5=a4b9348190f84847507142f6a77a2ad5",
+      "duration": 20.9,
+      "frames": 627,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75,
+      "render_elapsed_seconds": 4.81
+    },
+    {
+      "id": "B03",
+      "arm": "M",
+      "citation": false,
+      "path": "variants/citation-off/B03/B03-motion.mp4",
+      "sha256": "0f2fca807d0a0750444021b7bd08f9b7a81b9b935c6fcbe69b586bc0cd3dfc0a",
+      "audio_md5": "MD5=a4b9348190f84847507142f6a77a2ad5",
+      "duration": 20.9,
+      "frames": 627,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75,
+      "render_elapsed_seconds": 5.41
+    }
+  ],
+  "participants": 0
+}
