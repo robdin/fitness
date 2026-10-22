@@ -1,5 +1,6 @@
 {
   "id": "CT1",
+  "type": "controlled_character_screen_plan",
   "version": "1.0",
   "prepared_at": "2026-10-22",
   "status": "protocol_prepared_stimuli_not_produced",
