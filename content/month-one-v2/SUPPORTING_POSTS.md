@@ -1,6 +1,6 @@
 # Supporting-post copy
 
-Four five-panel carousels and eight two-frame stories. Copy is complete; image exports and native stickers have not been created. These posts support the pilot and are not independent randomized experiments.
+Four five-panel carousels and eight two-frame stories. Copy is complete; image exports are in [the production package](../../docs/MONTH_ONE_V2_PRODUCTION.md). Native stickers must be added manually before posting. These posts support the pilot and are not independent randomized experiments.
 
 <a id="s01"></a>
 ## S01 · November 2 · What takes your time?

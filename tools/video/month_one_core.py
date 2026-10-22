@@ -21,11 +21,22 @@ def normalized(text):
 def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
-def caption_chunks(text):
+def caption_chunks(text,balanced=False):
     # Keep sentence boundaries when possible, then pack to <=62 characters.
     result=[]
     for sentence in re.split(r'(?<=[.!?])\s+', text):
-        for chunk in textwrap.wrap(sentence, width=62, break_long_words=False, break_on_hyphens=False):
+        chunks=textwrap.wrap(sentence, width=62, break_long_words=False, break_on_hyphens=False)
+        if balanced and len(chunks)>1:
+            # Avoid a lone trailing word flashing as a separate caption. Keep
+            # sentence order, the same maximum length and the original text.
+            for j in range(len(chunks)-1,0,-1):
+                while len(chunks[j])<20:
+                    previous=chunks[j-1].split()
+                    if len(previous)<3:break
+                    moved=previous[-1]+' '+chunks[j]
+                    if len(moved)>62:break
+                    chunks[j-1]=' '.join(previous[:-1]);chunks[j]=moved
+        for chunk in chunks:
             lines=textwrap.wrap(chunk, width=32, break_long_words=False, break_on_hyphens=False)
             if len(lines)>2:
                 # A balanced split avoids a third line caused by word lengths.
@@ -86,7 +97,7 @@ def make_timeline(episode, alignment=None, voice_duration=None):
         start=matched[0]['start'] if matched else clock
         stop=matched[-1]['end'] if matched else start+max(len(text)/18.5,len(text.split())/2.9)
         beats.append({'kind':kind,'text':text,'start':start,'end':stop})
-        chunks=caption_chunks(text)
+        chunks=caption_chunks(text,balanced=episode.get('balanced_captions',False))
         total=sum(len(c['text']) for c in chunks)
         estimate=start
         for chunk in chunks:

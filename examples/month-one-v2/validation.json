@@ -15,6 +15,6 @@
   ],
   "planned_weekly_hours": 12.0,
   "audience_tests_conducted": false,
-  "v2_media_rendered": false,
+  "media_verification": "Separate production receipt; this planner does not inspect media",
   "scope": "Structural, source-reference, schedule and content-budget checks only; not scientific approval or audience validation."
 }

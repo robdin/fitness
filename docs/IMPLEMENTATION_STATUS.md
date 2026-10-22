@@ -5,8 +5,10 @@ adds six creator references, 23 community threads, 14 research records and 16
 original N-series scripts with visual briefs and posting copy. Its November
 calendar balances hook style by week, topic and weekday. Supporting copy,
 an importable planning calendar, a review hub and decision-tool support are
-included. N-series media production and live audience testing have not occurred;
-the existing M-series narrated exports are preserved separately.
+included. The [N-series production package](MONTH_ONE_V2_PRODUCTION.md) now adds
+16 narrated videos, a matched N01 motion control and all 36 supporting images.
+Listening/editorial review and live audience testing remain pending; the existing
+M-series narrated exports are preserved separately.
 
 Current continuation, 21 October 2026: PR #3 is merged. The approved deeper-voice
 V3 and its timed JavaScript graphics are retained. The new [month-one pilot](MONTH_ONE.md)

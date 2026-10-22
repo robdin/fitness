@@ -17,15 +17,21 @@ def tokens(text):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--ids',nargs='+');p.add_argument('--model',default='base.en')
+    p.add_argument('--series',choices=['v1','v2'],default='v1')
     args=p.parse_args()
+    workspace=ROOT/'.local/month-one'
+    episodes=load_episodes()
+    if args.series=='v2':
+        from produce_month_one_v2 import episodes as v2_episodes, WORKSPACE
+        workspace=WORKSPACE;episodes=v2_episodes()
     import numpy as np
     from faster_whisper import WhisperModel
     model=WhisperModel(args.model,device='cpu',compute_type='int8',cpu_threads=4,
                       download_root=str(ROOT/'.local/month-one/asr-models'),local_files_only=True)
-    out=ROOT/'.local/month-one/audio-qa'/args.model.replace('/','_');out.mkdir(parents=True,exist_ok=True)
-    for ep in load_episodes():
+    out=workspace/'audio-qa'/args.model.replace('/','_');out.mkdir(parents=True,exist_ok=True)
+    for ep in episodes:
         if args.ids and ep['id'] not in args.ids:continue
-        path=ROOT/'.local/month-one/voice'/ep['id']/'narration.wav'
+        path=workspace/'voice'/ep['id']/'narration.wav'
         # Decode with the installed FFmpeg, avoiding a PyAV API/version mismatch.
         raw=subprocess.run(['ffmpeg','-v','error','-i',str(path),'-f','f32le','-ar','16000','-ac','1','-'],check=True,capture_output=True).stdout
         segments,info=model.transcribe(np.frombuffer(raw,dtype=np.float32),language='en',beam_size=5,condition_on_previous_text=False)

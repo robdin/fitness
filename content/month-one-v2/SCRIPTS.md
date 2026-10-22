@@ -1,8 +1,8 @@
 # Sixteen original video scripts
 
-Status: authored and source-linked; new narration, rendered media, final editorial review and live audience tests remain pending. The old M-series exports do not contain these scripts.
+Authored scripts and visual briefs. Current N-series exports, exact durations and pending review are documented in [the production guide](../../docs/MONTH_ONE_V2_PRODUCTION.md). The old M-series exports contain different scripts.
 
-Target: 30–40 seconds. Estimated length uses 150 words/minute; actual spoken audio controls final timing. Keep the first visual legible immediately, before any logo. Six beats are semantic transitions, not rigid second marks. Use full spoken captions, not only headlines.
+Original planning estimate: 30–40 seconds at 150 words/minute. The approved voice produced 26.27–32.67-second exports; the documented prelaunch working target is 25–35 seconds. Per-script estimates below remain the original planning estimates, not measured audio. Keep the first visual legible immediately, before any logo. Six beats are semantic transitions, not rigid second marks. Use full spoken captions, not only headlines.
 
 <a id="n01"></a>
 ## N01 · Only two gym days?

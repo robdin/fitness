@@ -16,7 +16,7 @@ def package(output):
             raise ValueError(f'Stale artifact: {path.relative_to(ROOT)}')
     paths=list(generated)+[ROOT/p for p in [
         'content/month-one-v2/calendar.json','research/month-one-demand-v2.json',
-        'experiments/month-one-v2.json','docs/MONTH_ONE_V2.md',
+        'experiments/month-one-v2.json','docs/MONTH_ONE_V2.md','docs/MONTH_ONE_V2_PRODUCTION.md','examples/month-one-v2/production-verification.json',
         'measurement/month-one-observations.csv','measurement/month-one-v2-operations.example.json',
         'tools/calendar/build_month_one_v2.py','tools/calendar/review_template.html',
         'tools/calendar/package_month_one_v2.py','tools/video/month_one_metrics.py',
@@ -32,7 +32,7 @@ def package(output):
         payload=path.read_bytes();payloads[relative]=payload
         target=output/relative;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(payload)
         manifest.append(dict(path=relative,bytes=len(payload),sha256=hashlib.sha256(payload).hexdigest()))
-    payloads['README.txt']=b'Rep & Reason: demand-led month-one content calendar\n\nOpen examples/month-one-v2/index.html in a browser.\nRead docs/MONTH_ONE_V2.md for the complete protocol.\nThe ICS file contains proposed planning events, not social uploads.\nN-series scripts have not been rendered or published. Existing M-series media is a separate package.\nNo credentials, raw audience records or local provider files are included.\n'
+    payloads['README.txt']=b'Rep & Reason: demand-led month-one content calendar\n\nOpen examples/month-one-v2/index.html in a browser.\nRead docs/MONTH_ONE_V2.md for the complete protocol.\nThe ICS file contains proposed planning events, not social uploads.\nN-series review media is in the separate November Content Review ZIP. Nothing has been published. Existing M-series media is also separate.\nNo credentials, raw audience records or local provider files are included.\n'
     payloads['manifest.json']=(json.dumps(dict(status='planning_package_not_rendered_media',files=manifest),indent=2)+'\n').encode()
     for name in ('README.txt','manifest.json'):(output/name).write_bytes(payloads[name])
     archive=output.parent/'Rep_and_Reason_Demand_Calendar_V2.zip'

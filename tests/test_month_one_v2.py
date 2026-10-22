@@ -121,7 +121,9 @@ class DemandCalendarTests(unittest.TestCase):
             result=package(Path(directory)/'package')
             with zipfile.ZipFile(result['archive']) as archive:
                 self.assertIsNone(archive.testzip())
-                self.assertEqual(len(archive.namelist()),20)
+                self.assertEqual(len(archive.namelist()),22)
+                self.assertIn('docs/MONTH_ONE_V2_PRODUCTION.md',archive.namelist())
+                self.assertIn('examples/month-one-v2/production-verification.json',archive.namelist())
                 self.assertIn('content/month-one-v2/calendar.ics',archive.namelist())
                 self.assertFalse(any('.local' in name or name.endswith('.env') or 'fish-profile' in name for name in archive.namelist()))
             class Links(HTMLParser):

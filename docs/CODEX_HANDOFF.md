@@ -2,7 +2,9 @@
 
 > **Latest content revision, 21 October 2026:** use [MONTH_ONE_V2.md](MONTH_ONE_V2.md)
 > for the creator/community-sourced calendar, 16 new N-series scripts and the
-> balanced experiment framework. N-series media has not been rendered.
+> balanced experiment framework. The [N-series production package](MONTH_ONE_V2_PRODUCTION.md)
+> now contains 16 narrated review videos, one matched control and 36 supporting
+> images. Full listening/editorial review and audience testing remain pending.
 > [MONTH_ONE.md](MONTH_ONE.md) documents the separate completed M-series exports.
 
 > **Continuation verified 21 October 2026:** PR #3 is now merged at
