@@ -12,6 +12,8 @@ Prepared 22 October 2026. The recommendation is a beginner-first series: **make 
 
 Then inspect the [64-question bank](QUESTION_BANK.md), [source register](SOURCE_REGISTER.md), [structured evidence and demand records](sources.json), and [integration, old-content audit and experiments](06_INTEGRATION_AND_TESTING.md).
 
+Follow-up research: [citations, trust and muscular versus relatable characters](07_TRUST_AND_CHARACTER.md), with a [three-arm character test](08_CHARACTER_TEST_PROTOCOL.md), [session field guide](CHARACTER_TEST_FIELD_GUIDE.md) and separate [seven-study plus correction source log](character-test-sources.json). No character winner or audience effect has been established.
+
 ## The production package
 
 - [Full November calendar](../../content/month-one-v3/CALENDAR.md): 16 Shorts/Reels masters, four carousels and eight stories.

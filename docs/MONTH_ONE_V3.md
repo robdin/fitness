@@ -52,6 +52,8 @@ ASR needs the already cached local models and faster-whisper; it does not downlo
 
 ## Launch and go/no-go
 
+The follow-up [character and citation research](../research/audience-v3/07_TRUST_AND_CHARACTER.md) adds a [proposed controlled test](../research/audience-v3/08_CHARACTER_TEST_PROTOCOL.md). Character appearance is unresolved; no new character stimuli have been produced and the current B-series remains graphics-only. The review hub includes the new research and field guide. Its seven studies and correction are recorded separately from the original source register.
+
 The proposed schedule is November 1–30, with the last core post on November 28 and a final seven-day readout December 5. Nothing is scheduled or published. Shift all dates if review delays launch. Keep actual platform exports and publication timestamps separate from the proposal.
 
 The [experiment protocol](../experiments/month-one-v3.json) balances eight question and eight answer openings across week, topic and weekday. This is descriptive organic comparison, not randomized causal A/B evidence. Optional brand and motion usability screens use identical content/audio and first-exposure assignment. The [integration report](../research/audience-v3/06_INTEGRATION_AND_TESTING.md) explains rubrics, thresholds, failure conditions and the two representative production batches needed to evaluate the user’s 12-hour weekly limit.
