@@ -1,0 +1,70 @@
+{
+  "prepared_at": "2026-10-22",
+  "scope": "Targeted addendum: seven studies and one correction. Not an exhaustive systematic review. Separate from the original audience-v3 source register.",
+  "sources": [
+    {
+      "id": "CT-S01",
+      "title": "Putnam and Phelps (2017), The citation effect",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28780441/",
+      "design": "Six experiments with trivia statements",
+      "scope_limit": "Small pooled effect on truth judgments; not longitudinal brand trust.",
+      "access": "Indexed primary abstract reviewed; direct PubMed open returned a stub."
+    },
+    {
+      "id": "CT-S02",
+      "title": "Heiss et al. (2024), Scientific credibility cues in short-form videos",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10410236.2023.2301201",
+      "design": "Randomized video experiment, n=956",
+      "scope_limit": "Scientific-reference manipulation did not improve content credibility; one mental-health topic.",
+      "access": "Indexed primary article and PDF text reviewed; direct publisher open returned 403. Correction checked."
+    },
+    {
+      "id": "CT-S03",
+      "title": "Correction to Heiss et al.",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10410236.2024.2324488",
+      "design": "Publisher correction",
+      "scope_limit": "Corrects author surname to Cuadra.",
+      "access": "Indexed publisher correction text reviewed; direct open returned 403."
+    },
+    {
+      "id": "CT-S04",
+      "title": "Peng et al. (2019), Comparing and modeling via social media",
+      "url": "https://scholar.nycu.edu.tw/en/publications/comparing-and-modeling-via-social-media-the-social-influences-of-/",
+      "design": "Comparison-direction manipulation; 1,428 male Instagram users in Taiwan",
+      "scope_limit": "Supports self-improvement motives from upward comparison; not actual channel growth.",
+      "access": "Author-institution abstract opened; publisher indexed abstract reviewed, direct publisher open returned 403. Full methods not appraised."
+    },
+    {
+      "id": "CT-S05",
+      "title": "Edelblum et al. (2025), The Beauty Backfire Effect",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/mar.70023",
+      "design": "Mock-post experiments; mainly female influencers, male follow-up",
+      "scope_limit": "Reduced relatability and stated engagement for high attractiveness; muscle size not isolated.",
+      "access": "Publisher full text reviewed including gender limitation and intention-based measures."
+    },
+    {
+      "id": "CT-S06",
+      "title": "Yee et al. (2020), Fitspiration, thinspiration and male body image",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1740144520303879",
+      "design": "Randomized repeated image exposure; 223 men, seven days",
+      "scope_limit": "Fitspiration increased body dissatisfaction versus neutral; not a clothed fictional-guide test.",
+      "access": "Primary publisher abstract and study overview reviewed."
+    },
+    {
+      "id": "CT-S07",
+      "title": "Fox and Bailenson (2009), Virtual Self-Modeling",
+      "url": "https://vhil.stanford.edu/publications/medical/virtual-self-modeling-effects-vicarious-reinforcement-and-identification",
+      "design": "Three virtual-environment experiments",
+      "scope_limit": "Self-resembling models influenced exercise; personalized immersive representations differ from generic video characters.",
+      "access": "Author-lab summary and indexed original PDF abstract reviewed; publisher direct open returned 403."
+    },
+    {
+      "id": "CT-S08",
+      "title": "Arigo et al. (2021), Fitspiration messaging and exercise behavior",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8320884/",
+      "design": "Randomized experiment, 655 college students; seven-day attendance",
+      "scope_limit": "Main predicted message benefits unsupported; motivation and behavior require separate measures.",
+      "access": "Primary open article abstract and methods reviewed."
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "brand": "club",
+  "episodes": {
+    "B01": {
+      "headlines": [
+        [
+          "FIRST VISIT.",
+          "NOW WHAT?"
+        ],
+        [
+          "THREE DECISIONS."
+        ],
+        [
+          "DAYS. PLAN.",
+          "SETUP HELP."
+        ],
+        [
+          "ASK SOMEONE",
+          "WHO CAN SEE."
+        ],
+        [
+          "BRING YOUR",
+          "NEXT STEP."
+        ],
+        [
+          "THE PLAN?",
+          "THE MACHINES?"
+        ]
+      ],
+      "kind": "checklist",
+      "labels": [
+        "YOUR DAYS",
+        "YOUR ROUTINE",
+        "SETUP HELP"
+      ],
+      "scope_label": "A starting checklist \u00b7 not a complete routine"
+    },
+    "B02": {
+      "headlines": [
+        [
+          "MACHINES",
+          "COUNT TOO."
+        ],
+        [
+          "START WITH",
+          "A CLEAR SETUP."
+        ],
+        [
+          "TWO TOOLS.",
+          "DIFFERENT SKILLS."
+        ],
+        [
+          "NOT EVERY LIFT",
+          "IS A SUBSTITUTE."
+        ],
+        [
+          "SAVE THE",
+          "SETTINGS."
+        ],
+        [
+          "WHICH MACHINE",
+          "NEEDS EXPLAINING?"
+        ]
+      ],
+      "kind": "machine",
+      "labels": [
+        "MACHINE",
+        "FREE WEIGHT",
+        "SETUP + LOG"
+      ],
+      "scope_label": "Research summary: adults \u00b7 no universal safety ranking"
+    },
+    "B03": {
+      "headlines": [
+        [
+          "NEXT SET.",
+          "READY ALREADY?"
+        ],
+        [
+          "REST IS PART",
+          "OF THE WORK."
+        ],
+        [
+          "1 MINUTE",
+          "VERSUS 3."
+        ],
+        [
+          "ONE STUDY.",
+          "NOT EVERY SET."
+        ],
+        [
+          "TIME IT.",
+          "NOTICE THE SET."
+        ],
+        [
+          "TIMER",
+          "OR GUESS?"
+        ]
+      ],
+      "kind": "timer",
+      "labels": [
+        "1:00",
+        "3:00",
+        "FOLLOW YOUR PLAN"
+      ],
+      "scope_label": "Small adult trial \u00b7 not a universal rest target"
+    },
+    "B04": {
+      "headlines": [
+        [
+          "3 \u00d7 8.",
+          "DECODED."
+        ],
+        [
+          "THREE GROUPS.",
+          "EIGHT REPS EACH."
+        ],
+        [
+          "8. REST.",
+          "REPEAT."
+        ],
+        [
+          "AN EXAMPLE.",
+          "NOT YOUR TARGET."
+        ],
+        [
+          "SETS. REPS.",
+          "REST."
+        ],
+        [
+          "WHICH TERM",
+          "COMES NEXT?"
+        ]
+      ],
+      "kind": "sets",
+      "labels": [
+        "SET 1",
+        "SET 2",
+        "SET 3"
+      ],
+      "scope_label": "Notation example \u00b7 not a prescribed workout"
+    },
+    "B05": {
+      "headlines": [
+        [
+          "WHAT WEIGHT",
+          "DO I START WITH?"
+        ],
+        [
+          "LEARN THE",
+          "MOVEMENT FIRST."
+        ],
+        [
+          "SETUP.",
+          "MANAGEABLE LOAD."
+        ],
+        [
+          "16\u201317?",
+          "GET SUPERVISION."
+        ],
+        [
+          "RECORD.",
+          "THEN PROGRESS."
+        ],
+        [
+          "THE WEIGHT?",
+          "THE SETUP?"
+        ]
+      ],
+      "kind": "weight",
+      "labels": [
+        "SETUP",
+        "CONTROL",
+        "PROGRESSION"
+      ],
+      "scope_label": "Individual setup needs qualified instruction"
+    },
+    "B06": {
+      "headlines": [
+        [
+          "SORENESS \u2260",
+          "PROGRESS SCORE."
+        ],
+        [
+          "NO ACHE",
+          "REQUIRED."
+        ],
+        [
+          "LOOK AT",
+          "THE RECORD."
+        ],
+        [
+          "DON\u2019T CHASE",
+          "MORE SORENESS."
+        ],
+        [
+          "LOG THE WORK.",
+          "WATCH THE PATTERN."
+        ],
+        [
+          "HOW DO YOU",
+          "JUDGE A SESSION?"
+        ]
+      ],
+      "kind": "soreness",
+      "labels": [
+        "SORENESS",
+        "TRAINING LOG",
+        "COMPARE OVER TIME"
+      ],
+      "scope_label": "Soreness is not a growth test \u00b7 pain is a separate concern"
+    },
+    "B07": {
+      "headlines": [
+        [
+          "8 \u2192 9.",
+          "PROGRESS?"
+        ],
+        [
+          "MORE THAN",
+          "A HEAVIER WEIGHT."
+        ],
+        [
+          "SAME SETUP.",
+          "ONE EXTRA REP."
+        ],
+        [
+          "PERFORMANCE.",
+          "NOT A MUSCLE SCAN."
+        ],
+        [
+          "USE YOUR",
+          "PROGRESSION RULE."
+        ],
+        [
+          "WEIGHT",
+          "AND REPS?"
+        ]
+      ],
+      "kind": "reps",
+      "labels": [
+        "LAST TIME",
+        "TODAY",
+        "SAME CONDITIONS"
+      ],
+      "scope_label": "Illustrative log \u00b7 not measured study data"
+    },
+    "B08": {
+      "headlines": [
+        [
+          "TWO DAYS.",
+          "BUILD AROUND THEM."
+        ],
+        [
+          "A ROUTINE",
+          "THAT FITS."
+        ],
+        [
+          "PLAN THE",
+          "WEEKLY WORK."
+        ],
+        [
+          "NO EQUAL-GAINS",
+          "PROMISE."
+        ],
+        [
+          "PUT IT IN",
+          "THE CALENDAR."
+        ],
+        [
+          "FIND THE DAYS?",
+          "KEEP THE DAYS?"
+        ]
+      ],
+      "kind": "calendar",
+      "labels": [
+        "TUE",
+        "SAT",
+        "ILLUSTRATIVE WEEK"
+      ],
+      "scope_label": "Adult guidance \u00b7 youth activity needs differ"
+    },
+    "B09": {
+      "headlines": [
+        [
+          "POWDER IS",
+          "OPTIONAL."
+        ],
+        [
+          "FOOD COUNTS",
+          "TOO."
+        ],
+        [
+          "MORE THAN",
+          "ONE SOURCE."
+        ],
+        [
+          "NOT A DIET",
+          "REPLACEMENT."
+        ],
+        [
+          "START WITH",
+          "YOUR MEALS."
+        ],
+        [
+          "MEAL IDEAS?",
+          "MARKETING CLAIMS?"
+        ]
+      ],
+      "kind": "food",
+      "labels": [
+        "FOOD",
+        "POWDER",
+        "CONVENIENCE \u2260 REQUIREMENT"
+      ],
+      "scope_label": "No product endorsement or individual intake target"
+    },
+    "B10": {
+      "headlines": [
+        [
+          "ONE BAD DAY.",
+          "STUCK ALREADY?"
+        ],
+        [
+          "ONE SESSION",
+          "IS NOT A PATTERN."
+        ],
+        [
+          "COMPARE LIKE",
+          "WITH LIKE."
+        ],
+        [
+          "DIFFERENT SETUP?",
+          "DIFFERENT TEST."
+        ],
+        [
+          "CHECK THE LOG",
+          "BEFORE THE RESET."
+        ],
+        [
+          "WHAT CHANGES",
+          "BETWEEN SESSIONS?"
+        ]
+      ],
+      "kind": "trend",
+      "labels": [
+        "SESSION 1",
+        "SESSION 2",
+        "SESSION 3"
+      ],
+      "scope_label": "Editorial comparison checklist \u00b7 no plateau diagnosis"
+    },
+    "B11": {
+      "headlines": [
+        [
+          "MACHINE TAKEN?",
+          "HAVE A PLAN B."
+        ],
+        [
+          "A FAMILIAR",
+          "ALTERNATIVE."
+        ],
+        [
+          "WRITE IT",
+          "BESIDE PLAN A."
+        ],
+        [
+          "DIFFERENT LIFT.",
+          "SEPARATE LOG."
+        ],
+        [
+          "DECIDE BEFORE",
+          "THE QUEUE."
+        ],
+        [
+          "WHAT IS",
+          "ALWAYS TAKEN?"
+        ]
+      ],
+      "kind": "backup",
+      "labels": [
+        "PLAN A",
+        "PLAN B",
+        "ASK + WRITE + LOG"
+      ],
+      "scope_label": "Editorial workflow \u00b7 substitutes need individual selection"
+    },
+    "B12": {
+      "headlines": [
+        [
+          "FAIL EVERY SET?",
+          "NOT REQUIRED."
+        ],
+        [
+          "CHALLENGING",
+          "IS THE IDEA."
+        ],
+        [
+          "EFFORT MATTERS.",
+          "THE TARGET VARIES."
+        ],
+        [
+          "A REP LIMIT.",
+          "NOT YOUR IDENTITY."
+        ],
+        [
+          "FOLLOW THE",
+          "EFFORT GUIDANCE."
+        ],
+        [
+          "WHICH TERM",
+          "NEEDS TRANSLATING?"
+        ]
+      ],
+      "kind": "effort",
+      "labels": [
+        "CHALLENGING",
+        "FAILURE",
+        "FOLLOW YOUR ROUTINE"
+      ],
+      "scope_label": "Adult research \u00b7 no universal stopping target"
+    },
+    "B13": {
+      "headlines": [
+        [
+          "MONTH ONE.",
+          "A BETTER SCORECARD."
+        ],
+        [
+          "SHOW UP.",
+          "LEARN. RECORD."
+        ],
+        [
+          "REVIEW WHAT",
+          "YOU CAN SEE."
+        ],
+        [
+          "NO MIRROR",
+          "DEADLINE."
+        ],
+        [
+          "ONE IMPROVEMENT",
+          "FOR NEXT MONTH."
+        ],
+        [
+          "WHAT FEELS",
+          "EASIER NOW?"
+        ]
+      ],
+      "kind": "scorecard",
+      "labels": [
+        "ATTENDANCE",
+        "SETUP SKILL",
+        "TRAINING LOG"
+      ],
+      "scope_label": "Process checklist \u00b7 not a body-composition measure"
+    },
+    "B14": {
+      "headlines": [
+        [
+          "NEW WEEK.",
+          "NEW ROUTINE?"
+        ],
+        [
+          "KEEP SOMETHING",
+          "COMPARABLE."
+        ],
+        [
+          "DAYS. EXERCISES.",
+          "PROGRESSION."
+        ],
+        [
+          "A POOR FIT",
+          "CAN CHANGE."
+        ],
+        [
+          "KNOW WHY",
+          "YOU\u2019RE SWITCHING."
+        ],
+        [
+          "WHAT MAKES",
+          "YOU SWITCH?"
+        ]
+      ],
+      "kind": "program",
+      "labels": [
+        "SCHEDULE",
+        "EXERCISES",
+        "PROGRESSION"
+      ],
+      "scope_label": "Editorial planning criteria \u00b7 no mandatory program length"
+    },
+    "B15": {
+      "headlines": [
+        [
+          "NEW MACHINE.",
+          "NEW LOG."
+        ],
+        [
+          "SAME LABEL \u2260",
+          "SAME TASK."
+        ],
+        [
+          "DESIGN.",
+          "SETTINGS. MOVEMENT."
+        ],
+        [
+          "A LOWER LABEL",
+          "IS NOT A VERDICT."
+        ],
+        [
+          "COMPARE THIS",
+          "SETUP WITH ITSELF."
+        ],
+        [
+          "SAME NUMBER.",
+          "DIFFERENT FEEL?"
+        ]
+      ],
+      "kind": "log",
+      "labels": [
+        "MACHINE A",
+        "MACHINE B",
+        "SETTINGS \u00b7 LOAD \u00b7 REPS"
+      ],
+      "scope_label": "Measurement checklist \u00b7 no cross-machine conversion"
+    },
+    "B16": {
+      "headlines": [
+        [
+          "MISSED A DAY.",
+          "NOW WHAT?"
+        ],
+        [
+          "PLAN THE",
+          "NEXT VISIT."
+        ],
+        [
+          "CHECK YOUR",
+          "ROUTINE\u2019S GUIDANCE."
+        ],
+        [
+          "NO AUTOMATIC",
+          "DOUBLE SESSION."
+        ],
+        [
+          "ONE BARRIER.",
+          "ONE ADJUSTMENT."
+        ],
+        [
+          "CLEARER PLAN?",
+          "BACKUP TIME?"
+        ]
+      ],
+      "kind": "return",
+      "labels": [
+        "MISSED",
+        "NEXT VISIT",
+        "ONE ADJUSTMENT"
+      ],
+      "scope_label": "Editorial scheduling advice \u00b7 no individual recovery prescription"
+    }
+  }
+}

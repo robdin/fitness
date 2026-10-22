@@ -2,9 +2,11 @@
 
 **Know why. Train better.**
 
-A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The latest N-series review package contains **16 narrated month-one videos, one additional matched motion control, four carousels and eight story sequences**. Earlier M-series, Blender/V3 work and six silent prototypes are retained. It has not published videos, recruited participants, generated sales or run a live A/B test.
+A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The latest B-series review package contains **16 rewritten narrated videos, two brand alternatives, one motion control, four carousels and eight story sequences**, supported by five research briefs and a 64-question bank. Training Club is the owner-selected brand direction. The N-series remains available as a prior version. Earlier M-series, Blender/V3 work and six silent prototypes are retained. It has not published videos, recruited participants, generated sales or run a live A/B test.
 
 ## Start here
+
+- [Research-led beginner month V3](docs/MONTH_ONE_V3.md): all five research perspectives applied to a complete new month of production. [Read the research](research/audience-v3/README.md), [calendar](content/month-one-v3/CALENDAR.md), [scripts](content/month-one-v3/SCRIPTS.md), and [three brand systems](brand/v3/STYLE_GUIDE.md). The media hub and ZIPs are retained locally; audience validation remains pending.
 
 - [Demand-led calendar V2](docs/MONTH_ONE_V2.md): creator/community source map,
   16 new original scripts and visual briefs, complete supporting copy, November
@@ -82,4 +84,4 @@ The small prototype snapshot is included for review. Large production media, cus
 
 ## Current boundary
 
-The target repository was empty. This implementation is new code informed by the supplied Turuan guide. A code-level Turuan review has not been completed, so no code port or compatibility claim has been made. Production account connections, final voice approval, editorial approval and audience/customer observations remain necessary. See the status file for the exact boundary and docs/DELIVERY.md for GitHub delivery status.
+The target repository was empty. This implementation is new code informed by the supplied Turuan guide. A code-level Turuan review has not been completed, so no code port or compatibility claim has been made. Production account connections, final editorial approval and audience/customer observations remain necessary. The deeper narration voice is approved; individual new exports still need final review. See the status file for the exact boundary and docs/DELIVERY.md for GitHub delivery status.

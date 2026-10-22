@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "Q01",
+    "journey_stage": "Starting",
+    "question": "What should I do on my very first gym visit?",
+    "emotional_or_practical_job": "Reduce uncertainty before the first visit",
+    "source_family_ids": [
+      "D01",
+      "D03",
+      "D05"
+    ],
+    "linked_episodes": [
+      "B01"
+    ],
+    "exploration_destination": "Gym orientation; qualified instructor; beginner guide",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q02",
+    "journey_stage": "Starting",
+    "question": "What should I bring besides clothes and water?",
+    "emotional_or_practical_job": "Reduce uncertainty before the first visit",
+    "source_family_ids": [
+      "D01",
+      "D03",
+      "D05"
+    ],
+    "linked_episodes": [
+      "B01"
+    ],
+    "exploration_destination": "Gym orientation; qualified instructor; beginner guide",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q03",
+    "journey_stage": "Starting",
+    "question": "How do I ask for an equipment orientation?",
+    "emotional_or_practical_job": "Reduce uncertainty before the first visit",
+    "source_family_ids": [
+      "D01",
+      "D03",
+      "D05"
+    ],
+    "linked_episodes": [
+      "B01"
+    ],
+    "exploration_destination": "Gym orientation; qualified instructor; beginner guide",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q04",
+    "journey_stage": "Starting",
+    "question": "Can I start if I do not feel fit yet?",
+    "emotional_or_practical_job": "Reduce uncertainty before the first visit",
+    "source_family_ids": [
+      "D01",
+      "D03",
+      "D05"
+    ],
+    "linked_episodes": [
+      "B01"
+    ],
+    "exploration_destination": "Gym orientation; qualified instructor; beginner guide",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q05",
+    "journey_stage": "Starting",
+    "question": "Can I start at home before joining a gym?",
+    "emotional_or_practical_job": "Reduce uncertainty before the first visit",
+    "source_family_ids": [
+      "D01",
+      "D03",
+      "D05"
+    ],
+    "linked_episodes": [
+      "B01"
+    ],
+    "exploration_destination": "Gym orientation; qualified instructor; beginner guide",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q06",
+    "journey_stage": "Starting",
+    "question": "How do I find a beginner routine I can understand?",
+    "emotional_or_practical_job": "Reduce uncertainty before the first visit",
+    "source_family_ids": [
+      "D01",
+      "D03",
+      "D05"
+    ],
+    "linked_episodes": [
+      "B01"
+    ],
+    "exploration_destination": "Gym orientation; qualified instructor; beginner guide",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q07",
+    "journey_stage": "Starting",
+    "question": "What if I feel embarrassed asking a basic question?",
+    "emotional_or_practical_job": "Reduce uncertainty before the first visit",
+    "source_family_ids": [
+      "D01",
+      "D03",
+      "D05"
+    ],
+    "linked_episodes": [
+      "B01"
+    ],
+    "exploration_destination": "Gym orientation; qualified instructor; beginner guide",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q08",
+    "journey_stage": "Starting",
+    "question": "How can I prepare a simple plan before I walk in?",
+    "emotional_or_practical_job": "Reduce uncertainty before the first visit",
+    "source_family_ids": [
+      "D01",
+      "D03",
+      "D05"
+    ],
+    "linked_episodes": [
+      "B01"
+    ],
+    "exploration_destination": "Gym orientation; qualified instructor; beginner guide",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q09",
+    "journey_stage": "Routine and time",
+    "question": "What routine fits two available gym days?",
+    "emotional_or_practical_job": "Choose a repeatable plan within real constraints",
+    "source_family_ids": [
+      "D02",
+      "D04",
+      "LR01",
+      "LR22",
+      "LR24"
+    ],
+    "linked_episodes": [
+      "B08",
+      "B11",
+      "B14",
+      "B16"
+    ],
+    "exploration_destination": "Structured routine; Fitness Wiki; longer creator explanation; instructor",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q10",
+    "journey_stage": "Routine and time",
+    "question": "How do I choose between a full-body routine and a split?",
+    "emotional_or_practical_job": "Choose a repeatable plan within real constraints",
+    "source_family_ids": [
+      "D02",
+      "D04",
+      "LR01",
+      "LR22",
+      "LR24"
+    ],
+    "linked_episodes": [
+      "B08",
+      "B11",
+      "B14",
+      "B16"
+    ],
+    "exploration_destination": "Structured routine; Fitness Wiki; longer creator explanation; instructor",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q11",
+    "journey_stage": "Routine and time",
+    "question": "What should a beginner routine explain clearly?",
+    "emotional_or_practical_job": "Choose a repeatable plan within real constraints",
+    "source_family_ids": [
+      "D02",
+      "D04",
+      "LR01",
+      "LR22",
+      "LR24"
+    ],
+    "linked_episodes": [
+      "B08",
+      "B11",
+      "B14",
+      "B16"
+    ],
+    "exploration_destination": "Structured routine; Fitness Wiki; longer creator explanation; instructor",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q12",
+    "journey_stage": "Routine and time",
+    "question": "What if the machine in my routine is always occupied?",
+    "emotional_or_practical_job": "Choose a repeatable plan within real constraints",
+    "source_family_ids": [
+      "D02",
+      "D04",
+      "LR01",
+      "LR22",
+      "LR24"
+    ],
+    "linked_episodes": [
+      "B08",
+      "B11",
+      "B14",
+      "B16"
+    ],
+    "exploration_destination": "Structured routine; Fitness Wiki; longer creator explanation; instructor",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q13",
+    "journey_stage": "Routine and time",
+    "question": "How do I choose a suitable backup exercise?",
+    "emotional_or_practical_job": "Choose a repeatable plan within real constraints",
+    "source_family_ids": [
+      "D02",
+      "D04",
+      "LR01",
+      "LR22",
+      "LR24"
+    ],
+    "linked_episodes": [
+      "B08",
+      "B11",
+      "B14",
+      "B16"
+    ],
+    "exploration_destination": "Structured routine; Fitness Wiki; longer creator explanation; instructor",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q14",
+    "journey_stage": "Routine and time",
+    "question": "Should I change routines because a new video says something different?",
+    "emotional_or_practical_job": "Choose a repeatable plan within real constraints",
+    "source_family_ids": [
+      "D02",
+      "D04",
+      "LR01",
+      "LR22",
+      "LR24"
+    ],
+    "linked_episodes": [
+      "B08",
+      "B11",
+      "B14",
+      "B16"
+    ],
+    "exploration_destination": "Structured routine; Fitness Wiki; longer creator explanation; instructor",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q15",
+    "journey_stage": "Routine and time",
+    "question": "What do I do after missing a planned session?",
+    "emotional_or_practical_job": "Choose a repeatable plan within real constraints",
+    "source_family_ids": [
+      "D02",
+      "D04",
+      "LR01",
+      "LR22",
+      "LR24"
+    ],
+    "linked_episodes": [
+      "B08",
+      "B11",
+      "B14",
+      "B16"
+    ],
+    "exploration_destination": "Structured routine; Fitness Wiki; longer creator explanation; instructor",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q16",
+    "journey_stage": "Routine and time",
+    "question": "How do I adjust around exams, shifts or travel?",
+    "emotional_or_practical_job": "Choose a repeatable plan within real constraints",
+    "source_family_ids": [
+      "D02",
+      "D04",
+      "LR01",
+      "LR22",
+      "LR24"
+    ],
+    "linked_episodes": [
+      "B08",
+      "B11",
+      "B14",
+      "B16"
+    ],
+    "exploration_destination": "Structured routine; Fitness Wiki; longer creator explanation; instructor",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q17",
+    "journey_stage": "Workout language",
+    "question": "What is the difference between a set and a rep?",
+    "emotional_or_practical_job": "Understand the instruction before optimizing it",
+    "source_family_ids": [
+      "D07",
+      "D08",
+      "F07"
+    ],
+    "linked_episodes": [
+      "B04",
+      "B12"
+    ],
+    "exploration_destination": "Plain-language glossary; routine instructions; creator demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q18",
+    "journey_stage": "Workout language",
+    "question": "What does three by eight mean?",
+    "emotional_or_practical_job": "Understand the instruction before optimizing it",
+    "source_family_ids": [
+      "D07",
+      "D08",
+      "F07"
+    ],
+    "linked_episodes": [
+      "B04",
+      "B12"
+    ],
+    "exploration_destination": "Plain-language glossary; routine instructions; creator demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q19",
+    "journey_stage": "Workout language",
+    "question": "What does a rep range like eight to twelve mean?",
+    "emotional_or_practical_job": "Understand the instruction before optimizing it",
+    "source_family_ids": [
+      "D07",
+      "D08",
+      "F07"
+    ],
+    "linked_episodes": [
+      "B04",
+      "B12"
+    ],
+    "exploration_destination": "Plain-language glossary; routine instructions; creator demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q20",
+    "journey_stage": "Workout language",
+    "question": "Where is the rest instruction written?",
+    "emotional_or_practical_job": "Understand the instruction before optimizing it",
+    "source_family_ids": [
+      "D07",
+      "D08",
+      "F07"
+    ],
+    "linked_episodes": [
+      "B04",
+      "B12"
+    ],
+    "exploration_destination": "Plain-language glossary; routine instructions; creator demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q21",
+    "journey_stage": "Workout language",
+    "question": "What does training to failure actually mean?",
+    "emotional_or_practical_job": "Understand the instruction before optimizing it",
+    "source_family_ids": [
+      "D07",
+      "D08",
+      "F07"
+    ],
+    "linked_episodes": [
+      "B04",
+      "B12"
+    ],
+    "exploration_destination": "Plain-language glossary; routine instructions; creator demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q22",
+    "journey_stage": "Workout language",
+    "question": "What do reps in reserve mean?",
+    "emotional_or_practical_job": "Understand the instruction before optimizing it",
+    "source_family_ids": [
+      "D07",
+      "D08",
+      "F07"
+    ],
+    "linked_episodes": [
+      "B04",
+      "B12"
+    ],
+    "exploration_destination": "Plain-language glossary; routine instructions; creator demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q23",
+    "journey_stage": "Workout language",
+    "question": "What is a warm-up set compared with a working set?",
+    "emotional_or_practical_job": "Understand the instruction before optimizing it",
+    "source_family_ids": [
+      "D07",
+      "D08",
+      "F07"
+    ],
+    "linked_episodes": [
+      "B04",
+      "B12"
+    ],
+    "exploration_destination": "Plain-language glossary; routine instructions; creator demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q24",
+    "journey_stage": "Workout language",
+    "question": "What does progression mean in my routine?",
+    "emotional_or_practical_job": "Understand the instruction before optimizing it",
+    "source_family_ids": [
+      "D07",
+      "D08",
+      "F07"
+    ],
+    "linked_episodes": [
+      "B04",
+      "B12"
+    ],
+    "exploration_destination": "Plain-language glossary; routine instructions; creator demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q25",
+    "journey_stage": "Equipment and load",
+    "question": "Can I build muscle using machines?",
+    "emotional_or_practical_job": "Gain control without copying someone else\u2019s number",
+    "source_family_ids": [
+      "D01",
+      "D11",
+      "LR15",
+      "LR16",
+      "LR17"
+    ],
+    "linked_episodes": [
+      "B02",
+      "B05",
+      "B15"
+    ],
+    "exploration_destination": "Qualified staff for actual setup; manufacturer instructions; reputable demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q26",
+    "journey_stage": "Equipment and load",
+    "question": "Do I have to start with barbells?",
+    "emotional_or_practical_job": "Gain control without copying someone else\u2019s number",
+    "source_family_ids": [
+      "D01",
+      "D11",
+      "LR15",
+      "LR16",
+      "LR17"
+    ],
+    "linked_episodes": [
+      "B02",
+      "B05",
+      "B15"
+    ],
+    "exploration_destination": "Qualified staff for actual setup; manufacturer instructions; reputable demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q27",
+    "journey_stage": "Equipment and load",
+    "question": "How do I know whether the seat and handles fit me?",
+    "emotional_or_practical_job": "Gain control without copying someone else\u2019s number",
+    "source_family_ids": [
+      "D01",
+      "D11",
+      "LR15",
+      "LR16",
+      "LR17"
+    ],
+    "linked_episodes": [
+      "B02",
+      "B05",
+      "B15"
+    ],
+    "exploration_destination": "Qualified staff for actual setup; manufacturer instructions; reputable demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q28",
+    "journey_stage": "Equipment and load",
+    "question": "What weight should I start with?",
+    "emotional_or_practical_job": "Gain control without copying someone else\u2019s number",
+    "source_family_ids": [
+      "D01",
+      "D11",
+      "LR15",
+      "LR16",
+      "LR17"
+    ],
+    "linked_episodes": [
+      "B02",
+      "B05",
+      "B15"
+    ],
+    "exploration_destination": "Qualified staff for actual setup; manufacturer instructions; reputable demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q29",
+    "journey_stage": "Equipment and load",
+    "question": "How do I tell whether I can control the movement?",
+    "emotional_or_practical_job": "Gain control without copying someone else\u2019s number",
+    "source_family_ids": [
+      "D01",
+      "D11",
+      "LR15",
+      "LR16",
+      "LR17"
+    ],
+    "linked_episodes": [
+      "B02",
+      "B05",
+      "B15"
+    ],
+    "exploration_destination": "Qualified staff for actual setup; manufacturer instructions; reputable demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q30",
+    "journey_stage": "Equipment and load",
+    "question": "Why does the same label feel different on another machine?",
+    "emotional_or_practical_job": "Gain control without copying someone else\u2019s number",
+    "source_family_ids": [
+      "D01",
+      "D11",
+      "LR15",
+      "LR16",
+      "LR17"
+    ],
+    "linked_episodes": [
+      "B02",
+      "B05",
+      "B15"
+    ],
+    "exploration_destination": "Qualified staff for actual setup; manufacturer instructions; reputable demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q31",
+    "journey_stage": "Equipment and load",
+    "question": "When should I ask someone to spot or supervise?",
+    "emotional_or_practical_job": "Gain control without copying someone else\u2019s number",
+    "source_family_ids": [
+      "D01",
+      "D11",
+      "LR15",
+      "LR16",
+      "LR17"
+    ],
+    "linked_episodes": [
+      "B02",
+      "B05",
+      "B15"
+    ],
+    "exploration_destination": "Qualified staff for actual setup; manufacturer instructions; reputable demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q32",
+    "journey_stage": "Equipment and load",
+    "question": "What setup details should I record?",
+    "emotional_or_practical_job": "Gain control without copying someone else\u2019s number",
+    "source_family_ids": [
+      "D01",
+      "D11",
+      "LR15",
+      "LR16",
+      "LR17"
+    ],
+    "linked_episodes": [
+      "B02",
+      "B05",
+      "B15"
+    ],
+    "exploration_destination": "Qualified staff for actual setup; manufacturer instructions; reputable demonstration",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q33",
+    "journey_stage": "Effort and recovery",
+    "question": "How long should I rest between sets?",
+    "emotional_or_practical_job": "Separate a useful effort target from a misleading signal",
+    "source_family_ids": [
+      "LR02",
+      "LR06",
+      "LR07",
+      "LR09",
+      "LR14"
+    ],
+    "linked_episodes": [
+      "B03",
+      "B06",
+      "B12"
+    ],
+    "exploration_destination": "Routine guidance; qualified coach; clinician for pain concerns",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q34",
+    "journey_stage": "Effort and recovery",
+    "question": "Do I need a timer or can I guess?",
+    "emotional_or_practical_job": "Separate a useful effort target from a misleading signal",
+    "source_family_ids": [
+      "LR02",
+      "LR06",
+      "LR07",
+      "LR09",
+      "LR14"
+    ],
+    "linked_episodes": [
+      "B03",
+      "B06",
+      "B12"
+    ],
+    "exploration_destination": "Routine guidance; qualified coach; clinician for pain concerns",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q35",
+    "journey_stage": "Effort and recovery",
+    "question": "Do I have to reach failure on every set?",
+    "emotional_or_practical_job": "Separate a useful effort target from a misleading signal",
+    "source_family_ids": [
+      "LR02",
+      "LR06",
+      "LR07",
+      "LR09",
+      "LR14"
+    ],
+    "linked_episodes": [
+      "B03",
+      "B06",
+      "B12"
+    ],
+    "exploration_destination": "Routine guidance; qualified coach; clinician for pain concerns",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q36",
+    "journey_stage": "Effort and recovery",
+    "question": "Does no soreness mean the workout did not work?",
+    "emotional_or_practical_job": "Separate a useful effort target from a misleading signal",
+    "source_family_ids": [
+      "LR02",
+      "LR06",
+      "LR07",
+      "LR09",
+      "LR14"
+    ],
+    "linked_episodes": [
+      "B03",
+      "B06",
+      "B12"
+    ],
+    "exploration_destination": "Routine guidance; qualified coach; clinician for pain concerns",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q37",
+    "journey_stage": "Effort and recovery",
+    "question": "Why am I sore after a new exercise?",
+    "emotional_or_practical_job": "Separate a useful effort target from a misleading signal",
+    "source_family_ids": [
+      "LR02",
+      "LR06",
+      "LR07",
+      "LR09",
+      "LR14"
+    ],
+    "linked_episodes": [
+      "B03",
+      "B06",
+      "B12"
+    ],
+    "exploration_destination": "Routine guidance; qualified coach; clinician for pain concerns",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q38",
+    "journey_stage": "Effort and recovery",
+    "question": "Should I add more work just to feel sore?",
+    "emotional_or_practical_job": "Separate a useful effort target from a misleading signal",
+    "source_family_ids": [
+      "LR02",
+      "LR06",
+      "LR07",
+      "LR09",
+      "LR14"
+    ],
+    "linked_episodes": [
+      "B03",
+      "B06",
+      "B12"
+    ],
+    "exploration_destination": "Routine guidance; qualified coach; clinician for pain concerns",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q39",
+    "journey_stage": "Effort and recovery",
+    "question": "How is sharp pain different from ordinary soreness?",
+    "emotional_or_practical_job": "Separate a useful effort target from a misleading signal",
+    "source_family_ids": [
+      "LR02",
+      "LR06",
+      "LR07",
+      "LR09",
+      "LR14"
+    ],
+    "linked_episodes": [
+      "B03",
+      "B06",
+      "B12"
+    ],
+    "exploration_destination": "Routine guidance; qualified coach; clinician for pain concerns",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Qualified explanation rather than a generic Short"
+  },
+  {
+    "id": "Q40",
+    "journey_stage": "Effort and recovery",
+    "question": "How do I review recovery without diagnosing myself from a Short?",
+    "emotional_or_practical_job": "Separate a useful effort target from a misleading signal",
+    "source_family_ids": [
+      "LR02",
+      "LR06",
+      "LR07",
+      "LR09",
+      "LR14"
+    ],
+    "linked_episodes": [
+      "B03",
+      "B06",
+      "B12"
+    ],
+    "exploration_destination": "Routine guidance; qualified coach; clinician for pain concerns",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q41",
+    "journey_stage": "Progress and comparison",
+    "question": "Is one more rep at the same weight progress?",
+    "emotional_or_practical_job": "Notice useful changes without a body-transformation deadline",
+    "source_family_ids": [
+      "LR10",
+      "LR19",
+      "LR20"
+    ],
+    "linked_episodes": [
+      "B07",
+      "B10",
+      "B13"
+    ],
+    "exploration_destination": "Comparable training log; routine progression rules; qualified review",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q42",
+    "journey_stage": "Progress and comparison",
+    "question": "When should I increase the weight?",
+    "emotional_or_practical_job": "Notice useful changes without a body-transformation deadline",
+    "source_family_ids": [
+      "LR10",
+      "LR19",
+      "LR20"
+    ],
+    "linked_episodes": [
+      "B07",
+      "B10",
+      "B13"
+    ],
+    "exploration_destination": "Comparable training log; routine progression rules; qualified review",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q43",
+    "journey_stage": "Progress and comparison",
+    "question": "What if the weight has not changed for several sessions?",
+    "emotional_or_practical_job": "Notice useful changes without a body-transformation deadline",
+    "source_family_ids": [
+      "LR10",
+      "LR19",
+      "LR20"
+    ],
+    "linked_episodes": [
+      "B07",
+      "B10",
+      "B13"
+    ],
+    "exploration_destination": "Comparable training log; routine progression rules; qualified review",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q44",
+    "journey_stage": "Progress and comparison",
+    "question": "Does one bad workout mean I am stuck?",
+    "emotional_or_practical_job": "Notice useful changes without a body-transformation deadline",
+    "source_family_ids": [
+      "LR10",
+      "LR19",
+      "LR20"
+    ],
+    "linked_episodes": [
+      "B07",
+      "B10",
+      "B13"
+    ],
+    "exploration_destination": "Comparable training log; routine progression rules; qualified review",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q45",
+    "journey_stage": "Progress and comparison",
+    "question": "What needs to stay comparable in my log?",
+    "emotional_or_practical_job": "Notice useful changes without a body-transformation deadline",
+    "source_family_ids": [
+      "LR10",
+      "LR19",
+      "LR20"
+    ],
+    "linked_episodes": [
+      "B07",
+      "B10",
+      "B13"
+    ],
+    "exploration_destination": "Comparable training log; routine progression rules; qualified review",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q46",
+    "journey_stage": "Progress and comparison",
+    "question": "What can I review after my first month?",
+    "emotional_or_practical_job": "Notice useful changes without a body-transformation deadline",
+    "source_family_ids": [
+      "LR10",
+      "LR19",
+      "LR20"
+    ],
+    "linked_episodes": [
+      "B07",
+      "B10",
+      "B13"
+    ],
+    "exploration_destination": "Comparable training log; routine progression rules; qualified review",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q47",
+    "journey_stage": "Progress and comparison",
+    "question": "Can learning the setup count as a process improvement?",
+    "emotional_or_practical_job": "Notice useful changes without a body-transformation deadline",
+    "source_family_ids": [
+      "LR10",
+      "LR19",
+      "LR20"
+    ],
+    "linked_episodes": [
+      "B07",
+      "B10",
+      "B13"
+    ],
+    "exploration_destination": "Comparable training log; routine progression rules; qualified review",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q48",
+    "journey_stage": "Progress and comparison",
+    "question": "How do I know whether an online transformation claim is credible?",
+    "emotional_or_practical_job": "Notice useful changes without a body-transformation deadline",
+    "source_family_ids": [
+      "LR10",
+      "LR19",
+      "LR20"
+    ],
+    "linked_episodes": [
+      "B07",
+      "B10",
+      "B13"
+    ],
+    "exploration_destination": "Comparable training log; routine progression rules; qualified review",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q49",
+    "journey_stage": "Food and supplements",
+    "question": "Do I need protein powder to start training?",
+    "emotional_or_practical_job": "Avoid unnecessary spending and unsupported targets",
+    "source_family_ids": [
+      "D06",
+      "D09",
+      "F03"
+    ],
+    "linked_episodes": [
+      "B09"
+    ],
+    "exploration_destination": "Food-based guidance; NIH ODS; registered dietitian for individual needs",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q50",
+    "journey_stage": "Food and supplements",
+    "question": "Which ordinary foods provide protein?",
+    "emotional_or_practical_job": "Avoid unnecessary spending and unsupported targets",
+    "source_family_ids": [
+      "D06",
+      "D09",
+      "F03"
+    ],
+    "linked_episodes": [
+      "B09"
+    ],
+    "exploration_destination": "Food-based guidance; NIH ODS; registered dietitian for individual needs",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q51",
+    "journey_stage": "Food and supplements",
+    "question": "Can beans and tofu contribute protein?",
+    "emotional_or_practical_job": "Avoid unnecessary spending and unsupported targets",
+    "source_family_ids": [
+      "D06",
+      "D09",
+      "F03"
+    ],
+    "linked_episodes": [
+      "B09"
+    ],
+    "exploration_destination": "Food-based guidance; NIH ODS; registered dietitian for individual needs",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q52",
+    "journey_stage": "Food and supplements",
+    "question": "How do I compare convenience with cost?",
+    "emotional_or_practical_job": "Avoid unnecessary spending and unsupported targets",
+    "source_family_ids": [
+      "D06",
+      "D09",
+      "F03"
+    ],
+    "linked_episodes": [
+      "B09"
+    ],
+    "exploration_destination": "Food-based guidance; NIH ODS; registered dietitian for individual needs",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q53",
+    "journey_stage": "Food and supplements",
+    "question": "Does a powder replace a balanced meal?",
+    "emotional_or_practical_job": "Avoid unnecessary spending and unsupported targets",
+    "source_family_ids": [
+      "D06",
+      "D09",
+      "F03"
+    ],
+    "linked_episodes": [
+      "B09"
+    ],
+    "exploration_destination": "Food-based guidance; NIH ODS; registered dietitian for individual needs",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q54",
+    "journey_stage": "Food and supplements",
+    "question": "How do I check whether a supplement claim is marketing?",
+    "emotional_or_practical_job": "Avoid unnecessary spending and unsupported targets",
+    "source_family_ids": [
+      "D06",
+      "D09",
+      "F03"
+    ],
+    "linked_episodes": [
+      "B09"
+    ],
+    "exploration_destination": "Food-based guidance; NIH ODS; registered dietitian for individual needs",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q55",
+    "journey_stage": "Food and supplements",
+    "question": "Who should a teenager ask before using supplements?",
+    "emotional_or_practical_job": "Avoid unnecessary spending and unsupported targets",
+    "source_family_ids": [
+      "D06",
+      "D09",
+      "F03"
+    ],
+    "linked_episodes": [
+      "B09"
+    ],
+    "exploration_destination": "Food-based guidance; NIH ODS; registered dietitian for individual needs",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Qualified explanation rather than a generic Short"
+  },
+  {
+    "id": "Q56",
+    "journey_stage": "Food and supplements",
+    "question": "How do I get meal ideas without copying an adult cutting diet?",
+    "emotional_or_practical_job": "Avoid unnecessary spending and unsupported targets",
+    "source_family_ids": [
+      "D06",
+      "D09",
+      "F03"
+    ],
+    "linked_episodes": [
+      "B09"
+    ],
+    "exploration_destination": "Food-based guidance; NIH ODS; registered dietitian for individual needs",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q57",
+    "journey_stage": "Information and belonging",
+    "question": "Which fitness creators explain things clearly for beginners?",
+    "emotional_or_practical_job": "Build confidence in a source and a next step",
+    "source_family_ids": [
+      "D02",
+      "D03",
+      "D10",
+      "B02"
+    ],
+    "linked_episodes": [
+      "B01",
+      "B13",
+      "B14"
+    ],
+    "exploration_destination": "Original creator sources; professional guidance; community questions; in-person support",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q58",
+    "journey_stage": "Information and belonging",
+    "question": "How do I check the research behind a confident claim?",
+    "emotional_or_practical_job": "Build confidence in a source and a next step",
+    "source_family_ids": [
+      "D02",
+      "D03",
+      "D10",
+      "B02"
+    ],
+    "linked_episodes": [
+      "B01",
+      "B13",
+      "B14"
+    ],
+    "exploration_destination": "Original creator sources; professional guidance; community questions; in-person support",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q59",
+    "journey_stage": "Information and belonging",
+    "question": "Why do two creators give different advice?",
+    "emotional_or_practical_job": "Build confidence in a source and a next step",
+    "source_family_ids": [
+      "D02",
+      "D03",
+      "D10",
+      "B02"
+    ],
+    "linked_episodes": [
+      "B01",
+      "B13",
+      "B14"
+    ],
+    "exploration_destination": "Original creator sources; professional guidance; community questions; in-person support",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q60",
+    "journey_stage": "Information and belonging",
+    "question": "When is a forum answer useful and when is it just an opinion?",
+    "emotional_or_practical_job": "Build confidence in a source and a next step",
+    "source_family_ids": [
+      "D02",
+      "D03",
+      "D10",
+      "B02"
+    ],
+    "linked_episodes": [
+      "B01",
+      "B13",
+      "B14"
+    ],
+    "exploration_destination": "Original creator sources; professional guidance; community questions; in-person support",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q61",
+    "journey_stage": "Information and belonging",
+    "question": "Can a chatbot answer replace checking the original source?",
+    "emotional_or_practical_job": "Build confidence in a source and a next step",
+    "source_family_ids": [
+      "D02",
+      "D03",
+      "D10",
+      "B02"
+    ],
+    "linked_episodes": [
+      "B01",
+      "B13",
+      "B14"
+    ],
+    "exploration_destination": "Original creator sources; professional guidance; community questions; in-person support",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q62",
+    "journey_stage": "Information and belonging",
+    "question": "How do I avoid comparing my first month with someone else\u2019s years?",
+    "emotional_or_practical_job": "Build confidence in a source and a next step",
+    "source_family_ids": [
+      "D02",
+      "D03",
+      "D10",
+      "B02"
+    ],
+    "linked_episodes": [
+      "B01",
+      "B13",
+      "B14"
+    ],
+    "exploration_destination": "Original creator sources; professional guidance; community questions; in-person support",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q63",
+    "journey_stage": "Information and belonging",
+    "question": "What makes a saved video useful during an actual session?",
+    "emotional_or_practical_job": "Build confidence in a source and a next step",
+    "source_family_ids": [
+      "D02",
+      "D03",
+      "D10",
+      "B02"
+    ],
+    "linked_episodes": [
+      "B01",
+      "B13",
+      "B14"
+    ],
+    "exploration_destination": "Original creator sources; professional guidance; community questions; in-person support",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  },
+  {
+    "id": "Q64",
+    "journey_stage": "Information and belonging",
+    "question": "What would make me trust and return to a new fitness channel?",
+    "emotional_or_practical_job": "Build confidence in a source and a next step",
+    "source_family_ids": [
+      "D02",
+      "D03",
+      "D10",
+      "B02"
+    ],
+    "linked_episodes": [
+      "B01",
+      "B13",
+      "B14"
+    ],
+    "exploration_destination": "Original creator sources; professional guidance; community questions; in-person support",
+    "status": "original_editorial_question_informed_by_source_family_not_verbatim_or_individually_validated",
+    "format": "Short answer plus source/context; longer or in-person follow-up when needed"
+  }
+]
