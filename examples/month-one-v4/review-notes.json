@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "visual_version": "v4.1-graphics",
+  "python_tests_passed": 55,
+  "node_tests_passed": 13,
+  "calendar_validation": "V3 schedule, source references, balance and capacity passed",
+  "content_validation": "passed; legacy MVP release-review warnings retained",
+  "visual_samples": [
+    "B03 larger timers and source cue",
+    "B08 full-width headline and calendar",
+    "B12 effort scale",
+    "BK02 panel 4 without portrait"
+  ],
+  "character_assets": 0,
+  "character_test_status": "retired_without_participant_testing",
+  "full_human_listening": false,
+  "target_platform_preview": false,
+  "audience_participants": 0,
+  "phone_previews_reviewed": [
+    "B03 at 360 × 640",
+    "B08 at 360 × 640"
+  ],
+  "browser_review": {
+    "hub_loaded": true,
+    "video_players": 18,
+    "unique_video_files": 17,
+    "video_errors": 0,
+    "B03_playback_reached_end": true,
+    "B03_duration": 20.9
+  },
+  "local_hub_references_checked": 179,
+  "missing_local_references": 0
+}

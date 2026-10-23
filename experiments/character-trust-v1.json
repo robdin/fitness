@@ -1,9 +1,9 @@
 {
   "id": "CT1",
   "type": "controlled_character_screen_plan",
-  "version": "1.0",
+  "version": "1.1",
   "prepared_at": "2026-10-22",
-  "status": "protocol_prepared_stimuli_not_produced",
+  "status": "retired_by_owner_without_participant_testing",
   "brand": "club",
   "research": "research/audience-v3/07_TRUST_AND_CHARACTER.md",
   "protocol": "research/audience-v3/08_CHARACTER_TEST_PROTOCOL.md",
@@ -12,24 +12,59 @@
   "arms": {
     "M": "Muscular approachable fictional guide",
     "R": "Same identity, less muscular definition; similarity is measured, not assumed",
-    "G": "Current graphics-only composition"
+    "G": "V4 graphics-only control, same layout with empty portrait slot"
   },
-  "primary_contrast": ["M", "R"],
-  "secondary_comparisons": [["M", "G"], ["R", "G"]],
-  "topics": ["B04", "B08"],
-  "pretest_n_range": [6, 9],
+  "primary_contrast": [
+    "M",
+    "R"
+  ],
+  "secondary_comparisons": [
+    [
+      "M",
+      "G"
+    ],
+    [
+      "R",
+      "G"
+    ]
+  ],
+  "topics": [
+    "B04",
+    "B08"
+  ],
+  "pretest_n_range": [
+    6,
+    9
+  ],
   "pilot_n": 36,
   "participants_per_arm": 12,
-  "age_band_quotas": {"18-24": 18, "25-35": 18},
+  "age_band_quotas": {
+    "18-24": 18,
+    "25-35": 18
+  },
   "eligibility": "Self-identified men aged 18-35, at most six months consistent resistance training; pretest participants excluded from main screen.",
   "assignment": "Within each age band, three shuffled complete blocks of all six arm/topic combinations, allocated in enrollment order after eligibility.",
   "primary_metric": "Played at least 90% of unique media time while visible on first exposure; exclude replay and background time.",
   "missingness": "Preserve all assignments, starts, skips, dropouts, technical failures and reasons. Technical failures are missing, not zero; separately report conservative all-assigned completion sensitivity.",
-  "secondary_metrics": ["fraction_viewed", "optional_next_start_after_survey", "comprehension", "trust", "task_confidence", "inspiration", "intimidation", "similarity", "attainability", "brand_recall"],
+  "secondary_metrics": [
+    "fraction_viewed",
+    "optional_next_start_after_survey",
+    "comprehension",
+    "trust",
+    "task_confidence",
+    "inspiration",
+    "intimidation",
+    "similarity",
+    "attainability",
+    "brand_recall"
+  ],
   "pilot_selection": "Feasibility and directional evidence only; no reliable retention winner. Advance only with functioning manipulation, at least 10/12 comprehension passes and no recurring unresolved material misunderstanding. Inspect two independent character-related discouragement reports. Consider G and measured production cost.",
   "confirmation_example": {
     "fresh_participants": true,
-    "arms": ["M", "R"],
+    "arms": [
+      "M",
+      "R"
+    ],
     "n_per_arm": 100,
     "planning_baseline_completion": 0.5,
     "planning_alternative_completion": 0.7,
@@ -39,19 +74,71 @@
   },
   "citation_followup": {
     "episode": "B03",
-    "arms": ["links_in_description", "same_links_plus_on_screen_source_label"],
-    "label_candidate": "Schoenfeld et al., 2016 · 21 trained men",
-    "screen_n_range": [24, 36],
+    "arms": [
+      "links_in_description",
+      "same_links_plus_on_screen_source_label"
+    ],
+    "label_candidate": "Schoenfeld et al., 2016 \u00b7 21 trained men",
+    "screen_n_range": [
+      24,
+      36
+    ],
     "primary_item": "I would trust this channel to explain another beginner question.",
     "controls": "Same character, narration, scope, captions and runtime; fresh balanced first exposure. Never remove accessible source links.",
-    "interpretation": "Exploratory usability/trust screen, not powered for small citation effects. Separate from CT1."
+    "interpretation": "Exploratory usability/trust screen, not powered for small citation effects. Separate from CT1.",
+    "stimulus_hashes": [
+      {
+        "citation": true,
+        "sha256": "9feb0a77eda897c59acc26a13427e3fff077eab72e736fc3135ed7e9e27bc3bf"
+      },
+      {
+        "citation": false,
+        "sha256": "0f2fca807d0a0750444021b7bd08f9b7a81b9b935c6fcbe69b586bc0cd3dfc0a"
+      }
+    ]
   },
   "weekly_operator_limit_hours": 12,
   "live_participants": 0,
   "observed_effect": null,
-  "stimulus_hashes": [],
+  "stimulus_hashes": [
+    {
+      "id": "B04",
+      "arm": "M",
+      "sha256": "3a92973d3d830b09801437ed65ab08d64ed19571e32757c5839e52cd3e54ecc7"
+    },
+    {
+      "id": "B08",
+      "arm": "M",
+      "sha256": "534656de2ed3b38ee8dae36e41824177d110b7dd477e34050230166a215e2ddf"
+    },
+    {
+      "id": "B04",
+      "arm": "R",
+      "sha256": "63bc6c115a54d7b9a0ccae5df653fef7db90a4a8055824e5dc4d3c5f7810deb3"
+    },
+    {
+      "id": "B08",
+      "arm": "R",
+      "sha256": "47a3fea4680f76e3c1398556e380ac8507679267fe0f492d3a5d8cf340964a22"
+    },
+    {
+      "id": "B04",
+      "arm": "G",
+      "sha256": "52940c275d7867ed7b4e083c013188d9cfbb115c587d6a610ec07b74b234e52b"
+    },
+    {
+      "id": "B08",
+      "arm": "G",
+      "sha256": "e9db70548b75862d7f6e061526c2fcccf42252c02e47d4243a1d79fc141f7873"
+    }
+  ],
   "recruitment_started": false,
   "spending_committed": false,
   "public_upload": false,
-  "month_replacement": false
+  "month_replacement": false,
+  "production": "docs/MONTH_ONE_V4.md",
+  "stimulus_manifest": null,
+  "production_candidate": "v4.1-graphics",
+  "preserved_baseline": "Historical stimulus hashes below refer to V4.0, not current production.",
+  "retired_reason": "Owner requested removal of the AI character from production."
 }

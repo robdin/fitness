@@ -1,6 +1,6 @@
 # CT1 field guide and response sheet
 
-Status: prepared instructions; no collected participant responses. Use with the [protocol](08_CHARACTER_TEST_PROTOCOL.md). Custom questions below are product research items, not a validated psychological or clinical scale.
+Status: retired with CT1 at the owner’s request; no collected participant responses. Historical instrument only. Use with the [protocol](08_CHARACTER_TEST_PROTOCOL.md). Custom questions below are product research items, not a validated psychological or clinical scale.
 
 ## Before a session
 

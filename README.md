@@ -6,6 +6,7 @@ A working, local-first foundation for an evidence-led fitness content business. 
 
 ## Start here
 
+- [Training Club production V4](docs/MONTH_ONE_V4.md): the full month with larger diagrams, source cues and a matched citation test. The AI character has been removed. [Brand application](brand/v4/STYLE_GUIDE.md). Audience validation remains pending.
 - [Research-led beginner month V3](docs/MONTH_ONE_V3.md): all five research perspectives applied to a complete new month of production. [Read the research](research/audience-v3/README.md), [calendar](content/month-one-v3/CALENDAR.md), [scripts](content/month-one-v3/SCRIPTS.md), and [three brand systems](brand/v3/STYLE_GUIDE.md). The media hub and ZIPs are retained locally; audience validation remains pending.
 
 - [Demand-led calendar V2](docs/MONTH_ONE_V2.md): creator/community source map,

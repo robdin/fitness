@@ -1,0 +1,42 @@
+{
+  "status": "produced_test_not_run",
+  "citation": [
+    {
+      "id": "B03",
+      "visual_version": "v4.1-graphics",
+      "citation": true,
+      "path": "B03/B03-motion.mp4",
+      "sha256": "d28a44afeaeff68a3dc49675cc60f70630f443a428b87d11876f90200f527459",
+      "audio_md5": "MD5=a4b9348190f84847507142f6a77a2ad5",
+      "duration": 20.9,
+      "frames": 627,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75,
+      "render_elapsed_seconds": 4.52
+    },
+    {
+      "id": "B03",
+      "visual_version": "v4.1-graphics",
+      "citation": false,
+      "path": "variants/citation-off/B03/B03-motion.mp4",
+      "sha256": "d71ccbc7bc36d0b8f664d1f7be80249515d88ae755ff3e8a49cf1e2921445c5c",
+      "audio_md5": "MD5=a4b9348190f84847507142f6a77a2ad5",
+      "duration": 20.9,
+      "frames": 627,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75,
+      "render_elapsed_seconds": 4.54
+    }
+  ],
+  "participants": 0
+}

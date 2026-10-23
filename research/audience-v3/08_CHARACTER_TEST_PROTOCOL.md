@@ -1,6 +1,6 @@
 # Character test: does aspiration earn useful attention?
 
-Protocol CT1 · proposed 22 October 2026 · not run. This supplements the month-one protocol; it does not replace its interest, comprehension or 12-hour production gates. No participant outreach, paid recruitment or publication has occurred. The exact stimuli still need to be produced and inspected before enrollment.
+Protocol CT1 · retired by owner on 22 October 2026 without participant testing. Historical design only; not a current launch gate. This supplements the month-one protocol; it does not replace its interest, comprehension or 12-hour production gates. No participant outreach, paid recruitment or publication has occurred. Prior V4.0 stimuli and hashes are historical. Current V4.1 removes the character and provides a separate citation comparison.
 
 ## Question and arms
 
@@ -58,4 +58,4 @@ A separate 24–36-person screen can assess noticing, credibility, comprehension
 
 ## Relationship to launch
 
-The proposed November month stays graphics-only until a revised export has passed review and a bounded adoption decision is recorded. Organic Reels/Shorts comparisons later can show whether a chosen format travels well, but different posting times, viewers and topics prevent a causal claim from raw views. Keep exact variant IDs and platform-specific denominators. No test here authorizes automatic replacement, publication, recruitment or spending.
+The owner has removed the character from [current production](../../docs/MONTH_ONE_V4.md). Do not recruit, run or treat this retired protocol as a launch gate. No character outcomes were observed. The citation screen now lives in its [own protocol](../../experiments/citation-visibility-v1.json).

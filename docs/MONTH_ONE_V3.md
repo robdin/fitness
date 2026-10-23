@@ -52,7 +52,7 @@ ASR needs the already cached local models and faster-whisper; it does not downlo
 
 ## Launch and go/no-go
 
-The follow-up [character and citation research](../research/audience-v3/07_TRUST_AND_CHARACTER.md) adds a [proposed controlled test](../research/audience-v3/08_CHARACTER_TEST_PROTOCOL.md). Character appearance is unresolved; no new character stimuli have been produced and the current B-series remains graphics-only. The review hub includes the new research and field guide. Its seven studies and correction are recorded separately from the original source register.
+The follow-up [character and citation research](../research/audience-v3/07_TRUST_AND_CHARACTER.md) adds a [controlled test protocol](../research/audience-v3/08_CHARACTER_TEST_PROTOCOL.md). The owner subsequently requested production: [V4](MONTH_ONE_V4.md) now contains the graphics-led month and a citation test after the owner removed the character. These retained V3 exports remain graphics-only; audience validation remains pending. The review hub includes the new research and field guide. Its seven studies and correction are recorded separately from the original source register.
 
 The proposed schedule is November 1–30, with the last core post on November 28 and a final seven-day readout December 5. Nothing is scheduled or published. Shift all dates if review delays launch. Keep actual platform exports and publication timestamps separate from the proposal.
 

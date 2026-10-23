@@ -1,6 +1,6 @@
 # Trust, aspiration and character choice
 
-Research addendum · 22 October 2026. Training Club remains selected. Character appearance is an open production hypothesis; no character test or audience recruitment has occurred. This targeted review does not establish a universally best physique for male beginners aged 16–35.
+Research addendum · 22 October 2026. Training Club remains selected. The owner subsequently removed the character from production; character testing is retired without audience observations. The evidence below remains a historical research record. This targeted review does not establish a universally best physique for male beginners aged 16–35.
 
 ## 1. Does citing evidence earn trust?
 
@@ -28,15 +28,11 @@ Similarity also has a plausible mechanism: Stanford experiments found exercise-r
 
 Finally, a randomized study of 655 college students measured both immediate responses and subsequent fitness-center attendance. Its main predicted benefits of alternative fitspiration messages were not supported. This reinforces the need to distinguish feeling motivated from doing something. It did not isolate character muscularity. [Arigo et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8320884/)
 
-## Production recommendation
+## Production decision
 
-My preferred candidate is a **visibly muscular, approachable fictional guide**, fully clothed, with a relaxed expression and a practical role in explaining the graphic. Make competence visible through the explanation. Do not present a physique as proof that the character's advice is correct, label a drawing “naturally achievable,” or invent a personal transformation history for DEX.
+The initial recommendation was to test a muscular, approachable fictional guide against a smaller-build guide and graphics only. The owner subsequently requested removal of the character. Current [V4.1 production](../../docs/MONTH_ONE_V4.md) uses full-width diagrams and narration; the character protocol is retired without participant results. This choice is not evidence that AI characters universally help or harm trust.
 
-Test that candidate against the same character with less muscular definition, plus the existing graphics-only format. Both character versions get the same friendly behavior and useful script. Calling one “aspirational” and the other “relatable” in participant instructions would prime the answer; those are outcomes to measure.
-
-A coach-and-beginner pair could combine aspiration with identification, but it adds a character, dialogue and production work. Reserve it for a later test if the single-character results identify a specific unmet need. Do not combine it with the first physique comparison.
-
-The [test protocol](08_CHARACTER_TEST_PROTOCOL.md) and [field guide](CHARACTER_TEST_FIELD_GUIDE.md) define stimuli, assignment, questions, uncertainty and decisions. The original November exports remain the baseline. There is no basis yet to rerender the full month with a character or to claim a trust/retention lift.
+The [citation visibility screen](../../experiments/citation-visibility-v1.json) remains separate and unrun. Both B03 variants retain complete source links and the study's scope. The month go/no-go still requires real audience response and measured recurring production time.
 
 ## Access and interpretation
 

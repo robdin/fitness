@@ -1,0 +1,108 @@
+{
+  "version": "4.1",
+  "brand": "club",
+  "canonical_content": "content/month-one-v3/calendar.json",
+  "status": "production_candidate_not_audience_validated",
+  "episodes": {
+    "B01": {
+      "label": "Editorial starting checklist",
+      "source_ids": [],
+      "kind": "editorial"
+    },
+    "B02": {
+      "label": "2023 review \u00b7 free weights & machines",
+      "source_ids": [
+        "E06"
+      ],
+      "kind": "review"
+    },
+    "B03": {
+      "label": "Schoenfeld et al., 2016 \u00b7 21 trained men",
+      "source_ids": [
+        "E16"
+      ],
+      "kind": "trial"
+    },
+    "B04": {
+      "label": "Terminology example \u00b7 sets and reps",
+      "source_ids": [
+        "F07"
+      ],
+      "kind": "definition"
+    },
+    "B05": {
+      "label": "AAP guidance \u00b7 youth supervision",
+      "source_ids": [
+        "F02"
+      ],
+      "kind": "guidance"
+    },
+    "B06": {
+      "label": "Military Health System \u00b7 expert guidance",
+      "source_ids": [
+        "F08"
+      ],
+      "kind": "guidance"
+    },
+    "B07": {
+      "label": "Plotkin et al., 2022 \u00b7 trained participants",
+      "source_ids": [
+        "E08"
+      ],
+      "kind": "trial"
+    },
+    "B08": {
+      "label": "CDC \u00b7 adult activity guidance",
+      "source_ids": [
+        "F04"
+      ],
+      "kind": "guidance"
+    },
+    "B09": {
+      "label": "NIH ODS \u00b7 food and supplements",
+      "source_ids": [
+        "F03"
+      ],
+      "kind": "guidance"
+    },
+    "B10": {
+      "label": "Editorial checklist \u00b7 compare your log",
+      "source_ids": [],
+      "kind": "editorial"
+    },
+    "B11": {
+      "label": "Editorial planning checklist",
+      "source_ids": [],
+      "kind": "editorial"
+    },
+    "B12": {
+      "label": "Robinson et al., 2024 \u00b7 adult research",
+      "source_ids": [
+        "E03"
+      ],
+      "kind": "review"
+    },
+    "B13": {
+      "label": "Editorial checklist \u00b7 process, not physique",
+      "source_ids": [],
+      "kind": "editorial"
+    },
+    "B14": {
+      "label": "Editorial criteria \u00b7 choosing a routine",
+      "source_ids": [],
+      "kind": "editorial"
+    },
+    "B15": {
+      "label": "Editorial checklist \u00b7 separate equipment logs",
+      "source_ids": [],
+      "kind": "editorial"
+    },
+    "B16": {
+      "label": "Editorial advice \u00b7 plan the return",
+      "source_ids": [],
+      "kind": "editorial"
+    }
+  },
+  "layout": "full-width-graphics",
+  "character_assets": 0
+}

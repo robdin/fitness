@@ -68,4 +68,4 @@ The initial adult screen does not establish suitability for 16–17-year-olds. R
 
 ## Character and citation follow-up
 
-Training Club remains the selected brand. A muscular, approachable fictional guide is a candidate for testing against the same less-muscular character and the current graphics-only format. Aspiration and perceived similarity are measured outcomes, not established properties. The [research addendum](../../research/audience-v3/07_TRUST_AND_CHARACTER.md) and [CT1 protocol](../../research/audience-v3/08_CHARACTER_TEST_PROTOCOL.md) preserve identical scripts, audio, style and citation cues for the physique comparison. No character assets have been added to the November exports. Test on-screen citation visibility separately; retain verifiable references and material qualifications in every version.
+Training Club remains selected. The owner removed the AI character from the current [V4.1 production](../v4/STYLE_GUIDE.md). Use full-width headlines and diagrams with approved narration. The character experiment is retired without observations; test citation visibility separately while retaining verifiable references and material qualifications.
