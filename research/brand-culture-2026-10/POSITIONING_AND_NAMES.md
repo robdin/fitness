@@ -1,6 +1,6 @@
 # Science, priorities and a real life
 
-Updated 23 October 2026 following the owner's clarification. This is the current naming brief. The earlier Offscreen Athletic, Minor Upgrades and Active Lore concepts remain explorations; no final name has been selected.
+Updated 23 October 2026 following the owner's clarification. **Superseded as the lead naming brief by [Body of our dreams · dreamy but tactical](../../brand/dreamy-tactical/BRAND_DIRECTION.md)** after the owner supplied the founding story. The three principles below remain the delivery standard; the recommendations here preserve the previous exploration. No final name has been selected.
 
 ## The brand promise
 

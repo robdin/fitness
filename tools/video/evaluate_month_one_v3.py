@@ -19,7 +19,8 @@ def evaluate(rows,ops,plan,content):
  return result
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--observations',type=Path,default=ROOT/'measurement/month-one-v3-observations.json');p.add_argument('--operations',type=Path,default=ROOT/'measurement/month-one-v3-operations.json');args=p.parse_args()
- plan=json.loads((ROOT/'experiments/month-one-v3.json').read_text());content=json.loads((ROOT/plan['content']).read_text())
+ p=argparse.ArgumentParser();p.add_argument('--series',choices=['v3','v5'],default='v3');p.add_argument('--observations',type=Path);p.add_argument('--operations',type=Path);args=p.parse_args()
+ args.observations=args.observations or ROOT/f'measurement/month-one-{args.series}-observations.json';args.operations=args.operations or ROOT/f'measurement/month-one-{args.series}-operations.json'
+ plan=json.loads((ROOT/f'experiments/month-one-{args.series}.json').read_text());content=json.loads((ROOT/plan['content']).read_text())
  print(json.dumps(evaluate(json.loads(args.observations.read_text()),json.loads(args.operations.read_text()),plan,content),indent=2))
 if __name__=='__main__':main()

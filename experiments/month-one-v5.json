@@ -1,0 +1,104 @@
+{
+  "id": "month-one-v5-blueprint",
+  "status": "prepared_not_launched",
+  "primary_platform": "youtube_shorts",
+  "secondary_platform": "instagram_reels",
+  "purpose": "Decide whether audience interest and measured operator effort justify a second month.",
+  "threshold_basis": "Provisional operating hurdles chosen before results, not platform benchmarks or a powered statistical test. Freeze any edits before the first post.",
+  "minimum_released_videos": 12,
+  "minimum_eligible_youtube_videos": 8,
+  "minimum_engaged_views_per_eligible_video": 100,
+  "observation_window_hours": 168,
+  "median_stayed_to_watch_target_pct": 60,
+  "median_average_percentage_viewed_target_pct": 70,
+  "minimum_distinct_useful_responses": 5,
+  "minimum_target_viewer_comprehension_checks": 10,
+  "comprehension_pass_target_pct": 80,
+  "weekly_operator_hours_limit": 12,
+  "production_weeks_required": 2,
+  "latest_episode_day_for_month_end_7d_readout": 23,
+  "final_readout_day": 35,
+  "rules": {
+    "go": "Coverage, attention, usefulness, comprehension and production-time gates all pass; no unresolved recurring critical misunderstanding. Continue for one bounded month, not an unlimited commitment.",
+    "no_go": "Adequate observations show both attention and useful-response gates failed, or measured production remains above the chosen capacity after one documented simplification. Report evidence and the failed condition; this rejects the current format, not all possible fitness content.",
+    "iterate": "Mixed evidence or one repairable clarity/production problem. Choose one documented change and one bounded follow-up; do not indefinitely extend a failing pilot.",
+    "insufficient_evidence": "Too few mature posts, too little exposure, missing metrics, unmeasured labor or missing comprehension checks. Do not convert missing observations into zeros. Allow one additional 14-day observation/distribution window, without buying reach or changing the success rule. If still insufficient, decide whether the unresolved distribution problem merits further investment."
+  },
+  "organic_comparison": "Eight question-led and eight answer-led openings, balanced within week and weekday. The broader topic mix is not balanced by pillar. Organic comparison is descriptive, not randomized or causal.",
+  "posting_slot": "18:00 America/New_York is a scheduling convenience, not a claimed optimal time. Use the same slot initially. Dates are a proposal until actual publication receipts exist.",
+  "privacy": "Only aggregate observations belong in Git. Use pseudonymous participant IDs; keep contact mappings private. No unsolicited recruitment or publishing has been authorized.",
+  "capacity_source": "User selected up to 12 hands-on hours per week on 2026-10-21",
+  "type": "organic_pilot_and_usability_plan",
+  "episode_ids": [
+    "BP01",
+    "BP02",
+    "BP03",
+    "BP04",
+    "BP05",
+    "BP06",
+    "BP07",
+    "BP08",
+    "BP09",
+    "BP10",
+    "BP11",
+    "BP12",
+    "BP13",
+    "BP14",
+    "BP15",
+    "BP16"
+  ],
+  "protocol_version": "5.0",
+  "content": "content/month-one-v5/calendar.json",
+  "maximum_snapshot_delay_hours": 24,
+  "final_readout_at": "2026-12-05T18:00:00-05:00",
+  "content_duration_target_seconds": [
+    18,
+    30
+  ],
+  "controls": [
+    "One scheduled version per BP episode; citation and motion controls are not extra posts.",
+    "Eight Q and eight A openings balanced by week and weekday, not by the new uneven content pillars.",
+    "Same chosen brand, approved voice, caption style, upload slot and master on both platforms.",
+    "Record duration, topic, traffic source, follower mix where available, corrections and distribution interventions.",
+    "No paid reach, engagement purchases or deletion of weak posts to improve the summary.",
+    "Preserve first-168-hour platform exports and missing-value reasons.",
+    "Keep prior versions and platform denominators separate; label this cohort v5-blueprint."
+  ],
+  "comparison_analysis": "At the full-cohort readout report counts, exposure range, episode-level STW/APV and group medians by hook and cluster. Do not declare a winner if group coverage differs substantially; do not compute a causal lift or p-value from these sixteen organic posts. Log topic, duration and traffic source as competing explanations.",
+  "sustainability_experiment": {
+    "weekly_limit_hours": 12,
+    "measure": "Start/stop hands-on time for research, scripts, claim review, visuals, audio review, corrections, posting, community and measurement. Machine wait time separate.",
+    "setup": "Record this research/rebuild as setup work, separately from recurring production. Agent wall time is not observed owner labor.",
+    "prebuilt_month_warning": "Publishing a prebuilt archive alone does not measure the cost of creating four new videos. Measure at least two representative four-video production/revision batches, or retain INSUFFICIENT_EVIDENCE for recurring production.",
+    "simplification_order": [
+      "Remove optional visual variants and decorative revision",
+      "Use the existing graphic vocabulary",
+      "Reduce supporting-post complexity",
+      "If still above capacity, propose a lower cadence as a new bounded protocol; do not call the original cadence sustainable."
+    ],
+    "actual_hours": null,
+    "actual_provider_charge": null
+  },
+  "freeze_rule": "Freeze Blueprint scripts, calendar, identity and operating hurdles before the first BP-series post.",
+  "interpretation": "No live observations. Earlier media are prototypes, not audience controls.",
+  "require_reporting_window_label": true,
+  "prelaunch_production_revision": "Blueprint selected by owner. Eleven reviewed scripts retained; five new broader lifestyle episodes. New IDs isolate the cohort.",
+  "brand_screen": {
+    "conducted": false,
+    "selection": "Owner selected Blueprint; no comparative audience winner claimed.",
+    "test": "Use inclusive adult beginners to test unaided category, main point, next action, source understanding and whether dream-body framing seems personal or prescriptive.",
+    "limits": "Small usability screen, not proof of teen suitability or demographic effects."
+  },
+  "motion_screen": {
+    "conducted": false,
+    "stimulus": "BP04 Blueprint motion versus static-interpolation control, matched narration, timing and source cues.",
+    "test": "Fresh adult beginners see one version first; ask the takeaway and whether the walk example covers all activity needs. Preference only after first-exposure answers.",
+    "limit": "Exploratory comprehension screen; no public-feed causal lift claim."
+  },
+  "metrics_notes": {
+    "youtube": "Engaged views and first-168-hour stayed-to-watch/APV with platform definitions. Play-start views alone do not establish attention.",
+    "instagram": "Separate reach, views, watch-time fields actually available, saves, shares and useful responses. Do not fabricate a stayed-to-watch equivalent.",
+    "diagnostics": "Export all released episodes, including low exposure. Report eligible-only attention plus exposure ranges and missingness so the threshold does not hide distribution failure.",
+    "decision": "Thresholds retained as provisional operating hurdles, not platform norms or a powered sample size. Sensitivity reporting at nearby hurdles is descriptive; it cannot change the frozen primary decision."
+  }
+}

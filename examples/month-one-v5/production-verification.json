@@ -1,0 +1,695 @@
+{
+  "status": "production_candidate_complete_audience_validation_pending",
+  "version": "v5-blueprint",
+  "core_episodes": 16,
+  "video_exports": 18,
+  "carousel_panels": 20,
+  "story_frames": 16,
+  "character_stimuli": 0,
+  "citation_stimuli": 2,
+  "motion_stimuli": 2,
+  "stimuli_include_core_exports": true,
+  "decode_passes": 18,
+  "frames_checked": 11294,
+  "max_caption_cps": 20.0,
+  "duration_seconds_range": [
+    16.666667,
+    23.933333
+  ],
+  "maximum_answer_start_seconds": 3.43,
+  "comparison_audio_identical": true,
+  "new_voice_requests": 5,
+  "new_image_requests": 0,
+  "retained_voice_tracks": 11,
+  "provider_actual_charge": null,
+  "human_listening_review": false,
+  "target_uploader_preview": false,
+  "target_audience_tests": 0,
+  "live_audience_observations": 0,
+  "hands_on_labor_measured": false,
+  "public_upload": false,
+  "asr_review": [
+    {
+      "id": "BP01",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP02",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "free weights",
+              "recognized": "freeways"
+            },
+            {
+              "kind": "replace",
+              "expected": "explained",
+              "recognized": "to explain"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP03",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP04",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP05",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "sixteen",
+              "recognized": "16"
+            },
+            {
+              "kind": "replace",
+              "expected": "seventeen",
+              "recognized": "17"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP06",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "sore to count",
+              "recognized": "sort account"
+            },
+            {
+              "kind": "replace",
+              "expected": "do",
+              "recognized": "are"
+            },
+            {
+              "kind": "replace",
+              "expected": "use",
+              "recognized": "used"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP07",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "route",
+              "recognized": "root"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP08",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "delete",
+              "expected": "two",
+              "recognized": ""
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP09",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP10",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "the",
+              "recognized": "a"
+            },
+            {
+              "kind": "replace",
+              "expected": "rewriting",
+              "recognized": "re running"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "the",
+              "recognized": "a"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP11",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "adapted",
+              "recognized": "adapt it"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "adapted",
+              "recognized": "adapt it"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP12",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP13",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "setup",
+              "recognized": "set up"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "one",
+              "recognized": "1"
+            },
+            {
+              "kind": "replace",
+              "expected": "setup",
+              "recognized": "set up"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP14",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP15",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "pick",
+              "recognized": "take"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BP16",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "clearer",
+              "recognized": "a clear"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "missed a",
+              "recognized": "miss the"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    }
+  ],
+  "outputs": [
+    {
+      "id": "BP01",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP01/BP01-motion.mp4",
+      "sha256": "4b28a2e6bfb6fb4744350f06a65a125e40e119cf933ac64daf53229a6aa8d745",
+      "audio_md5": "MD5=6d0f7f5c63d5328de1901ced4edc08ab",
+      "duration": 21.033333,
+      "frames": 631,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.78",
+        "input_tp": "-5.53",
+        "input_lra": "3.20"
+      },
+      "answer_starts_seconds": 2.39,
+      "render_elapsed_seconds": 7.63
+    },
+    {
+      "id": "BP02",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP02/BP02-motion.mp4",
+      "sha256": "a049a2d9a0f458ed1c4142249ff532fa6ec94a6f08728ec60fbc12eedf6adb55",
+      "audio_md5": "MD5=6fe4aed85d11dd40ec34a21032c2a034",
+      "duration": 20.4,
+      "frames": 612,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.39",
+        "input_tp": "-4.74",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.31,
+      "render_elapsed_seconds": 7.37
+    },
+    {
+      "id": "BP03",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP03/BP03-motion.mp4",
+      "sha256": "ee82f3ddcb8f70dc814530fe2700913867d1e9160736cdca12f710dd631ab5ff",
+      "audio_md5": "MD5=a4b9348190f84847507142f6a77a2ad5",
+      "duration": 20.9,
+      "frames": 627,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75,
+      "render_elapsed_seconds": 6.95
+    },
+    {
+      "id": "BP04",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP04/BP04-motion.mp4",
+      "sha256": "6b9ca2002062feb2d4a586f0cf1addcebef183907553fb8d081bf91b827b8702",
+      "audio_md5": "MD5=43141d6c07e0ae3ab3df9235cae5174e",
+      "duration": 18.5,
+      "frames": 555,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.36",
+        "input_tp": "-4.64",
+        "input_lra": "2.50"
+      },
+      "answer_starts_seconds": 2.23,
+      "render_elapsed_seconds": 6.16
+    },
+    {
+      "id": "BP05",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP05/BP05-motion.mp4",
+      "sha256": "3ad2b23a21145da6d30c4e969e591561d97eeb4daa8eb2b2e53fe58f95be39fd",
+      "audio_md5": "MD5=7dd67a67e0167acef327ab1af56d260f",
+      "duration": 22.766667,
+      "frames": 683,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-15.90",
+        "input_tp": "-4.20",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.59,
+      "render_elapsed_seconds": 7.26
+    },
+    {
+      "id": "BP06",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP06/BP06-motion.mp4",
+      "sha256": "0ac4bb3ca4553a1484a983eef34379e46ce53eeb214e83f5d20b1dd2fd48d4ed",
+      "audio_md5": "MD5=f3081d213bdcbf32cc740727de44e5c0",
+      "duration": 21.2,
+      "frames": 636,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.10",
+        "input_tp": "-4.73",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 2.31,
+      "render_elapsed_seconds": 6.93
+    },
+    {
+      "id": "BP07",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP07/BP07-motion.mp4",
+      "sha256": "5a0c62c2ede676c66ec0bb5ce3d8af5fa2266c80aa47c967f0ff483bf64d990c",
+      "audio_md5": "MD5=45f11a30a1a4b0518369f429f38838e3",
+      "duration": 19.8,
+      "frames": 594,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.08",
+        "input_tp": "-4.36",
+        "input_lra": "2.30"
+      },
+      "answer_starts_seconds": 2.63,
+      "render_elapsed_seconds": 6.34
+    },
+    {
+      "id": "BP08",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP08/BP08-motion.mp4",
+      "sha256": "c519f782e2b0488db4a9fc3144118a767fb719c3859e792c300ed7428ee9581f",
+      "audio_md5": "MD5=b81890496b80a460cc66c434dcdfe394",
+      "duration": 21.933333,
+      "frames": 658,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.84",
+        "input_tp": "-4.22",
+        "input_lra": "2.30"
+      },
+      "answer_starts_seconds": 2.39,
+      "render_elapsed_seconds": 7.13
+    },
+    {
+      "id": "BP09",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP09/BP09-motion.mp4",
+      "sha256": "58420f6df6e4370129487261707ede306e14f901f22b3d4980766c7cd6a3a722",
+      "audio_md5": "MD5=e2cc30f64aba997eb4309be1312b1c49",
+      "duration": 23.933333,
+      "frames": 718,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-15.96",
+        "input_tp": "-4.90",
+        "input_lra": "3.70"
+      },
+      "answer_starts_seconds": 3.43,
+      "render_elapsed_seconds": 8.36
+    },
+    {
+      "id": "BP10",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP10/BP10-motion.mp4",
+      "sha256": "360cb659407c75716f8b7f2844cc0a6a7a43c5c9462347b4738f4c2bd20a9687",
+      "audio_md5": "MD5=54231546bb558ad1dcd752bb21ec6487",
+      "duration": 22.433333,
+      "frames": 673,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.04",
+        "input_tp": "-4.12",
+        "input_lra": "1.30"
+      },
+      "answer_starts_seconds": 2.39,
+      "render_elapsed_seconds": 7.64
+    },
+    {
+      "id": "BP11",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP11/BP11-motion.mp4",
+      "sha256": "49efe1ca21f1200718e8602b6cd3629a61aaa5771badcc3fc93d1daa95e5eb68",
+      "audio_md5": "MD5=9fe00c310f2d1575bca5c474e88dc800",
+      "duration": 20.966667,
+      "frames": 629,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.50",
+        "input_tp": "-4.55",
+        "input_lra": "2.40"
+      },
+      "answer_starts_seconds": 2.39,
+      "render_elapsed_seconds": 6.97
+    },
+    {
+      "id": "BP12",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP12/BP12-motion.mp4",
+      "sha256": "ad86ae82406a7c39ee097b28451587199828cfd9ab24517704c10ddb76aa9e4c",
+      "audio_md5": "MD5=bcd1fa122d6da76e9135372f80a7ffa1",
+      "duration": 22.833333,
+      "frames": 685,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.25",
+        "input_tp": "-4.25",
+        "input_lra": "2.60"
+      },
+      "answer_starts_seconds": 2.07,
+      "render_elapsed_seconds": 7.29
+    },
+    {
+      "id": "BP13",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP13/BP13-motion.mp4",
+      "sha256": "c43642c83c990df5114997dfcbb36bc60d0aa073ae4598c68f936f5b70f80a47",
+      "audio_md5": "MD5=5a1defa778e16903fe5a95639bd85cde",
+      "duration": 16.666667,
+      "frames": 500,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-15.78",
+        "input_tp": "-4.46",
+        "input_lra": "1.30"
+      },
+      "answer_starts_seconds": 1.99,
+      "render_elapsed_seconds": 5.63
+    },
+    {
+      "id": "BP14",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP14/BP14-motion.mp4",
+      "sha256": "65df0aec967fb25a46057bc5f1b2f2d18f3b493498385a1a531e65084326c5e5",
+      "audio_md5": "MD5=bceeee6265b1900a2cf6386e425945e8",
+      "duration": 21.8,
+      "frames": 654,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.70",
+        "input_tp": "-4.31",
+        "input_lra": "2.20"
+      },
+      "answer_starts_seconds": 2.39,
+      "render_elapsed_seconds": 7.16
+    },
+    {
+      "id": "BP15",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP15/BP15-motion.mp4",
+      "sha256": "816757096a33488c7387f09ecf56d1333244bde742c7ed36f2ebf1c237297dd8",
+      "audio_md5": "MD5=4cf2a989851167b054cf61e3859fb10c",
+      "duration": 20.866667,
+      "frames": 626,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.44",
+        "input_tp": "-4.46",
+        "input_lra": "1.40"
+      },
+      "answer_starts_seconds": 2.47,
+      "render_elapsed_seconds": 6.96
+    },
+    {
+      "id": "BP16",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP16/BP16-motion.mp4",
+      "sha256": "62a70a9f84f140a4649efc92997088a0470a82c1324b199e9dec654f7bab83b4",
+      "audio_md5": "MD5=3d1b7f821b7b6fcc289c583fc4e4339b",
+      "duration": 21.033333,
+      "frames": 631,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.32",
+        "input_tp": "-4.63",
+        "input_lra": "2.40"
+      },
+      "answer_starts_seconds": 2.31,
+      "render_elapsed_seconds": 6.95
+    },
+    {
+      "id": "BP03",
+      "visual_version": "v5-blueprint",
+      "citation": false,
+      "treatment": "motion",
+      "path": "variants/citation-off/BP03/BP03-motion.mp4",
+      "sha256": "6b63bd49234a6c9f635acddc954d92a53902efdbc5f3d99df1e1203424a65e85",
+      "audio_md5": "MD5=a4b9348190f84847507142f6a77a2ad5",
+      "duration": 20.9,
+      "frames": 627,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75,
+      "render_elapsed_seconds": 7.02
+    },
+    {
+      "id": "BP04",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "static",
+      "path": "BP04/BP04-static.mp4",
+      "sha256": "0bd846d0da39bba514dadc2d34d0f72b03717048dcec25364610bb9aa2d00a2f",
+      "audio_md5": "MD5=43141d6c07e0ae3ab3df9235cae5174e",
+      "duration": 18.5,
+      "frames": 555,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.36",
+        "input_tp": "-4.64",
+        "input_lra": "2.50"
+      },
+      "answer_starts_seconds": 2.23,
+      "render_elapsed_seconds": 6.35
+    }
+  ]
+}

@@ -1,16 +1,17 @@
 # Pop culture → a broader fitness brand
 
-Prepared 23 October 2026. Decision research and creative proposals; no audience results and no new production approval.
+Prepared 23 October 2026. Research and creative proposals, followed by owner selection of Blueprint; no audience results.
 
-**Latest owner brief:** science backed, focused on the important few actions (80/20), and compatible with a real lifestyle. [Current positioning and eight new names](POSITIONING_AND_NAMES.md) now lead the naming work. Essential Effort, Reason & Routine and The Useful Few are the new proposed shortlist; none is selected.
+**Latest owner brief:** the founding story is working toward the “body of our dreams” within a busy, balanced life. [Current brand direction: dreamy but tactical](../../brand/dreamy-tactical/BRAND_DIRECTION.md) integrates that aspiration with all five prior research perspectives, scientific standards, useful priorities and lifestyle fit. It proposes mission/vision, voice, three visual treatments, content applications and a new naming territory. Blueprint is now selected and applied in the [V5 production month](../../docs/MONTH_ONE_V5.md); no final public name is selected. The [earlier positioning and eight names](POSITIONING_AND_NAMES.md) remain an archived exploration of the delivery principles.
 
-**Recommendation from the initial culture research:** build an internet-aware fitness brand around useful progress in ordinary life. Offscreen Athletic, Minor Upgrades and Active Lore were the first creative options. Keep the chosen Training Club visual foundation. Put faster-moving memes into episode openings and recurring series, where they can be replaced cheaply.
+**Recommendation from the initial culture research:** build an internet-aware fitness brand around useful progress in ordinary life. Offscreen Athletic, Minor Upgrades and Active Lore were the first creative options. This initially kept the Training Club foundation; the owner subsequently selected Blueprint. Put faster-moving memes into episode openings and recurring series, where they can be replaced cheaply.
 
 This is a creative recommendation informed by the sources below, not evidence that any proposed name will outperform another. Preliminary name searches found adjacent uses; none is cleared or confirmed available.
 
 ## Read the package
 
-- [Current positioning and names](POSITIONING_AND_NAMES.md): the owner's three principles, eight new candidates and the updated creative recommendation.
+- [Current brand direction](../../brand/dreamy-tactical/BRAND_DIRECTION.md): founder story, mission/vision, dreamy but tactical style, research integration and content examples.
+- [Earlier positioning and names](POSITIONING_AND_NAMES.md): the owner's three delivery principles and the previous naming exploration.
 - [Brand options](BRAND_OPTIONS.md): positioning, names, bios, voice, visual treatments and examples across five fitness pillars.
 - [Name screen](NAME_SCREEN.md): candidates, observed collisions, search limits and shortlist rationale.
 - [Month-one application](MONTH_ONE_APPLICATION.md): a proposed broader editorial mix and treatment for all 16 slots.

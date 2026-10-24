@@ -91,13 +91,18 @@ def make_timeline(episode, alignment=None, voice_duration=None):
     if words and normalized(script(episode))!=''.join(normalized(w['text']) for w in words):
         raise ValueError(f"{episode['id']}: provider text does not match script")
     beats=[]; captions=[]; cursor=0; clock=.12
-    for kind, text in episode['beats']:
+    for beat_index, (kind, text) in enumerate(episode['beats']):
         end=cursor+len(normalized(text))
         matched=[w for w in words if w['b']>cursor and w['a']<end]
         start=matched[0]['start'] if matched else clock
         stop=matched[-1]['end'] if matched else start+max(len(text)/18.5,len(text.split())/2.9)
         beats.append({'kind':kind,'text':text,'start':start,'end':stop})
         chunks=caption_chunks(text,balanced=episode.get('balanced_captions',False))
+        override=episode.get('caption_overrides',{}).get(str(beat_index))
+        if override is not None:
+            if not isinstance(override,list) or not all(isinstance(x,str) and x for x in override) or ' '.join(override)!=text:
+                raise ValueError('Caption override must preserve the exact spoken text')
+            chunks=[c for part in override for c in caption_chunks(part,balanced=episode.get('balanced_captions',False))]
         total=sum(len(c['text']) for c in chunks)
         estimate=start
         for chunk in chunks:

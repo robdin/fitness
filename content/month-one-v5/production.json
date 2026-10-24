@@ -1,0 +1,686 @@
+{
+  "version": "5.0",
+  "brand": "blueprint",
+  "canonical_content": "content/month-one-v5/calendar.json",
+  "public_name": null,
+  "campaign": "Body of our dreams",
+  "status": "production_candidate_owner_selected_style",
+  "character_assets": 0,
+  "episodes": {
+    "BP01": {
+      "headlines": [
+        [
+          "FIRST VISIT.",
+          "NOW WHAT?"
+        ],
+        [
+          "THREE DECISIONS."
+        ],
+        [
+          "DAYS. PLAN.",
+          "SETUP HELP."
+        ],
+        [
+          "ASK SOMEONE",
+          "WHO CAN SEE."
+        ],
+        [
+          "BRING YOUR",
+          "NEXT STEP."
+        ],
+        [
+          "THE PLAN?",
+          "THE MACHINES?"
+        ]
+      ],
+      "kind": "checklist",
+      "labels": [
+        "YOUR DAYS",
+        "YOUR ROUTINE",
+        "SETUP HELP"
+      ],
+      "scope_label": "A starting checklist · not a complete routine",
+      "source_cue": {
+        "label": "Editorial starting checklist",
+        "source_ids": [],
+        "kind": "editorial"
+      },
+      "series": "Dream / Plan"
+    },
+    "BP02": {
+      "headlines": [
+        [
+          "MACHINES",
+          "COUNT TOO."
+        ],
+        [
+          "START WITH",
+          "A CLEAR SETUP."
+        ],
+        [
+          "TWO TOOLS.",
+          "DIFFERENT SKILLS."
+        ],
+        [
+          "NOT EVERY LIFT",
+          "IS A SUBSTITUTE."
+        ],
+        [
+          "SAVE THE",
+          "SETTINGS."
+        ],
+        [
+          "WHICH MACHINE",
+          "NEEDS EXPLAINING?"
+        ]
+      ],
+      "kind": "machine",
+      "labels": [
+        "MACHINE",
+        "FREE WEIGHT",
+        "SETUP + LOG"
+      ],
+      "scope_label": "Research summary: adults · no universal safety ranking",
+      "source_cue": {
+        "label": "2023 review · free weights & machines",
+        "source_ids": [
+          "E06"
+        ],
+        "kind": "review"
+      },
+      "series": "Worth your effort"
+    },
+    "BP03": {
+      "headlines": [
+        [
+          "NEXT SET.",
+          "READY ALREADY?"
+        ],
+        [
+          "REST IS PART",
+          "OF THE WORK."
+        ],
+        [
+          "1 MINUTE",
+          "VERSUS 3."
+        ],
+        [
+          "ONE STUDY.",
+          "NOT EVERY SET."
+        ],
+        [
+          "TIME IT.",
+          "NOTICE THE SET."
+        ],
+        [
+          "TIMER",
+          "OR GUESS?"
+        ]
+      ],
+      "kind": "timer",
+      "labels": [
+        "1:00",
+        "3:00",
+        "FOLLOW YOUR PLAN"
+      ],
+      "scope_label": "Small adult trial · not a universal rest target",
+      "source_cue": {
+        "label": "Schoenfeld et al., 2016 · 21 trained men",
+        "source_ids": [
+          "E16"
+        ],
+        "kind": "trial"
+      },
+      "series": "Worth your effort"
+    },
+    "BP04": {
+      "headlines": [
+        [
+          "A SHORT WALK.",
+          "A REAL PLACE."
+        ],
+        [
+          "SMALLER CHUNKS.",
+          "PART OF THE WEEK."
+        ],
+        [
+          "AFTER LUNCH?",
+          "HAVE A BACKUP."
+        ],
+        [
+          "A STARTING POINT.",
+          "NOT THE FULL TARGET."
+        ],
+        [
+          "YOUR TIME.",
+          "YOUR ROUTE."
+        ],
+        [
+          "FINDING TIME?",
+          "FINDING A PLACE?"
+        ]
+      ],
+      "kind": "walk",
+      "labels": [
+        "YOUR WINDOW",
+        "FAMILIAR ROUTE",
+        "INDOOR BACKUP"
+      ],
+      "scope_label": "Adult guidance · planning example, not the full target",
+      "source_cue": {
+        "label": "CDC · adult activity guidance",
+        "source_ids": [
+          "BPF01"
+        ],
+        "kind": "guidance"
+      },
+      "series": "Dream / Plan"
+    },
+    "BP05": {
+      "headlines": [
+        [
+          "WHAT WEIGHT",
+          "DO I START WITH?"
+        ],
+        [
+          "LEARN THE",
+          "MOVEMENT FIRST."
+        ],
+        [
+          "SETUP.",
+          "MANAGEABLE LOAD."
+        ],
+        [
+          "16–17?",
+          "GET SUPERVISION."
+        ],
+        [
+          "RECORD.",
+          "THEN PROGRESS."
+        ],
+        [
+          "THE WEIGHT?",
+          "THE SETUP?"
+        ]
+      ],
+      "kind": "weight",
+      "labels": [
+        "SETUP",
+        "CONTROL",
+        "PROGRESSION"
+      ],
+      "scope_label": "Individual setup needs qualified instruction",
+      "source_cue": {
+        "label": "AAP guidance · youth supervision",
+        "source_ids": [
+          "F02"
+        ],
+        "kind": "guidance"
+      },
+      "series": "Worth your effort"
+    },
+    "BP06": {
+      "headlines": [
+        [
+          "SORENESS ≠",
+          "PROGRESS SCORE."
+        ],
+        [
+          "NO ACHE",
+          "REQUIRED."
+        ],
+        [
+          "LOOK AT",
+          "THE RECORD."
+        ],
+        [
+          "DON’T CHASE",
+          "MORE SORENESS."
+        ],
+        [
+          "LOG THE WORK.",
+          "WATCH THE PATTERN."
+        ],
+        [
+          "HOW DO YOU",
+          "JUDGE A SESSION?"
+        ]
+      ],
+      "kind": "soreness",
+      "labels": [
+        "SORENESS",
+        "TRAINING LOG",
+        "COMPARE OVER TIME"
+      ],
+      "scope_label": "Soreness is not a growth test · pain is a separate concern",
+      "source_cue": {
+        "label": "Military Health System · expert guidance",
+        "source_ids": [
+          "F08"
+        ],
+        "kind": "guidance"
+      },
+      "series": "Life happens"
+    },
+    "BP07": {
+      "headlines": [
+        [
+          "FIRST RUN CLUB.",
+          "WHAT DO YOU ASK?"
+        ],
+        [
+          "DISTANCE. PACE.",
+          "WALK BREAKS."
+        ],
+        [
+          "ALL PACES?",
+          "CHECK THE DETAILS."
+        ],
+        [
+          "EACH CLUB",
+          "IS DIFFERENT."
+        ],
+        [
+          "ASK BEFORE",
+          "YOU GO."
+        ],
+        [
+          "WALKING GROUP?",
+          "RUN-WALK GROUP?"
+        ]
+      ],
+      "kind": "club-check",
+      "labels": [
+        "DISTANCE",
+        "PACE GROUPS",
+        "WALK BREAKS"
+      ],
+      "scope_label": "Editorial checklist · check the actual event",
+      "source_cue": {
+        "label": "Editorial checklist · first club visit",
+        "source_ids": [],
+        "kind": "editorial"
+      },
+      "series": "Dream / Plan"
+    },
+    "BP08": {
+      "headlines": [
+        [
+          "FULL CALENDAR.",
+          "TWO GYM DAYS."
+        ],
+        [
+          "A ROUTINE",
+          "THAT FITS."
+        ],
+        [
+          "PLAN THE",
+          "WEEKLY WORK."
+        ],
+        [
+          "NO EQUAL-GAINS",
+          "PROMISE."
+        ],
+        [
+          "PUT IT IN",
+          "THE CALENDAR."
+        ],
+        [
+          "FIND THE DAYS?",
+          "KEEP THE DAYS?"
+        ]
+      ],
+      "kind": "calendar",
+      "labels": [
+        "TUE",
+        "SAT",
+        "ILLUSTRATIVE WEEK"
+      ],
+      "scope_label": "Adult guidance · youth activity needs differ",
+      "source_cue": {
+        "label": "CDC · adult activity guidance",
+        "source_ids": [
+          "F04"
+        ],
+        "kind": "guidance"
+      },
+      "series": "Dream / Plan"
+    },
+    "BP09": {
+      "headlines": [
+        [
+          "POWDER IS",
+          "OPTIONAL."
+        ],
+        [
+          "FOOD COUNTS",
+          "TOO."
+        ],
+        [
+          "MORE THAN",
+          "ONE SOURCE."
+        ],
+        [
+          "NOT A DIET",
+          "REPLACEMENT."
+        ],
+        [
+          "START WITH",
+          "YOUR MEALS."
+        ],
+        [
+          "MEAL IDEAS?",
+          "MARKETING CLAIMS?"
+        ]
+      ],
+      "kind": "food",
+      "labels": [
+        "FOOD",
+        "POWDER",
+        "CONVENIENCE ≠ REQUIREMENT"
+      ],
+      "scope_label": "No product endorsement or individual intake target",
+      "source_cue": {
+        "label": "NIH ODS · food and supplements",
+        "source_ids": [
+          "F03"
+        ],
+        "kind": "guidance"
+      },
+      "series": "Worth your effort"
+    },
+    "BP10": {
+      "headlines": [
+        [
+          "ONE BAD DAY.",
+          "STUCK ALREADY?"
+        ],
+        [
+          "ONE SESSION",
+          "IS NOT A PATTERN."
+        ],
+        [
+          "COMPARE LIKE",
+          "WITH LIKE."
+        ],
+        [
+          "DIFFERENT SETUP?",
+          "DIFFERENT TEST."
+        ],
+        [
+          "CHECK THE LOG",
+          "BEFORE THE RESET."
+        ],
+        [
+          "WHAT CHANGES",
+          "BETWEEN SESSIONS?"
+        ]
+      ],
+      "kind": "trend",
+      "labels": [
+        "SESSION 1",
+        "SESSION 2",
+        "SESSION 3"
+      ],
+      "scope_label": "Editorial comparison checklist · no plateau diagnosis",
+      "source_cue": {
+        "label": "Editorial checklist · compare your log",
+        "source_ids": [],
+        "kind": "editorial"
+      },
+      "series": "Life happens"
+    },
+    "BP11": {
+      "headlines": [
+        [
+          "TOMORROW'S LUNCH.",
+          "START HERE."
+        ],
+        [
+          "ONE MEAL.",
+          "THEN THE LIST."
+        ],
+        [
+          "BEANS. RICE.",
+          "FROZEN VEG."
+        ],
+        [
+          "AN IDEA.",
+          "NOT A WHOLE DIET."
+        ],
+        [
+          "CHECK FIRST.",
+          "BUY WHAT IS MISSING."
+        ],
+        [
+          "CHOOSING FOOD?",
+          "TIME TO COOK?"
+        ]
+      ],
+      "kind": "groceries",
+      "labels": [
+        "CHECK THE KITCHEN",
+        "CHOOSE ONE MEAL",
+        "LIST WHAT IS MISSING"
+      ],
+      "scope_label": "Illustrative meal · adapt for needs, taste and access",
+      "source_cue": {
+        "label": "Food Standards Scotland · meal-planning guidance",
+        "source_ids": [
+          "BPF02"
+        ],
+        "kind": "guidance"
+      },
+      "series": "Worth your effort"
+    },
+    "BP12": {
+      "headlines": [
+        [
+          "FAIL EVERY SET?",
+          "NOT REQUIRED."
+        ],
+        [
+          "CHALLENGING",
+          "IS THE IDEA."
+        ],
+        [
+          "EFFORT MATTERS.",
+          "THE TARGET VARIES."
+        ],
+        [
+          "A REP LIMIT.",
+          "NOT YOUR IDENTITY."
+        ],
+        [
+          "FOLLOW THE",
+          "EFFORT GUIDANCE."
+        ],
+        [
+          "WHICH TERM",
+          "NEEDS TRANSLATING?"
+        ]
+      ],
+      "kind": "effort",
+      "labels": [
+        "CHALLENGING",
+        "FAILURE",
+        "FOLLOW YOUR ROUTINE"
+      ],
+      "scope_label": "Adult research · no universal stopping target",
+      "source_cue": {
+        "label": "Robinson et al., 2024 · adult research",
+        "source_ids": [
+          "E03"
+        ],
+        "kind": "review"
+      },
+      "series": "Worth your effort"
+    },
+    "BP13": {
+      "headlines": [
+        [
+          "MONTH ONE.",
+          "A BETTER SCORECARD."
+        ],
+        [
+          "SHOW UP.",
+          "LEARN. RECORD."
+        ],
+        [
+          "REVIEW WHAT",
+          "YOU CAN SEE."
+        ],
+        [
+          "NO MIRROR",
+          "DEADLINE."
+        ],
+        [
+          "ONE IMPROVEMENT",
+          "FOR NEXT MONTH."
+        ],
+        [
+          "WHAT FEELS",
+          "EASIER NOW?"
+        ]
+      ],
+      "kind": "scorecard",
+      "labels": [
+        "ATTENDANCE",
+        "SETUP SKILL",
+        "TRAINING LOG"
+      ],
+      "scope_label": "Process checklist · not a body-composition measure",
+      "source_cue": {
+        "label": "Editorial checklist · process, not physique",
+        "source_ids": [],
+        "kind": "editorial"
+      },
+      "series": "Life happens"
+    },
+    "BP14": {
+      "headlines": [
+        [
+          "WORKOUT SCHEDULE.",
+          "SLEEP SCHEDULE?"
+        ],
+        [
+          "BEDTIME.",
+          "WAKE TIME."
+        ],
+        [
+          "CONSISTENCY",
+          "IS IN THE GUIDANCE."
+        ],
+        [
+          "REAL CONSTRAINTS.",
+          "GET HELP IF NEEDED."
+        ],
+        [
+          "ONE REALISTIC",
+          "CHANGE."
+        ],
+        [
+          "BEDTIME?",
+          "MORNING SCHEDULE?"
+        ]
+      ],
+      "kind": "sleep",
+      "labels": [
+        "BEDTIME",
+        "WAKE TIME",
+        "REAL-LIFE CONSTRAINTS"
+      ],
+      "scope_label": "General sleep guidance · persistent problems need care",
+      "source_cue": {
+        "label": "CDC · healthy sleep guidance",
+        "source_ids": [
+          "BPF03"
+        ],
+        "kind": "guidance"
+      },
+      "series": "Life happens"
+    },
+    "BP15": {
+      "headlines": [
+        [
+          "TRY AN ACTIVITY.",
+          "START AS A BEGINNER."
+        ],
+        [
+          "CURIOSITY.",
+          "THEN THE DETAILS."
+        ],
+        [
+          "COST. TRAVEL.",
+          "HELP. EQUIPMENT."
+        ],
+        [
+          "ONE TRYOUT.",
+          "NOT EVERY GOAL."
+        ],
+        [
+          "CHECK THE",
+          "BEGINNER SESSION."
+        ],
+        [
+          "WHAT WOULD",
+          "YOU TRY?"
+        ]
+      ],
+      "kind": "activity",
+      "labels": [
+        "COST + TRAVEL",
+        "BEGINNER SUPPORT",
+        "ACCESS + EQUIPMENT"
+      ],
+      "scope_label": "Editorial selection checklist · no habit guarantee",
+      "source_cue": {
+        "label": "Editorial checklist · choose an activity",
+        "source_ids": [],
+        "kind": "editorial"
+      },
+      "series": "Dream / Plan"
+    },
+    "BP16": {
+      "headlines": [
+        [
+          "LIFE HAPPENED.",
+          "NEXT SESSION?"
+        ],
+        [
+          "PLAN THE",
+          "NEXT VISIT."
+        ],
+        [
+          "CHECK YOUR",
+          "ROUTINE’S GUIDANCE."
+        ],
+        [
+          "NO AUTOMATIC",
+          "DOUBLE SESSION."
+        ],
+        [
+          "ONE BARRIER.",
+          "ONE ADJUSTMENT."
+        ],
+        [
+          "CLEARER PLAN?",
+          "BACKUP TIME?"
+        ]
+      ],
+      "kind": "return",
+      "labels": [
+        "MISSED",
+        "NEXT VISIT",
+        "ONE ADJUSTMENT"
+      ],
+      "scope_label": "Editorial scheduling advice · no individual recovery prescription",
+      "source_cue": {
+        "label": "Editorial advice · plan the return",
+        "source_ids": [],
+        "kind": "editorial"
+      },
+      "series": "Life happens"
+    }
+  }
+}

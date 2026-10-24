@@ -1,5 +1,7 @@
 # Rep & Reason — working brand brief
 
+> **Current direction, 23 October 2026:** the owner selected [Blueprint](blueprint/STYLE_GUIDE.md). The [founding brief](dreamy-tactical/BRAND_DIRECTION.md) supplies “Your dream body. Your real life.”; the [V5 month](../docs/MONTH_ONE_V5.md) applies it to 16 videos and 36 supporting images. The public name remains open. The brief below is historical; the AI character and its experiment are retired without audience results.
+
 **Strength & fitness explained.**
 
 **Know why. Train better.**

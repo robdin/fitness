@@ -1,0 +1,284 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Body of our dreams//Blueprint month planning//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:blueprint-v5-01@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261101T230000Z
+DTEND:20261101T233000Z
+SUMMARY:BP01 First gym visit—what do you do first?
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-02@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261102T230000Z
+DTEND:20261102T233000Z
+SUMMARY:BPS01 What feels less clear?
+DESCRIPTION:Planning only\; no automatic publication. story
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-03@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261103T230000Z
+DTEND:20261103T233000Z
+SUMMARY:BP02 Machines can be a valid place to start.
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-04@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261104T230000Z
+DTEND:20261104T233000Z
+SUMMARY:BPK01 Body of our dreams: why this exists
+DESCRIPTION:Planning only\; no automatic publication. carousel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-05@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261105T230000Z
+DTEND:20261105T233000Z
+SUMMARY:BP03 Are you rushing your next set?
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-06@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261106T230000Z
+DTEND:20261106T233000Z
+SUMMARY:BPS02 How do you track rest?
+DESCRIPTION:Planning only\; no automatic publication. story
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-07@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261107T230000Z
+DTEND:20261107T233000Z
+SUMMARY:BP04 A short walk can fit into your real week.
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-08@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261108T230000Z
+DTEND:20261108T233000Z
+SUMMARY:BP05 What weight should you start with?
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-09@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261109T230000Z
+DTEND:20261109T233000Z
+SUMMARY:BPS03 What needs explaining?
+DESCRIPTION:Planning only\; no automatic publication. story
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-10@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261110T230000Z
+DTEND:20261110T233000Z
+SUMMARY:BP06 Soreness is not your progress score.
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-11@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261111T230000Z
+DTEND:20261111T233000Z
+SUMMARY:BPK02 Before your first run club
+DESCRIPTION:Planning only\; no automatic publication. carousel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-12@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261112T230000Z
+DTEND:20261112T233000Z
+SUMMARY:BP07 First run club: what should you check?
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-13@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261113T230000Z
+DTEND:20261113T233000Z
+SUMMARY:BPS04 Before your first group run
+DESCRIPTION:Planning only\; no automatic publication. story
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-14@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261114T230000Z
+DTEND:20261114T233000Z
+SUMMARY:BP08 Two gym days. Build your plan around them.
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-15@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261115T230000Z
+DTEND:20261115T233000Z
+SUMMARY:BP09 Protein powder is a convenience\, not a starting requirement.
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-16@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261116T230000Z
+DTEND:20261116T233000Z
+SUMMARY:BPS05 What would help next?
+DESCRIPTION:Planning only\; no automatic publication. story
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-17@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261117T230000Z
+DTEND:20261117T233000Z
+SUMMARY:BP10 One bad workout—are you stuck?
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-18@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261118T230000Z
+DTEND:20261118T233000Z
+SUMMARY:BPK03 A lunch plan for a full week
+DESCRIPTION:Planning only\; no automatic publication. carousel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-19@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261119T230000Z
+DTEND:20261119T233000Z
+SUMMARY:BP11 Tomorrow's lunch starts with what you have.
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-20@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261120T230000Z
+DTEND:20261120T233000Z
+SUMMARY:BPS06 What makes lunch harder?
+DESCRIPTION:Planning only\; no automatic publication. story
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-21@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261121T230000Z
+DTEND:20261121T233000Z
+SUMMARY:BP12 Does every set need to end in failure?
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-22@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261122T230000Z
+DTEND:20261122T233000Z
+SUMMARY:BP13 A better scorecard for month one.
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-23@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261123T230000Z
+DTEND:20261123T233000Z
+SUMMARY:BPS07 What got easier?
+DESCRIPTION:Planning only\; no automatic publication. story
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-24@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261124T230000Z
+DTEND:20261124T233000Z
+SUMMARY:BP14 Your workouts have a schedule. Does your sleep?
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-25@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261125T230000Z
+DTEND:20261125T233000Z
+SUMMARY:BPK04 A plan that fits the week you have
+DESCRIPTION:Planning only\; no automatic publication. carousel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-26@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261126T230000Z
+DTEND:20261126T233000Z
+SUMMARY:BP15 Your next activity can start as a tryout.
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-27@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261127T230000Z
+DTEND:20261127T233000Z
+SUMMARY:BPS08 What would you try?
+DESCRIPTION:Planning only\; no automatic publication. story
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-28@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261128T230000Z
+DTEND:20261128T233000Z
+SUMMARY:BP16 Missed a workout—what happens next?
+DESCRIPTION:Planning only\; no automatic publication. Short + Reel
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-29@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261129T230000Z
+DTEND:20261129T233000Z
+SUMMARY:REVIEW Complete week-four review and labor log
+DESCRIPTION:Planning only\; no automatic publication. internal
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-30@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261130T230000Z
+DTEND:20261130T233000Z
+SUMMARY:REVIEW Provisional month-end review
+DESCRIPTION:Planning only\; no automatic publication. internal
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:blueprint-v5-final@blueprint.local
+DTSTAMP:20261023T160000Z
+DTSTART:20261205T230000Z
+DTEND:20261205T233000Z
+SUMMARY:Blueprint month final seven-day readout
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR
