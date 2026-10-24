@@ -1,8 +1,8 @@
 # Applying the culture research to the month
 
-Proposal dated 23 October 2026. The canonical [calendar](../../content/month-one-v3/calendar.json), scripts, narration and [V4 graphics production](../../docs/MONTH_ONE_V4.md) are unchanged. The names remain undecided. New topic candidates below require their own demand/evidence research, writing and production review.
+Initial proposal dated 23 October 2026, retained below as the reasoning for the broader mix. **Implemented in [V5 Blueprint](../../docs/MONTH_ONE_V5.md):** eleven scripts retained exactly, five broader topics researched and produced, with BP-series IDs separating this cohort. The [current calendar](../../content/month-one-v5/CALENDAR.md) and [research update](../blueprint-v5/README.md) are authoritative. The owner selected Blueprint; public naming remains open.
 
-**Later clarification:** the owner wants science-backed priorities that fit a lifestyle. The [new positioning brief](POSITIONING_AND_NAMES.md) now leads naming. The broader topic proposal below remains relevant; brand-specific examples near the end describe the earlier exploration.
+The founding story and dreamy-but-tactical direction guide the visuals and supporting posts. The original B-series calendar/media remain historical. BP03/CV2 is the new matched citation pair; BP04 supplies a route-motion control. Dates remain planning slots, not published posts.
 
 ## The positioning gap
 

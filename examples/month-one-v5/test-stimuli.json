@@ -1,0 +1,84 @@
+{
+  "status": "produced_test_not_run",
+  "participants": 0,
+  "citation": [
+    {
+      "id": "BP03",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP03/BP03-motion.mp4",
+      "sha256": "ee82f3ddcb8f70dc814530fe2700913867d1e9160736cdca12f710dd631ab5ff",
+      "audio_md5": "MD5=a4b9348190f84847507142f6a77a2ad5",
+      "duration": 20.9,
+      "frames": 627,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75,
+      "render_elapsed_seconds": 6.95
+    },
+    {
+      "id": "BP03",
+      "visual_version": "v5-blueprint",
+      "citation": false,
+      "treatment": "motion",
+      "path": "variants/citation-off/BP03/BP03-motion.mp4",
+      "sha256": "6b63bd49234a6c9f635acddc954d92a53902efdbc5f3d99df1e1203424a65e85",
+      "audio_md5": "MD5=a4b9348190f84847507142f6a77a2ad5",
+      "duration": 20.9,
+      "frames": 627,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-4.24",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 1.75,
+      "render_elapsed_seconds": 7.02
+    }
+  ],
+  "motion": [
+    {
+      "id": "BP04",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BP04/BP04-motion.mp4",
+      "sha256": "6b9ca2002062feb2d4a586f0cf1addcebef183907553fb8d081bf91b827b8702",
+      "audio_md5": "MD5=43141d6c07e0ae3ab3df9235cae5174e",
+      "duration": 18.5,
+      "frames": 555,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.36",
+        "input_tp": "-4.64",
+        "input_lra": "2.50"
+      },
+      "answer_starts_seconds": 2.23,
+      "render_elapsed_seconds": 6.16
+    },
+    {
+      "id": "BP04",
+      "visual_version": "v5-blueprint",
+      "citation": true,
+      "treatment": "static",
+      "path": "BP04/BP04-static.mp4",
+      "sha256": "0bd846d0da39bba514dadc2d34d0f72b03717048dcec25364610bb9aa2d00a2f",
+      "audio_md5": "MD5=43141d6c07e0ae3ab3df9235cae5174e",
+      "duration": 18.5,
+      "frames": 555,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.36",
+        "input_tp": "-4.64",
+        "input_lra": "2.50"
+      },
+      "answer_starts_seconds": 2.23,
+      "render_elapsed_seconds": 6.35
+    }
+  ]
+}

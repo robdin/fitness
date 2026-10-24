@@ -1,0 +1,1516 @@
+{
+  "id": "month-one-v5-blueprint",
+  "prepared_at": "2026-10-23",
+  "month": "2026-11",
+  "timezone": "America/New_York",
+  "purpose": "Audience interest and a sustainable production process",
+  "status": "production_candidate_review_pending_not_scheduled",
+  "cadence": "Four core videos per week, cross-posted to Shorts and Reels; one original master per episode",
+  "duration_target_seconds": [
+    18,
+    30
+  ],
+  "estimated_duration_basis": "Actual provider audio determines duration; range is an editorial target, not a hard speed-up rule.",
+  "weekly_capacity_hours": 12,
+  "weekly_capacity": [
+    {
+      "task": "Research and claim/source review",
+      "hours": 1.5
+    },
+    {
+      "task": "Script and caption editing",
+      "hours": 1
+    },
+    {
+      "task": "Visual, voice and full-video review",
+      "hours": 3.5
+    },
+    {
+      "task": "Supporting posts",
+      "hours": 1
+    },
+    {
+      "task": "Cross-posting and uploader checks",
+      "hours": 0.75
+    },
+    {
+      "task": "Community response review",
+      "hours": 0.75
+    },
+    {
+      "task": "Metrics export and decision log",
+      "hours": 0.75
+    },
+    {
+      "task": "Corrections and rework",
+      "hours": 1.5
+    },
+    {
+      "task": "Contingency",
+      "hours": 1.25
+    }
+  ],
+  "episode_ids": [
+    "BP01",
+    "BP02",
+    "BP03",
+    "BP04",
+    "BP05",
+    "BP06",
+    "BP07",
+    "BP08",
+    "BP09",
+    "BP10",
+    "BP11",
+    "BP12",
+    "BP13",
+    "BP14",
+    "BP15",
+    "BP16"
+  ],
+  "episodes": [
+    {
+      "id": "BP01",
+      "week": 1,
+      "day": 1,
+      "publish_at": "2026-11-01T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "planning",
+      "hook_type": "Q",
+      "title": "First gym visit—what do you do first?",
+      "alternate_hook_not_scheduled": "Make three decisions before your first gym visit.",
+      "community_ids": [
+        "D01",
+        "D03",
+        "D05"
+      ],
+      "evidence_ids": [
+        "F02",
+        "F06"
+      ],
+      "creator_ids": [
+        "C07"
+      ],
+      "why_this_topic": "First-visit uncertainty precedes advanced training questions. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "bounded_guidance_with_editorial_action",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "First gym visit. What do you do first?",
+          "visual": "FIRST VISIT.|NOW WHAT?"
+        },
+        {
+          "role": "answer",
+          "narration": "Make three decisions before you walk in.",
+          "visual": "THREE DECISIONS."
+        },
+        {
+          "role": "example",
+          "narration": "Choose your training days, bring a beginner routine, and know who can show you the equipment.",
+          "visual": "DAYS. PLAN.|SETUP HELP."
+        },
+        {
+          "role": "boundary",
+          "narration": "An exercise video cannot check your setup in person.",
+          "visual": "ASK SOMEONE|WHO CAN SEE."
+        },
+        {
+          "role": "action",
+          "narration": "Ask the gym about an orientation. Put the routine in your phone so you can follow it there.",
+          "visual": "BRING YOUR|NEXT STEP."
+        },
+        {
+          "role": "close",
+          "narration": "What feels less clear right now: the plan, or the machines?",
+          "visual": "THE PLAN?|THE MACHINES?"
+        }
+      ],
+      "caption": "Before your first visit: choose days, bring a beginner routine and ask about an equipment orientation.",
+      "cta": "What feels less clear right now: the plan, or the machines?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Prepare days, routine and setup help; seek an orientation.",
+        "critical_error": "A short video checks my individual technique or provides a full routine."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 69,
+      "prior_slot_id": "B01",
+      "series": "Dream / Plan",
+      "voice_reuse_from": "B01"
+    },
+    {
+      "id": "BP02",
+      "week": 1,
+      "day": 3,
+      "publish_at": "2026-11-03T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "strength",
+      "hook_type": "A",
+      "title": "Machines can be a valid place to start.",
+      "alternate_hook_not_scheduled": "Do you have to start with free weights?",
+      "community_ids": [
+        "D11",
+        "LR16"
+      ],
+      "evidence_ids": [
+        "E06",
+        "F01"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Removes a status barrier without overpromising equipment equivalence. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "bounded_guidance_with_editorial_action",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Machines can be a valid place to start.",
+          "visual": "MACHINES|COUNT TOO."
+        },
+        {
+          "role": "answer",
+          "narration": "You do not have to earn your place at the gym with a barbell.",
+          "visual": "START WITH|A CLEAR SETUP."
+        },
+        {
+          "role": "example",
+          "narration": "Adult research finds muscle growth with both machines and free weights. Strength also depends on what you practice.",
+          "visual": "TWO TOOLS.|DIFFERENT SKILLS."
+        },
+        {
+          "role": "boundary",
+          "narration": "That does not make every exercise interchangeable.",
+          "visual": "NOT EVERY LIFT|IS A SUBSTITUTE."
+        },
+        {
+          "role": "action",
+          "narration": "Ask for the setup, choose an option in your routine, and record its settings.",
+          "visual": "SAVE THE|SETTINGS."
+        },
+        {
+          "role": "close",
+          "narration": "Which machine would you like explained?",
+          "visual": "WHICH MACHINE|NEEDS EXPLAINING?"
+        }
+      ],
+      "caption": "Machines are a valid option. Ask about setup and keep the settings in your log; this is not a claim that all exercises are interchangeable.",
+      "cta": "Which machine would you like explained?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Machines can be useful; specific strength and setup matter.",
+        "critical_error": "Every machine and free-weight exercise is identical or equally safe for everyone."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 67,
+      "prior_slot_id": "B02",
+      "series": "Worth your effort",
+      "voice_reuse_from": "B02"
+    },
+    {
+      "id": "BP03",
+      "week": 1,
+      "day": 5,
+      "publish_at": "2026-11-05T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "strength",
+      "hook_type": "Q",
+      "title": "Are you rushing your next set?",
+      "alternate_hook_not_scheduled": "Rest belongs in the workout.",
+      "community_ids": [
+        "LR02",
+        "LR14"
+      ],
+      "evidence_ids": [
+        "E16"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Turns a time-efficiency debate into a visible beginner decision. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "bounded_guidance_with_editorial_action",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Are you rushing your next set?",
+          "visual": "NEXT SET.|READY ALREADY?"
+        },
+        {
+          "role": "answer",
+          "narration": "Rest belongs in the workout. It is not automatically wasted time.",
+          "visual": "REST IS PART|OF THE WORK."
+        },
+        {
+          "role": "example",
+          "narration": "One small study in trained men found advantages for three minutes over one on some outcomes.",
+          "visual": "1 MINUTE|VERSUS 3."
+        },
+        {
+          "role": "boundary",
+          "narration": "That does not make three minutes the rule for every exercise.",
+          "visual": "ONE STUDY.|NOT EVERY SET."
+        },
+        {
+          "role": "action",
+          "narration": "Follow your routine, use a timer, and note whether performance drops across sets.",
+          "visual": "TIME IT.|NOTICE THE SET."
+        },
+        {
+          "role": "close",
+          "narration": "Do you time your rest, or guess?",
+          "visual": "TIMER|OR GUESS?"
+        }
+      ],
+      "caption": "Rest is part of training. Use your routine’s guidance and observe how the next set goes; one trial is not a universal prescription.",
+      "cta": "Do you time your rest, or guess?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Rest is useful; follow routine rather than universal timer rule.",
+        "critical_error": "Every exercise requires exactly three minutes or shorter rest is always bad."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 64,
+      "prior_slot_id": "B03",
+      "series": "Worth your effort",
+      "voice_reuse_from": "B03"
+    },
+    {
+      "id": "BP04",
+      "week": 1,
+      "day": 7,
+      "publish_at": "2026-11-07T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "movement",
+      "hook_type": "A",
+      "title": "A short walk can fit into your real week.",
+      "alternate_hook_not_scheduled": "Where could a short walk fit into your week?",
+      "community_ids": [
+        "BPD02"
+      ],
+      "evidence_ids": [
+        "BPF01"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Broader lifestyle brief and bounded community demand: A short walk can fit into your real week.",
+      "claim_type": "guidance_with_editorial_example",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "A short walk can have a place in your week.",
+          "visual": "A SHORT WALK.|A REAL PLACE."
+        },
+        {
+          "role": "answer",
+          "narration": "Adult activity guidance lets you build movement in smaller chunks.",
+          "visual": "SMALLER CHUNKS.|PART OF THE WEEK."
+        },
+        {
+          "role": "example",
+          "narration": "Try planning a familiar route after lunch, with an indoor backup.",
+          "visual": "AFTER LUNCH?|HAVE A BACKUP."
+        },
+        {
+          "role": "boundary",
+          "narration": "That example is a starting point, not the whole activity target.",
+          "visual": "A STARTING POINT.|NOT THE FULL TARGET."
+        },
+        {
+          "role": "action",
+          "narration": "Choose a time and route that fit your current ability.",
+          "visual": "YOUR TIME.|YOUR ROUTE."
+        },
+        {
+          "role": "close",
+          "narration": "What gets in the way: timing, or a place to walk?",
+          "visual": "FINDING TIME?|FINDING A PLACE?"
+        }
+      ],
+      "caption": "A practical walking plan starts with a usable time and route. Adult activity guidance allows smaller chunks; this example is not a complete weekly target.",
+      "cta": "What gets in the way: timing, or a place to walk?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not establish?",
+        "answer": "Choose a feasible walking time and route with a backup; adult guidance includes broader activity needs.",
+        "critical_error": "Any short walk meets all adult activity needs, or one dose works for all ages."
+      },
+      "age_scope": "General planning and learning; adult activity guidance is adult-only. No calorie, supplement or exercise-dose prescription for teenagers.",
+      "script_words": 63,
+      "prior_slot_id": "B04",
+      "series": "Dream / Plan",
+      "voice_reuse_from": null
+    },
+    {
+      "id": "BP05",
+      "week": 2,
+      "day": 8,
+      "publish_at": "2026-11-08T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "strength",
+      "hook_type": "Q",
+      "title": "What weight should you start with?",
+      "alternate_hook_not_scheduled": "Start with learning the movement, not a record.",
+      "community_ids": [
+        "D01",
+        "D11"
+      ],
+      "evidence_ids": [
+        "F02",
+        "F01"
+      ],
+      "creator_ids": [
+        "C07"
+      ],
+      "why_this_topic": "Answers a high-stakes first-session choice without inventing a universal number. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "bounded_guidance_with_editorial_action",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "What weight should you start with?",
+          "visual": "WHAT WEIGHT|DO I START WITH?"
+        },
+        {
+          "role": "answer",
+          "narration": "Start with learning the movement, not chasing a number.",
+          "visual": "LEARN THE|MOVEMENT FIRST."
+        },
+        {
+          "role": "example",
+          "narration": "Ask a qualified instructor to check the setup and help you choose a manageable starting load.",
+          "visual": "SETUP.|MANAGEABLE LOAD."
+        },
+        {
+          "role": "boundary",
+          "narration": "At sixteen or seventeen, appropriate supervision matters. This video cannot choose your weight remotely.",
+          "visual": "16–17?|GET SUPERVISION."
+        },
+        {
+          "role": "action",
+          "narration": "Record the load and how the set went. Progress using your routine, with control.",
+          "visual": "RECORD.|THEN PROGRESS."
+        },
+        {
+          "role": "close",
+          "narration": "Is choosing the weight or learning the setup harder?",
+          "visual": "THE WEIGHT?|THE SETUP?"
+        }
+      ],
+      "caption": "A starting weight is individual. Get setup help, learn control and use your routine’s progression; under-18 beginners need appropriate supervision.",
+      "cta": "Is choosing the weight or learning the setup harder?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Use instruction and manageable learning load; video cannot prescribe remotely.",
+        "critical_error": "Copy the displayed weight or attempt a maximum to choose starting load."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 68,
+      "prior_slot_id": "B05",
+      "series": "Worth your effort",
+      "voice_reuse_from": "B05"
+    },
+    {
+      "id": "BP06",
+      "week": 2,
+      "day": 10,
+      "publish_at": "2026-11-10T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "strength",
+      "hook_type": "A",
+      "title": "Soreness is not your progress score.",
+      "alternate_hook_not_scheduled": "Not sore—did the workout count?",
+      "community_ids": [
+        "LR06",
+        "LR09"
+      ],
+      "evidence_ids": [
+        "F08",
+        "E13"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Replaces an emotional but unreliable success signal. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "bounded_guidance_with_editorial_action",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Soreness is not your progress score.",
+          "visual": "SORENESS ≠|PROGRESS SCORE."
+        },
+        {
+          "role": "answer",
+          "narration": "A workout does not need to leave you sore to count.",
+          "visual": "NO ACHE|REQUIRED."
+        },
+        {
+          "role": "example",
+          "narration": "Look at what you completed and how comparable sets change over time.",
+          "visual": "LOOK AT|THE RECORD."
+        },
+        {
+          "role": "boundary",
+          "narration": "Do not add work just to chase soreness. Sharp or worsening pain needs attention, not a tougher challenge.",
+          "visual": "DON’T CHASE|MORE SORENESS."
+        },
+        {
+          "role": "action",
+          "narration": "Keep a simple training log instead of rating the workout by tomorrow’s ache.",
+          "visual": "LOG THE WORK.|WATCH THE PATTERN."
+        },
+        {
+          "role": "close",
+          "narration": "What do you currently use to judge a session?",
+          "visual": "HOW DO YOU|JUDGE A SESSION?"
+        }
+      ],
+      "caption": "Soreness is not an effectiveness score. Compare your training records. Do not push through sharp or worsening pain.",
+      "cta": "What do you currently use to judge a session?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Use training records, not soreness as effectiveness/growth test.",
+        "critical_error": "All pain is harmless or no soreness proves lack of muscle growth."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 69,
+      "prior_slot_id": "B06",
+      "series": "Life happens",
+      "voice_reuse_from": "B06"
+    },
+    {
+      "id": "BP07",
+      "week": 2,
+      "day": 12,
+      "publish_at": "2026-11-12T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "movement",
+      "hook_type": "Q",
+      "title": "First run club: what should you check?",
+      "alternate_hook_not_scheduled": "Check the route and pace before your first run club.",
+      "community_ids": [
+        "BPD01"
+      ],
+      "evidence_ids": [
+        "BPF04"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Broader lifestyle brief and bounded community demand: First run club: what should you check?",
+      "claim_type": "editorial_checklist_with_context_source",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "First run club. What should you check before going?",
+          "visual": "FIRST RUN CLUB.|WHAT DO YOU ASK?"
+        },
+        {
+          "role": "answer",
+          "narration": "Ask about distance, pace groups, and whether walk breaks fit.",
+          "visual": "DISTANCE. PACE.|WALK BREAKS."
+        },
+        {
+          "role": "example",
+          "narration": "A group saying all paces welcome may still have a route or minimum pace.",
+          "visual": "ALL PACES?|CHECK THE DETAILS."
+        },
+        {
+          "role": "boundary",
+          "narration": "One club's beginner session doesn't describe every club.",
+          "visual": "EACH CLUB|IS DIFFERENT."
+        },
+        {
+          "role": "action",
+          "narration": "Check the event details and ask who supports the slowest group.",
+          "visual": "ASK BEFORE|YOU GO."
+        },
+        {
+          "role": "close",
+          "narration": "Would you rather start with a walking group or a run-walk group?",
+          "visual": "WALKING GROUP?|RUN-WALK GROUP?"
+        }
+      ],
+      "caption": "Before joining, check the event distance, pace groups, walk-break options and beginner support. This is an editorial checklist, with one real club as context.",
+      "cta": "Would you rather start with a walking group or a run-walk group?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not establish?",
+        "answer": "Check the actual club event and support before going; labels alone do not establish a suitable route.",
+        "critical_error": "Every all-paces club has a group suited to me, or this video prescribes a safe running distance."
+      },
+      "age_scope": "General planning and learning; adult activity guidance is adult-only. No calorie, supplement or exercise-dose prescription for teenagers.",
+      "script_words": 64,
+      "prior_slot_id": "B07",
+      "series": "Dream / Plan",
+      "voice_reuse_from": null
+    },
+    {
+      "id": "BP08",
+      "week": 2,
+      "day": 14,
+      "publish_at": "2026-11-14T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "strength",
+      "hook_type": "A",
+      "title": "Two gym days. Build your plan around them.",
+      "alternate_hook_not_scheduled": "Only two gym days—where do you start?",
+      "community_ids": [
+        "LR01",
+        "D04"
+      ],
+      "evidence_ids": [
+        "F01",
+        "F04",
+        "F05"
+      ],
+      "creator_ids": [
+        "C01"
+      ],
+      "why_this_topic": "Fits actual availability while retaining adult/youth scope. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "bounded_guidance_with_editorial_action",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Two gym days. Build your plan around them.",
+          "visual": "TWO DAYS.|BUILD AROUND THEM."
+        },
+        {
+          "role": "answer",
+          "narration": "Choose a beginner routine designed for the days you can attend.",
+          "visual": "A ROUTINE|THAT FITS."
+        },
+        {
+          "role": "example",
+          "narration": "Adult guidance includes training major muscle groups at least twice a week.",
+          "visual": "PLAN THE|WEEKLY WORK."
+        },
+        {
+          "role": "boundary",
+          "narration": "That does not promise every two day routine matches more training, or cover all activity needs.",
+          "visual": "NO EQUAL-GAINS|PROMISE."
+        },
+        {
+          "role": "action",
+          "narration": "Put the sessions in your calendar and prepare the exercises before you arrive.",
+          "visual": "PUT IT IN|THE CALENDAR."
+        },
+        {
+          "role": "close",
+          "narration": "Which is harder: finding the days, or keeping them?",
+          "visual": "FIND THE DAYS?|KEEP THE DAYS?"
+        }
+      ],
+      "caption": "Choose a routine that fits your available days. Adult strengthening guidance does not replace aerobic activity or youth-specific guidance.",
+      "cta": "Which is harder: finding the days, or keeping them?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Build around available days; adult guidance is not an optimal-gains guarantee.",
+        "critical_error": "Two gym sessions fulfill all activity needs for everyone including teens."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 69,
+      "prior_slot_id": "B08",
+      "series": "Dream / Plan",
+      "voice_reuse_from": "B08"
+    },
+    {
+      "id": "BP09",
+      "week": 3,
+      "day": 15,
+      "publish_at": "2026-11-15T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "food",
+      "hook_type": "A",
+      "title": "Protein powder is a convenience, not a starting requirement.",
+      "alternate_hook_not_scheduled": "Do you need protein powder to start?",
+      "community_ids": [
+        "D06",
+        "D09"
+      ],
+      "evidence_ids": [
+        "F03"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Addresses a purchasing question without building a supplement funnel. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "bounded_guidance_with_editorial_action",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Protein powder is a convenience, not a starting requirement.",
+          "visual": "POWDER IS|OPTIONAL."
+        },
+        {
+          "role": "answer",
+          "narration": "Food can supply protein too.",
+          "visual": "FOOD COUNTS|TOO."
+        },
+        {
+          "role": "example",
+          "narration": "Eggs, dairy, beans, tofu, fish, or meat can contribute, depending on what you eat.",
+          "visual": "MORE THAN|ONE SOURCE."
+        },
+        {
+          "role": "boundary",
+          "narration": "A powder does not replace a varied diet. Teenagers should get individual nutrition advice before adding supplements.",
+          "visual": "NOT A DIET|REPLACEMENT."
+        },
+        {
+          "role": "action",
+          "narration": "Start by noticing the protein foods already in your meals.",
+          "visual": "START WITH|YOUR MEALS."
+        },
+        {
+          "role": "close",
+          "narration": "What feels more confusing: meal ideas, or supplement claims?",
+          "visual": "MEAL IDEAS?|MARKETING CLAIMS?"
+        }
+      ],
+      "caption": "Protein powder can be convenient; it is not a starting requirement. No product or personal intake target is prescribed here.",
+      "cta": "What feels more confusing: meal ideas, or supplement claims?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Protein foods count; powder optional and not a varied diet replacement.",
+        "critical_error": "Powder is mandatory or adult supplement dosages apply to teenagers."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 64,
+      "prior_slot_id": "B09",
+      "series": "Worth your effort",
+      "voice_reuse_from": "B09"
+    },
+    {
+      "id": "BP10",
+      "week": 3,
+      "day": 17,
+      "publish_at": "2026-11-17T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "strength",
+      "hook_type": "Q",
+      "title": "One bad workout—are you stuck?",
+      "alternate_hook_not_scheduled": "One session is not a pattern.",
+      "community_ids": [
+        "LR10",
+        "LR19"
+      ],
+      "evidence_ids": [],
+      "creator_ids": [],
+      "why_this_topic": "Turns uncertainty into a better question rather than immediate program hopping. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "editorial_workflow",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "One bad workout. Are you stuck?",
+          "visual": "ONE BAD DAY.|STUCK ALREADY?"
+        },
+        {
+          "role": "answer",
+          "narration": "One session is not enough to call it a pattern.",
+          "visual": "ONE SESSION|IS NOT A PATTERN."
+        },
+        {
+          "role": "example",
+          "narration": "Compare the same exercise across several sessions. Note the load, reps, rest, and setup.",
+          "visual": "COMPARE LIKE|WITH LIKE."
+        },
+        {
+          "role": "boundary",
+          "narration": "A different machine or a different stopping rule can change the comparison.",
+          "visual": "DIFFERENT SETUP?|DIFFERENT TEST."
+        },
+        {
+          "role": "action",
+          "narration": "Use the log before rewriting the whole routine. A persistent problem deserves a closer review.",
+          "visual": "CHECK THE LOG|BEFORE THE RESET."
+        },
+        {
+          "role": "close",
+          "narration": "What changes most between your sessions?",
+          "visual": "WHAT CHANGES|BETWEEN SESSIONS?"
+        }
+      ],
+      "caption": "Compare the same task under similar conditions before changing everything. This is a planning checklist, not a diagnosis of a plateau.",
+      "cta": "What changes most between your sessions?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Compare several similar sessions; one bad workout does not diagnose plateau.",
+        "critical_error": "Ignore persistent problems or the example proves a particular growth trend."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 63,
+      "prior_slot_id": "B10",
+      "series": "Life happens",
+      "voice_reuse_from": "B10"
+    },
+    {
+      "id": "BP11",
+      "week": 3,
+      "day": 19,
+      "publish_at": "2026-11-19T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "food",
+      "hook_type": "A",
+      "title": "Tomorrow's lunch starts with what you have.",
+      "alternate_hook_not_scheduled": "What would make tomorrow's lunch easier?",
+      "community_ids": [
+        "BPD02",
+        "BPD03"
+      ],
+      "evidence_ids": [
+        "BPF02"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Broader lifestyle brief and bounded community demand: Tomorrow's lunch starts with what you have.",
+      "claim_type": "guidance_with_editorial_example",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Tomorrow's lunch can start with what you already have.",
+          "visual": "TOMORROW'S LUNCH.|START HERE."
+        },
+        {
+          "role": "answer",
+          "narration": "Choose one simple meal before building a bigger shopping list.",
+          "visual": "ONE MEAL.|THEN THE LIST."
+        },
+        {
+          "role": "example",
+          "narration": "Think beans, rice, and frozen vegetables, adapted to your taste and budget.",
+          "visual": "BEANS. RICE.|FROZEN VEG."
+        },
+        {
+          "role": "boundary",
+          "narration": "That's a meal idea, not a complete diet or a personal portion target.",
+          "visual": "AN IDEA.|NOT A WHOLE DIET."
+        },
+        {
+          "role": "action",
+          "narration": "Check your kitchen, then list only what's missing for that meal.",
+          "visual": "CHECK FIRST.|BUY WHAT IS MISSING."
+        },
+        {
+          "role": "close",
+          "narration": "Which is harder: choosing a meal, or making time to cook?",
+          "visual": "CHOOSING FOOD?|TIME TO COOK?"
+        }
+      ],
+      "caption": "Choose a simple meal, check what you already have, and list missing ingredients. Beans, rice and frozen vegetables are one adaptable example, not a complete diet or a portion prescription.",
+      "cta": "Which is harder: choosing a meal, or making time to cook?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not establish?",
+        "answer": "Plan one suitable meal using existing food and a short list; portions and a whole diet need individual context.",
+        "critical_error": "The example is a complete diet, universally suitable meal or a weight-loss prescription."
+      },
+      "age_scope": "General planning and learning; adult activity guidance is adult-only. No calorie, supplement or exercise-dose prescription for teenagers.",
+      "script_words": 66,
+      "prior_slot_id": "B11",
+      "series": "Worth your effort",
+      "voice_reuse_from": null,
+      "caption_overrides": {
+        "0": [
+          "Tomorrow's lunch can start",
+          "with what you already have."
+        ]
+      }
+    },
+    {
+      "id": "BP12",
+      "week": 3,
+      "day": 21,
+      "publish_at": "2026-11-21T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "strength",
+      "hook_type": "Q",
+      "title": "Does every set need to end in failure?",
+      "alternate_hook_not_scheduled": "Every set does not need to end in failure.",
+      "community_ids": [
+        "D08",
+        "LR06",
+        "LR07"
+      ],
+      "evidence_ids": [
+        "E03",
+        "F01"
+      ],
+      "creator_ids": [
+        "C08"
+      ],
+      "why_this_topic": "Clarifies an emotionally loaded word without equating difficulty with worth. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "bounded_guidance_with_editorial_action",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Does every set need to end in failure?",
+          "visual": "FAIL EVERY SET?|NOT REQUIRED."
+        },
+        {
+          "role": "answer",
+          "narration": "No. A challenging set does not always require a failed repetition.",
+          "visual": "CHALLENGING|IS THE IDEA."
+        },
+        {
+          "role": "example",
+          "narration": "In adult studies, stopping closer to failure tends to favor muscle growth. The best target is uncertain.",
+          "visual": "EFFORT MATTERS.|THE TARGET VARIES."
+        },
+        {
+          "role": "boundary",
+          "narration": "Failure means you cannot complete another rep as intended. It is not a test of character.",
+          "visual": "A REP LIMIT.|NOT YOUR IDENTITY."
+        },
+        {
+          "role": "action",
+          "narration": "Follow your routine’s effort guidance and learn the movement with control.",
+          "visual": "FOLLOW THE|EFFORT GUIDANCE."
+        },
+        {
+          "role": "close",
+          "narration": "Which effort term needs translating?",
+          "visual": "WHICH TERM|NEEDS TRANSLATING?"
+        }
+      ],
+      "caption": "Effort matters, but failure on every set is not a universal requirement. Learn the movement and follow the effort guidance in your routine.",
+      "cta": "Which effort term needs translating?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Hard training does not require every set to reach failure; targets vary.",
+        "critical_error": "Easy sets always maximize growth or everyone should fail every set."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 68,
+      "prior_slot_id": "B12",
+      "series": "Worth your effort",
+      "voice_reuse_from": "B12"
+    },
+    {
+      "id": "BP13",
+      "week": 4,
+      "day": 22,
+      "publish_at": "2026-11-22T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "planning",
+      "hook_type": "A",
+      "title": "A better scorecard for month one.",
+      "alternate_hook_not_scheduled": "How should you judge your first month?",
+      "community_ids": [
+        "D02",
+        "LR10"
+      ],
+      "evidence_ids": [],
+      "creator_ids": [],
+      "why_this_topic": "Provides a competence-focused milestone without appearance pressure. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "editorial_workflow",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "A better scorecard for month one.",
+          "visual": "MONTH ONE.|A BETTER SCORECARD."
+        },
+        {
+          "role": "answer",
+          "narration": "Track visits, setup skills, and your training log.",
+          "visual": "SHOW UP.|LEARN. RECORD."
+        },
+        {
+          "role": "example",
+          "narration": "These show what you did, even if the mirror looks the same.",
+          "visual": "REVIEW WHAT|YOU CAN SEE."
+        },
+        {
+          "role": "boundary",
+          "narration": "They do not measure muscle growth or promise a deadline.",
+          "visual": "NO MIRROR|DEADLINE."
+        },
+        {
+          "role": "action",
+          "narration": "Review the month. Pick one thing to improve next time.",
+          "visual": "ONE IMPROVEMENT|FOR NEXT MONTH."
+        },
+        {
+          "role": "close",
+          "narration": "What feels easier than on your first visit?",
+          "visual": "WHAT FEELS|EASIER NOW?"
+        }
+      ],
+      "caption": "Review attendance, setup confidence and recording habits. These are process measures, not a promise of visible change in a month.",
+      "cta": "What feels easier than on your first visit?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Use process measures without claiming they measure muscle growth.",
+        "critical_error": "A month guarantees a visible transformation or attendance proves hypertrophy."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 54,
+      "prior_slot_id": "B13",
+      "series": "Life happens",
+      "voice_reuse_from": "B13"
+    },
+    {
+      "id": "BP14",
+      "week": 4,
+      "day": 24,
+      "publish_at": "2026-11-24T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "recovery",
+      "hook_type": "Q",
+      "title": "Your workouts have a schedule. Does your sleep?",
+      "alternate_hook_not_scheduled": "Give sleep a realistic place in your week.",
+      "community_ids": [
+        "BPD02"
+      ],
+      "evidence_ids": [
+        "BPF03"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Broader lifestyle brief and bounded community demand: Your workouts have a schedule. Does your sleep?",
+      "claim_type": "guidance_with_editorial_example",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Your workouts have a schedule. Does your sleep?",
+          "visual": "WORKOUT SCHEDULE.|SLEEP SCHEDULE?"
+        },
+        {
+          "role": "answer",
+          "narration": "Start by looking for a more regular bedtime and wake time.",
+          "visual": "BEDTIME.|WAKE TIME."
+        },
+        {
+          "role": "example",
+          "narration": "The CDC includes consistent sleep timing in its healthy sleep guidance.",
+          "visual": "CONSISTENCY|IS IN THE GUIDANCE."
+        },
+        {
+          "role": "boundary",
+          "narration": "Shift work and caring responsibilities can complicate that. Ongoing sleep problems deserve professional advice.",
+          "visual": "REAL CONSTRAINTS.|GET HELP IF NEEDED."
+        },
+        {
+          "role": "action",
+          "narration": "Pick one change that gives sleep a realistic place in your week.",
+          "visual": "ONE REALISTIC|CHANGE."
+        },
+        {
+          "role": "close",
+          "narration": "What's the bigger obstacle: bedtime, or your morning schedule?",
+          "visual": "BEDTIME?|MORNING SCHEDULE?"
+        }
+      ],
+      "caption": "Regular bed and wake times are part of CDC sleep guidance. Work and caring responsibilities matter; ongoing sleep problems deserve professional advice. Sleep needs also differ by age.",
+      "cta": "What's the bigger obstacle: bedtime, or your morning schedule?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not establish?",
+        "answer": "Consider consistent bed/wake timing within real constraints; persistent sleep problems need professional advice.",
+        "critical_error": "A schedule alone treats insomnia or one sleep duration applies to adults and teenagers."
+      },
+      "age_scope": "General planning and learning; adult activity guidance is adult-only. No calorie, supplement or exercise-dose prescription for teenagers.",
+      "script_words": 65,
+      "prior_slot_id": "B14",
+      "series": "Life happens",
+      "voice_reuse_from": null
+    },
+    {
+      "id": "BP15",
+      "week": 4,
+      "day": 26,
+      "publish_at": "2026-11-26T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "movement",
+      "hook_type": "A",
+      "title": "Your next activity can start as a tryout.",
+      "alternate_hook_not_scheduled": "What activity would you try as a beginner?",
+      "community_ids": [
+        "BPD02"
+      ],
+      "evidence_ids": [
+        "BPF05"
+      ],
+      "creator_ids": [],
+      "why_this_topic": "Broader lifestyle brief and bounded community demand: Your next activity can start as a tryout.",
+      "claim_type": "editorial_checklist_with_context_source",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Your next activity can start as a tryout.",
+          "visual": "TRY AN ACTIVITY.|START AS A BEGINNER."
+        },
+        {
+          "role": "answer",
+          "narration": "Pick something you're curious about, then check the practical details.",
+          "visual": "CURIOSITY.|THEN THE DETAILS."
+        },
+        {
+          "role": "example",
+          "narration": "Cost, travel, beginner instruction, and equipment can decide whether it fits.",
+          "visual": "COST. TRAVEL.|HELP. EQUIPMENT."
+        },
+        {
+          "role": "boundary",
+          "narration": "Trying one activity doesn't guarantee a habit or cover every fitness goal.",
+          "visual": "ONE TRYOUT.|NOT EVERY GOAL."
+        },
+        {
+          "role": "action",
+          "narration": "Find one beginner session and check its access requirements before booking.",
+          "visual": "CHECK THE|BEGINNER SESSION."
+        },
+        {
+          "role": "close",
+          "narration": "What would you try if you didn't have to be good at it?",
+          "visual": "WHAT WOULD|YOU TRY?"
+        }
+      ],
+      "caption": "A practical tryout: check cost, travel, beginner support, equipment and accessibility. This editorial checklist helps choose an option; it does not guarantee a lasting habit or cover every fitness goal.",
+      "cta": "What would you try if you didn't have to be good at it?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not establish?",
+        "answer": "Choose an interesting, accessible beginner option and check its practical requirements.",
+        "critical_error": "One recreational activity guarantees adherence or replaces every kind of training."
+      },
+      "age_scope": "General planning and learning; adult activity guidance is adult-only. No calorie, supplement or exercise-dose prescription for teenagers.",
+      "script_words": 65,
+      "prior_slot_id": "B15",
+      "series": "Dream / Plan",
+      "voice_reuse_from": null
+    },
+    {
+      "id": "BP16",
+      "week": 4,
+      "day": 28,
+      "publish_at": "2026-11-28T18:00:00-05:00",
+      "platforms": [
+        "youtube_shorts",
+        "instagram_reels"
+      ],
+      "cluster": "planning",
+      "hook_type": "Q",
+      "title": "Missed a workout—what happens next?",
+      "alternate_hook_not_scheduled": "Missed a workout? Plan the next one.",
+      "community_ids": [
+        "D01",
+        "LR01"
+      ],
+      "evidence_ids": [],
+      "creator_ids": [
+        "C07"
+      ],
+      "why_this_topic": "Closes the month with a sustainable return path rather than perfectionism. Retained evidence boundary; Blueprint presentation links the decision to real-life use.",
+      "claim_type": "editorial_workflow",
+      "status": "production_candidate_review_pending",
+      "beats": [
+        {
+          "role": "hook",
+          "narration": "Missed a workout. What happens next?",
+          "visual": "MISSED A DAY.|NOW WHAT?"
+        },
+        {
+          "role": "answer",
+          "narration": "Choose your next realistic session instead of turning the miss into a punishment.",
+          "visual": "PLAN THE|NEXT VISIT."
+        },
+        {
+          "role": "example",
+          "narration": "Check how your routine handles a missed day, then put the next visit in your calendar.",
+          "visual": "CHECK YOUR|ROUTINE’S GUIDANCE."
+        },
+        {
+          "role": "boundary",
+          "narration": "Do not automatically double the work to catch up.",
+          "visual": "NO AUTOMATIC|DOUBLE SESSION."
+        },
+        {
+          "role": "action",
+          "narration": "Notice what got in the way and make one adjustment you can repeat.",
+          "visual": "ONE BARRIER.|ONE ADJUSTMENT."
+        },
+        {
+          "role": "close",
+          "narration": "What would help more next week: a clearer plan, or a backup time?",
+          "visual": "CLEARER PLAN?|BACKUP TIME?"
+        }
+      ],
+      "caption": "A missed day is a planning problem. Check your routine’s guidance, choose the next realistic visit and address one barrier.",
+      "cta": "What would help more next week: a clearer plan, or a backup time?",
+      "comprehension": {
+        "question": "What is the main point, what would you do next, and what does this not prove?",
+        "answer": "Use routine guidance and realistic next visit rather than punishment volume.",
+        "critical_error": "Always double the next workout or ignore recovery/health needs."
+      },
+      "age_scope": "General learning and planning; any explicit adult research claim stays adult-only. Under-18 setup uses qualified supervision.",
+      "script_words": 70,
+      "prior_slot_id": "B16",
+      "series": "Life happens",
+      "voice_reuse_from": "B16"
+    }
+  ],
+  "supporting_posts": [
+    {
+      "id": "BPS01",
+      "kind": "story",
+      "day": 2,
+      "publish_at": "2026-11-02T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "What feels less clear?",
+      "episode_ids": [
+        "BP01"
+      ],
+      "frames": [
+        {
+          "text": "What feels less clear?",
+          "sticker": "native_poll",
+          "options": [
+            "The plan",
+            "The machines"
+          ]
+        },
+        {
+          "text": "Prepare days, a routine and setup help before your visit.",
+          "sticker": "none"
+        }
+      ],
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPK01",
+      "kind": "carousel",
+      "day": 4,
+      "publish_at": "2026-11-04T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Body of our dreams: why this exists",
+      "episode_ids": [],
+      "slides": [
+        "Your dream body. Your real life.",
+        "A friend wanted the “body of her dreams” while living a busy life.",
+        "It became our shared joke—and a goal we meant.",
+        "How you want to look, feel and move. Science-backed priorities that fit your life.",
+        "Start with the week you have. What would you like fitness to make possible?"
+      ],
+      "caption": "Our founding story: a sincere goal became a running joke, then the question behind this project. We cover training, movement, food and recovery through useful priorities and honest evidence. Your goals are personal.",
+      "status": "production_candidate_review_pending",
+      "source_note": "Founder story supplied by the owner; brand mission, not a study result."
+    },
+    {
+      "id": "BPS02",
+      "kind": "story",
+      "day": 6,
+      "publish_at": "2026-11-06T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "How do you track rest?",
+      "episode_ids": [
+        "BP03"
+      ],
+      "frames": [
+        {
+          "text": "How do you track rest?",
+          "sticker": "native_poll",
+          "options": [
+            "Use a timer",
+            "Usually guess"
+          ]
+        },
+        {
+          "text": "Follow your routine. A small trial does not set a universal rest time.",
+          "sticker": "none"
+        }
+      ],
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPS03",
+      "kind": "story",
+      "day": 9,
+      "publish_at": "2026-11-09T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "What needs explaining?",
+      "episode_ids": [
+        "BP05"
+      ],
+      "frames": [
+        {
+          "text": "What needs explaining?",
+          "sticker": "native_poll",
+          "options": [
+            "Starting weight",
+            "Machine setup"
+          ]
+        },
+        {
+          "text": "A qualified instructor can help with your actual setup and starting load.",
+          "sticker": "none"
+        }
+      ],
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPK02",
+      "kind": "carousel",
+      "day": 11,
+      "publish_at": "2026-11-11T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Before your first run club",
+      "episode_ids": [
+        "BP07"
+      ],
+      "slides": [
+        "First run club? Ask before you go.",
+        "What distance is the actual event?",
+        "Which pace groups and walk-break options are offered?",
+        "Who supports the slowest group? Check access and beginner requirements.",
+        "Use the answers to choose a suitable starting group. Every event is different."
+      ],
+      "caption": "An editorial first-visit checklist. A club example and community questions provide context; neither establishes what your local event offers.",
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPS04",
+      "kind": "story",
+      "day": 13,
+      "publish_at": "2026-11-13T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "Before your first group run",
+      "episode_ids": [
+        "BP07"
+      ],
+      "frames": [
+        {
+          "text": "What would you check first?",
+          "sticker": "native_poll",
+          "options": [
+            "Distance + pace",
+            "Walk-break options"
+          ]
+        },
+        {
+          "text": "Ask about both. “All paces” alone does not describe the actual event.",
+          "sticker": "none"
+        }
+      ],
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPS05",
+      "kind": "story",
+      "day": 16,
+      "publish_at": "2026-11-16T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "What would help next?",
+      "episode_ids": [
+        "BP09"
+      ],
+      "frames": [
+        {
+          "text": "What would help next?",
+          "sticker": "native_poll",
+          "options": [
+            "Meal ideas",
+            "Claim checks"
+          ]
+        },
+        {
+          "text": "Food can supply protein. Powder is optional, not a varied-diet replacement.",
+          "sticker": "none"
+        }
+      ],
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPK03",
+      "kind": "carousel",
+      "day": 18,
+      "publish_at": "2026-11-18T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "A lunch plan for a full week",
+      "episode_ids": [
+        "BP09",
+        "BP11"
+      ],
+      "slides": [
+        "Tomorrow’s lunch starts with one useful decision.",
+        "Check the food you already have.",
+        "Choose one meal that fits your taste, budget and time.",
+        "List what is missing. Beans, rice and frozen vegetables are one example.",
+        "One meal is not your whole diet. Adapt the idea to your needs."
+      ],
+      "caption": "A planning example for a busy day, informed by meal-planning guidance. No individual portion target or weight-change promise.",
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPS06",
+      "kind": "story",
+      "day": 20,
+      "publish_at": "2026-11-20T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "What makes lunch harder?",
+      "episode_ids": [
+        "BP11"
+      ],
+      "frames": [
+        {
+          "text": "What makes lunch harder?",
+          "sticker": "native_poll",
+          "options": [
+            "Choosing a meal",
+            "Finding the time"
+          ]
+        },
+        {
+          "text": "Try one suitable meal using what you have, then list what is missing.",
+          "sticker": "none"
+        }
+      ],
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPS07",
+      "kind": "story",
+      "day": 23,
+      "publish_at": "2026-11-23T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "What got easier?",
+      "episode_ids": [
+        "BP13"
+      ],
+      "frames": [
+        {
+          "text": "What got easier?",
+          "sticker": "native_poll",
+          "options": [
+            "Knowing the setup",
+            "Following the plan"
+          ]
+        },
+        {
+          "text": "Process improvements matter, but this is not a measurement of muscle growth.",
+          "sticker": "none"
+        }
+      ],
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPK04",
+      "kind": "carousel",
+      "day": 25,
+      "publish_at": "2026-11-25T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "A plan that fits the week you have",
+      "episode_ids": [
+        "BP04",
+        "BP08",
+        "BP14",
+        "BP16"
+      ],
+      "slides": [
+        "Dream body. Full calendar. Start with your actual week.",
+        "Place training in realistic slots and follow your routine’s guidance.",
+        "Find a usable time and route for a walk. It is one part of activity.",
+        "Give sleep a place too. Ongoing sleep difficulties deserve professional advice.",
+        "When life changes the plan, choose your next realistic step."
+      ],
+      "caption": "A planning framework across strength, movement and recovery. These examples do not form a complete individualized program.",
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    },
+    {
+      "id": "BPS08",
+      "kind": "story",
+      "day": 27,
+      "publish_at": "2026-11-27T18:00:00-05:00",
+      "platform": "instagram",
+      "title": "What would you try?",
+      "episode_ids": [
+        "BP15"
+      ],
+      "frames": [
+        {
+          "text": "What would you try first?",
+          "sticker": "native_poll",
+          "options": [
+            "A group activity",
+            "A solo activity"
+          ]
+        },
+        {
+          "text": "Check cost, travel, equipment and beginner support before deciding.",
+          "sticker": "none"
+        }
+      ],
+      "status": "production_candidate_review_pending",
+      "source_note": "Source links and limits come from the referenced episodes."
+    }
+  ],
+  "review_days": [
+    {
+      "day": 29,
+      "title": "Complete week-four review and labor log",
+      "action": "Review available 7-day snapshots and all four weeks of hands-on work. Week-four releases are not all mature."
+    },
+    {
+      "day": 30,
+      "title": "Provisional month-end review",
+      "action": "Freeze an interim report. At 18:00 only B01–B13 have reached seven days; wait until December 5 for the full planned cohort."
+    }
+  ],
+  "final_readout_at": "2026-12-05T18:00:00-05:00",
+  "bounded_extension_end": "2026-12-19T18:00:00-05:00",
+  "launch_assumption": "November 2026 planning dates retained; shift all slots if review delays launch. No platform scheduling performed.",
+  "brand": "blueprint",
+  "brand_selection": "Owner selected Blueprint on 2026-10-23; public name undecided.",
+  "visual_version": "v5-blueprint",
+  "brand_promise": "Your dream body. Your real life.",
+  "audience": "Inclusive beginner fitness; adult study scope remains explicit. Not validated across demographics."
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23",
+  "python_tests_passed": 63,
+  "node_tests_passed": 18,
+  "desktop_viewport_width": 1728,
+  "phone_viewport_width": 390,
+  "phone_document_width": 390,
+  "main_hub_linked_resources": 189,
+  "main_hub_missing_resources": 0,
+  "video_elements_loaded_without_error": 20,
+  "unique_exports": 18,
+  "playback_checked": {
+    "id": "BP04",
+    "ended": true,
+    "duration_seconds": 18.5,
+    "media_error": null
+  },
+  "visual_inspection": [
+    "16-cover contact sheet",
+    "16-scene contact sheet",
+    "BP01 and BP04 full-resolution frames",
+    "BPK01 cover",
+    "BPS06 prompt"
+  ],
+  "human_listening_review": false,
+  "target_app_overlay_preview": false,
+  "notes": "The 20 players include repeated experiment masters. Browser checks concern the local review hub, not Instagram or YouTube. No audience test was run."
+}

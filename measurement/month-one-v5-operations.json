@@ -1,0 +1,10 @@
+{
+  "comprehension_checks": null,
+  "comprehension_passes": null,
+  "distinct_useful_responses": null,
+  "weekly_operator_hours": [],
+  "unresolved_recurring_critical_error": null,
+  "simplification_attempted": false,
+  "notes": "No target-audience or hands-on production observations collected. Null is unknown, not zero.",
+  "representative_production_batches": []
+}

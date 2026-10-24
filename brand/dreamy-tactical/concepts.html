@@ -1,0 +1,153 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+<style>
+  #dream-fitness { width: 100%; }
+  #dream-fitness .dt-stage { min-height: 610px; padding: 28px 18px 22px; box-sizing: border-box; }
+  #dream-fitness .dt-board { --dt-paper: #F8F5EE; --dt-ink: #172A30; --dt-action: #2348C6; --dt-action-text: #FFFFFF; --dt-lilac: #DDD6F5; --dt-cloud: #DCEAF5; --dt-peach: #F1D2BE; --dt-display: 'Fraunces', Georgia, serif; --dt-light: 1; display: grid; grid-template-columns: minmax(0, 292px) minmax(0, 270px); gap: 24px; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; color: var(--dt-ink); }
+  #dream-fitness .dt-poster { aspect-ratio: 9 / 16; position: relative; overflow: hidden; padding: 26px; box-sizing: border-box; background: var(--dt-paper); border-radius: 3px; isolation: isolate; }
+  #dream-fitness .dt-mark { font-size: 11px; line-height: 1.45; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; margin: 0; position: relative; z-index: 2; }
+  #dream-fitness .dt-headline { margin: 48px 0 0; font-size: 43px; font-weight: 500; line-height: 1.03; letter-spacing: -2px; position: relative; z-index: 2; }
+  #dream-fitness .dt-headline em { display: block; font-family: var(--dt-display); font-style: italic; font-weight: 500; letter-spacing: -1.5px; margin-bottom: 14px; }
+  #dream-fitness .dt-light { position: absolute; z-index: 0; opacity: var(--dt-light); pointer-events: none; }
+  #dream-fitness .dt-daylight .dt-light { width: 100%; left: 0; top: 58%; bottom: 22%; background: radial-gradient(ellipse at 50% 50%, var(--dt-peach) 0%, var(--dt-lilac) 31%, var(--dt-cloud) 51%, var(--dt-paper) 73%); }
+  #dream-fitness .dt-poster-foot { position: absolute; bottom: 25px; left: 26px; right: 26px; z-index: 2; background: var(--dt-paper); padding-top: 10px; }
+  #dream-fitness .dt-poster-foot p { font-size: 14px; line-height: 1.35; margin: 0 0 13px; font-weight: 500; max-width: 200px; }
+  #dream-fitness .dt-poster-foot span { font-size: 11px; line-height: 1.35; display: block; }
+  #dream-fitness .dt-detail { min-width: 0; }
+  #dream-fitness .dt-name { display: inline-block; background: var(--dt-paper); padding: 8px 10px; font-size: 12px; line-height: 1.4; font-weight: 500; margin: 0 0 16px; }
+  #dream-fitness .dt-card { padding: 24px; background: var(--dt-paper); border-radius: 3px; }
+  #dream-fitness .dt-card-label { margin: 0 0 19px; font-size: 11px; line-height: 1.4; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; }
+  #dream-fitness .dt-card h3 { margin: 0 0 22px; font-size: 25px; font-weight: 500; line-height: 1.12; letter-spacing: -0.7px; }
+  #dream-fitness .dt-steps { display: grid; gap: 14px; }
+  #dream-fitness .dt-step { display: grid; grid-template-columns: 25px 1fr; gap: 10px; align-items: baseline; font-size: 14px; line-height: 1.4; }
+  #dream-fitness .dt-step span { color: var(--dt-action); font-size: 11px; font-weight: 600; }
+  #dream-fitness .dt-action { margin-top: 25px; padding: 12px 14px; background: var(--dt-action); color: var(--dt-action-text); font-size: 13px; line-height: 1.4; font-weight: 500; }
+  #dream-fitness .dt-swatches { display: flex; height: 13px; margin-top: 20px; gap: 5px; }
+  #dream-fitness .dt-swatches span { width: 35px; background: var(--swatch); }
+  #dream-fitness .dt-caption { margin: 12px 0 0; font-size: 11px; line-height: 1.5; padding: 7px 10px; background: var(--dt-paper); }
+  #dream-fitness .dt-blueprint { --dt-paper: #F3F5F4; --dt-ink: #173249; --dt-lilac: #E1DDF3; }
+  #dream-fitness .dt-blueprint .dt-poster { background: var(--dt-action); color: #FFFFFF; display: flex; flex-direction: column; }
+  #dream-fitness .dt-blueprint .dt-mark { border-bottom: 1px solid #8095DA; padding-bottom: 14px; }
+  #dream-fitness .dt-blueprint .dt-headline { margin-top: 42px; font-size: 39px; }
+  #dream-fitness .dt-blueprint .dt-headline em { font-size: 44px; }
+  #dream-fitness .dt-blueprint .dt-light { left: 26px; right: 26px; top: 62%; bottom: 22%; background: radial-gradient(ellipse at 65% 90%, var(--dt-lilac), var(--dt-cloud) 28%, transparent 70%); }
+  #dream-fitness .dt-blueprint .dt-grid { position: absolute; left: 26px; right: 26px; top: 62%; bottom: 22%; background-image: linear-gradient(#94A8E0 1px, transparent 1px), linear-gradient(90deg, #94A8E0 1px, transparent 1px); background-size: 32px 27px; opacity: .5; }
+  #dream-fitness .dt-blueprint .dt-poster-foot { background: var(--dt-action); }
+  #dream-fitness .dt-blueprint .dt-card { border-top: 7px solid var(--dt-action); }
+  #dream-fitness .dt-blueprint .dt-steps { gap: 0; }
+  #dream-fitness .dt-blueprint .dt-step { padding: 12px 0; border-top: 1px solid #CAD2D7; }
+  #dream-fitness .dt-blueprint .dt-action { margin-top: 12px; }
+  #dream-fitness .dt-afterglow { --dt-ink: #202437; --dt-action: #DDD6F5; --dt-action-text: #202437; }
+  #dream-fitness .dt-afterglow .dt-poster { background: #202437; color: var(--dt-paper); text-align: center; }
+  #dream-fitness .dt-afterglow .dt-mark { letter-spacing: 1px; }
+  #dream-fitness .dt-afterglow .dt-headline { font-size: 41px; margin-top: 62px; }
+  #dream-fitness .dt-afterglow .dt-headline em { margin-bottom: 21px; }
+  #dream-fitness .dt-afterglow .dt-light { width: 370px; left: -39px; top: 62%; bottom: 22%; background: radial-gradient(ellipse at 50% 100%, var(--dt-peach), #77739E 37%, #202437 70%); border-radius: 50% 50% 0 0; }
+  #dream-fitness .dt-afterglow .dt-poster-foot { background: #202437; }
+  #dream-fitness .dt-afterglow .dt-poster-foot p { margin-left: auto; margin-right: auto; }
+  #dream-fitness .dt-afterglow .dt-card h3 { font-family: var(--dt-display); font-size: 29px; font-weight: 500; }
+  #dream-fitness .dt-afterglow .dt-card { border-radius: 32px 32px 3px 3px; padding-top: 30px; }
+  #dream-fitness .dt-afterglow .dt-step span { color: var(--dt-ink); }
+  @media (max-width: 600px) {
+    #dream-fitness .dt-stage { min-height: 1000px; padding: 18px 12px 22px; }
+    #dream-fitness .dt-board { grid-template-columns: minmax(0, 292px); gap: 20px; }
+    #dream-fitness .dt-detail { display: grid; grid-template-columns: 1fr; }
+    #dream-fitness .dt-name { justify-self: start; margin-bottom: 10px; }
+    #dream-fitness .dt-card { padding: 22px; }
+    #dream-fitness .dt-card h3 { margin-bottom: 17px; }
+    #dream-fitness .dt-steps { gap: 10px; }
+    #dream-fitness .dt-action { margin-top: 18px; }
+    #dream-fitness .dt-swatches { margin-top: 14px; }
+  }
+  @media (max-width: 350px) {
+    #dream-fitness .dt-poster { padding: 22px; }
+    #dream-fitness .dt-headline { font-size: 39px; }
+    #dream-fitness .dt-blueprint .dt-headline { font-size: 36px; }
+    #dream-fitness .dt-blueprint .dt-headline em { font-size: 40px; }
+    #dream-fitness .dt-afterglow .dt-headline { font-size: 38px; }
+    #dream-fitness .dt-poster-foot { left: 22px; right: 22px; }
+  }
+</style>
+<div id="dream-fitness" class="viz-carousel viz-dotted-background" aria-label="Dreamy but tactical brand treatments">
+  <section data-variant="Daylight" class="dt-stage" aria-label="Daylight brand concept">
+    <div class="dt-board dt-daylight" aria-label="Daylight design">
+      <div class="dt-poster" role="img" aria-label="Daylight cover: Dream body. Full calendar. A warm paper background with soft blue and lilac light.">
+        <p class="dt-mark">Body of our dreams</p>
+        <h2 class="dt-headline"><em>Dream<br>body.</em>Full<br>calendar.</h2>
+        <div class="dt-light" aria-hidden="true"></div>
+        <div class="dt-poster-foot"><p>Science-backed fitness<br>for a full life.</p><span>Strength · Movement · Food · Recovery</span></div>
+      </div>
+      <div class="dt-detail">
+        <p class="dt-name">Daylight · lead direction</p>
+        <div class="dt-card">
+          <p class="dt-card-label">Dream / Plan · planning prompt</p>
+          <h3>Start with the<br>week you have.</h3>
+          <div class="dt-steps"><div class="dt-step"><span>01</span>Find a realistic window.</div><div class="dt-step"><span>02</span>Choose your next step.</div><div class="dt-step"><span>03</span>Keep a fallback.</div></div>
+          <div class="dt-action">Where could it fit this week?</div>
+        </div>
+        <div class="dt-swatches" role="img" aria-label="Warm paper, ink, cobalt, lilac and cloud blue"><span style="--swatch:#F8F5EE"></span><span style="--swatch:#172A30"></span><span style="--swatch:#2348C6"></span><span style="--swatch:#DDD6F5"></span><span style="--swatch:#DCEAF5"></span></div>
+        <p class="dt-caption">Fraunces + Space Grotesk<br>Campaign concept · brand name pending</p>
+      </div>
+    </div>
+  </section>
+  <section data-variant="Blueprint" class="dt-stage" aria-label="Blueprint brand concept" hidden>
+    <div class="dt-board dt-blueprint" aria-label="Blueprint design">
+      <div class="dt-poster" role="img" aria-label="Blueprint cover: Dream body. Full calendar. Cobalt with structured typography and an atmospheric planning grid.">
+        <p class="dt-mark">Body of our dreams</p>
+        <h2 class="dt-headline"><em>Dream<br>body.</em>Full<br>calendar.</h2>
+        <div class="dt-light" aria-hidden="true"></div><div class="dt-grid" aria-hidden="true"></div>
+        <div class="dt-poster-foot"><p>Science-backed fitness<br>for a full life.</p><span>Strength · Movement · Food · Recovery</span></div>
+      </div>
+      <div class="dt-detail">
+        <p class="dt-name">Blueprint · practical structure</p>
+        <div class="dt-card">
+          <p class="dt-card-label">Dream / Plan · planning prompt</p>
+          <h3>Start with the<br>week you have.</h3>
+          <div class="dt-steps"><div class="dt-step"><span>01</span>Find a realistic window.</div><div class="dt-step"><span>02</span>Choose your next step.</div><div class="dt-step"><span>03</span>Keep a fallback.</div></div>
+          <div class="dt-action">Where could it fit this week?</div>
+        </div>
+        <div class="dt-swatches" role="img" aria-label="Paper, deep ink, cobalt, lilac and cloud blue"><span style="--swatch:#F3F5F4"></span><span style="--swatch:#173249"></span><span style="--swatch:#2348C6"></span><span style="--swatch:#E1DDF3"></span><span style="--swatch:#DCEAF5"></span></div>
+        <p class="dt-caption">Fraunces + Space Grotesk<br>Campaign concept · brand name pending</p>
+      </div>
+    </div>
+  </section>
+  <section data-variant="Afterglow" class="dt-stage" aria-label="Afterglow brand concept" hidden>
+    <div class="dt-board dt-afterglow" aria-label="Afterglow design">
+      <div class="dt-poster" role="img" aria-label="Afterglow cover: Dream body. Full calendar. Deep ink with a soft peach horizon and centered editorial type.">
+        <p class="dt-mark">Body of our dreams</p>
+        <h2 class="dt-headline"><em>Dream<br>body.</em>Full<br>calendar.</h2>
+        <div class="dt-light" aria-hidden="true"></div>
+        <div class="dt-poster-foot"><p>Science-backed fitness<br>for a full life.</p><span>Strength · Movement · Food · Recovery</span></div>
+      </div>
+      <div class="dt-detail">
+        <p class="dt-name">Afterglow · cinematic warmth</p>
+        <div class="dt-card">
+          <p class="dt-card-label">Dream / Plan · planning prompt</p>
+          <h3>Start with the<br>week you have.</h3>
+          <div class="dt-steps"><div class="dt-step"><span>01</span>Find a realistic window.</div><div class="dt-step"><span>02</span>Choose your next step.</div><div class="dt-step"><span>03</span>Keep a fallback.</div></div>
+          <div class="dt-action">Where could it fit this week?</div>
+        </div>
+        <div class="dt-swatches" role="img" aria-label="Warm paper, deep ink, lilac and peach"><span style="--swatch:#F8F5EE"></span><span style="--swatch:#202437"></span><span style="--swatch:#DDD6F5"></span><span style="--swatch:#F1D2BE"></span></div>
+        <p class="dt-caption">Fraunces + Space Grotesk<br>Campaign concept · brand name pending</p>
+      </div>
+    </div>
+  </section>
+</div>
+<script>
+(() => {
+  const root = document.getElementById('dream-fitness');
+  if (!root) return;
+  for (const board of root.querySelectorAll('.dt-board')) {
+    const state = { expressiveType: true, softLight: true };
+    const render = () => {
+      board.style.setProperty('--dt-display', state.expressiveType ? "'Fraunces', Georgia, serif" : "'Space Grotesk', sans-serif");
+      board.style.setProperty('--dt-light', state.softLight ? '1' : '0');
+    };
+    render();
+    if (globalThis.Tweak) {
+      const tweak = new Tweak({ container: board, onChange: render });
+      tweak.addToggle(state, 'expressiveType', { label: 'Expressive headline', reference: '--dt-display' });
+      tweak.addToggle(state, 'softLight', { label: 'Soft light', reference: '--dt-light' });
+    }
+  }
+})();
+</script>

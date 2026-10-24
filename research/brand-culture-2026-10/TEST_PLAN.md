@@ -2,11 +2,26 @@
 
 Proposed 23 October 2026. No participants recruited, messages sent, media published or experiments run. The existing go/no-go priorities remain audience interest and a sustainable process capped at **12 hands-on hours per week**. This plan adds brand/culture learning; it does not replace the established month-one decision rules.
 
-**Current name stimuli:** Essential Effort, Reason & Routine and The Useful Few, following the owner's clarification. Use [the latest positioning brief](POSITIONING_AND_NAMES.md); the earlier culture concepts are not the current recommended name-test set.
+**Current creative brief:** [Body of our dreams · dreamy but tactical](../../brand/dreamy-tactical/BRAND_DIRECTION.md). Dreams in Practice, Built into Life and Everyday Becoming are candidates to explore, not a locked or cleared test set. The earlier name stimuli are superseded. Test the mission's meaning before selecting names; avoid asking people to judge everything in one long session.
+
+## 0. Does the aspiration communicate the intended promise?
+
+Recruit an exploratory sample of **18 adult fitness beginners across genders**, aiming for nine aged 18–24 and nine aged 25–35, with varied work/study/care responsibilities and gym/non-gym interests. This revises the earlier male-only recruitment plan to match the owner's inclusive vision. It is still a small convenience sample; do not compare demographic subgroups as if powered for such conclusions. Record useful context without unnecessary health/body details. No recruitment has happened.
+
+Show the headline “Your dream body. Your real life.” with the same fitness descriptor in a neutral treatment. Before explaining the founder story, ask:
+
+1. What do you think this account would help you with?
+2. What does “dream body” mean here, in your own words?
+3. Who do you think this is for? What gave you that impression?
+4. What would you expect to learn next?
+
+Then show the founder story and the same five topic examples. Ask what changed, whether the promise feels encouraging or pressuring, and why. Keep pre-story and post-story answers separate. Do not lead the first response with our preferred interpretation of look/feel/move.
+
+Code observations as self-defined goal, single prescribed physique, guaranteed/rapid transformation, broad fitness, or sleep/beauty/general self-help confusion; allow multiple codes and preserve verbatim responses with consent. Two independent instances of the same consequential misunderstanding trigger wording review and a fresh check before release. This is a conservative editorial trigger, not a population estimate. Do not treat silence as evidence of safety or broad appeal.
 
 ## 1. Name comprehension before aesthetic preference
 
-Run an exploratory screen with **18 adult male fitness beginners**, nine aged 18–24 and nine aged 25–35. Include gamers and non-gamers, gym and non-gym interests, and people who do not already follow fitness creators. These are recruitment targets, not a representative sample. Record experience and interests without collecting unnecessary body/health details.
+Once a three-name shortlist is chosen and screened, use **18 fresh adult beginners** with the inclusive recruitment targets above. Fresh participants preserve unaided category and name recall after the mission study. If recruiting a second sample is impractical, use the first sample for informed preferences only and explicitly drop the unaided-comprehension claim. Budget recruitment and review time; these are proposed stages, not free work outside the 12-hour ceiling.
 
 Assign six participants to each first-seen name, balancing age within groups. Show one name in a neutral, identical type treatment for five seconds; hide it. Ask, in order:
 
@@ -17,7 +32,7 @@ Assign six participants to each first-seen name, balancing age within groups. Sh
 
 Next show the same category descriptor and the same five example topics under that name. Ask whether it fits walking, strength, food and recovery, and whether a beginner belongs. Then show the other two names in counterbalanced order. Ask preference last, with reasons. Record the first-seen results separately from comparison responses.
 
-Do not combine name-only and name-plus-descriptor comprehension into one score. Do not describe a participant as “confused” merely for disliking a name. Code literal misunderstandings separately: software-only, fiction/gaming-only, advanced-athletes-only, or digital-detox-only.
+Do not combine name-only and name-plus-descriptor comprehension into one score. Do not describe a participant as “confused” merely for disliking a name. Code literal misunderstandings separately, including sleep/dream journaling, beauty-only, general self-help, or advanced-athletes-only.
 
 **Practical decision rules, set before recruitment:** repeated same-category confusion in at least two of six first exposures requires a revision; a distinct name recalled and interpreted accurately by at least four of six merits further exploration. These are small-sample editorial gates, not significance tests or industry benchmarks. Report counts and actual explanations, not a synthetic 0–100 brand score. A close result stays inconclusive.
 
@@ -25,7 +40,13 @@ The initial test does not validate ages 16–17. If teen-specific launch decisio
 
 ## 2. Compare full brand treatments separately
 
-After the name screen, use the same topic, narration, factual answer, source cue and duration in three visual treatments. Rotate presentation order. Ask for the takeaway, next action, source interpretation and readable elements before aesthetic preference.
+**Deferred after owner selection:** Blueprint is the current style. No comparative audience winner is claimed. The three-treatment proposal below remains optional historical research, not a release prerequisite. Use the [V5 protocol](../../experiments/month-one-v5.json) for the selected design, BP04 motion screen and current calendar; use [CV2](../../experiments/citation-visibility-v2.json) for the newly rendered source-label pair.
+
+Compare **Daylight, Blueprint and Afterglow** using the same headline, descriptor and planning example. These are treatment names, not public brand names. The first visual review asks category, readability and meaning before preference. Keep a name placeholder identical across designs so name changes do not contaminate the comparison. Remove recommendation labels such as “lead direction” and withhold our preferred option from participants; those labels in the owner-facing concepts are not study stimuli.
+
+For video prototypes, use B08 or B16 with the same approved narration, factual answer, source cue and duration. Rotate presentation order. Ask for the takeaway, next action, source interpretation and readable elements before aesthetic preference. Repeated clips create familiarity: base unaided comprehension on first exposure and label later responses as comparative feedback. Balance first exposure across the three treatments. The initial static mockups are not evidence about motion, retention or audio.
+
+Pilot one template first, record actual build/review minutes, then apply it to the second topic. Preserve B03 and its citation control during this stage. A brand migration affecting B03 requires a new matched pair and a fresh isolation check before that experiment runs.
 
 This compares complete creative packages; it does not isolate the effect of color, font or layout. A polished mockup may win for reasons unrelated to its name. Keep observations from this test separate from the neutral-name screen.
 
@@ -78,6 +99,6 @@ Require two separately originating recent examples before calling a phrase a liv
 
 ## 6. Month-one decision
 
-Preserve the existing experiment identifiers and go/no-go thresholds. Add cultural treatment, selected brand version and actual hands-on minutes to the readout. Do not pool the new identity with prior graphics versions without labeling the change.
+Preserve the go/no-go thresholds; new BP-series and CV2 identifiers isolate the selected Blueprint cohort, while prior identifiers remain historical. Add cultural treatment, selected brand version and actual hands-on minutes to the readout. Do not pool the new identity with prior graphics versions without labeling the change.
 
 Continue a treatment when interest is repeated, viewers understand the lesson, the broad content promise is credible and the process fits the time cap. Revise it when the humor attracts attention but obscures the answer or costs too much. Retire a meme when references need explanation, behavior is mainly corrective outrage, or maintaining freshness consumes the buffer. Keep a clear evergreen fallback ready.
