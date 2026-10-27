@@ -12,6 +12,8 @@ credentials*.json
 token*.json
 # Public design tokens contain only visual styling, not authentication tokens.
 !brand/v3/tokens.json
+!brand/blueprint/tokens.json
+!brand/dreamy-tactical/tokens.json
 .DS_Store
 node_modules/
 

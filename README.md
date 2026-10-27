@@ -1,11 +1,16 @@
 # Project Fitness — DEX content business OS
 
+> **Current production, 27 October 2026:** [Conversational Blueprint V6](docs/MONTH_ONE_V6.md) is the current revision: sixteen rewritten core videos, a separate account introduction, updated supporting content and refreshed matched controls. Blueprint's identity is unchanged; mental models are optional. [Calendar](content/month-one-v6/CALENDAR.md) · [Scripts](content/month-one-v6/SCRIPTS.md). Review and measurement remain pending; nothing is published. Earlier production descriptions below are historical.
+
+> **Current synthesis, 24 October 2026:** [Complete project handoff and reusable content framework](docs/CONTENT_IDEA_FRAMEWORK_AND_HANDOFF.md), with a [blank template for another idea](docs/templates/NEW_CONTENT_IDEA_TEMPLATE.md). Blueprint V5 is the current month; D — Off-Duty Hero is selected for character exploration. Older brand/prototype descriptions below are historical. Audience validation remains pending.
+
 **Know why. Train better.**
 
 A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The latest B-series review package contains **16 rewritten narrated videos, two brand alternatives, one motion control, four carousels and eight story sequences**, supported by five research briefs and a 64-question bank. Training Club is the owner-selected brand direction. The N-series remains available as a prior version. Earlier M-series, Blender/V3 work and six silent prototypes are retained. It has not published videos, recruited participants, generated sales or run a live A/B test.
 
 ## Start here
 
+- [Conversational Blueprint V6](docs/MONTH_ONE_V6.md): current production and rebuild instructions. Local review: `.local/month-one-v6-conversational/review/index.html`. D comparisons: `.local/blueprint-character-d-v6-preview/index.html`.
 - [Training Club production V4](docs/MONTH_ONE_V4.md): the full month with larger diagrams, source cues and a matched citation test. The AI character has been removed. [Brand application](brand/v4/STYLE_GUIDE.md). Audience validation remains pending.
 - [Research-led beginner month V3](docs/MONTH_ONE_V3.md): all five research perspectives applied to a complete new month of production. [Read the research](research/audience-v3/README.md), [calendar](content/month-one-v3/CALENDAR.md), [scripts](content/month-one-v3/SCRIPTS.md), and [three brand systems](brand/v3/STYLE_GUIDE.md). The media hub and ZIPs are retained locally; audience validation remains pending.
 

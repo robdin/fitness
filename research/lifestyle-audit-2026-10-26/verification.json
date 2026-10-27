@@ -1,0 +1,126 @@
+{
+  "prepared_at": "2026-10-26",
+  "scope": "Editorial audit structure and traceability; no audience or production-effect validation",
+  "counts_checked_against_canonical_calendar": {
+    "episodes": 16,
+    "episodes_with_action": 16,
+    "episodes_ending_in_question": 16,
+    "episodes_mentioning_routine": 8
+  },
+  "audit_ids_and_current_actions_match": true,
+  "markdown_files_checked": 6,
+  "local_links_checked": 21,
+  "canonical_source_files_match_head": true,
+  "canonical_sha256": {
+    "content/month-one-v5/calendar.json": "2c814840015bcd0c24e27e53895ec9dc5a407a5c7454553f337b4f381c6f3532",
+    "content/month-one-v5/production.json": "4533082694ff915887ec609d6dd9a07c6cfc89c716979b22d8efa1e6a25e5159",
+    "content/month-one-v5/SCRIPTS.md": "6240cdff90fe331e4fc4a6ece0469e8e1cf612574b8d77e701bea7a62a83a42e",
+    "content/month-one-v5/SOURCE_MAP.md": "bf22d54a064b5a7dc35fd724c25f0b01fa83085c4cbc9b45bc7fa3b4c7407639",
+    "experiments/month-one-v5.json": "fc556fce93a1c2665b41c6b4c701f15f49494a061cf05e0f84f79ade7cde6c0a",
+    "experiments/citation-visibility-v2.json": "b210a8f554aa0135df328d25e65a193783d56e757adf9639f7915ddf92d369fd"
+  },
+  "draft_ids": [
+    "BP00-INTRO",
+    "LP01",
+    "LP08",
+    "LP16"
+  ],
+  "git_diff_check": "passed",
+  "new_narration_or_video_generated": false,
+  "public_destinations_created": false,
+  "scheduled_or_published": false,
+  "audience_testing_conducted": false,
+  "unmeasured": [
+    "attention and comprehension",
+    "follow conversion",
+    "real-world resource use",
+    "incremental hands-on effort",
+    "character effect"
+  ],
+  "checked_local_links": [
+    {
+      "source": "research/lifestyle-audit-2026-10-26/PINNED_INTRO.md",
+      "target": "../../brand/blueprint/STYLE_GUIDE.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/PINNED_INTRO.md",
+      "target": "../../brand/dreamy-tactical/BRAND_DIRECTION.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/PINNED_INTRO.md",
+      "target": "../../content/month-one-v5/calendar.json"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/PINNED_INTRO.md",
+      "target": "../../docs/CONTENT_IDEA_FRAMEWORK_AND_HANDOFF.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/README.md",
+      "target": "PINNED_INTRO.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/README.md",
+      "target": "TURUAN_MODELS.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/README.md",
+      "target": "BEGINNER_AUDIT.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/README.md",
+      "target": "beginner-audit.json"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/README.md",
+      "target": "../../content/lifestyle-pilot/START_HERE_KIT.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/README.md",
+      "target": "../../content/lifestyle-pilot/PILOT_SCRIPTS.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/zz_data/mental_models.json"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/01_scripts/106-dimmer-switch-mentality.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/zz_data/mental_models.json"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/01_scripts/124-rocks-pebbles-sand.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/zz_data/mental_models.json"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/01_scripts/032-list-price-vs-real-price.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/zz_data/mental_models.json"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/01_scripts/165-one-in-a-row-principle.md"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/zz_data/mental_models.json"
+    },
+    {
+      "source": "research/lifestyle-audit-2026-10-26/TURUAN_MODELS.md",
+      "target": "/Users/ronobdin/Github/turuan/01_scripts/145-goodharts-law.md"
+    },
+    {
+      "source": "content/lifestyle-pilot/PILOT_SCRIPTS.md",
+      "target": "../../research/lifestyle-audit-2026-10-26/PINNED_INTRO.md"
+    }
+  ]
+}

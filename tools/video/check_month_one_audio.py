@@ -17,7 +17,7 @@ def tokens(text):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--ids',nargs='+');p.add_argument('--model',default='base.en')
-    p.add_argument('--series',choices=['v1','v2','v3','v5'],default='v1')
+    p.add_argument('--series',choices=['v1','v2','v3','v5','v6'],default='v1')
     args=p.parse_args()
     workspace=ROOT/'.local/month-one'
     episodes=load_episodes()
@@ -30,6 +30,9 @@ def main():
     if args.series=='v5':
         from produce_month_one_v5 import episodes as v5_episodes, WORKSPACE
         workspace=WORKSPACE;episodes=v5_episodes()
+    if args.series=='v6':
+        from produce_month_one_v6 import episodes as v6_episodes, WORKSPACE
+        workspace=WORKSPACE;episodes=v6_episodes()
     import numpy as np
     from faster_whisper import WhisperModel
     model=WhisperModel(args.model,device='cpu',compute_type='int8',cpu_threads=4,

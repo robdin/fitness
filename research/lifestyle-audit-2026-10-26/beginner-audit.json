@@ -1,0 +1,183 @@
+{
+  "prepared_at": "2026-10-26",
+  "scope": "Persona audit of actual month-one-v5, not observed audience data",
+  "canonical_changed": false,
+  "episodes": [
+    {
+      "episode_id": "BP01",
+      "current_title": "First gym visit\u2014what do you do first?",
+      "current_action": "Ask the gym about an orientation. Put the routine in your phone so you can follow it there.",
+      "strength": "a very relevant first decision; practical orientation request; acknowledgment that a video cannot check setup.",
+      "gap": "\u201cbring a beginner routine\u201d sends me to solve a large missing prerequisite. The action frame still displays category names rather than a completed first-visit note. This is an incomplete handoff, not a missing action.",
+      "proposed_hook": "\u201cFirst gym visit? Don't arrive with only a membership.\u201d",
+      "proposed_concrete_action_and_visual": "show a phone note containing my planned visit, a saved routine link and the exact orientation question: \u201cCan someone show me how to set up the equipment in this routine?\u201d End on \u201cSave your plan and ask about an orientation before you go.\u201d A real, checked start-here resource must exist before the clip points to it.",
+      "claim_boundary_and_new_evidence_needed": "the note and question are editorial examples. Selecting/recommending an actual program needs current source, suitability and scope review. Do not disguise a generic short as individualized instruction.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP02",
+      "current_title": "Machines can be a valid place to start.",
+      "current_action": "Ask for the setup, choose an option in your routine, and record its settings.",
+      "strength": "the belonging line\u2014\u201cYou do not have to earn your place at the gym with a barbell\u201d\u2014and the useful advice to save machine settings.",
+      "gap": "this contains one of the month's strongest experienced-person tips, but the diagram only shows machine versus free weight. I do not see what \u201csave the settings\u201d means.",
+      "proposed_hook": "\u201cThink machines don't count? You can start there.\u201d",
+      "proposed_concrete_action_and_visual": "show a sample note with fields for exact machine, seat/back-pad setting, load, reps and setup notes. Display a fictional illustrative entry only if numbers cannot be mistaken for a recommendation; blanks with a filled machine name are sufficient. End on \u201cAfter someone checks your setup, save the settings.\u201d",
+      "claim_boundary_and_new_evidence_needed": "retain E06's equipment-specific skill and non-interchangeability limits. Do not imply identical displayed loads across machines or a universal safety ranking.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP03",
+      "current_title": "Are you rushing your next set?",
+      "current_action": "Follow your routine, use a timer, and note whether performance drops across sets.",
+      "strength": "rest is part of the session; a timer is an observable action; the current trial qualification is honest.",
+      "gap": "the prominent 1:00 versus 3:00 visual may be what I remember even though narration says no universal rule. The answer I need is how to apply my plan, not mainly which trial was conducted.",
+      "proposed_hook": "\u201cStarting the next set just because you feel awkward waiting?\u201d",
+      "proposed_concrete_action_and_visual": "a routine's rest instruction becomes a matching timer; the log records what happened in the next set. Use a placeholder or explicitly illustrative instruction unless a particular plan is actually being demonstrated. End on \u201cUse your routine's rest guidance and record the next set.\u201d",
+      "claim_boundary_and_new_evidence_needed": "retain E16's small trained-men sample and limited comparison. Do not introduce a universal rest dose. This episode has a prepared citation experiment: changing its hook, scene or timing requires versioning and rebuilding both matched conditions; do not silently replace only one.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP04",
+      "current_title": "A short walk can fit into your real week.",
+      "current_action": "Choose a time and route that fit your current ability.",
+      "strength": "already strong lifestyle integration: after lunch, familiar route, indoor backup. It already contains a simple cue and contingency; no mental-model lecture is needed.",
+      "gap": "the line and two dots are a route symbol, not a recognizable daily situation. The opening is agreeable but low in tension.",
+      "proposed_hook": "\u201cYour calendar is full. Where does a walk fit?\u201d",
+      "proposed_concrete_action_and_visual": "show a lunch break turning into a calendar note with a suitable route and a weather/access alternative. End on \u201cChoose your next walking window and one backup.\u201d D could close his laptop and head outside rather than stand under a diagram.",
+      "claim_boundary_and_new_evidence_needed": "retain BPF01's adult scope and distinction between a starting action and full activity guidance. Do not promise a particular body outcome or universal duration. Preserve/version the existing motion experiment if changing the implementation.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP05",
+      "current_title": "What weight should you start with?",
+      "current_action": "Record the load and how the set went. Progress using your routine, with control.",
+      "strength": "the direct question is strong. Individual setup and a manageable learning load are sensible boundaries.",
+      "gap": "the hook promises a selection method; most of the answer delegates to an instructor. That can feel evasive if I cannot identify whom to ask. \u201cProgress using your routine\u201d also assumes I understand progression. The adult audience is briefly displaced by a spoken 16\u201317-year-old qualification.",
+      "proposed_hook": "retain \u201cWhat weight should you start with?\u201d",
+      "proposed_concrete_action_and_visual": "demonstrate the exact help request: \u201cCan you check this setup and help me find a starting load for this routine?\u201d Show where that load and the person's observation are recorded. A subsequent researched explainer should translate the routine's progression instructions; do not cram that into this clip.",
+      "claim_boundary_and_new_evidence_needed": "a new self-selection method, load range, rep target or progression rule needs adult-specific evidence and qualified review. F02 is youth guidance and should not be the only visible authority for a primarily adult load-selection clip. State adult scope clearly; retain under-18 guidance where relevant without making the main lesson switch populations midstream.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP06",
+      "current_title": "Soreness is not your progress score.",
+      "current_action": "Keep a simple training log instead of rating the workout by tomorrow\u2019s ache.",
+      "strength": "the existing unscheduled hook \u201cNot sore\u2014did the workout count?\u201d meets the viewer at a recognizable doubt. Retain the distinction between soreness and sharp/worsening pain.",
+      "gap": "\u201ckeep a log\u201d has recurred but the month has not actually taught me to make one. The current ticks suggest tracking, without demonstrating a record.",
+      "proposed_hook": "promote the existing alternative: \u201cNot sore\u2014did the workout count?\u201d",
+      "proposed_concrete_action_and_visual": "show one session entry with exercise, load, reps and a note; then show the same exercise in a later session. End on \u201cRecord what you completed today.\u201d Do not use invented improvements as if they were observed results.",
+      "claim_boundary_and_new_evidence_needed": "preserve F08/E13 limits. Neither a completed log nor rising numbers alone proves muscle growth; no soreness is not a reason to dismiss a session.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP07",
+      "current_title": "First run club: what should you check?",
+      "current_action": "Check the event details and ask who supports the slowest group.",
+      "strength": "one of the strongest specific checklists in the month; addresses a real practical mismatch hidden by \u201call paces.\u201d",
+      "gap": "the message I would send is more useful than another list of categories. Existing BPK02 already supplies the deeper checklist, but the connection is weak.",
+      "proposed_hook": "\u201cThe run club says \u2018all paces.\u2019 Will they actually wait for you?\u201d",
+      "proposed_concrete_action_and_visual": "show the draft: \u201cI'm new. Which distance and pace group would suit a beginner, are walk breaks welcome, and who stays with the last group?\u201d End with \u201cCheck those answers before you go\u201d; link the existing checklist in the appropriate profile/caption destination.",
+      "claim_boundary_and_new_evidence_needed": "retain editorial labeling and event-specific checks. Do not suggest all clubs are misleading or that the answers prescribe a medically suitable distance.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP08",
+      "current_title": "Two gym days. Build your plan around them.",
+      "current_action": "Put the sessions in your calendar and prepare the exercises before you arrive.",
+      "strength": "a strong constraint-led topic, concrete calendar visual and permission to plan around reality.",
+      "gap": "the highest-value missing answer is which routine can use those two days, not merely putting two ticks in a calendar. \u201cChoose a beginner routine designed for the days\u201d needs an actual resource route.",
+      "proposed_hook": "use the existing alternative, \u201cOnly two gym days\u2014where do you start?\u201d",
+      "proposed_concrete_action_and_visual": "show available slots becoming two calendar appointments that include travel/setup time and a link to the selected routine. Those extra minutes are scheduling considerations, not fixed prescriptions. End on \u201cChoose a routine for your available days, then reserve the full visit.\u201d",
+      "claim_boundary_and_new_evidence_needed": "retain the distinction between adult public-health guidance, program design and maximum gains. Two appointments do not establish training quality or fulfill every activity requirement. Any linked program needs explicit source and scope review.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP09",
+      "current_title": "Protein powder is a convenience, not a starting requirement.",
+      "current_action": "Start by noticing the protein foods already in your meals.",
+      "strength": "useful purchase-friction relief and concrete food categories; no unnecessary supplement sale.",
+      "gap": "\u201cnotice foods already in your meals\u201d is a weak completion condition. It does not teach me what to do after noticing. The title is longer and less conversational than the saved alternative.",
+      "proposed_hook": "\u201cDo you need protein powder to start?\u201d",
+      "proposed_concrete_action_and_visual": "assemble a sample meal from familiar protein-food options, adapted to budget, preferences and dietary needs. Ask the viewer to identify a protein food in the next meal they are planning. Connect to BP11's meal-planning example instead of asking only whether marketing claims are confusing.",
+      "claim_boundary_and_new_evidence_needed": "keep food-first flexibility and no universal intake/dose. \u201cEnough protein,\u201d body-composition goals or individualized amounts would be new questions requiring additional reviewed content; the visible meal must not imply complete nutritional adequacy.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP10",
+      "current_title": "One bad workout\u2014are you stuck?",
+      "current_action": "Use the log before rewriting the whole routine. A persistent problem deserves a closer review.",
+      "strength": "a useful anti-overreaction principle and a specific comparison list: exercise, load, reps, rest and setup.",
+      "gap": "I am told to compare like with like but never see an apples-to-oranges comparison. This is an explanatory visual opportunity already supported by the script.",
+      "proposed_hook": "\u201cLifted less today\u2014should you change the whole routine?\u201d",
+      "proposed_concrete_action_and_visual": "show two fictional logs with a changed machine or rest instruction highlighted. End on \u201cCompare the same exercise and conditions before you rewrite the plan.\u201d The log can say \u201cdifferent machine\u201d instead of inventing performance numbers.",
+      "claim_boundary_and_new_evidence_needed": "retain editorial rather than diagnostic framing. Persistent problems deserve review. Do not turn an example into a fixed plateau threshold or recommend ignoring pain, illness or recovery concerns.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP11",
+      "current_title": "Tomorrow's lunch starts with what you have.",
+      "current_action": "Check your kitchen, then list only what's missing for that meal.",
+      "strength": "likely one of the most useful lifestyle episodes on the page: a specific meal, kitchen check and short shopping list. Strong existing action; BPK03 extends it.",
+      "gap": "abstract ingredient circles/checklists miss the pleasurable end result. I should see lunch, not just hear that meal planning is sensible.",
+      "proposed_hook": "\u201cTomorrow's lunch\u2014and you don't want another big grocery trip?\u201d",
+      "proposed_concrete_action_and_visual": "show the food already available, the finished illustrative meal and only missing ingredients on a list. End on \u201cPick tomorrow's lunch, then list only what's missing.\u201d A cooking D scene could fit naturally here.",
+      "claim_boundary_and_new_evidence_needed": "meal and list are examples, not nutrition prescriptions. Verify food safety if introducing storage, reheating or batch-cooking instructions; the current \u201cfull week\u201d carousel title should not imply that one meal is nutritionally complete or safely stored for a week.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP12",
+      "current_title": "Does every set need to end in failure?",
+      "current_action": "Follow your routine\u2019s effort guidance and learn the movement with control.",
+      "strength": "defines failure and removes the moral framing of effort. The question directly matches common gym language.",
+      "gap": "an absolute beginner may not know a rep, set, effort target or RIR yet. A conceptual slider between challenging and failure does not show how a novice follows an instruction.",
+      "proposed_hook": "\u201cDoes a set only count if you can't finish the last rep?\u201d",
+      "proposed_concrete_action_and_visual": "begin with a plain-language rep/set example or link a pre-existing glossary. Translate one actual effort instruction from a checked program. End on \u201cKnow your routine's stopping rule before the set.\u201d",
+      "claim_boundary_and_new_evidence_needed": "keep the uncertainty and adult population behind the research synthesis. Do not infer a universal RIR target or suggest beginners estimate proximity to failure precisely. Demonstrating an exertional failure attempt requires more care than an abstract illustration.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP13",
+      "current_title": "A better scorecard for month one.",
+      "current_action": "Review the month. Pick one thing to improve next time.",
+      "strength": "process review avoids a false transformation deadline. Visits, setup skills and recording habits are controllable observations.",
+      "gap": "a man who came for aesthetics may hear \u201clook at attendance instead\u201d as avoiding his original goal. Acknowledge the desire and distinguish progress signals from the eventual outcome.",
+      "proposed_hook": "\u201cA month in, and the mirror looks the same?\u201d",
+      "proposed_concrete_action_and_visual": "show a three-line check: \u201cDid I attend? Can I set up? Did I record?\u201d Then circle one practical adjustment for the coming week. End on \u201cChoose one thing to improve next week.\u201d",
+      "claim_boundary_and_new_evidence_needed": "retain that process metrics are not a body-composition test, and make no appearance deadline. A new timeline, body-measurement method or bulk/cut recommendation needs separate evidence and context.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP14",
+      "current_title": "Your workouts have a schedule. Does your sleep?",
+      "current_action": "Pick one change that gives sleep a realistic place in your week.",
+      "strength": "the current hook is already concise and relevant. It recognizes shift work and caring responsibilities rather than assuming unlimited control.",
+      "gap": "\u201cpick one change\u201d gives a tired person another design task. Illustrative clocks do not identify what is crowding sleep out.",
+      "proposed_hook": "retain \u201cYour workouts have a schedule. Does your sleep?\u201d",
+      "proposed_concrete_action_and_visual": "show an ordinary evening calendar, identify one movable task and place a realistic wind-down reminder. Offer this as one option, not the solution for everyone. End on \u201cChoose one feasible schedule change for this week.\u201d",
+      "claim_boundary_and_new_evidence_needed": "retain BPF03/CDC scope and professional help for ongoing problems. A reminder is an editorial planning tool, not a treatment for insomnia; do not invent a universal bedtime, sleep dose or shift-work cure.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP15",
+      "current_title": "Your next activity can start as a tryout.",
+      "current_action": "Find one beginner session and check its access requirements before booking.",
+      "strength": "expands the brand beyond lifting and allows curiosity without an identity commitment; the closing question is one of the month's most expressive.",
+      "gap": "\u201cpick something\u201d and a generic access checklist are broad. The content could be more memorable by showing one ordinary decision while retaining options.",
+      "proposed_hook": "\u201cYou can try a class without making it your whole personality.\u201d",
+      "proposed_concrete_action_and_visual": "compare a fictional beginner session's travel, cost, available instruction and equipment with the viewer's real week. End on \u201cCheck one beginner session's practical details.\u201d The existing \u201cWhat would you try\u2026?\u201d question can stay in the caption or follow-up story.",
+      "claim_boundary_and_new_evidence_needed": "editorial wording and fictional events must be labeled. Do not imply one activity meets every goal, guarantee habit formation, or recommend a paid venue without current verification.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    },
+    {
+      "episode_id": "BP16",
+      "current_title": "Missed a workout\u2014what happens next?",
+      "current_action": "Notice what got in the way and make one adjustment you can repeat.",
+      "strength": "psychologically kind, practical, and already contains a cause/adjustment loop. Avoiding automatic punishment volume is a useful boundary.",
+      "gap": "\u201cone barrier, one adjustment\u201d is shown as an X and a tick; the actual adjustment is missing. This is the clearest opportunity for a short lived scenario.",
+      "proposed_hook": "\u201cWork ran late. You missed the gym. Now what?\u201d",
+      "proposed_concrete_action_and_visual": "D receives an overtime message; the example calendar checks the routine's missed-day guidance and chooses a realistic next visit. A preparation barrier might become a bag by the door; a schedule barrier might become a different slot. End on \u201cChoose the next session and change one thing that blocked this one.\u201d",
+      "claim_boundary_and_new_evidence_needed": "label this a fictional planning example, not individualized programming or a guaranteed adherence method. Do not prescribe replacement volume, reduced volume or recovery timing without checking the actual routine and context.",
+      "status": "editorial_proposal_not_produced_not_validated"
+    }
+  ]
+}
