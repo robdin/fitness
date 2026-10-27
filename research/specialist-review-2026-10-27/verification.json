@@ -1,0 +1,43 @@
+{
+  "review_date": "2026-10-27",
+  "source_commit": "1f189077af62852e221f6ce4b4f96e92860784ec",
+  "scope": "Reproduced repository findings, not an audience or production-cost experiment",
+  "specialist_reports_present": {
+    "CONTENT_CREATION.md": true,
+    "MONETIZATION.md": true,
+    "ENGAGEMENT.md": true,
+    "DIGITAL_MARKETING.md": true,
+    "EXPERIMENTATION.md": true,
+    "PRODUCTION.md": true
+  },
+  "generic_core_caption_prompts": 13,
+  "core_caption_prompts_with_editorial_prefix": 16,
+  "episodes_with_example_cards": 17,
+  "v6_cli": {
+    "returncode": 2,
+    "supports_v6": false,
+    "callable_evaluator_supports_v6": true
+  },
+  "actual_current_pilot_decision": "INSUFFICIENT_EVIDENCE",
+  "synthetic_duplicate_undated_batches": {
+    "decision": "GO_BOUNDED_MONTH_TWO",
+    "finding": "Distinct production weeks and labor evidence are not enforced"
+  },
+  "synthetic_split_attention_metrics": {
+    "decision": "GO_BOUNDED_MONTH_TWO",
+    "median_stayed_to_watch_pct": 60.0,
+    "median_average_percentage_viewed": 70.0,
+    "episodes_meeting_both": 0,
+    "finding": "Matches the written separate-median rule; add a descriptive joint-performance check"
+  },
+  "source_archive": {
+    "available": true,
+    "sha256": "83670051d2ce81ceda023debf1cb761613f9a5649b0b0f37172ec7eb058a3c71",
+    "audio_checker_present": true,
+    "legacy_episodes_present": false
+  },
+  "canonical_and_actual_measurement_files_unchanged": true,
+  "audience_effects_validated": false,
+  "provider_requests": 0,
+  "synthetic_data_written_to_measurement": false
+}

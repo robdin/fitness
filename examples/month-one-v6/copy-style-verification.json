@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "strings_checked": 1048,
+  "issues": [],
+  "scope": "all",
+  "limitation": "Pattern checks only. Not an AI detector, human-authorship proof or audience test."
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "bomd-pilot-operations-v1",
+  "accounts": {
+    "instagram_reels": null,
+    "youtube_shorts": null
+  },
+  "reviews": [],
+  "releases": [],
+  "metric_export_rehearsal": null,
+  "notes": "Template only. Copy to .local/month-one-v6-conversational/pilot/operations.json and record actual events. Do not invent completed reviews, uploads or account verification."
+}

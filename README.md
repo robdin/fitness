@@ -1,12 +1,14 @@
-# Project Fitness — DEX content business OS
+# Project BOMD — fitness content MVP
+
+> **Pilot preparation, 27 October 2026:** [Execution sheet](docs/MONTH_ONE_V6_PILOT.md) · [Profile copy](content/month-one-v6/ACCOUNT_ENTRY.md) · [Measurement field guide](measurement/MONTH_ONE_V6_FIELD_GUIDE.md). The specialist follow-up adds useful captions, a corrected BC05 hook/narration, stronger measurement and recovery checks, and a hash-bound first-week review page. Instagram @bodyofourdreams and the YouTube channel are now confirmed connected through Metricool (TikTok is also connected). Actual playback, native uploader/export checks and audience/labor evidence remain pending. No public posts have been created.
 
 > **Current production, 27 October 2026:** [Conversational Blueprint V6](docs/MONTH_ONE_V6.md) is the current revision: sixteen rewritten core videos, a separate account introduction, updated supporting content and refreshed matched controls. Blueprint's identity is unchanged; mental models are optional. [Calendar](content/month-one-v6/CALENDAR.md) · [Scripts](content/month-one-v6/SCRIPTS.md). Review and measurement remain pending; nothing is published. Earlier production descriptions below are historical.
 
-> **Current synthesis, 24 October 2026:** [Complete project handoff and reusable content framework](docs/CONTENT_IDEA_FRAMEWORK_AND_HANDOFF.md), with a [blank template for another idea](docs/templates/NEW_CONTENT_IDEA_TEMPLATE.md). Blueprint V5 is the current month; D — Off-Duty Hero is selected for character exploration. Older brand/prototype descriptions below are historical. Audience validation remains pending.
+> **Historical synthesis, 24 October 2026:** [Complete project handoff and reusable content framework](docs/CONTENT_IDEA_FRAMEWORK_AND_HANDOFF.md), with a [blank template for another idea](docs/templates/NEW_CONTENT_IDEA_TEMPLATE.md). Blueprint V5 is the current month; D — Off-Duty Hero is selected for character exploration. Older brand/prototype descriptions below are historical. Audience validation remains pending.
 
 **Know why. Train better.**
 
-A working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The latest B-series review package contains **16 rewritten narrated videos, two brand alternatives, one motion control, four carousels and eight story sequences**, supported by five research briefs and a 64-question bank. Training Club is the owner-selected brand direction. The N-series remains available as a prior version. Earlier M-series, Blender/V3 work and six silent prototypes are retained. It has not published videos, recruited participants, generated sales or run a live A/B test.
+Historical V3 snapshot: a working, local-first foundation for an evidence-led fitness content business. Research, scripts, production controls and experiments live together. The latest B-series review package contains **16 rewritten narrated videos, two brand alternatives, one motion control, four carousels and eight story sequences**, supported by five research briefs and a 64-question bank. Training Club is the owner-selected brand direction. The N-series remains available as a prior version. Earlier M-series, Blender/V3 work and six silent prototypes are retained. It has not published videos, recruited participants, generated sales or run a live A/B test.
 
 ## Start here
 
@@ -41,7 +43,7 @@ A working, local-first foundation for an evidence-led fitness content business. 
 - [Operations](docs/OPERATIONS.md), [architecture](docs/ARCHITECTURE.md), [Turuan reuse audit](docs/TURUAN_REUSE.md).
 - [Execution backlog](docs/BACKLOG.md): sequenced work with acceptance criteria.
 
-## Quick start
+## Historical prototype quick start
 
 Requires Python 3.11+, Pillow, FFmpeg/ffprobe and DejaVu Sans fonts. The current environment was verified with Python 3.12 and Pillow 12.3. Media builds record exact tool/font identities. Fonts are detected at the Linux DejaVu system path; adjust the renderer deliberately for another environment.
 

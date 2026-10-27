@@ -2,6 +2,7 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const {createCanvas,GlobalFonts}=require('@napi-rs/canvas');
 const ROOT=path.resolve(__dirname,'../..');
+require('node:child_process').execFileSync('python3',[path.join(ROOT,'tools/brand/check_copy.py'),'--scope','month']);
 GlobalFonts.registerFromPath(path.join(ROOT,'content/mvp/time-audit/fonts/SpaceGrotesk.ttf'),'Space');
 GlobalFonts.registerFromPath(path.join(ROOT,'brand/blueprint/fonts/Fraunces-Italic.ttf'),'Dream');
 const TOKENS=path.join(ROOT,'brand/blueprint/tokens.json'),C=JSON.parse(fs.readFileSync(TOKENS));

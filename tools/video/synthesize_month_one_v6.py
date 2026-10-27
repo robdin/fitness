@@ -13,6 +13,7 @@ import urllib.request
 import wave
 from pathlib import Path
 from month_one_core import ROOT, load_episodes, script, normalized, alignment_words, digest
+from voice_contract import input_contract, profile_fingerprint, validate_voice_receipt
 
 def finalize_stream_wav(source, target):
     """Finalize a streaming WAV header without changing any PCM samples."""
@@ -45,18 +46,16 @@ def read_key():
 def generate(episode,key,profile,model,output_root=None,delivery_tag="",prosody_speed=0.85):
     out=(Path(output_root) if output_root is not None else ROOT/'.local/month-one-v6-conversational/voice')/episode['id']; out.mkdir(parents=True,exist_ok=True)
     text=script(episode); request_text=(delivery_tag+' '+text).strip(); sha=hashlib.sha256(text.encode()).hexdigest()
+    contract=input_contract(text,model,delivery_tag,prosody_speed,profile_fingerprint(profile))
     receipt=out/'generation.json'
     if receipt.exists():
-        old=json.loads(receipt.read_text())
-        if old.get('status')=='complete' and old.get('script_sha256')==sha and old.get('delivery_tag')==delivery_tag and old.get('prosody_speed')==prosody_speed:
-            if not (out/'narration.wav').exists() or not (out/'alignment.json').exists():
-                raise RuntimeError(f"{episode['id']}: complete receipt has missing artifacts; restore them")
-            if old.get('audio_sha256')!=digest(out/'narration.wav') or old.get('alignment_sha256')!=digest(out/'alignment.json'):
-                raise RuntimeError(f"{episode['id']}: retained media hash mismatch; no request sent")
-            print(episode['id']+' retained',flush=True); return
-        raise RuntimeError(f"{episode['id']}: existing receipt needs reconciliation; no retry sent")
+        validate_voice_receipt(episode,out,expected_model=model,expected_delivery_tag=delivery_tag,
+                               expected_prosody_speed=prosody_speed,
+                               expected_profile_fingerprint=contract['voice_profile_sha256'],allow_legacy_profile=False)
+        print(episode['id']+' retained',flush=True); return
     meta={'status':'started','script_sha256':sha,'model':model,'voice':'Ron Narration v2 studio',
           'started_unix':time.time(),'text':text,'delivery_tag':delivery_tag,'prosody_speed':prosody_speed,'request_text_sha256':hashlib.sha256(request_text.encode()).hexdigest(),'credits_charged':None,'charge_note':'Configured free model; provider billing receipt not returned by endpoint.'}
+    meta.update(contract)
     receipt.write_text(json.dumps(meta,indent=2)+'\n')
     body={'text':request_text,'language':'en','prosody':{'speed':prosody_speed,'volume':0,'normalize_loudness':True},'reference_id':profile,'format':'wav','sample_rate':44100,'latency':'normal'}
     request=urllib.request.Request('https://api.fish.audio/v1/tts/stream/with-timestamp',

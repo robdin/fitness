@@ -9,11 +9,11 @@ Four five-panel carousels and eight two-frame stories. Add native poll controls 
 ## BCK01 · November 4 · Body of our dreams: why this exists
 1. Your dream body. Your real life.
 2. A friend wanted the “body of her dreams” while living a busy life.
-3. It became our shared joke—and a goal we meant.
+3. We kept joking about it. We also meant it.
 4. How you want to look, feel and move. Science-backed priorities that fit your life.
 5. Start with the week you have. What would you like fitness to make possible?
 
-Our founding story: a sincere goal became a running joke, then the question behind this project. We cover training, movement, food and recovery through useful priorities and honest evidence. Your goals are personal.
+A friend said she wanted the "body of her dreams" while living a busy life. We started joking about it, but we meant it too. This account grew out of that conversation. Training, movement, food and recovery, with room for the rest of your life. What would you like fitness to make possible?
 
 ## BCS02 · November 6 · How do you track rest?
 1. How do you track rest? Poll: Use a timer / Usually guess
@@ -36,8 +36,8 @@ An editorial first-visit checklist. A club example and community questions provi
 1. What would you check first? Poll: Distance + pace / Walk-break options
 2. Ask about both. “All paces” alone does not describe the actual event.
 
-## BCS05 · November 16 · What would help next?
-1. What would help next? Poll: Meal ideas / Claim checks
+## BCS05 · November 16 · What would help with food this week?
+1. What would help with food this week? Poll: A lunch idea / Understanding protein advice
 2. Food can supply protein. Powder is optional, not a varied-diet replacement.
 
 ## BCK03 · November 18 · Tomorrow’s lunch, one decision at a time
@@ -53,8 +53,8 @@ A planning example for a busy day, informed by meal-planning guidance. No indivi
 1. What makes lunch harder? Poll: Choosing a meal / Finding the time
 2. Pick one meal you want to eat. Check the kitchen, then list only what's missing.
 
-## BCS07 · November 23 · What got easier?
-1. What got easier? Poll: Knowing the setup / Following the plan
+## BCS07 · November 23 · How's getting started going?
+1. How's getting started going? Poll: A bit clearer / Still figuring it out
 2. Process improvements matter, but this is not a measurement of muscle growth.
 
 ## BCK04 · November 25 · A plan that fits the week you have

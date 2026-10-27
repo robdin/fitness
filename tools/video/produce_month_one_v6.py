@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import sys
 from pathlib import Path
 from types import SimpleNamespace
 from month_one_core import ROOT, digest
@@ -12,10 +13,14 @@ WORKSPACE=ROOT/'.local/month-one-v6-conversational'
 RENDERER=ROOT/'tools/video/render_month_one_v6.cjs'
 CONFIG=ROOT/'content/month-one-v6/production.json'
 TOKENS=ROOT/'brand/blueprint/tokens.json'
+sys.path.insert(0, str(ROOT/'tools/brand'))
+from check_copy import calendar_strings, require_clean, strings
 
 def episodes(citation=True,include_intro=True):
     data=json.loads((ROOT/'content/month-one-v6/calendar.json').read_text())
     config=json.loads(CONFIG.read_text())
+    require_clean(calendar_strings(data))
+    require_clean(strings(config['episodes'], 'production'))
     source=([data['orientation_asset']] if include_intro else [])+data['episodes']
     fonts=[ROOT/'content/mvp/time-audit/fonts/SpaceGrotesk.ttf',ROOT/'brand/blueprint/fonts/Fraunces-Italic.ttf']
     result=[]
@@ -27,6 +32,9 @@ def episodes(citation=True,include_intro=True):
         result.append({**e,'pillar':e['cluster'],'beats':[[b['role'],b['narration']] for b in e['beats']],
                        'graphics':design,'cover':design['headlines'][0],'visual':'v6-blueprint-conversational',
                        'balanced_captions':True,'original_brief':e['beats'],
+                       'voice_contract':{'expected_model':config['voice']['model'],
+                                         'expected_delivery_tag':config['voice']['delivery_tag'],
+                                         'expected_prosody_speed':config['voice']['prosody_speed']},
                        'canonical_sha256':hashlib.sha256(json.dumps(e,sort_keys=True).encode()).hexdigest()})
     return result
 
@@ -52,6 +60,7 @@ def main():
         profile=json.loads((ROOT/'.local/fish-profile.json').read_text());key=read_key()
         assert profile['model']=='s2.1-pro-free','Review changed provider model before generating'
         voice=json.loads(CONFIG.read_text())['voice']
+        assert profile['model']==voice['model'],'Configured and private synthesis models differ; no request sent'
         for ep in eps:generate(ep,key,profile['voice_id'],profile['model'],WORKSPACE/'voice',voice['delivery_tag'],voice['prosody_speed'])
     else:
         settings=SimpleNamespace(stills=args.action=='stills',allow_silent=False,treatment=args.treatment,width=args.width)

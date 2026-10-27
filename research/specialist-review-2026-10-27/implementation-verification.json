@@ -1,0 +1,37 @@
+{
+  "Conversational_Blueprint_Month_Review.zip": {
+    "crc": "passed",
+    "members": 416,
+    "sha256": "0c7a27eed0b559c6a05aad9252510567b6cd0c0c51b8eb334093f3ef96824b12"
+  },
+  "Conversational_Blueprint_Month_Sources.zip": {
+    "crc": "passed",
+    "members": 250,
+    "sha256": "a07e87161114947f6377536521a8d8e39c1ed04e39273186ae7b91c3acc86e4d"
+  },
+  "isolated_all17_input_check": {
+    "status": "passed",
+    "legacy_calendar_present": false,
+    "site_packages_enabled": false,
+    "provider_requests": 0
+  },
+  "isolated_BC05_render": {
+    "status": "byte_identical",
+    "shared_dependencies": "Installed Node packages and Python environment only; all source/font/voice inputs from ZIP",
+    "provider_requests": 0
+  },
+  "date": "2026-10-27",
+  "python_tests": 101,
+  "node_tests": 23,
+  "automated_checks_only": true,
+  "human_listening": false,
+  "native_uploader_preview": false,
+  "native_metric_rehearsal": false,
+  "public_posts_created": 0,
+  "video_exports": 19,
+  "frames_checked": 13136,
+  "local_entry_page_references_checked": 192,
+  "new_provider_requests_this_revision": 1,
+  "retained_current_voice_tracks": 16,
+  "actual_decision": "INSUFFICIENT_EVIDENCE"
+}

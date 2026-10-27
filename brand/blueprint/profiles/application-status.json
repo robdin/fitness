@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-27T20:24:29.995170+00:00",
+  "brand": "Body of Our Dreams",
+  "handle": "bodyofourdreams",
+  "design": "Blueprint",
+  "instagram": {
+    "name": "verified_live",
+    "bio": "verified_live",
+    "picture": "verified_live",
+    "website": "mobile_app_only",
+    "verification": "Fresh public profile shows full display name, exact prepared bio and Blueprint B/star avatar.",
+    "public_url": "https://www.instagram.com/bodyofourdreams/",
+    "screenshot": ".local/profile-finalization-2026-10-27/instagram-final.png"
+  },
+  "youtube": {
+    "name": "verified_live",
+    "description": "verified_live",
+    "social_links": "verified_live",
+    "picture": "verified_live",
+    "banner": "verified_live",
+    "verification": "Fresh public channel shows the Blueprint banner and avatar. About dialog shows the revised conversational description without em dashes and both social links.",
+    "public_url": "https://www.youtube.com/@bodyofourdreams",
+    "screenshot": ".local/profile-finalization-2026-10-27/youtube-final.png",
+    "description_screenshot": ".local/profile-finalization-2026-10-27/youtube-final-bio.png"
+  },
+  "tiktok": {
+    "name": "not_saved",
+    "bio": "not_saved",
+    "picture": "not_verified_saved",
+    "blocker": "Fresh editor accepted the avatar crop, but saving the complete profile did not succeed. The live profile still shows its old name and no bio, and the page reports Something went wrong. Please try again later.",
+    "public_url": "https://www.tiktok.com/@bodyofourdreams",
+    "screenshot": ".local/profile-finalization-2026-10-27/tiktok-final-blocker.png"
+  },
+  "upload_blocker": null,
+  "complete": false,
+  "next_steps": [
+    "Complete TikTok name, bio and avatar in the native app or a working web session, then verify the public profile."
+  ],
+  "scope": "No content posts scheduled or published; public handles unchanged.",
+  "upload_access": "User enabled Chrome extension file access; uploads succeeded on YouTube and Instagram."
+}

@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-10-27",
+  "source": "Metricool getanalyticsavailablemetrics",
+  "network": "youtube",
+  "connector": "all videos",
+  "fields": [
+    {
+      "field_id": "YTVV01",
+      "name": "publishedAt",
+      "label": "Youtube all Videos > Date Published"
+    },
+    {
+      "field_id": "YTVV02",
+      "name": "publishedAt",
+      "label": "Youtube all Videos > Date Published with time"
+    },
+    {
+      "field_id": "YTVV03",
+      "name": "thumbnailUrl:YTVV05",
+      "label": "Youtube all Videos > Thumbnail"
+    },
+    {
+      "field_id": "YTVV04",
+      "name": "videoId:YTVV05",
+      "label": "Youtube all Videos > Video Id"
+    },
+    {
+      "field_id": "YTVV05",
+      "name": "watchUrl",
+      "label": "Youtube all Videos > Video url"
+    },
+    {
+      "field_id": "YTVV06",
+      "name": "views",
+      "label": "Youtube all Videos > Views"
+    },
+    {
+      "field_id": "YTVV07",
+      "name": "watchMinutes",
+      "label": "Youtube all Videos > Watch Minutes"
+    },
+    {
+      "field_id": "YTVV08",
+      "name": "averageViewDuration",
+      "label": "Youtube all Videos > Avg View Duration"
+    },
+    {
+      "field_id": "YTVV09",
+      "name": "likes",
+      "label": "Youtube all Videos > Likes"
+    },
+    {
+      "field_id": "YTVV10",
+      "name": "dislikes",
+      "label": "Youtube all Videos > Dislikes"
+    },
+    {
+      "field_id": "YTVV11",
+      "name": "comments",
+      "label": "Youtube all Videos > Comments"
+    },
+    {
+      "field_id": "YTVV12",
+      "name": "shares",
+      "label": "Youtube all Videos > Shares"
+    },
+    {
+      "field_id": "YTVV13",
+      "name": "adImpressions",
+      "label": "Youtube all Videos > Ad Impressions"
+    },
+    {
+      "field_id": "YTVV14",
+      "name": "estimatedAdRevenue",
+      "label": "Youtube all Videos > Estimated Revenue"
+    },
+    {
+      "field_id": "YTVV15",
+      "name": "estimatedRedPartnerRevenue",
+      "label": "Youtube all Videos > Estimated Red Partner Revenue"
+    },
+    {
+      "field_id": "YTVV16",
+      "name": "monetizedPlaybacks",
+      "label": "Youtube all Videos > Monetized Playbacks"
+    },
+    {
+      "field_id": "YTVV17",
+      "name": "title",
+      "label": "Youtube all Videos > Title"
+    },
+    {
+      "field_id": "YTVV18",
+      "name": "SUM(IFNULL(YTVV15,0))+SUM(IFNULL(YTVV14,0))",
+      "label": "Youtube all Videos > Total Estimated Revenue"
+    }
+  ],
+  "required_fields_not_exposed_by_name": [
+    "engagedViews",
+    "stayed_to_watch_pct",
+    "average_percentage_viewed"
+  ],
+  "account_metric_data_accessed": false,
+  "native_export_rehearsal_completed": false
+}

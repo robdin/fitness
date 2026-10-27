@@ -1,0 +1,35 @@
+{
+  "version": "blueprint-profiles-v1",
+  "prepared_at": "2026-10-27",
+  "display_name": "Body of Our Dreams",
+  "handle": "bodyofourdreams",
+  "design": "Existing Blueprint cobalt, lilac, Space Grotesk and Fraunces Italic. A bold B with a small four-point star; no character or physical ideal.",
+  "instagram": {
+    "name": "Body of Our Dreams | Fitness",
+    "bio": "Science-backed fitness for a full calendar.\nTraining • food • movement • recovery\nYour dream body. Your real life.",
+    "public_url": "https://www.instagram.com/bodyofourdreams/"
+  },
+  "youtube": {
+    "name": "Body of Our Dreams",
+    "description": "Your dream body. Your real life.\n\nNew to fitness, with a week that's already full? We share science-backed advice on training, food, movement and recovery that you can put to use.\n\nThis started when a friend said she wanted the \"body of her dreams\" while juggling a busy life. We started joking about it, but we meant it too. We wanted to look and feel better without making fitness our whole lives.\n\nEach video explains one thing and gives you something to try. We link the research and say when the answer isn't clear.\n\nUse these videos to learn and ask better questions. They aren't a personal training or nutrition plan.",
+    "public_url": "https://www.youtube.com/@bodyofourdreams",
+    "channel_id": "UCBJu873k_PPBioEwrtsDU5Q",
+    "links": [
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/bodyofourdreams/"
+      },
+      {
+        "title": "TikTok",
+        "url": "https://www.tiktok.com/@bodyofourdreams"
+      }
+    ]
+  },
+  "tiktok": {
+    "name": "Body of Our Dreams",
+    "bio": "Your dream body. Your real life.\nScience-backed fitness that fits.",
+    "public_url": "https://www.tiktok.com/@bodyofourdreams"
+  },
+  "launch_notes": "No Start here CTA before BC00 is live. No unlaunched website, credentials, personal contact details, transformation guarantee or new publishing cadence promise. Preserve current handles.",
+  "writing_policy": "Everyday words, natural phrasing, no em dashes or stock motivational phrases. Preserve evidence and qualifications. No AI-detector guarantee."
+}

@@ -1,0 +1,50 @@
+{
+  "verified_at": "2026-10-27T17:21:21Z",
+  "method": "Metricool getbrandsettings, getscheduledposts and getanalyticsdatabymetrics",
+  "brand_id": 7611975,
+  "timezone": "America/New_York",
+  "connection_status": "confirmed",
+  "accounts": {
+    "instagram": {
+      "handle": "bodyofourdreams",
+      "public_url": "https://www.instagram.com/bodyofourdreams/",
+      "native_id": null,
+      "identity_scope": "Metricool returned the connected handle, not the numeric Instagram account ID"
+    },
+    "youtube": {
+      "native_id": "UCBJu873k_PPBioEwrtsDU5Q",
+      "public_url": "https://www.youtube.com/channel/UCBJu873k_PPBioEwrtsDU5Q",
+      "handle": null,
+      "identity_scope": "Metricool returned the connected channel ID, not its handle or display name"
+    },
+    "tiktok": {
+      "handle": "bodyofourdreams",
+      "public_url": "https://www.tiktok.com/@bodyofourdreams",
+      "in_primary_pilot": false
+    }
+  },
+  "planner_read": {
+    "status": "passed",
+    "from": "2026-10-27T00:00:00-04:00",
+    "to": "2026-12-06T00:00:00-05:00",
+    "scheduled_posts": 0
+  },
+  "youtube_analytics_read": {
+    "status": "passed",
+    "from": "2026-10-27T00:00:00-04:00",
+    "to": "2026-10-27T13:21:21-04:00",
+    "rows": 0,
+    "fields": [
+      "YTVV04",
+      "YTVV05",
+      "YTVV06",
+      "YTVV07",
+      "YTVV08"
+    ],
+    "meaning": "Successful connector read; empty rows are not primary pilot observations"
+  },
+  "native_first_168_hour_rehearsal_complete": false,
+  "publishing_write_tested": false,
+  "posts_created": 0,
+  "account_settings_changed": false
+}

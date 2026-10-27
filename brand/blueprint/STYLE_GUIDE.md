@@ -1,6 +1,6 @@
 # Blueprint · selected production style
 
-Selected by the owner on 23 October 2026. This replaces Training Club as the active style. The current [conversational Blueprint month](../../content/month-one-v6/CALENDAR.md) applies the 27 October voice revision without changing this visual identity. Daylight and Afterglow remain historical alternatives. **Blueprint is the style name; the public brand name is undecided.** Use “Body of our dreams” as campaign wording, not a claim that a name has been cleared.
+Selected by the owner on 23 October 2026. This replaces Training Club as the active style. The current [conversational Blueprint month](../../content/month-one-v6/CALENDAR.md) applies the 27 October voice revision without changing this visual identity. Daylight and Afterglow remain historical alternatives. **Blueprint is the style name. Body of Our Dreams is the public brand, with @bodyofourdreams handles.** This records the owner's selection, not legal clearance.
 
 **Character direction, 24 October 2026:** the owner selected **D — Off-Duty Hero** and requested comparisons against existing content. [Three matched previews](CHARACTER_PREVIEW.md) explore a still illustrated companion. The completed month remains the graphics-led baseline while placement and usage are reviewed.
 
@@ -11,6 +11,8 @@ Selected by the owner on 23 October 2026. This replaces Training Club as the act
 Mission: help people work toward the body, health and confidence they want through science-backed training, movement and nutrition that fit everyday life. Vision: caring for your body is woven into how you live.
 
 Keep the voice specific, warm and occasionally amused by ordinary friction. Science supports the named claim; 80/20 means useful priorities, not a universal results ratio. Give an early answer, a visible example, a boundary and one next step. Aesthetic goals are self-defined; avoid one ideal body, guaranteed transformations and deadline pressure.
+
+**Writing rule:** no em dashes or stock AI phrases in original public copy. Use ordinary words and real examples, keep the necessary qualifications, and review the writing aloud. Follow [the plain-language rule and checks](VOICE_DIRECTION.md#plain-language-rule-27-october-2026). A passing check is not an AI-detector guarantee.
 
 ### Conversational voice · owner update, 27 October 2026
 

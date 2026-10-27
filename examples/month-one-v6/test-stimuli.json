@@ -19,7 +19,7 @@
         "input_lra": "2.60"
       },
       "answer_starts_seconds": 3.35,
-      "render_elapsed_seconds": 5.17
+      "render_elapsed_seconds": 5.33
     },
     {
       "id": "BC03",
@@ -38,7 +38,7 @@
         "input_lra": "2.60"
       },
       "answer_starts_seconds": 3.35,
-      "render_elapsed_seconds": 5.11
+      "render_elapsed_seconds": 5.95
     }
   ],
   "motion": [
@@ -59,7 +59,7 @@
         "input_lra": "1.70"
       },
       "answer_starts_seconds": 3.11,
-      "render_elapsed_seconds": 5.04
+      "render_elapsed_seconds": 5.19
     },
     {
       "id": "BC04",
@@ -78,7 +78,7 @@
         "input_lra": "1.70"
       },
       "answer_starts_seconds": 3.11,
-      "render_elapsed_seconds": 5.05
+      "render_elapsed_seconds": 5.92
     }
   ]
 }

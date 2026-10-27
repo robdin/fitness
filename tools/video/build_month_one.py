@@ -8,6 +8,7 @@ import wave
 import hashlib
 from pathlib import Path
 from month_one_core import ROOT, load_episodes, make_timeline, write_srt, digest, script
+from voice_contract import validate_voice_receipt
 
 def run(*args, capture=False):
     return subprocess.run(list(map(str,args)),check=True,capture_output=capture,text=capture)
@@ -21,7 +22,10 @@ def build(ep,args,workspace=None,renderer=None):
     start=time.monotonic(); work=workspace/'build'/ep['id']; work.mkdir(parents=True,exist_ok=True)
     out=workspace/'review'/ep['id'];out.mkdir(parents=True,exist_ok=True)
     voice=workspace/'voice'/ep['id']; voiced=(voice/'narration.wav').exists()
+    voice_check=None
     if voiced:
+        if ep.get('voice_contract'):
+            voice_check=validate_voice_receipt(ep,voice,**ep['voice_contract'])
         generation=json.loads((voice/'generation.json').read_text())
         if generation.get('status')!='complete' or generation.get('script_sha256')!=hashlib.sha256(script(ep).encode()).hexdigest():
             raise RuntimeError(f"{ep['id']}: current script does not have a complete narration receipt")
@@ -64,6 +68,7 @@ def build(ep,args,workspace=None,renderer=None):
     report['renderer_sha256']=digest(renderer)
     report['timeline_sha256']=digest(out/'timeline.json')
     report['width']=args.width;report['height']=args.width*16//9
+    if voice_check is not None:report['voice_provenance']=voice_check
     if report['frames']!=frames:raise RuntimeError('Frame count mismatch')
     if voiced:
         result=run('ffmpeg','-hide_banner','-nostats','-i',target,'-af','loudnorm=I=-16:TP=-1.5:LRA=9:print_format=json','-f','null','-',capture=True)

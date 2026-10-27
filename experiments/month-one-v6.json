@@ -22,11 +22,11 @@
     "go": "Coverage, attention, usefulness, comprehension and production-time gates all pass; no unresolved recurring critical misunderstanding. Continue for one bounded month, not an unlimited commitment.",
     "no_go": "Adequate observations show both attention and useful-response gates failed, or measured production remains above the chosen capacity after one documented simplification. Report evidence and the failed condition; this rejects the current format, not all possible fitness content.",
     "iterate": "Mixed evidence or one repairable clarity/production problem. Choose one documented change and one bounded follow-up; do not indefinitely extend a failing pilot.",
-    "insufficient_evidence": "Too few mature posts, too little exposure, missing metrics, unmeasured labor or missing comprehension checks. Do not convert missing observations into zeros. Allow one additional 14-day observation/distribution window, without buying reach or changing the success rule. If still insufficient, decide whether the unresolved distribution problem merits further investment."
+    "insufficient_evidence": "Too few mature posts, too little exposure, missing metrics, unmeasured labor or missing comprehension checks. Missing is not zero. One bounded 14-day extension may recover missing documentation for first-168-hour snapshots collected within the permitted grace, allow late releases to mature, or complete comprehension/labor observations. Later cumulative reach does not replace a frozen first-168-hour eligibility window. If still insufficient, explicitly decide whether to invest in a new distribution protocol; do not move this cohort's goalposts."
   },
   "organic_comparison": "Eight question-led and eight answer-led openings, balanced within week and weekday. Topic pillars are uneven. Descriptive organic comparison, not randomized or causal.",
   "posting_slot": "18:00 America/New_York is a scheduling convenience, not a claimed optimal time. Use the same slot initially. Dates are a proposal until actual publication receipts exist.",
-  "privacy": "Only aggregate observations belong in Git. Use pseudonymous participant IDs; keep contact mappings private. No unsolicited recruitment or publishing has been authorized.",
+  "privacy": "Only aggregate observations belong in Git. Use pseudonymous participant IDs; keep contact mappings private. Pilot preparation and account connection are authorized. Unsolicited recruitment is not authorized. Verify intended account identity and media review before release.",
   "capacity_source": "User selected up to 12 hands-on hours per week on 2026-10-21",
   "type": "organic_pilot_and_usability_plan",
   "episode_ids": [
@@ -47,7 +47,7 @@
     "BC15",
     "BC16"
   ],
-  "protocol_version": "6.0",
+  "protocol_version": "6.1",
   "content": "content/month-one-v6/calendar.json",
   "maximum_snapshot_delay_hours": 24,
   "final_readout_at": "2026-12-05T18:00:00-05:00",
@@ -82,7 +82,7 @@
   "freeze_rule": "Freeze BC-series scripts, media, calendar and operating hurdles before publication. BC00 is evaluated separately for orientation.",
   "interpretation": "No live observations. Earlier media are prototypes, not audience controls.",
   "require_reporting_window_label": true,
-  "prelaunch_production_revision": "Owner requested casual relatable voice, seamless optional models and unchanged Blueprint. Sixteen fresh narrations; BC00 orientation excluded from core cohort.",
+  "prelaunch_production_revision": "Owner requested casual relatable voice, seamless optional models and unchanged Blueprint. Sixteen fresh narrations; BC00 orientation excluded from core cohort. Prelaunch 6.1: practical caption templates, BC05 promise aligned to instructor-help lesson, distinct dated labor evidence and explicit fixed-window recovery rule. Brand and primary hurdles unchanged.",
   "brand_screen": {
     "conducted": false,
     "selection": "Owner selected Blueprint; no comparative audience winner claimed.",
@@ -107,5 +107,8 @@
     "setup_effort_separate": true,
     "outcome": "Who is it for, what does it help with, why return?",
     "audience_test_run": false
-  }
+  },
+  "evidence_schema": "v6-evidence-v1",
+  "visual_test_trigger": "Do not run another visual experiment unless first-exposure feedback identifies a repeated actionable comprehension or readability problem. Log the observation first, change one relevant feature, retain matched audio/timing, and test with fresh adult viewers. Preference alone is not proof of attention lift.",
+  "reporting_window_feasibility": "Native Studio rehearsal pending. Calendar-day API or Metricool totals are not proof of an exact first-168-hour export. Preserve native labels, interval, timezone, data-through time and source file. If unavailable, keep the primary field missing and report other windows separately; revise any protocol only prospectively before first release."
 }
