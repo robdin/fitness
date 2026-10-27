@@ -1,0 +1,682 @@
+{
+  "status": "production_candidate_complete_audience_validation_pending",
+  "version": "v6-blueprint-conversational",
+  "core_episodes": 16,
+  "video_exports": 19,
+  "orientation_videos": 1,
+  "carousel_panels": 20,
+  "story_frames": 16,
+  "character_stimuli": 0,
+  "citation_stimuli": 2,
+  "motion_stimuli": 2,
+  "stimuli_include_core_exports": true,
+  "decode_passes": 19,
+  "frames_checked": 13057,
+  "max_caption_cps": 20.0,
+  "duration_seconds_range": [
+    20.2,
+    26.1
+  ],
+  "maximum_answer_start_seconds": 4.55,
+  "comparison_audio_identical": true,
+  "new_voice_requests": 22,
+  "new_image_requests": 0,
+  "retained_voice_tracks": 0,
+  "provider_actual_charge": null,
+  "human_listening_review": false,
+  "target_uploader_preview": false,
+  "target_audience_tests": 0,
+  "live_audience_observations": 0,
+  "hands_on_labor_measured": false,
+  "public_upload": false,
+  "asr_review": [
+    {
+      "id": "BC00",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC01",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC02",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC03",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "waiting",
+              "recognized": "weighting"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "delete",
+              "expected": "ve",
+              "recognized": ""
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC04",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "a",
+              "recognized": "the"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "pick",
+              "recognized": "take"
+            },
+            {
+              "kind": "replace",
+              "expected": "and",
+              "recognized": "in"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC05",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "plan s",
+              "recognized": "plans"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC06",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC07",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC08",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "in",
+              "recognized": "and"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "insert",
+              "expected": "",
+              "recognized": "if it"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC09",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "varied",
+              "recognized": "very"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "supplies",
+              "recognized": "supply is"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC10",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC11",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC12",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC13",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "a",
+              "recognized": "of"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC14",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC15",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": []
+        }
+      ],
+      "human_listening_review": false
+    },
+    {
+      "id": "BC16",
+      "reports": [
+        {
+          "model": "base.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "plan s",
+              "recognized": "plans"
+            },
+            {
+              "kind": "replace",
+              "expected": "day",
+              "recognized": "the"
+            }
+          ]
+        },
+        {
+          "model": "small.en",
+          "differences": [
+            {
+              "kind": "replace",
+              "expected": "plan s",
+              "recognized": "plans"
+            },
+            {
+              "kind": "replace",
+              "expected": "day",
+              "recognized": "the"
+            }
+          ]
+        }
+      ],
+      "human_listening_review": false
+    }
+  ],
+  "outputs": [
+    {
+      "id": "BC00",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC00/BC00-motion.mp4",
+      "sha256": "3999708a6baec9c771f526aea8a593eb43645a06664a8c38344b966ca87570da",
+      "audio_md5": "MD5=7f9b7fbece5ba7d00847311c114a029f",
+      "duration": 25.733333,
+      "frames": 772,
+      "max_cps": 19.231,
+      "loudness": {
+        "input_i": "-16.10",
+        "input_tp": "-4.50",
+        "input_lra": "1.80"
+      },
+      "answer_starts_seconds": 4.55,
+      "render_elapsed_seconds": 5.75
+    },
+    {
+      "id": "BC01",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC01/BC01-motion.mp4",
+      "sha256": "a5f88df3f2e122b0cd657689d9d397ee56c4b1d697228b5cf4b9362cb32d3933",
+      "audio_md5": "MD5=f75e86a50f3ec0711532f8e125e7cae8",
+      "duration": 22.333333,
+      "frames": 670,
+      "max_cps": 19.728,
+      "loudness": {
+        "input_i": "-16.13",
+        "input_tp": "-4.50",
+        "input_lra": "2.00"
+      },
+      "answer_starts_seconds": 2.87,
+      "render_elapsed_seconds": 5.07
+    },
+    {
+      "id": "BC02",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC02/BC02-motion.mp4",
+      "sha256": "aaa6e0656d807084483759733b80119b518e40cee700f8668a6e41c52c62dc6b",
+      "audio_md5": "MD5=3dcf1f9b7d5ea113a02b0a87dfe87b12",
+      "duration": 22.666667,
+      "frames": 680,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.38",
+        "input_tp": "-4.49",
+        "input_lra": "2.10"
+      },
+      "answer_starts_seconds": 2.95,
+      "render_elapsed_seconds": 5.23
+    },
+    {
+      "id": "BC03",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC03/BC03-motion.mp4",
+      "sha256": "37983940e26817f3fddca2894d3bf0ef9e1ae686c5437c3a892bcf441e933c3a",
+      "audio_md5": "MD5=10c555d31d748b7816e0600f840431f1",
+      "duration": 22.333333,
+      "frames": 670,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.64",
+        "input_tp": "-4.49",
+        "input_lra": "2.60"
+      },
+      "answer_starts_seconds": 3.35,
+      "render_elapsed_seconds": 5.17
+    },
+    {
+      "id": "BC04",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC04/BC04-motion.mp4",
+      "sha256": "4691cbe3942128af9953c50fe2d9c722a06926b8a5bdf20c3d8d334ce0158377",
+      "audio_md5": "MD5=7faf1ce9d0cd6e4deac80a47823afce5",
+      "duration": 22.0,
+      "frames": 660,
+      "max_cps": 18.447,
+      "loudness": {
+        "input_i": "-16.03",
+        "input_tp": "-4.50",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 3.11,
+      "render_elapsed_seconds": 5.04
+    },
+    {
+      "id": "BC05",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC05/BC05-motion.mp4",
+      "sha256": "bcd80a36235099ba3a34807c77a7e291d292416b28984091ea06520cc2b96669",
+      "audio_md5": "MD5=2d9ba2729eef388234c52b927e118f14",
+      "duration": 20.2,
+      "frames": 606,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.10",
+        "input_tp": "-4.50",
+        "input_lra": "1.30"
+      },
+      "answer_starts_seconds": 1.99,
+      "render_elapsed_seconds": 4.79
+    },
+    {
+      "id": "BC06",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC06/BC06-motion.mp4",
+      "sha256": "61f568c2b7be28b4895e63065634be83391f3d03b0b4c0e2a1946867772a43c1",
+      "audio_md5": "MD5=6493948189e3736061ae0dea9ef2d746",
+      "duration": 25.5,
+      "frames": 765,
+      "max_cps": 19.626,
+      "loudness": {
+        "input_i": "-16.34",
+        "input_tp": "-4.50",
+        "input_lra": "2.30"
+      },
+      "answer_starts_seconds": 3.43,
+      "render_elapsed_seconds": 5.88
+    },
+    {
+      "id": "BC07",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC07/BC07-motion.mp4",
+      "sha256": "1fcf5a69b43ee978bba785b80c1813658b08e110e191105c89fc330927e85bb5",
+      "audio_md5": "MD5=0712aa91e01423f459a59a129f3e3520",
+      "duration": 24.6,
+      "frames": 738,
+      "max_cps": 19.565,
+      "loudness": {
+        "input_i": "-16.41",
+        "input_tp": "-4.50",
+        "input_lra": "1.90"
+      },
+      "answer_starts_seconds": 4.31,
+      "render_elapsed_seconds": 5.43
+    },
+    {
+      "id": "BC08",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC08/BC08-motion.mp4",
+      "sha256": "cbab889980f628504275ec01997d60ac7fa3d415bdaaffc87dc935721c57f092",
+      "audio_md5": "MD5=eb0b8d489bc21f0901dd2cae647c526e",
+      "duration": 20.433333,
+      "frames": 613,
+      "max_cps": 19.205,
+      "loudness": {
+        "input_i": "-16.24",
+        "input_tp": "-4.41",
+        "input_lra": "2.00"
+      },
+      "answer_starts_seconds": 2.55,
+      "render_elapsed_seconds": 4.83
+    },
+    {
+      "id": "BC09",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC09/BC09-motion.mp4",
+      "sha256": "5b67206727bb52305e2230425b512453deba965163222c563b8466601155bb49",
+      "audio_md5": "MD5=f678d8fc1476346dc15d294cea1e726d",
+      "duration": 23.466667,
+      "frames": 704,
+      "max_cps": 19.914,
+      "loudness": {
+        "input_i": "-16.12",
+        "input_tp": "-4.44",
+        "input_lra": "3.10"
+      },
+      "answer_starts_seconds": 3.03,
+      "render_elapsed_seconds": 5.32
+    },
+    {
+      "id": "BC10",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC10/BC10-motion.mp4",
+      "sha256": "954b10e07d108100f4e128ab73d878e6814d0d4c479606960c1cc02fa528eb19",
+      "audio_md5": "MD5=f66c2db0414cf6dba5a476837a50c8e8",
+      "duration": 22.966667,
+      "frames": 689,
+      "max_cps": 18.333,
+      "loudness": {
+        "input_i": "-16.21",
+        "input_tp": "-4.50",
+        "input_lra": "1.60"
+      },
+      "answer_starts_seconds": 4.15,
+      "render_elapsed_seconds": 5.4
+    },
+    {
+      "id": "BC11",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC11/BC11-motion.mp4",
+      "sha256": "8d2f9fe76b26b717fe2b4b62ff022a6f215b5e50b66a8ed8d72301593c3d3278",
+      "audio_md5": "MD5=bd3a9a81c1d4aec33edb0bd6b7b1ca4e",
+      "duration": 22.5,
+      "frames": 675,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.21",
+        "input_tp": "-4.44",
+        "input_lra": "2.10"
+      },
+      "answer_starts_seconds": 3.19,
+      "render_elapsed_seconds": 5.19
+    },
+    {
+      "id": "BC12",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC12/BC12-motion.mp4",
+      "sha256": "3a9a44dd6de95748812d903fb3b49f50877bd9a5fb78693b73ac291853a83b9f",
+      "audio_md5": "MD5=02964833a93f795f40f65d96859f3a2b",
+      "duration": 26.1,
+      "frames": 783,
+      "max_cps": 19.192,
+      "loudness": {
+        "input_i": "-16.53",
+        "input_tp": "-4.41",
+        "input_lra": "2.20"
+      },
+      "answer_starts_seconds": 3.43,
+      "render_elapsed_seconds": 5.93
+    },
+    {
+      "id": "BC13",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC13/BC13-motion.mp4",
+      "sha256": "84b02c5964b63b52784bb0751f82f0775efb8b49685ddb96d80ef255a6abaef8",
+      "audio_md5": "MD5=d3e175d2dade48386770a02e15f615b5",
+      "duration": 22.233333,
+      "frames": 667,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.19",
+        "input_tp": "-4.50",
+        "input_lra": "2.40"
+      },
+      "answer_starts_seconds": 3.99,
+      "render_elapsed_seconds": 5.16
+    },
+    {
+      "id": "BC14",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC14/BC14-motion.mp4",
+      "sha256": "bb4a3af38fe66be7fdc581b01621fecdd8ce52803b651fd38e12d6a6b1352a35",
+      "audio_md5": "MD5=44c2b6fe2ba74ef68d5cfa8d19ad1690",
+      "duration": 24.333333,
+      "frames": 730,
+      "max_cps": 18.333,
+      "loudness": {
+        "input_i": "-16.30",
+        "input_tp": "-4.49",
+        "input_lra": "2.80"
+      },
+      "answer_starts_seconds": 3.11,
+      "render_elapsed_seconds": 5.51
+    },
+    {
+      "id": "BC15",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC15/BC15-motion.mp4",
+      "sha256": "e9cd35bdcb23b41afe3f563790f9a984284872841ed3e5e96265b8491446bac1",
+      "audio_md5": "MD5=ac9f3df65b437b78d38972e9cc300695",
+      "duration": 22.266667,
+      "frames": 668,
+      "max_cps": 18.75,
+      "loudness": {
+        "input_i": "-16.32",
+        "input_tp": "-4.47",
+        "input_lra": "2.20"
+      },
+      "answer_starts_seconds": 3.75,
+      "render_elapsed_seconds": 5.12
+    },
+    {
+      "id": "BC16",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC16/BC16-motion.mp4",
+      "sha256": "3ab24ba2ed105d249d579841ea2cae7030d65cae143a1ddc8a16703a81d9c342",
+      "audio_md5": "MD5=e89951291ecf84930aea843b078f8e87",
+      "duration": 21.233333,
+      "frames": 637,
+      "max_cps": 18.333,
+      "loudness": {
+        "input_i": "-16.72",
+        "input_tp": "-4.50",
+        "input_lra": "3.50"
+      },
+      "answer_starts_seconds": 2.47,
+      "render_elapsed_seconds": 4.94
+    },
+    {
+      "id": "BC03",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": false,
+      "treatment": "motion",
+      "path": "variants/citation-off/BC03/BC03-motion.mp4",
+      "sha256": "e1fb237ea8148a7888c04e58bb1de56d011f9fd6a03402f29dd874431065664c",
+      "audio_md5": "MD5=10c555d31d748b7816e0600f840431f1",
+      "duration": 22.333333,
+      "frames": 670,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.64",
+        "input_tp": "-4.49",
+        "input_lra": "2.60"
+      },
+      "answer_starts_seconds": 3.35,
+      "render_elapsed_seconds": 5.11
+    },
+    {
+      "id": "BC04",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "static",
+      "path": "BC04/BC04-static.mp4",
+      "sha256": "3647a88c5975ed911c6f196d05f98e5f39ad9a8a0a3f2bfd6772f0131bcf6e29",
+      "audio_md5": "MD5=7faf1ce9d0cd6e4deac80a47823afce5",
+      "duration": 22.0,
+      "frames": 660,
+      "max_cps": 18.447,
+      "loudness": {
+        "input_i": "-16.03",
+        "input_tp": "-4.50",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 3.11,
+      "render_elapsed_seconds": 5.05
+    }
+  ]
+}

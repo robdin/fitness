@@ -1,0 +1,48 @@
+{
+  "id": "CV3",
+  "type": "controlled_citation_screen_plan",
+  "version": "3.0",
+  "status": "stimuli_produced_test_not_run",
+  "visual_version": "v6-blueprint-conversational",
+  "episode": "BC03",
+  "arms": [
+    "links_in_description",
+    "same_links_plus_on_screen_source_label"
+  ],
+  "label": "Schoenfeld et al., 2016 \u00b7 21 trained men",
+  "screen_n_range": [
+    24,
+    36
+  ],
+  "primary_item": "I would trust this channel to explain another beginner question.",
+  "controls": "Identical character-free layout, narration, captions, spoken scope, runtime and complete description links. Only the on-screen source label changes.",
+  "eligibility": "Adults aged 18\u201335 across genders, at most six months of consistent resistance training; voluntary participation. Small screen does not validate demographic differences or teen suitability.",
+  "assignment": "Fresh participants, randomly assigned in balanced blocks of two to label-on or label-off; preserve enrollment order, allocation and missingness. One version first; do not show the comparison hub before responses.",
+  "questions_in_order": [
+    "What was the main point?",
+    "What would you do with this advice?",
+    "Does this establish a rest target for every person and exercise? Why?",
+    "Rate trust in this channel explaining another beginner question: 1\u20137 or cannot tell.",
+    "Rate clarity: 1\u20137 or cannot tell.",
+    "Which source, if any, do you remember?"
+  ],
+  "comprehension": "Rest is part of training; the small trained-adult trial is not a universal rest prescription. Use BC03 rubric.",
+  "instrument_limit": "Custom product-research questions, not a validated psychological scale. Observe voluntary viewing only with an instrumented player or clearly label estimates; no telemetry collector is bundled.",
+  "analysis": "Report assigned, started, skipped, failed playback and missing for each arm; trust rating distributions, comprehension and source recall. Do not impute missing values as zero or infer small causal effects from this small screen.",
+  "interpretation": "Fresh conversational Blueprint stimulus pair. Keep separate from CV1/CV2; no prior participant results.",
+  "stimulus_hashes": [
+    {
+      "citation": true,
+      "sha256": "37983940e26817f3fddca2894d3bf0ef9e1ae686c5437c3a892bcf441e933c3a"
+    },
+    {
+      "citation": false,
+      "sha256": "e1fb237ea8148a7888c04e58bb1de56d011f9fd6a03402f29dd874431065664c"
+    }
+  ],
+  "live_participants": 0,
+  "observed_effect": null,
+  "recruitment_started": false,
+  "spending_committed": false,
+  "public_upload": false
+}

@@ -1,0 +1,84 @@
+{
+  "status": "produced_test_not_run",
+  "participants": 0,
+  "citation": [
+    {
+      "id": "BC03",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC03/BC03-motion.mp4",
+      "sha256": "37983940e26817f3fddca2894d3bf0ef9e1ae686c5437c3a892bcf441e933c3a",
+      "audio_md5": "MD5=10c555d31d748b7816e0600f840431f1",
+      "duration": 22.333333,
+      "frames": 670,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.64",
+        "input_tp": "-4.49",
+        "input_lra": "2.60"
+      },
+      "answer_starts_seconds": 3.35,
+      "render_elapsed_seconds": 5.17
+    },
+    {
+      "id": "BC03",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": false,
+      "treatment": "motion",
+      "path": "variants/citation-off/BC03/BC03-motion.mp4",
+      "sha256": "e1fb237ea8148a7888c04e58bb1de56d011f9fd6a03402f29dd874431065664c",
+      "audio_md5": "MD5=10c555d31d748b7816e0600f840431f1",
+      "duration": 22.333333,
+      "frames": 670,
+      "max_cps": 20.0,
+      "loudness": {
+        "input_i": "-16.64",
+        "input_tp": "-4.49",
+        "input_lra": "2.60"
+      },
+      "answer_starts_seconds": 3.35,
+      "render_elapsed_seconds": 5.11
+    }
+  ],
+  "motion": [
+    {
+      "id": "BC04",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "motion",
+      "path": "BC04/BC04-motion.mp4",
+      "sha256": "4691cbe3942128af9953c50fe2d9c722a06926b8a5bdf20c3d8d334ce0158377",
+      "audio_md5": "MD5=7faf1ce9d0cd6e4deac80a47823afce5",
+      "duration": 22.0,
+      "frames": 660,
+      "max_cps": 18.447,
+      "loudness": {
+        "input_i": "-16.03",
+        "input_tp": "-4.50",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 3.11,
+      "render_elapsed_seconds": 5.04
+    },
+    {
+      "id": "BC04",
+      "visual_version": "v6-blueprint-conversational",
+      "citation": true,
+      "treatment": "static",
+      "path": "BC04/BC04-static.mp4",
+      "sha256": "3647a88c5975ed911c6f196d05f98e5f39ad9a8a0a3f2bfd6772f0131bcf6e29",
+      "audio_md5": "MD5=7faf1ce9d0cd6e4deac80a47823afce5",
+      "duration": 22.0,
+      "frames": 660,
+      "max_cps": 18.447,
+      "loudness": {
+        "input_i": "-16.03",
+        "input_tp": "-4.50",
+        "input_lra": "1.70"
+      },
+      "answer_starts_seconds": 3.11,
+      "render_elapsed_seconds": 5.05
+    }
+  ]
+}
