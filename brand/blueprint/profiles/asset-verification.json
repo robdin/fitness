@@ -1,0 +1,67 @@
+{
+  "version": "blueprint-profiles-v1",
+  "brand_tokens_sha256": "064d2f272c2687323340deeb7ec1e1c3b30276566c2eaa0d72b229861a977173",
+  "files": [
+    {
+      "file": "profile-picture-1024.png",
+      "bytes": 27422,
+      "sha256": "cf126933fe4cf8829524e776550ef491b5f934d8bd6ac028e0413a82ef0f174f"
+    },
+    {
+      "file": "youtube-profile-800.png",
+      "bytes": 25286,
+      "sha256": "e46fee730198ede9ef0e97b910921403f210fea03ff06ac18c6517db251c80e1"
+    },
+    {
+      "file": "youtube-watermark-150.png",
+      "bytes": 6139,
+      "sha256": "40107fddb520984f0ffbd59990208581b65516c82c6648f9527a6e49ac624a42"
+    },
+    {
+      "file": "youtube-banner-2560x1440.png",
+      "bytes": 224021,
+      "sha256": "bf56e9ddda54a2cbc627739b2c54f87bb4ecc141fac3c1aa493e05a32a92812b"
+    },
+    {
+      "file": "profile-kit-preview.png",
+      "bytes": 172421,
+      "sha256": "7c636fd273218e8c4ebc60126198c0023e8d451469896d8bb1c17d1a0f4eb97c"
+    }
+  ],
+  "banner_text_bounds": [
+    {
+      "text": "BODY OF OUR DREAMS",
+      "left": 850,
+      "top": 552,
+      "right": 1204.6199951171875,
+      "bottom": 592.8
+    },
+    {
+      "text": "Your dream body.",
+      "left": 844,
+      "top": 608,
+      "right": 1714.1900024414062,
+      "bottom": 725.6
+    },
+    {
+      "text": "Your real life.",
+      "left": 850,
+      "top": 718,
+      "right": 1411.75,
+      "bottom": 828.4
+    },
+    {
+      "text": "Science-backed fitness that fits.",
+      "left": 854,
+      "top": 838,
+      "right": 1430.219970703125,
+      "bottom": 881.2
+    }
+  ],
+  "copy_characters": {
+    "instagram": 114,
+    "tiktok": 66,
+    "youtube": 624
+  },
+  "native_upload_verified": false
+}

@@ -85,9 +85,9 @@
         "FREE WEIGHT",
         "SETUP + LOG"
       ],
-      "scope_label": "Research summary: adults · no universal safety ranking",
+      "scope_label": "Research summary: adults \u00b7 no universal safety ranking",
       "source_cue": {
-        "label": "2023 review · free weights & machines",
+        "label": "2023 review \u00b7 free weights & machines",
         "source_ids": [
           "E06"
         ],
@@ -101,7 +101,7 @@
           "Use the weight and reps from your own session",
           "Note: asked staff to show the adjustment"
         ],
-        "footer": "ILLUSTRATIVE NOTE · NOT A LOAD TARGET",
+        "footer": "ILLUSTRATIVE NOTE \u00b7 NOT A LOAD TARGET",
         "show_beats": [
           2,
           4,
@@ -137,9 +137,9 @@
         "3:00",
         "FOLLOW YOUR PLAN"
       ],
-      "scope_label": "Small adult trial · not a universal rest target",
+      "scope_label": "Small adult trial \u00b7 not a universal rest target",
       "source_cue": {
-        "label": "Schoenfeld et al., 2016 · 21 trained men",
+        "label": "Schoenfeld et al., 2016 \u00b7 21 trained men",
         "source_ids": [
           "E16"
         ],
@@ -147,7 +147,7 @@
       },
       "series": "Worth your effort",
       "example_card": {
-        "title": "PLAN → TIMER → LOG",
+        "title": "PLAN \u2192 TIMER \u2192 LOG",
         "rows": [
           "Read the rest instruction in your plan",
           "Set that time on your phone",
@@ -191,9 +191,9 @@
         "FAMILIAR ROUTE",
         "INDOOR BACKUP"
       ],
-      "scope_label": "Adult guidance · planning example, not the full target",
+      "scope_label": "Adult guidance \u00b7 planning example, not the full target",
       "source_cue": {
-        "label": "CDC · adult activity guidance",
+        "label": "CDC \u00b7 adult activity guidance",
         "source_ids": [
           "BPF01"
         ],
@@ -207,7 +207,7 @@
           "Where: a familiar route I can use",
           "Backup: a suitable indoor option"
         ],
-        "footer": "ILLUSTRATIVE PLAN · CHOOSE WHAT FITS",
+        "footer": "ILLUSTRATIVE PLAN \u00b7 CHOOSE WHAT FITS",
         "show_beats": [
           2,
           4,
@@ -218,7 +218,8 @@
     "BC05": {
       "headlines": [
         [
-          "WHAT WEIGHT?"
+          "STARTING WEIGHT?",
+          "HERE'S WHAT TO ASK."
         ],
         [
           "YOUR OWN",
@@ -248,7 +249,7 @@
       ],
       "scope_label": "Your starting load needs your own setup check",
       "source_cue": {
-        "label": "Practical checklist · getting setup help",
+        "label": "Practical checklist \u00b7 getting setup help",
         "source_ids": [],
         "kind": "editorial"
       },
@@ -260,7 +261,7 @@
           "Can you help me find a starting load?",
           "Here are the instructions in my plan."
         ],
-        "footer": "A QUESTION TO ASK · NOT A WORKOUT",
+        "footer": "A QUESTION TO ASK \u00b7 NOT A WORKOUT",
         "show_beats": [
           2,
           4,
@@ -298,9 +299,9 @@
         "TRAINING LOG",
         "COMPARE OVER TIME"
       ],
-      "scope_label": "Soreness is not a growth test · pain is a separate concern",
+      "scope_label": "Soreness is not a growth test \u00b7 pain is a separate concern",
       "source_cue": {
-        "label": "Military Health System · expert guidance",
+        "label": "Military Health System \u00b7 expert guidance",
         "source_ids": [
           "F08"
         ],
@@ -314,7 +315,7 @@
           "Setup: seat 3 / weight: my actual load",
           "Reps: what I completed / note: setup help"
         ],
-        "footer": "ILLUSTRATIVE FORMAT · RECORD YOUR OWN SET",
+        "footer": "ILLUSTRATIVE FORMAT \u00b7 RECORD YOUR OWN SET",
         "show_beats": [
           2,
           4,
@@ -351,9 +352,9 @@
         "PACE GROUPS",
         "WALK BREAKS"
       ],
-      "scope_label": "Editorial checklist · check the actual event",
+      "scope_label": "Editorial checklist \u00b7 check the actual event",
       "source_cue": {
-        "label": "Editorial checklist · first club visit",
+        "label": "Editorial checklist \u00b7 first club visit",
         "source_ids": [],
         "kind": "editorial"
       },
@@ -412,13 +413,13 @@
       },
       "series": "Dream / Plan",
       "example_card": {
-        "title": "TUESDAY · GYM NEAR WORK",
+        "title": "TUESDAY \u00b7 GYM NEAR WORK",
         "rows": [
           "Leave: 6:00 / arrive: 6:15",
           "Session: follow my actual plan",
           "Home: 7:10 / whole trip: 70 minutes"
         ],
-        "footer": "ILLUSTRATIVE TIMES · YOUR TRIP WILL DIFFER",
+        "footer": "ILLUSTRATIVE TIMES \u00b7 YOUR TRIP WILL DIFFER",
         "show_beats": [
           2,
           4,
@@ -455,11 +456,11 @@
       "labels": [
         "FOOD",
         "POWDER",
-        "CONVENIENCE ≠ REQUIREMENT"
+        "CONVENIENCE \u2260 REQUIREMENT"
       ],
       "scope_label": "No product endorsement or individual intake target",
       "source_cue": {
-        "label": "NIH ODS · food and supplements",
+        "label": "NIH ODS \u00b7 food and supplements",
         "source_ids": [
           "F03"
         ],
@@ -473,7 +474,7 @@
           "The beans are one protein food",
           "Choose portions and ingredients for your needs"
         ],
-        "footer": "ILLUSTRATIVE MEAL · NOT A DAILY TARGET",
+        "footer": "ILLUSTRATIVE MEAL \u00b7 NOT A DAILY TARGET",
         "show_beats": [
           2,
           4,
@@ -511,9 +512,9 @@
         "SESSION 2",
         "SESSION 3"
       ],
-      "scope_label": "Editorial comparison checklist · no plateau diagnosis",
+      "scope_label": "Editorial comparison checklist \u00b7 no plateau diagnosis",
       "source_cue": {
-        "label": "Editorial checklist · compare your log",
+        "label": "Editorial checklist \u00b7 compare your log",
         "source_ids": [],
         "kind": "editorial"
       },
@@ -525,7 +526,7 @@
           "Today: row / machine B / different setup",
           "Different equipment: check before comparing"
         ],
-        "footer": "FICTIONAL EXAMPLE · NO PLATEAU DIAGNOSIS",
+        "footer": "FICTIONAL EXAMPLE \u00b7 NO PLATEAU DIAGNOSIS",
         "show_beats": [
           2,
           4,
@@ -563,9 +564,9 @@
         "CHOOSE ONE MEAL",
         "LIST WHAT IS MISSING"
       ],
-      "scope_label": "Illustrative meal · adapt for needs, taste and access",
+      "scope_label": "Illustrative meal \u00b7 adapt for needs, taste and access",
       "source_cue": {
-        "label": "Food Standards Scotland · meal-planning guidance",
+        "label": "Food Standards Scotland \u00b7 meal-planning guidance",
         "source_ids": [
           "BPF02"
         ],
@@ -579,7 +580,7 @@
           "Check: the sauce I want to use",
           "Shopping list: only missing ingredients"
         ],
-        "footer": "AN ADAPTABLE IDEA · NOT A WHOLE DIET",
+        "footer": "AN ADAPTABLE IDEA \u00b7 NOT A WHOLE DIET",
         "show_beats": [
           2,
           4,
@@ -617,9 +618,9 @@
         "FAILURE",
         "FOLLOW YOUR ROUTINE"
       ],
-      "scope_label": "Adult research · no universal stopping target",
+      "scope_label": "Adult research \u00b7 no universal stopping target",
       "source_cue": {
-        "label": "Robinson et al., 2024 · adult research",
+        "label": "Robinson et al., 2024 \u00b7 adult research",
         "source_ids": [
           "E03"
         ],
@@ -671,9 +672,9 @@
         "SETUP SKILL",
         "TRAINING LOG"
       ],
-      "scope_label": "Process checklist · not a body-composition measure",
+      "scope_label": "Process checklist \u00b7 not a body-composition measure",
       "source_cue": {
-        "label": "Editorial checklist · process, not physique",
+        "label": "Editorial checklist \u00b7 process, not physique",
         "source_ids": [],
         "kind": "editorial"
       },
@@ -685,7 +686,7 @@
           "Setup: what can I do with more confidence?",
           "Next change: save my machine settings"
         ],
-        "footer": "PROCESS CHECK · NOT A BODY MEASUREMENT",
+        "footer": "PROCESS CHECK \u00b7 NOT A BODY MEASUREMENT",
         "show_beats": [
           2,
           4,
@@ -722,9 +723,9 @@
         "WAKE TIME",
         "REAL-LIFE CONSTRAINTS"
       ],
-      "scope_label": "General sleep guidance · persistent problems need care",
+      "scope_label": "General sleep guidance \u00b7 persistent problems need care",
       "source_cue": {
-        "label": "CDC · healthy sleep guidance",
+        "label": "CDC \u00b7 healthy sleep guidance",
         "source_ids": [
           "BPF03"
         ],
@@ -738,7 +739,7 @@
           "Try: pack it after dinner when possible",
           "Reminder: leave room for winding down"
         ],
-        "footer": "ILLUSTRATIVE CHANGE · NOT SLEEP TREATMENT",
+        "footer": "ILLUSTRATIVE CHANGE \u00b7 NOT SLEEP TREATMENT",
         "show_beats": [
           2,
           4,
@@ -779,9 +780,9 @@
         "BEGINNER SUPPORT",
         "ACCESS + EQUIPMENT"
       ],
-      "scope_label": "Editorial selection checklist · no habit guarantee",
+      "scope_label": "Editorial selection checklist \u00b7 no habit guarantee",
       "source_cue": {
-        "label": "Editorial checklist · choose an activity",
+        "label": "Editorial checklist \u00b7 choose an activity",
         "source_ids": [],
         "kind": "editorial"
       },
@@ -831,21 +832,21 @@
         "NEXT VISIT",
         "ONE ADJUSTMENT"
       ],
-      "scope_label": "Editorial scheduling advice · no individual recovery prescription",
+      "scope_label": "Editorial scheduling advice \u00b7 no individual recovery prescription",
       "source_cue": {
-        "label": "Editorial advice · plan the return",
+        "label": "Editorial advice \u00b7 plan the return",
         "source_ids": [],
         "kind": "editorial"
       },
       "series": "Life happens",
       "example_card": {
-        "title": "WORK RAN LATE · NEXT STEP",
+        "title": "WORK RAN LATE \u00b7 NEXT STEP",
         "rows": [
           "Check my plan's missed-session guidance",
           "Choose the next workable visit",
           "Save it in my calendar / pack my bag"
         ],
-        "footer": "ILLUSTRATIVE RETURN · FOLLOW YOUR OWN PLAN",
+        "footer": "ILLUSTRATIVE RETURN \u00b7 FOLLOW YOUR OWN PLAN",
         "show_beats": [
           2,
           4,
@@ -874,7 +875,7 @@
           "YOUR REAL LIFE."
         ],
         [
-          "LET’S FIGURE IT OUT."
+          "LET\u2019S FIGURE IT OUT."
         ]
       ],
       "kind": "checklist",
@@ -883,7 +884,7 @@
         "FOOD YOU ENJOY",
         "A WAY BACK AFTER A MISS"
       ],
-      "scope_label": "Training · movement · food · recovery",
+      "scope_label": "Training \u00b7 movement \u00b7 food \u00b7 recovery",
       "source_cue": {
         "label": "About this account",
         "source_ids": [],
@@ -894,7 +895,7 @@
         "title": "FITNESS IN AN ORDINARY WEEK",
         "rows": [
           "Training: a session that fits the whole trip",
-          "Food: tomorrow’s lunch from what you have",
+          "Food: tomorrow\u2019s lunch from what you have",
           "Life happens: choose the next return"
         ],
         "footer": "ONE USEFUL NEXT STEP AT A TIME",
@@ -911,7 +912,8 @@
   "voice": {
     "delivery_tag": "[warm, relaxed, conversational, speaking naturally to a friend]",
     "prosody_speed": 0.85,
-    "local_pitch_or_tempo_changes": false
+    "local_pitch_or_tempo_changes": false,
+    "model": "s2.1-pro-free"
   },
   "mental_models": "Optional only; no required model field or series."
 }

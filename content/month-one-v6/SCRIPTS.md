@@ -20,7 +20,13 @@ Q opening · planning · 69 words.
 
 **Unscheduled alternative:** Make three decisions before your first gym visit.
 
-**Posting caption:** Send the gym a quick message before you go. No plan yet? Ask what beginner help they offer and what it costs. Once you've got the instructions, save them in your phone. Start with that message. You don't have to guess your way around.
+**Posting caption:** New gym? Copy this before you go:
+
+"Hi, I'm new here. Can someone show me how to set up the equipment in my plan? What does that help cost?"
+
+No plan yet? Try: "What beginner help do you offer, and what does it cost?"
+
+Save the instructions in your phone once you have them.
 
 **Comprehension:** Send the gym a quick message before you go. No plan yet? Ask what beginner help they offer and what it costs. Once you've got the instructions, save them in your phone.
 
@@ -44,7 +50,14 @@ A opening · strength · 63 words.
 
 **Unscheduled alternative:** Do you have to start with free weights?
 
-**Posting caption:** Machines can be a place to start too. That doesn't make every exercise interchangeable. After someone checks your setup, save the machine name, settings, weight, and reps. Next visit, you've got a record to work from.
+**Posting caption:** Machines can be a place to start. Adult research finds muscle growth with both machines and free weights; strength also depends on what you practice. That does not make every exercise interchangeable.
+
+After someone checks your setup, copy this note:
+Machine name:
+Seat / settings:
+Weight:
+Reps:
+Useful note:
 
 **Comprehension:** Machines can be a place to start too. That doesn't make every exercise interchangeable. After someone checks your setup, save the machine name, settings, weight, and reps.
 
@@ -68,7 +81,11 @@ Q opening · strength · 62 words.
 
 **Unscheduled alternative:** Rest belongs in the workout.
 
-**Posting caption:** Rest is part of the workout. Give yourself that time. That doesn't make three minutes the rule for every exercise. Check your plan's rest advice, then set a timer. Record how the next set went. You've got something to compare.
+**Posting caption:** Waiting between sets can feel awkward. Rest still belongs in the workout.
+
+One small study in trained men found some advantages for three minutes over one. It does not set a universal rest time.
+
+Check your plan's rest instructions, set a timer, and note how the next set went.
 
 **Comprehension:** Rest is part of the workout. Give yourself that time. That doesn't make three minutes the rule for every exercise. Check your plan's rest advice, then set a timer.
 
@@ -92,17 +109,24 @@ A opening · movement · 66 words.
 
 **Unscheduled alternative:** Where could a short walk fit into your week?
 
-**Posting caption:** Adult activity guidance lets you build movement in smaller chunks. That's a starting idea, not the whole activity target. Pick a time and place that work for your ability and your day. Put that walking window in your notes.
+**Posting caption:** A short walk can fit around lunch. Adult activity guidance allows movement in smaller chunks; this example is one starting point, not the whole activity target.
+
+Make it fit your day:
+After lunch at: ___
+Familiar route: ___
+Indoor option: ___
+
+Choose a time and place that work for your ability.
 
 **Comprehension:** Adult activity guidance lets you build movement in smaller chunks. That's a starting idea, not the whole activity target. Pick a time and place that work for your ability and your day.
 
 **Critical misunderstanding:** Any short walk meets all adult activity needs, or one dose works for all ages.
 
-## BC05 · November 8 · What weight should you start with?
+## BC05 · November 8 · Not sure what weight to start with? Here's what to ask.
 
-Q opening · strength · 64 words.
+Q opening · strength · 69 words.
 
-**Hook:** What weight should you start with?
+**Hook:** Not sure what weight to start with? Here's what to ask.
 
 **Answer:** You don't need to guess a number from someone else's workout.
 
@@ -116,7 +140,13 @@ Q opening · strength · 64 words.
 
 **Unscheduled alternative:** Start with learning the movement, not a record.
 
-**Posting caption:** You don't need to guess a number from someone else's workout. A short video can't choose that weight for you. Write down the equipment, weight, and how the set went. Use your plan's instructions for what to do next.
+**Posting caption:** Not sure what weight to start with? Here is a question to bring to a qualified instructor:
+
+"Can you check my setup and help me find a starting weight for this plan?"
+
+No plan yet? Ask what beginner help is available and what it costs. A short video cannot choose your starting weight.
+
+After the setup check, record the equipment, weight, reps and how the set went. Use your plan's instructions for the next step.
 
 **Comprehension:** You don't need to guess a number from someone else's workout. A short video can't choose that weight for you. Write down the equipment, weight, and how the set went.
 
@@ -138,9 +168,17 @@ A opening · strength · 67 words.
 
 **Close:** Start with one entry from today's workout.
 
-**Unscheduled alternative:** Not sore—did the workout count?
+**Unscheduled alternative:** Not sore? Did the workout count?
 
-**Posting caption:** You don't need an ache to prove you trained. Sharp or worsening pain is different. Get it checked instead of pushing through. Compare similar sessions over time. Your log shows what you did. It does not measure muscle growth. Start with one entry from today's workout.
+**Posting caption:** Not being sore does not mean your workout was pointless. Start with a useful record:
+
+Exercise:
+Equipment / setup:
+Weight:
+Reps:
+Useful note:
+
+Compare similar sessions over time. This records what you did; it does not measure muscle growth. Sharp or worsening pain is different: get it checked instead of pushing through.
 
 **Comprehension:** You don't need an ache to prove you trained. Sharp or worsening pain is different. Get it checked instead of pushing through. Compare similar sessions over time. Your log shows what you did. It does not measure muscle growth.
 
@@ -164,7 +202,11 @@ Q opening · movement · 67 words.
 
 **Unscheduled alternative:** Check the route and pace before your first run club.
 
-**Posting caption:** Ask before you turn up. Every event is different. All paces doesn't tell you everything. Ask who stays with the last group, and check access details too. Send that message before choosing your first session.
+**Posting caption:** Before your first group run, copy this message:
+
+"Hi, I'm new to group runs. What distance and pace groups do you offer? Are walk breaks welcome? Who stays with the last group? Is there anything I need to know about access or bring with me?"
+
+Check the answers for the actual event. "All paces" does not tell you everything.
 
 **Comprehension:** Ask before you turn up. Every event is different. All paces doesn't tell you everything. Ask who stays with the last group, and check access details too.
 
@@ -186,9 +228,17 @@ A opening · planning · 64 words.
 
 **Close:** Does it fit? Great. If it doesn't, look for a slot that does.
 
-**Unscheduled alternative:** Only two gym days—where do you start?
+**Unscheduled alternative:** Only two gym days? Where do you start?
 
-**Posting caption:** Half an hour to train is different from half an hour until you need to be home. Check how long the workout in your plan actually takes. Then put the whole trip in your calendar. Does it fit? Great. If it doesn't, look for a slot that does.
+**Posting caption:** A 30-minute workout is different from 30 minutes until you need to be home. Check your plan's actual session length, then map the whole trip:
+
+Leave home: ___
+Travel + changing: ___
+Workout from / to: ___
+Return + changing: ___
+Home by: ___
+
+Use your real times. If it does not fit, look for a slot that does.
 
 **Comprehension:** Half an hour to train is different from half an hour until you need to be home. Check how long the workout in your plan actually takes. Then put the whole trip in your calendar.
 
@@ -212,7 +262,9 @@ A opening · food · 67 words.
 
 **Unscheduled alternative:** Do you need protein powder to start?
 
-**Posting caption:** Food supplies protein too. Powder can be convenient. It doesn't replace a varied diet or tell you your personal needs. Look at the next meal you're planning. Which protein food is in it? Start there before adding a shopping decision.
+**Posting caption:** You do not need to buy protein powder just to start. Food supplies protein too: eggs, beans, tofu, dairy, fish or meat can play a part, depending on what you eat.
+
+Look at your next planned meal and identify the protein food already in it. Powder can be convenient; it does not replace a varied diet or tell you your personal needs.
 
 **Comprehension:** Food supplies protein too. Powder can be convenient. It doesn't replace a varied diet or tell you your personal needs. Look at the next meal you're planning. Which protein food is in it?
 
@@ -236,7 +288,14 @@ Q opening · strength · 61 words.
 
 **Unscheduled alternative:** One session is not a pattern.
 
-**Posting caption:** One session isn't enough to call it a pattern. A different machine or stopping point can change what you're comparing. If the problem keeps happening, get a closer review. Check the log before you rewrite the plan.
+**Posting caption:** One lower-performance session is not enough to call it a pattern. Before changing the whole routine, compare a few entries for the same exercise:
+
+Weight + reps
+Rest
+Equipment + setup
+Stopping point
+
+Different conditions change the comparison. If the problem keeps happening, get a closer review.
 
 **Comprehension:** One session isn't enough to call it a pattern. A different machine or stopping point can change what you're comparing. If the problem keeps happening, get a closer review.
 
@@ -260,7 +319,14 @@ A opening · food · 61 words.
 
 **Unscheduled alternative:** What would make tomorrow's lunch easier?
 
-**Posting caption:** Pick one simple meal, then check what you've got. That's one meal idea, not a whole diet or a portion target. Choose something that fits your needs, taste, budget, and time. Write down only what's missing for that lunch.
+**Posting caption:** Tomorrow's lunch might already be in the kitchen. Copy this:
+
+Tomorrow's lunch: ___
+Already have: ___
+Still need: ___
+Time to prepare + clean up: ___
+
+Rice, beans and frozen vegetables could become a bowl you enjoy. It is one meal idea, not a whole diet or a portion target. Make it fit your needs, taste, budget and time.
 
 **Comprehension:** Pick one simple meal, then check what you've got. That's one meal idea, not a whole diet or a portion target. Choose something that fits your needs, taste, budget, and time.
 
@@ -284,7 +350,9 @@ Q opening · strength · 69 words.
 
 **Unscheduled alternative:** Every set does not need to end in failure.
 
-**Posting caption:** No. A hard set doesn't always need a failed repetition. Here, failure means you can't complete another rep as intended. Check the effort instructions in your plan. Ask if the wording is unclear. Know the stopping rule before you start.
+**Posting caption:** A hard set does not always need a failed repetition. Adult research suggests training closer to failure can help muscle growth, but the best stopping point is still uncertain.
+
+Here, failure means you cannot complete another rep as intended. Read the effort instructions in your plan before the set. If the wording is unclear, ask: "What should tell me to stop this set?"
 
 **Comprehension:** No. A hard set doesn't always need a failed repetition. Here, failure means you can't complete another rep as intended. Check the effort instructions in your plan. Ask if the wording is unclear.
 
@@ -308,7 +376,14 @@ A opening · planning · 66 words.
 
 **Unscheduled alternative:** How should you judge your first month?
 
-**Posting caption:** Look back at your first month. Those are useful checks. They don't measure muscle growth or promise a transformation by a deadline. Keep your own goals in view and choose one thing to work on next. Write that one change down.
+**Posting caption:** You can want a different body and still notice what you are learning. Look back at your first month:
+
+Visits I made: ___
+Equipment I learned: ___
+What my log helped me notice: ___
+One thing to work on next: ___
+
+These are process checks. They do not measure muscle growth or promise a transformation by a deadline.
 
 **Comprehension:** Look back at your first month. Those are useful checks. They don't measure muscle growth or promise a transformation by a deadline. Keep your own goals in view and choose one thing to work on next.
 
@@ -332,7 +407,13 @@ Q opening · recovery · 65 words.
 
 **Unscheduled alternative:** Give sleep a realistic place in your week.
 
-**Posting caption:** The CDC suggests regular bedtimes and wake times as part of healthy sleep habits. Shift work and caring for someone can limit your options. Ongoing sleep trouble deserves professional advice. Choose one change you can realistically try. Set a reminder for that change.
+**Posting caption:** The CDC suggests regular bedtimes and wake times as part of healthy sleep habits. Look for one evening task you could move to make room.
+
+Task I could move: ___
+New time: ___
+Reminder: ___
+
+Shift work and caring for someone can limit your options. Ongoing sleep trouble deserves professional advice.
 
 **Comprehension:** The CDC suggests regular bedtimes and wake times as part of healthy sleep habits. Shift work and caring for someone can limit your options. Ongoing sleep trouble deserves professional advice. Choose one change you can realistically try.
 
@@ -356,7 +437,15 @@ A opening · movement · 63 words.
 
 **Unscheduled alternative:** What activity would you try as a beginner?
 
-**Posting caption:** Pick something you're curious about, then check the details. One tryout doesn't guarantee a habit or cover every fitness goal. Check the access requirements before you book. Start by looking up one beginner session.
+**Posting caption:** You can try a class without making it your whole personality. Look up one beginner session and check:
+
+Cost
+Whole-trip time
+Equipment included or needed
+Beginner support
+Access requirements
+
+One tryout does not guarantee a habit or cover every fitness goal. Check the details before booking.
 
 **Comprehension:** Pick something you're curious about, then check the details. One tryout doesn't guarantee a habit or cover every fitness goal. Check the access requirements before you book.
 
@@ -380,7 +469,14 @@ Q opening · planning · 64 words.
 
 **Unscheduled alternative:** Missed a workout? Plan the next one.
 
-**Posting caption:** Let's figure out when you can go next. You don't automatically owe yourself a double workout. Illness or injury may need a different decision. Put the next visit in your phone. Get your bag ready if that helps. Start with that next visit.
+**Posting caption:** Missed the gym because work ran late? Check your plan's missed-day advice, then choose a visit you can actually make:
+
+Next visit: ___
+Leave at: ___
+Home by: ___
+One thing to get ready: ___
+
+You do not automatically owe yourself a double workout. Illness or injury may need a different decision.
 
 **Comprehension:** Let's figure out when you can go next. You don't automatically owe yourself a double workout. Illness or injury may need a different decision. Put the next visit in your phone. Get your bag ready if that helps.
 

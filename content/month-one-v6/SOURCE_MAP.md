@@ -75,7 +75,7 @@ Broader lifestyle brief and bounded community demand: A short walk can fit into 
 **Creator packaging leads**
 
 None: this portion is an original editorial workflow.
-## BC05 · What weight should you start with?
+## BC05 · Not sure what weight to start with? Here's what to ask.
 Answers a high-stakes first-session choice without inventing a universal number. Retained evidence boundary; Blueprint presentation links the decision to real-life use. Conversational revision: show a usable example and end on an action. No mental-model framework is required.
 
 **Claim type:** editorial_workflow. **Limit to preserve:** This video specifies a universal starting load or replaces individual setup instruction.

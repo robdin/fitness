@@ -3,15 +3,19 @@ import argparse
 import collections
 import datetime
 import json
+import sys
 from pathlib import Path
 from build_month_one_v3 import outputs as base_outputs, source_map
 
 ROOT=Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT/'tools/brand'))
+from check_copy import calendar_strings, require_clean, public_source_title
 CONTENT=ROOT/'content/month-one-v6'
 def load():
     return tuple(json.loads(p.read_text()) for p in [CONTENT/'calendar.json',ROOT/'research/blueprint-v5/sources.json',ROOT/'experiments/month-one-v6.json'])
 
 def validate(d,s,p):
+    require_clean(calendar_strings(d))
     ids=[f'BC{i:02}' for i in range(1,17)]
     assert d['episode_ids']==p['episode_ids']==ids
     assert [e['id'] for e in d['episodes']]==ids
@@ -46,17 +50,19 @@ def validate(d,s,p):
 def posting_copy(e,sm,platform):
     lines=[e['caption'],e['cta'],'','Your dream body. Your real life.']
     if e['evidence_ids']:
-        lines+=['','Sources and scope:']+[sm[i]['title']+' — '+sm[i]['url'] for i in e['evidence_ids']]
+        lines+=['','Sources:']+[public_source_title(sm[i]['title'])+': '+sm[i]['url'] for i in e['evidence_ids']]
     else:lines+=['','Original editorial checklist; not a study result.']
     lines+=['Scope: '+e['age_scope']]
     if platform=='instagram':lines+=['#BeginnerFitness #FitnessForRealLife']
-    return '\n'.join(lines)
+    result='\n'.join(lines)
+    require_clean([(e['id']+'.'+platform, result)])
+    return result
 
 def outputs(d,s,p):
     result=base_outputs(d,s,p)
     for name,body in result.items():
         result[name]=body.replace('B-series','Blueprint month').replace('B16','BC16').replace('rr-v3-','blueprint-v6-').replace('Rep and Reason//','Body of our dreams//').replace('rep-and-reason.local','blueprint.local').replace('20261022T160000Z','20261027T160000Z').replace('../../brand/v3/STYLE_GUIDE.md','../../brand/blueprint/STYLE_GUIDE.md').replace('../../research/audience-v3/06_INTEGRATION_AND_TESTING.md','../../experiments/month-one-v6.json')
-    result['CALENDAR.md']+='\nBlueprint was selected by the owner. Public name remains undecided. Eight question/answer openings are balanced by week and weekday, not by the broader content pillars. Read group comparisons descriptively.\n'
+    result['CALENDAR.md']+='\nBody of Our Dreams uses the owner-selected Blueprint style. Eight question/answer openings are balanced by week and weekday, not by the broader content pillars. Read group comparisons descriptively.\n'
     result['SCRIPTS.md']+='\n## BC00 · separate Start here introduction\n\n'+'\n\n'.join('**'+b['role'].title()+':** '+b['narration'] for b in d['orientation_asset']['beats'])+'\n'
     result['CALENDAR.md']+='\nBC00 is a separate launch-orientation asset, outside the sixteen core episodes and their metrics.\n'
     return result

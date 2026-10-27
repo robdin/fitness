@@ -2,7 +2,23 @@
 
 **Applied to production:** the owner subsequently asked to make the changes. [Blueprint V6](../../docs/MONTH_ONE_V6.md) now carries the sixteen revised topic narrations plus BC00, the account introduction. Its synthesis pacing uses the provider's documented 0.85 setting; no local pitch or tempo changes are applied. The short auditions below are retained as history, not the latest content. See the V6 production receipt for actual checks and listening flags.
 
-The owner requested a more casual, relatable voice and mental models only when natural. This changes the writing and spoken delivery direction. **Blueprint's visual identity is unchanged.** D remains the selected character exploration within that identity. The public brand name is still undecided.
+The owner requested a more casual, relatable voice and mental models only when natural. This changes the writing and spoken delivery direction. **Blueprint's visual identity is unchanged.** D remains the selected character exploration within that identity. The public brand name is Body of Our Dreams, with @bodyofourdreams handles.
+
+## Plain language rule: 27 October 2026
+
+The owner wants writing that sounds like a person, without stock AI phrasing or em dashes. This applies to scripts, captions, profile copy, on-screen words and replies.
+
+- Use words someone would say out loud. Prefer “check what you have” to “assess your resources.”
+- No em dashes. Use a period, comma, colon or a rewritten sentence. Do not replace them with another decorative dash.
+- Avoid empty hype such as “unlock your potential,” “game-changer” and “elevate your fitness.” Keep a specific example instead.
+- Vary sentence length when the thought calls for it. Do not force every post into a slogan, a three-part list or an “X isn't Y” contrast.
+- Keep humor tied to an ordinary situation. Do not add fake mistakes, forced slang, invented anecdotes or claims of personal results to sound human.
+- Explain limits in normal words. Keep qualifications that affect the advice, and keep citations accurate.
+- Read the whole piece as a conversation. If a sentence sounds like a marketing template, rewrite it. Punctuation checks alone cannot judge tone.
+
+Run `python3 tools/brand/check_copy.py` before producing new assets. Calendar compilation, video preparation, supporting-image rendering and the profile-kit builder also check the active public copy. Generated posting copy is checked when packaged. Historical research and exact source records are retained; the public source display uses plain punctuation.
+
+These checks are style rules, not an AI detector or proof of human authorship. Do not promise a detector result, remove accurate platform disclosures or claim that a human playback review happened without a record.
 
 ## What to sound like
 

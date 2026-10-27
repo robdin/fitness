@@ -4,10 +4,12 @@ from pathlib import Path
 from PIL import Image
 from month_one_core import ROOT,digest,script,normalized
 from build_month_one import probe
+from voice_contract import validate_voice_receipt
 from produce_month_one_v6 import episodes,workspace_for,WORKSPACE,RENDERER,TOKENS
 from package_month_one_v3 import CSS as BASE_CSS,markdown_page,zip_files,write_json
 sys.path.insert(0,str(ROOT/'tools/calendar'))
 from build_month_one_v6 import load,validate,source_map,posting_copy
+from check_copy import public_source_title, require_clean, strings
 
 REVIEW=WORKSPACE/'review'
 DELIVERY=ROOT.parent/'fitness-deliverables/month-one-v6-conversational'
@@ -35,6 +37,8 @@ def verify():
         assert all(a['end']<=b['start']+.001 for a,b in zip(tl['captions'],tl['captions'][1:]))
         assert r['sha256']==digest(file) and r['renderer_sha256']==digest(RENDERER) and r['timeline_sha256']==digest(folder/'timeline.json')
         voice=WORKSPACE/'voice'/id;generation=json.loads((voice/'generation.json').read_text())
+        voice_check=validate_voice_receipt(ep,voice,**ep['voice_contract'])
+        assert r['voice_provenance']==voice_check,'Stale narration settings '+id
         assert generation['status']=='complete' and generation['script_sha256']==tl['script_sha256']
         assert generation['audio_sha256']==digest(voice/'narration.wav') and generation['alignment_sha256']==digest(voice/'alignment.json')
         assert r['full_decode']=='passed' and r['voice_present']
@@ -74,7 +78,7 @@ def verify():
 
 def reference_paths():
     patterns=['content/month-one-v6/*','content/month-one-v3/*','research/blueprint-v5/*','research/audience-v3/*','research/brand-culture-2026-10/*','brand/blueprint/**/*','brand/dreamy-tactical/*','brand/v3/*.md','brand/v4/*.md','experiments/month-one-v6.json','experiments/citation-visibility-v3.json','experiments/month-one-v3.json','experiments/citation-visibility-v1.json','experiments/character-trust-v1.json','docs/MONTH_ONE_V6.md','docs/MONTH_ONE_V4.md','examples/month-one-v6/*.json','measurement/month-one-v6*']
-    patterns+=['content/lifestyle-pilot/*.md','research/lifestyle-audit-2026-10-26/*.md','research/blueprint-v6/*.md','brand/v3/tokens.json','examples/month-one-v4/production-verification.json','examples/month-one-v4/test-stimuli.json']
+    patterns+=['content/lifestyle-pilot/*.md','research/lifestyle-audit-2026-10-26/*.md','research/blueprint-v6/*.md','brand/v3/tokens.json','examples/month-one-v4/production-verification.json','examples/month-one-v4/test-stimuli.json','measurement/MONTH_ONE_V6_FIELD_GUIDE.md','docs/MONTH_ONE_V6_PILOT.md']
     return sorted({p for pat in patterns for p in ROOT.glob(pat) if p.is_file()})
 
 def build_hub(result):
@@ -90,7 +94,7 @@ def build_hub(result):
         if src.suffix=='.md':dest.with_suffix('.html').write_text(markdown_page(src.read_text()).replace(BASE_CSS,CSS))
     def player(folder,id,treatment='motion'):
         return f'<video controls playsinline preload="metadata" poster="{folder}/cover.png" src="{folder}/{id}-{treatment}.mp4" aria-label="{id} {treatment} preview"></video>'
-    page=['<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Body of our dreams · Blueprint month</title><style>'+CSS+'</style><main><header><p class="eyebrow">BLUEPRINT / SELECTED STYLE / NOVEMBER 2026</p><h1><em>Your dream body.</em><br>Your real life.</h1><p>Updated 27 October: conversational voice, practical examples, the same Blueprint identity.</p><p>A separate Start here intro plus 16 narrated videos across strength, movement, food, recovery and practical planning. Four carousels, eight stories and two additional experiment controls.</p><nav><a href="#week-1">Week 1</a><a href="#week-2">Week 2</a><a href="#week-3">Week 3</a><a href="#week-4">Week 4</a><a href="#experiments">Experiments</a><a href="#review">Review status</a></nav><p class="note">Owner-selected style. Campaign wording; public brand name remains open. Review exports, not scheduled or published posts.</p><p><a href="content/month-one-v6/CALENDAR.html">Full schedule</a> · <a href="content/month-one-v6/calendar.ics">Planning calendar</a> · <a href="content/month-one-v6/SCRIPTS.html">Scripts</a> · <a href="content/month-one-v6/SOURCE_MAP.html">Claim/source map</a> · <a href="brand/blueprint/STYLE_GUIDE.html">Style guide</a></p></header>']
+    page=['<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Body of our dreams · Blueprint month</title><style>'+CSS+'</style><main><header><p class="eyebrow">BLUEPRINT / SELECTED STYLE / NOVEMBER 2026</p><h1><em>Your dream body.</em><br>Your real life.</h1><p>Updated 27 October: copyable caption tools, a clearer BC05 promise, conversational voice and the same Blueprint identity.</p><p>A separate Start here intro plus 16 narrated videos across strength, movement, food, recovery and practical planning. Four carousels, eight stories and two additional experiment controls.</p><nav><a href="#week-1">Week 1</a><a href="#week-2">Week 2</a><a href="#week-3">Week 3</a><a href="#week-4">Week 4</a><a href="#experiments">Experiments</a><a href="#review">Review status</a></nav><p class="note">Body of Our Dreams uses the owner-selected Blueprint style. Review exports, not scheduled or published posts.</p><p><a href="content/month-one-v6/CALENDAR.html">Full schedule</a> · <a href="docs/MONTH_ONE_V6_PILOT.html">Run the pilot</a> · <a href="content/month-one-v6/ACCOUNT_ENTRY.html">Profile copy</a> · <a href="content/month-one-v6/calendar.ics">Planning calendar</a> · <a href="content/month-one-v6/SCRIPTS.html">Scripts</a> · <a href="content/month-one-v6/SOURCE_MAP.html">Claim/source map</a> · <a href="brand/blueprint/STYLE_GUIDE.html">Style guide</a></p></header>']
     intro=d['orientation_asset']
     pkg=dict(id='BC00',youtube_title=intro['title'],youtube_description=posting_copy(intro,sm,'youtube'),instagram_caption=posting_copy(intro,sm,'instagram'),public_upload=False,human_review_pending=True,counted_in_core_cohort=False)
     write_json(REVIEW/'BC00/posting-copy.json',pkg)
@@ -106,10 +110,11 @@ def build_hub(result):
             if (post['day']-1)//7+1!=week:continue
             id=post['id'];story=post['kind']=='story';names=['prompt.png','followup.png'] if story else [f'{i}.png' for i in range(1,6)]
             evidence=list(dict.fromkeys(i for e in d['episodes'] if e['id'] in post['episode_ids'] for i in e['evidence_ids']))
-            refs=[dict(id=i,title=sm[i]['title'],url=sm[i]['url']) for i in evidence]
+            refs=[dict(id=i,title=public_source_title(sm[i]['title']),url=sm[i]['url']) for i in evidence]
             pkg={**post,'visual_version':'v6-blueprint-conversational','public_upload':False,'status':'rendered_review_pending','sources':refs}
             if story:pkg['native_poll_placement']=dict(x=112,y=1010,width=762,height=205,instruction='Add a native Instagram poll using the supplied options; the PNG is not interactive.')
-            else:pkg['instagram_caption']=post['caption']+'\n\n'+post['source_note']+('\n\nSources and scope:\n'+'\n'.join(f'{x["title"]}: {x["url"]}' for x in refs) if refs else '')
+            else:pkg['instagram_caption']=post['caption']+'\n\n'+post['source_note']+('\n\nSources:\n'+'\n'.join(f'{x["title"]}: {x["url"]}' for x in refs) if refs else '')
+            require_clean(strings(pkg, id+'.posting-copy'))
             write_json(REVIEW/'supporting'/id/'posting-copy.json',pkg)
             page.append(f'<section><p class="eyebrow">NOV {post["day"]} / {id} / {post["kind"]}</p><h3>{esc(post["title"])}</h3><div class="strip">'+''.join(f'<a href="supporting/{id}/{name}"><img loading="lazy" src="supporting/{id}/{name}" alt="{id} panel {i+1}"></a>' for i,name in enumerate(names))+f'</div><a href="supporting/{id}/posting-copy.json">Copy, sources and upload instructions</a></section>')
         page.append('</section>')
@@ -124,8 +129,8 @@ def archive():
     expected={relative_folder(e['id'],c)+f'/{e["id"]}-{t}.mp4' for e,c,t in candidates()}
     assert {str(p.relative_to(REVIEW)) for p in files if p.suffix=='.mp4'}==expected
     assert not any('characters' in p.parts for p in files)
-    paths=reference_paths()+[p for pat in ['tools/video/*.py','tools/video/*.cjs','tools/calendar/*.py','brand/v3/*','content/mvp/time-audit/fonts/*','tests/*v6*','package.json','package-lock.json'] for p in ROOT.glob(pat) if p.is_file()]
-    extras={'RESTORE.txt':'Compare before restoring fitness source files. Install pinned Node dependencies, Python Pillow and FFmpeg. Retained voice belongs in fitness/.local/month-one-v6-conversational/voice. Run produce_month_one_v6.py render, BC03 --no-citation, BC04 --treatment static, render_supporting_v6.cjs, then package_month_one_v6.py. Rendering retained speech needs no provider call. Credential/profile files are excluded. This is a production source subset, not a full repository backup.\n'}
+    paths=reference_paths()+[p for pat in ['tools/video/*.py','tools/video/*.cjs','tools/calendar/*.py','tools/brand/*.py','tools/brand/*.cjs','tests/test_copy_rules.py','AGENTS.md','brand/v3/*','content/mvp/time-audit/fonts/*','tests/*v6*','package.json','package-lock.json'] for p in ROOT.glob(pat) if p.is_file()]
+    extras={'RESTORE.txt':'Compare before restoring fitness source files. Install pinned Node dependencies, Python Pillow and FFmpeg. Run python3 tools/video/check_month_one_audio.py --series v6 --check-inputs for a standard-library retained-input check without ASR/model downloads. Retained voice belongs in fitness/.local/month-one-v6-conversational/voice. Run produce_month_one_v6.py render, BC03 --no-citation, BC04 --treatment static, render_supporting_v6.cjs, then package_month_one_v6.py. Rendering retained speech needs no provider call. Credential/profile files are excluded. This is a production source subset, not a full repository backup.\n'}
     for ep in episodes():
         folder=WORKSPACE/'voice'/ep['id'];paths.extend([folder/'narration.wav',folder/'alignment.json']);r=json.loads((folder/'generation.json').read_text());r.pop('voice',None)
         extras[str(Path('fitness')/(folder/'generation.json').relative_to(ROOT))]=json.dumps(r,indent=2)+'\n'

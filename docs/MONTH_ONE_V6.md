@@ -19,6 +19,8 @@ D comparisons: `/Users/ronobdin/Github/fitness/.local/blueprint-character-d-v6-p
 
 Use [the canonical calendar](../content/month-one-v6/calendar.json), [scripts](../content/month-one-v6/SCRIPTS.md), [source map](../content/month-one-v6/SOURCE_MAP.md) and [current protocol](../experiments/month-one-v6.json). The schedule remains a proposal; this build does not schedule, upload, pin or publish.
 
+The [pilot execution sheet](MONTH_ONE_V6_PILOT.md), [account entry copy](../content/month-one-v6/ACCOUNT_ENTRY.md) and [measurement field guide](../measurement/MONTH_ONE_V6_FIELD_GUIDE.md) implement the subsequent six-specialist review. All sixteen captions now include practical prompts; two polls are clearer; BC05's new hook matches its instructor-help lesson. One additional BC05 narration replaced a preserved successful take. Blueprint and the primary decision hurdles remain unchanged.
+
 ## What changed
 
 Every core narration now uses ordinary speech, contractions and a specific next step. Optional discussion questions live in posting captions. Examples show a gym-help message, equipment note, meal list, full-trip appointment and return plan. The scene examples are invented and labeled; they are not testimonials or prescriptions.
@@ -46,6 +48,8 @@ node tools/video/render_supporting_v6.cjs
 .venv/bin/python tools/video/check_month_one_audio.py --series v6
 .venv/bin/python tools/video/package_month_one_v6.py
 .venv/bin/python tools/video/build_off_duty_preview_v6.py
+.venv/bin/python tools/video/prepare_month_one_v6_pilot.py
+.venv/bin/python tools/video/evaluate_month_one_v3.py --series v6
 ```
 
 The D build additionally needs the retained atlas and generation record in `.local/blueprint-character-d-v6-preview/`; these are copies of the existing D assets, not newly generated images. It produces comparisons without replacing the month masters. The graphics-led package remains independently usable.
@@ -53,7 +57,9 @@ The D build additionally needs the retained atlas and generation record in `.loc
 Speech generation is a separate explicit operation, using the local Fish configuration:
 
 ```sh
-.venv/bin/python tools/video/produce_month_one_v6.py synthesize --generate
+.venv/bin/python tools/video/produce_month_one_v6.py synthesize --generate --ids BC05
 ```
 
-Completed matching receipts are reused. An unresolved provider request must be reconciled before another attempt; do not delete a receipt and retry blindly. Keys and private profile IDs are excluded from delivery archives. Changed script or delivery settings require a new matching narration receipt and build. Preserve the historical V5/CV2 pair; CV3 is a fresh stimulus version with no participants.
+Completed receipts with the new complete input contract can be reused for synthesis. Historical receipts remain usable for rendering, with profile identity explicitly unknown; they cannot silently satisfy a changed or unproven synthesis profile. Render/build checks verify the expected model, direction and speed as well as script/audio/alignment hashes. Run `check_month_one_audio.py --series v6 --check-inputs` for a provider-free, ASR-free restore check.
+
+An unresolved provider request must be reconciled before another attempt; do not delete a receipt and retry blindly. Keys and private profile IDs are excluded from delivery archives. Changed script or delivery settings require a new matching narration receipt and build. Preserve the historical V5/CV2 pair; CV3 is a fresh stimulus version with no participants. Local pilot review records persist separately from regenerated technical verification reports and are bound to the exact media hashes.
